@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<CommandsOrder>
+		<Command name="DataProcessor.ИнструментыРазработчикаПереносЗамеровВремени.Command.ОценкаПроизводительности">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.ИнструментыРазработчикаПереходНаВерсию232.Command.ПереходНаВерсию232">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.ИнструментыРазработчикаПереходНаВерсию231.Command.ПереходНаВерсию231">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.ИнструментыРазработчикаРасстановкаФрагментовКода224.Command.РасстановкаФрагментовКода">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.ИнструментыРазработчикаРасстановкаФрагментовКодаПодсистемыВариантыОтчетов.Command.ВариантыОтчетов">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.ИнструментыРазработчикаБазоваяФункциональность.Command.БазоваяФункциональность">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.ИнструментыРазработчикаКонвертацияОбращенийККлючевымОперациям.Command.ОценкаПроизводительности">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.ИнструментыРазработчикаПечатьРасстановкаФрагментовКода.Command.Печать">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.ИнструментыРазработчикаРасстановкаФрагментовКодаДополнительныхОтчетовИОбработок.Command.ДопОтчетыИОбработки">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.ИнструментыРазработчикаКонтактнаяИнформацияРасстановкаФрагментовКода.Command.КонтактнаяИнформация">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.ИнструментыРазработчикаПереносВариантовОтчетов.Command.ПереносВариантовОтчетов">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+	</CommandsOrder>
+	<GroupsOrder>
+		<Group>NavigationPanelOrdinary</Group>
+	</GroupsOrder>
+</CommandInterface>

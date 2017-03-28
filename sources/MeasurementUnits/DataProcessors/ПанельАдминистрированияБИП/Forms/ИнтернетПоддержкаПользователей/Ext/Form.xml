@@ -1,0 +1,806 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Интернет-поддержка пользователей</v8:content>
+		</v8:item>
+	</Title>
+	<AutoTitle>false</AutoTitle>
+	<Customizable>false</Customizable>
+	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<CommandSet>
+		<ExcludedCommand>No</ExcludedCommand>
+		<ExcludedCommand>SaveValues</ExcludedCommand>
+		<ExcludedCommand>WriteAndClose</ExcludedCommand>
+		<ExcludedCommand>Abort</ExcludedCommand>
+		<ExcludedCommand>Retry</ExcludedCommand>
+		<ExcludedCommand>Yes</ExcludedCommand>
+		<ExcludedCommand>Cancel</ExcludedCommand>
+		<ExcludedCommand>RestoreValues</ExcludedCommand>
+		<ExcludedCommand>Ignore</ExcludedCommand>
+		<ExcludedCommand>OK</ExcludedCommand>
+		<ExcludedCommand>Write</ExcludedCommand>
+	</CommandSet>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="NotificationProcessing">ОбработкаОповещения</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГоризонтальнаяГруппировкаПанели" id="2122">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Горизонтальная группировка панели</v8:content>
+				</v8:item>
+			</Title>
+			<HorizontalStretch>true</HorizontalStretch>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГоризонтальнаяГруппировкаПанелиРасширеннаяПодсказка" id="2123"/>
+			<ChildItems>
+				<UsualGroup name="Группа6" id="2124">
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа6РасширеннаяПодсказка" id="2125"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаНастройкиИПП" id="2050">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Настройки Интернет-поддержки пользователей</v8:content>
+								</v8:item>
+							</Title>
+							<Group>Vertical</Group>
+							<Behavior>Collapsible</Behavior>
+							<ControlRepresentation>Picture</ControlRepresentation>
+							<Representation>NormalSeparation</Representation>
+							<ChildItemsWidth>Equal</ChildItemsWidth>
+							<ExtendedTooltip name="ГруппаНастройкиИППРасширеннаяПодсказка" id="2051"/>
+							<ChildItems>
+								<UsualGroup name="ГруппаПодключениеИПП" id="1995">
+									<EnableContentChange>true</EnableContentChange>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подключение к Интернет-поддержке пользователей</v8:content>
+										</v8:item>
+									</Title>
+									<TitleFont ref="sys:DefaultGUIFont" height="11" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подключение к Интернет-поддержке пользователей</v8:content>
+										</v8:item>
+									</ToolTip>
+									<HorizontalStretch>false</HorizontalStretch>
+									<VerticalStretch>false</VerticalStretch>
+									<Group>Horizontal</Group>
+									<Representation>NormalSeparation</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаПодключениеИППРасширеннаяПодсказка" id="1996"/>
+									<ChildItems>
+										<UsualGroup name="ГруппаПодключениеИПП_Настройки" id="2002">
+											<EnableContentChange>true</EnableContentChange>
+											<TitleTextColor>style:FormTextColor</TitleTextColor>
+											<TitleFont ref="style:NormalTextFont" kind="StyleItem"/>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Подключение ИПП, настройки</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Width>43</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<VerticalStretch>false</VerticalStretch>
+											<Group>Vertical</Group>
+											<Representation>NormalSeparation</Representation>
+											<ExtendedTooltip name="ГруппаПодключениеИПП_НастройкиРасширеннаяПодсказка" id="2003"/>
+											<ChildItems>
+												<LabelDecoration name="ДекорацияЛогинИПП" id="2133">
+													<AutoMaxWidth>false</AutoMaxWidth>
+													<HorizontalStretch>true</HorizontalStretch>
+													<Title formatted="false">
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>&lt;Логин ИПП&gt;</v8:content>
+														</v8:item>
+													</Title>
+													<ContextMenu name="ДекорацияЛогинИППКонтекстноеМеню" id="2134"/>
+													<ExtendedTooltip name="ДекорацияЛогинИППРасширеннаяПодсказка" id="2135"/>
+													<Events>
+														<Event name="URLProcessing">ДекорацияЛогинИППОбработкаНавигационнойСсылки</Event>
+													</Events>
+												</LabelDecoration>
+												<Button name="ВойтиИлиВыйтиИПП" id="1997">
+													<Type>UsualButton</Type>
+													<CommandName>Form.Command.ВойтиИлиВыйтиИПП</CommandName>
+													<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+													<ExtendedTooltip name="ВойтиИлиВыйтиИППРасширеннаяПодсказка" id="1998">
+														<AutoMaxWidth>false</AutoMaxWidth>
+													</ExtendedTooltip>
+												</Button>
+											</ChildItems>
+										</UsualGroup>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="ГруппаОбращениеВТехПоддержку" id="2138">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Обращение в тех поддержку</v8:content>
+										</v8:item>
+									</Title>
+									<Group>Vertical</Group>
+									<Representation>NormalSeparation</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаОбращениеВТехПоддержкуРасширеннаяПодсказка" id="2139"/>
+									<ChildItems>
+										<Button name="СообщениеВТехПоддержку" id="2136">
+											<Type>Hyperlink</Type>
+											<CommandName>Form.Command.СообщениеВТехПоддержку</CommandName>
+											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+											<ExtendedTooltip name="СообщениеВТехПоддержкуРасширеннаяПодсказка" id="2137">
+												<AutoMaxWidth>false</AutoMaxWidth>
+											</ExtendedTooltip>
+										</Button>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="ГруппаНастройкиСоединенияССервером" id="2007">
+									<EnableContentChange>true</EnableContentChange>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Настройки соединения с сервером</v8:content>
+										</v8:item>
+									</Title>
+									<TitleFont ref="sys:DefaultGUIFont" height="11" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+									<Width>55</Width>
+									<HorizontalStretch>true</HorizontalStretch>
+									<VerticalStretch>false</VerticalStretch>
+									<Group>Vertical</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаНастройкиСоединенияССерверомРасширеннаяПодсказка" id="2008"/>
+									<ChildItems>
+										<Button name="КомандаНастройкиСоединенияССервером" id="2012">
+											<Type>Hyperlink</Type>
+											<Width>35</Width>
+											<CommandName>Form.Command.КомандаНастройкиСоединенияССервером</CommandName>
+											<ExtendedTooltip name="КомандаНастройкиСоединенияССерверомРасширеннаяПодсказка" id="2013"/>
+										</Button>
+										<LabelDecoration name="ДекорацияНастройкиСоединенияССерверомПодсказка" id="2009">
+											<Width>35</Width>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<TextColor>style:ПоясняющийТекст</TextColor>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Настройка параметров сетевого соединения с сервером Интернет-поддержки</v8:content>
+												</v8:item>
+											</Title>
+											<VerticalAlign>Top</VerticalAlign>
+											<ContextMenu name="ДекорацияНастройкиСоединенияССерверомПодсказкаКонтекстноеМеню" id="2010"/>
+											<ExtendedTooltip name="ДекорацияНастройкиСоединенияССерверомПодсказкаРасширеннаяПодсказка" id="2011"/>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="ГруппаМониторИнтернетПоддержки" id="2014">
+									<EnableContentChange>true</EnableContentChange>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Монитор Интернет-поддержки</v8:content>
+										</v8:item>
+									</Title>
+									<TitleFont ref="sys:DefaultGUIFont" height="11" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+									<Width>55</Width>
+									<HorizontalStretch>true</HorizontalStretch>
+									<VerticalStretch>false</VerticalStretch>
+									<Group>Vertical</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаМониторИнтернетПоддержкиРасширеннаяПодсказка" id="2015"/>
+									<ChildItems>
+										<Button name="КомандаМониторИнтернетПоддержки" id="2021">
+											<Type>Hyperlink</Type>
+											<Width>35</Width>
+											<CommandName>Form.Command.КомандаМониторИнтернетПоддержки</CommandName>
+											<ExtendedTooltip name="КомандаМониторИнтернетПоддержкиРасширеннаяПодсказка" id="2022"/>
+										</Button>
+										<LabelDecoration name="ДекорацияМониторИнтернетПоддержкиПодсказка" id="2018">
+											<Width>35</Width>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<TextColor>style:ПоясняющийТекст</TextColor>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Информация о поддержке программного продукта, версии программы и др.</v8:content>
+												</v8:item>
+											</Title>
+											<VerticalAlign>Top</VerticalAlign>
+											<ContextMenu name="ДекорацияМониторИнтернетПоддержкиПодсказкаКонтекстноеМеню" id="2019"/>
+											<ExtendedTooltip name="ДекорацияМониторИнтернетПоддержкиПодсказкаРасширеннаяПодсказка" id="2020"/>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+								<LabelDecoration name="Декорация2" id="2140">
+									<Visible>false</Visible>
+									<ContextMenu name="Декорация2КонтекстноеМеню" id="2141"/>
+									<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="2142"/>
+								</LabelDecoration>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаОбновлениеИОписаниеИзменений" id="2072">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Обновление версии программы</v8:content>
+								</v8:item>
+							</Title>
+							<Width>86</Width>
+							<HorizontalStretch>false</HorizontalStretch>
+							<Group>Vertical</Group>
+							<Behavior>Collapsible</Behavior>
+							<Collapsed>true</Collapsed>
+							<ControlRepresentation>Picture</ControlRepresentation>
+							<Representation>NormalSeparation</Representation>
+							<ChildItemsWidth>Equal</ChildItemsWidth>
+							<ExtendedTooltip name="ГруппаОбновлениеИОписаниеИзмененийExtendedTooltip" id="2073"/>
+							<ChildItems>
+								<UsualGroup name="ГруппаОбновлениеПрограммы" id="2076">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content> </v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content> </v8:content>
+										</v8:item>
+									</ToolTip>
+									<HorizontalStretch>true</HorizontalStretch>
+									<Group>Vertical</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаОбновлениеПрограммыРасширеннаяПодсказка" id="2077"/>
+									<ChildItems>
+										<Button name="ОбновлениеПрограммы" id="2143">
+											<Type>Hyperlink</Type>
+											<CommandName>Form.Command.ОбновлениеПрограммы</CommandName>
+											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+											<ExtendedTooltip name="ОбновлениеПрограммыРасширеннаяПодсказка" id="2144">
+												<Height>3</Height>
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Получение информации об обновлениях программы и автоматическая установка обновлений.</v8:content>
+													</v8:item>
+												</Title>
+											</ExtendedTooltip>
+										</Button>
+										<Button name="ОбработкаОбновлениеКонфигурации" id="2078">
+											<Type>Hyperlink</Type>
+											<Visible>false</Visible>
+											<CommandName>DataProcessor.УстановкаОбновлений.StandardCommand.Open</CommandName>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Поиск и установка обновлений</v8:content>
+												</v8:item>
+											</Title>
+											<ExtendedTooltip name="ОбработкаОбновлениеКонфигурацииExtendedTooltip" id="2079"/>
+										</Button>
+										<LabelDecoration name="ПояснениеОбработкаОбновлениеКонфигурации" id="2080">
+											<Visible>false</Visible>
+											<Height>3</Height>
+											<TextColor>style:ПоясняющийТекст</TextColor>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Получение информации о последних обновлениях и автоматическая установка обновлений сразу, через указанное время, при завершении работы.</v8:content>
+												</v8:item>
+											</Title>
+											<VerticalAlign>Top</VerticalAlign>
+											<ContextMenu name="ПояснениеОбработкаОбновлениеКонфигурацииКонтекстноеМеню" id="2081"/>
+											<ExtendedTooltip name="ПояснениеОбработкаОбновлениеКонфигурацииExtendedTooltip" id="2082"/>
+										</LabelDecoration>
+										<UsualGroup name="ГруппаОбновлениеПрограммы_Настройки" id="2032">
+											<EnableContentChange>true</EnableContentChange>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа обновление программы настройки</v8:content>
+												</v8:item>
+											</Title>
+											<TitleTextColor>style:FormTextColor</TitleTextColor>
+											<TitleFont ref="style:NormalTextFont" kind="StyleItem"/>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа обновление программы настройки</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Width>80</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<VerticalStretch>false</VerticalStretch>
+											<Group>Horizontal</Group>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ГруппаОбновлениеПрограммы_НастройкиРасширеннаяПодсказка" id="2033"/>
+											<ChildItems>
+												<RadioButtonField name="АвтоматическаяПроверкаОбновлений" id="2056">
+													<DataPath>АвтоматическаяПроверкаОбновлений</DataPath>
+													<TitleLocation>Top</TitleLocation>
+													<RadioButtonType>Auto</RadioButtonType>
+													<ColumnsCount>1</ColumnsCount>
+													<ChoiceList>
+														<xr:Item>
+															<xr:Presentation/>
+															<xr:CheckState>0</xr:CheckState>
+															<xr:Value xsi:type="FormChoiceListDesTimeValue">
+																<Presentation>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Отключена</v8:content>
+																	</v8:item>
+																</Presentation>
+																<Value xsi:type="xs:decimal">0</Value>
+															</xr:Value>
+														</xr:Item>
+														<xr:Item>
+															<xr:Presentation/>
+															<xr:CheckState>0</xr:CheckState>
+															<xr:Value xsi:type="FormChoiceListDesTimeValue">
+																<Presentation>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>При запуске программы</v8:content>
+																	</v8:item>
+																</Presentation>
+																<Value xsi:type="xs:decimal">1</Value>
+															</xr:Value>
+														</xr:Item>
+														<xr:Item>
+															<xr:Presentation/>
+															<xr:CheckState>0</xr:CheckState>
+															<xr:Value xsi:type="FormChoiceListDesTimeValue">
+																<Presentation>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>По заданному расписанию</v8:content>
+																	</v8:item>
+																</Presentation>
+																<Value xsi:type="xs:decimal">2</Value>
+															</xr:Value>
+														</xr:Item>
+													</ChoiceList>
+													<ContextMenu name="АвтоматическаяПроверкаОбновленийКонтекстноеМеню" id="2057"/>
+													<ExtendedTooltip name="АвтоматическаяПроверкаОбновленийРасширеннаяПодсказка" id="2058"/>
+													<Events>
+														<Event name="OnChange">АвтоматическаяПроверкаОбновленийПриИзменении</Event>
+													</Events>
+												</RadioButtonField>
+												<UsualGroup name="Группа5" id="2062">
+													<HorizontalStretch>true</HorizontalStretch>
+													<Group>Vertical</Group>
+													<Representation>None</Representation>
+													<ShowTitle>false</ShowTitle>
+													<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="2063"/>
+													<ChildItems>
+														<LabelDecoration name="Декорация1" id="2064">
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<Height>4</Height>
+															<HorizontalStretch>false</HorizontalStretch>
+															<VerticalStretch>false</VerticalStretch>
+															<ContextMenu name="Декорация1КонтекстноеМеню" id="2065"/>
+															<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="2066"/>
+														</LabelDecoration>
+														<LabelDecoration name="ДекорацияРасписание" id="2067">
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<Height>2</Height>
+															<HorizontalStretch>true</HorizontalStretch>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Настроить расписание</v8:content>
+																</v8:item>
+															</Title>
+															<Hyperlink>true</Hyperlink>
+															<VerticalAlign>Top</VerticalAlign>
+															<ContextMenu name="ДекорацияРасписаниеКонтекстноеМеню" id="2068"/>
+															<ExtendedTooltip name="ДекорацияРасписаниеРасширеннаяПодсказка" id="2069"/>
+															<Events>
+																<Event name="Click">ДекорацияРасписаниеНажатие</Event>
+															</Events>
+														</LabelDecoration>
+													</ChildItems>
+												</UsualGroup>
+											</ChildItems>
+										</UsualGroup>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="ГруппаОбновлениеИОписаниеИзмененийВтораяСтрока" id="2090">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа обновление и описание изменений вторая строка</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа обновление и описание изменений вторая строка</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Horizontal</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаОбновлениеИОписаниеИзмененийВтораяСтрокаРасширеннаяПодсказка" id="2091"/>
+									<ChildItems>
+										<UsualGroup name="ГруппаОткрытьОписаниеИзмененийСистемы" id="2092">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа открыть описание изменений системы</v8:content>
+												</v8:item>
+											</Title>
+											<Width>43</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<Group>Vertical</Group>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ГруппаОткрытьОписаниеИзмененийСистемыExtendedTooltip" id="2093"/>
+											<ChildItems>
+												<Button name="ОткрытьОписаниеИзмененийСистемы" id="2094">
+													<Type>Hyperlink</Type>
+													<CommandName>CommonForm.ОписаниеИзмененийПрограммы.StandardCommand.Open</CommandName>
+													<ExtendedTooltip name="ОткрытьОписаниеИзмененийСистемыExtendedTooltip" id="2095"/>
+												</Button>
+												<LabelDecoration name="ПояснениеОткрытьОписаниеИзмененийСистемы" id="2096">
+													<TextColor>style:ПоясняющийТекст</TextColor>
+													<Title formatted="false">
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>История изменений по версиям программы.</v8:content>
+														</v8:item>
+													</Title>
+													<ContextMenu name="ПояснениеОткрытьОписаниеИзмененийСистемыКонтекстноеМеню" id="2097"/>
+													<ExtendedTooltip name="ПояснениеОткрытьОписаниеИзмененийСистемыExtendedTooltip" id="2098"/>
+												</LabelDecoration>
+											</ChildItems>
+										</UsualGroup>
+										<UsualGroup name="ГруппаОтложеннаяОбработкаДанных" id="2099">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа отложенная обработка данных</v8:content>
+												</v8:item>
+											</Title>
+											<Width>43</Width>
+											<Group>Vertical</Group>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ГруппаОтложеннаяОбработкаДанныхExtendedTooltip" id="2100"/>
+											<ChildItems>
+												<Button name="РезультатыОбновленияИДополнительнаяОбработкаДанных" id="2101">
+													<Type>Hyperlink</Type>
+													<CommandName>Form.Command.РезультатыОбновленияИДополнительнаяОбработкаДанных</CommandName>
+													<ExtendedTooltip name="РезультатыОбновленияИДополнительнаяОбработкаДанныхExtendedTooltip" id="2102"/>
+												</Button>
+												<LabelDecoration name="ПояснениеОтложеннаяОбработкаДанных" id="2103">
+													<TextColor>style:ПоясняющийТекст</TextColor>
+													<Title formatted="false">
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Сведения о ходе обновления версии программы, отложенное выполнение дополнительных процедур обработки данных.</v8:content>
+														</v8:item>
+													</Title>
+													<ContextMenu name="ПояснениеОтложеннаяОбработкаДанныхКонтекстноеМеню" id="2104"/>
+													<ExtendedTooltip name="ПояснениеОтложеннаяОбработкаДанныхExtendedTooltip" id="2105"/>
+												</LabelDecoration>
+											</ChildItems>
+										</UsualGroup>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="ГруппаОбновлениеИОписаниеИзмененийТретьяСтрока" id="2106">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа обновление и описание изменений третья строка</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа обновление и описание изменений третья строка</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Vertical</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаОбновлениеИОписаниеИзмененийТретьяСтрокаРасширеннаяПодсказка" id="2107"/>
+									<ChildItems>
+										<UsualGroup name="ГруппаДетализироватьОбновлениеИБВЖурналеРегистрации" id="2108">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content> </v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content> </v8:content>
+												</v8:item>
+											</ToolTip>
+											<Width>43</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<Group>Vertical</Group>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ГруппаДетализироватьОбновлениеИБВЖурналеРегистрацииExtendedTooltip" id="2109"/>
+											<ChildItems>
+												<CheckBoxField name="ДетализироватьОбновлениеИБВЖурналеРегистрации" id="2110">
+													<DataPath>НаборКонстант.ДетализироватьОбновлениеИБВЖурналеРегистрации</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Детализировать ход обновления в журнале регистрации</v8:content>
+														</v8:item>
+													</Title>
+													<TitleLocation>Right</TitleLocation>
+													<CheckBoxType>Auto</CheckBoxType>
+													<ContextMenu name="ДетализироватьОбновлениеИБВЖурналеРегистрацииКонтекстноеМеню" id="2111"/>
+													<ExtendedTooltip name="ДетализироватьОбновлениеИБВЖурналеРегистрацииExtendedTooltip" id="2112"/>
+													<Events>
+														<Event name="OnChange">ДетализироватьОбновлениеИБВЖурналеРегистрацииПриИзменении</Event>
+													</Events>
+												</CheckBoxField>
+												<LabelDecoration name="ПояснениеДетализироватьОбновлениеИБВЖурналеРегистрации" id="2113">
+													<Height>3</Height>
+													<TextColor>style:ПоясняющийТекст</TextColor>
+													<Title formatted="false">
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Записывать в журнал регистрации подробную информацию о ходе выполнения обновления.</v8:content>
+														</v8:item>
+													</Title>
+													<ContextMenu name="ПояснениеДетализироватьОбновлениеИБВЖурналеРегистрацииКонтекстноеМеню" id="2114"/>
+													<ExtendedTooltip name="ПояснениеДетализироватьОбновлениеИБВЖурналеРегистрацииExtendedTooltip" id="2115"/>
+												</LabelDecoration>
+											</ChildItems>
+										</UsualGroup>
+									</ChildItems>
+								</UsualGroup>
+								<LabelField name="КаталогДистрибутиваПлатформы" id="2119">
+									<DataPath>КаталогДистрибутиваПлатформы</DataPath>
+									<TitleLocation>Top</TitleLocation>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<Hiperlink>true</Hiperlink>
+									<ContextMenu name="КаталогДистрибутиваПлатформыКонтекстноеМеню" id="2120"/>
+									<ExtendedTooltip name="КаталогДистрибутиваПлатформыРасширеннаяПодсказка" id="2121"/>
+									<Events>
+										<Event name="Click">КаталогДистрибутиваПлатформыНажатие</Event>
+									</Events>
+								</LabelField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+				<LabelDecoration name="Декорация3" id="2145">
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<HorizontalStretch>true</HorizontalStretch>
+					<ContextMenu name="Декорация3КонтекстноеМеню" id="2146"/>
+					<ExtendedTooltip name="Декорация3РасширеннаяПодсказка" id="2147"/>
+				</LabelDecoration>
+				<CommandBar name="ГруппаСправка" id="1765">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content> </v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content> </v8:content>
+						</v8:item>
+					</ToolTip>
+					<HorizontalStretch>false</HorizontalStretch>
+					<VerticalStretch>false</VerticalStretch>
+					<ExtendedTooltip name="ГруппаСправкаExtendedTooltip" id="1832"/>
+					<ChildItems>
+						<Button name="Справка" id="1766">
+							<Type>CommandBarButton</Type>
+							<OnlyInAllActions>true</OnlyInAllActions>
+							<CommandName>Form.StandardCommand.Help</CommandName>
+							<ExtendedTooltip name="СправкаExtendedTooltip" id="1833"/>
+						</Button>
+					</ChildItems>
+				</CommandBar>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="АвтоматическаяПроверкаОбновлений" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Автоматическая проверка обновлений</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>1</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ДетализироватьОбновлениеИБВЖурналеРегистрации" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Детализировать обновление ИБВЖурнале регистрации</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="КаталогДистрибутиваПлатформы" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Последний полученный дистрибутив платформы сохранен в каталог</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="НаборКонстант" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Набор констант</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:ConstantsSet</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<UseAlways>
+				<Field>НаборКонстант.РежимИспользованияИнформационнойБазы.Ref</Field>
+				<Field>НаборКонстант.ПровайдерSMS.Ref</Field>
+			</UseAlways>
+		</Attribute>
+		<Attribute name="РежимРаботы" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Режим работы (фиксированная структура)</v8:content>
+				</v8:item>
+			</Title>
+			<Type/>
+			<Edit>
+				<xr:Common>false</xr:Common>
+			</Edit>
+		</Attribute>
+		<Attribute name="ДанныеАутентификации" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Данные аутентификации</v8:content>
+				</v8:item>
+			</Title>
+			<Type/>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ВойтиИлиВыйтиИПП" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подключить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>При отключении Интернет-поддержки логин и пароль для подключения
+к сервисам Интернет-поддержки будут удалены из программы.</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВойтиИлиВыйтиИПП</Action>
+		</Command>
+		<Command name="КомандаНастройкиСоединенияССервером" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройки соединения с сервером</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройки соединения с сервером</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>КомандаНастройкиСоединенияССервером</Action>
+		</Command>
+		<Command name="КомандаМониторИнтернетПоддержки" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Монитор Интернет-поддержки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Монитор Интернет-поддержки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>КомандаМониторИнтернетПоддержки</Action>
+		</Command>
+		<Command name="РезультатыОбновленияИДополнительнаяОбработкаДанных" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Результаты обновления и дополнительная обработка данных</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Результаты обновления и дополнительная обработка данных</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОтложеннаяОбработкаДанных</Action>
+		</Command>
+		<Command name="СообщениеВТехПоддержку" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сообщение в службу технической поддержки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправка сообщения в службу технической поддержки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СообщениеВТехПоддержку</Action>
+		</Command>
+		<Command name="ОбновлениеПрограммы" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновление программы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновление программы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОбновлениеПрограммы</Action>
+		</Command>
+	</Commands>
+</Form>

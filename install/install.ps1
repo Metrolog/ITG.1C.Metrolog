@@ -93,7 +93,7 @@ if ( $env:APPVEYOR -eq 'True' ) {
     $OSInfo = @"
         {
             "key": "ClientOSVersion",
-            "value": "version 6.2  (Build 9200)"
+            "value": "version $( [System.Environment]::OSVersion.Version.Major ).$( [System.Environment]::OSVersion.Version.Minor )  (Build $( [System.Environment]::OSVersion.Version.Build ))"
         },
         {
             "key": "SystemLanguage",
@@ -101,7 +101,7 @@ if ( $env:APPVEYOR -eq 'True' ) {
         },
         {
             "key": "ClientPlatformType",
-            "value": "Windows_x86"
+            "value": "$( if ( $OS.OSArchitecture.Contains('64') ) { 'Windows_x64' } else { 'Windows_x86' }; )"
         }
 "@ `
     ;

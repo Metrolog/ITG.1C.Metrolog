@@ -86,9 +86,13 @@ if ( -not ( $env:APPVEYOR -eq 'True' ) ) {
 
 if ( $env:APPVEYOR -eq 'True' ) {
 
+    Write-Verbose 'Preparing 1C v8 environment...';
+
     $ITSLogin = '20005700694';
     $ITSPassword = ConvertTo-SecureString 'GhbznyjtGentitcndbt' -AsPlainText -Force;
     $ITSCredential = New-Object System.Management.Automation.PSCredential($ITSLogin, $ITSPassword);
+
+    $SSLVersion = '2.3.4.8';
 
     $OSInfo = @"
         {
@@ -114,7 +118,7 @@ if ( $env:APPVEYOR -eq 'True' ) {
         -Body @"
 {
     "programName": "SSL",
-    "versionNumber": "2.3.4.8",
+    "versionNumber": "$SSLVersion",
     "platformVersion": "",
     "programNewName": "",
     "redactionNumber": "",
@@ -124,6 +128,7 @@ if ( $env:APPVEYOR -eq 'True' ) {
 "@ `
     ;
     $UpdateInfo = $UpdateInfoResponse.Content | ConvertFrom-Json;
+    Write-Verbose "Latest 1C v8 platform version: $( $UpdateInfo.platformUpdateResponse.platformVersion ).";
 
     $PlatformUpdateResponse = Invoke-WebRequest `
         -Uri "https://update-api.1c.ru/update-platform/programs/update/" `
@@ -143,13 +148,23 @@ if ( $env:APPVEYOR -eq 'True' ) {
 "@ `
     ;
     $PlatformUpdateInfo = $PlatformUpdateResponse.Content | ConvertFrom-Json;
+    Write-Verbose "1C v8 platform URL: $( $PlatformUpdateInfo.platformDistributionUrl ).";
+
+    $КаталогДляРаботыСОбновлениямиПлатформы = Join-Path -Path $env:LocalAppData -ChildPath '1C\1Cv8PlatformUpdate';
+    $ФайлОбновленияПлатформы = Join-Path -Path $КаталогДляРаботыСОбновлениямиПлатформы -ChildPath 'setup.zip';
+    $КаталогДляРаботыСОбновлениямиПлатформыОбъект = New-Item -ItemType Directory -Path $КаталогДляРаботыСОбновлениямиПлатформы -Force;
     $DownloadFileResponse = Invoke-WebRequest `
         -Uri ( $PlatformUpdateInfo.platformDistributionUrl ) `
-        -OutFile 'setup.zip' `
+        -OutFile $ФайлОбновленияПлатформы `
         -Method Get `
         -Credential $ITSCredential `
         -DisableKeepAlive `
     ;
+    Write-Verbose "1C v8 platform setup file download completed.";
+
+    $КаталогДистрибутива = Join-Path -Path $КаталогДляРаботыСОбновлениямиПлатформы -ChildPath 'setup';
+    $КаталогДистрибутиваОбъект = New-Item -ItemType Directory -Path $КаталогДистрибутива -Force;
+    Expand-Archive -LiteralPath $ФайлОбновленияПлатформы -DestinationPath $КаталогДистрибутива -Force;
 
 };
 

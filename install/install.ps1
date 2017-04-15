@@ -166,6 +166,17 @@ if ( $env:APPVEYOR -eq 'True' ) {
     $КаталогДистрибутиваОбъект = New-Item -ItemType Directory -Path $КаталогДистрибутива -Force;
     Expand-Archive -LiteralPath $ФайлОбновленияПлатформы -DestinationPath $КаталогДистрибутива -Force;
 
+    Write-Verbose "1C v8 platform installation in progress...";
+    $MSIФайлОбновленияПлатформы = Join-Path -Path $КаталогДистрибутива -ChildPath '1CEnterprise 8.msi';
+	$ПутьФайлаПротокола = Join-Path -Path $КаталогДляРаботыСОбновлениямиПлатформы -ChildPath 'installlog.txt';
+    $Installer = New-Object -ComObject 'WindowsInstaller.Installer';
+    $Installer.UILevel = 3;
+    $Installer.EnableLog( 'iwearmo', $ПутьФайлаПротокола );
+    $InstallerSession = $Installer.InstallProduct(
+        $MSIФайлОбновленияПлатформы,
+        "TRANSFORMS=1049.mst; DESIGNERALLCLIENTS=1 THICKCLIENT=0 THINCLIENT=0 THINCLIENTFILE=1 WEBSERVEREXT=0 SERVER=0 CONFREPOSSERVER=0 CONVERTER77=0 SERVERCLIENT=0 LANGUAGES=RU"
+    );
+    Write-Verbose "1C v$( $UpdateInfo.platformUpdateResponse.platformVersion ) platform installation is complete.";
 };
 
 if ( $GUI ) {

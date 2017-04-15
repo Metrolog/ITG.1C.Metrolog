@@ -105,7 +105,7 @@ if ( $env:APPVEYOR -eq 'True' ) {
         },
         {
             "key": "ClientPlatformType",
-            "value": "$( if ( $OS.OSArchitecture.Contains('64') ) { 'Windows_x64' } else { 'Windows_x86' }; )"
+            "value": "$( if ( [System.Environment]::Is64BitOperatingSystem ) { 'Windows_x64' } else { 'Windows_x86' }; )"
         }
 "@ `
     ;

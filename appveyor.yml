@@ -1,0 +1,6 @@
+image: WMF 5
+version: 1.0.0 (Build {build})
+
+install:
+  - cmd: GitVersion /output buildserver
+  - ps: .\install\install.ps1 -ErrorAction Stop -InformationAction Continue -Verbose

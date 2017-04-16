@@ -88,9 +88,10 @@ if ( $env:APPVEYOR -eq 'True' ) {
 
     Write-Verbose 'Preparing 1C v8 environment...';
 
-    $ITSLogin = '20005700694';
-    $ITSPassword = ConvertTo-SecureString 'GhbznyjtGentitcndbt' -AsPlainText -Force;
-    $ITSCredential = New-Object System.Management.Automation.PSCredential($ITSLogin, $ITSPassword);
+    $ITSCredential = New-Object System.Management.Automation.PSCredential(
+        $env:USERS_V8_1C_LOGIN,
+        ( ConvertTo-SecureString $env:USERS_V8_1C_PASSWORD -AsPlainText -Force )
+    );
 
     $SSLVersion = '2.3.4.8';
 
@@ -141,7 +142,7 @@ if ( $env:APPVEYOR -eq 'True' ) {
     "upgradeSequence": null,
     "programVersionUin": null,
     "platformDistributionUin": "$( $UpdateInfo.platformUpdateResponse.distributionUin )",
-    "login": "$ITSLogin",
+    "login": "$( $ITSCredential.GetNetworkCredential().UserName )",
     "password": "$( $ITSCredential.GetNetworkCredential().Password )",
     "additionalParameters": [ $OSInfo ]
 }

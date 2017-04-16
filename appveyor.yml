@@ -1,6 +1,11 @@
 image: WMF 5
 version: 1.0.0 (Build {build})
 
+environment: 
+  USERS_V8_1C_LOGIN: 20005700694
+  USERS_V8_1C_PASSWORD:
+    secure: hXnd+ZRsLxcdiBwhBbkzSob372B0Ce11cFzHMkmAcwU=
+
 install:
   - cmd: GitVersion /output buildserver
   - ps: .\install\install.ps1 -ErrorAction Stop -InformationAction Continue -Verbose

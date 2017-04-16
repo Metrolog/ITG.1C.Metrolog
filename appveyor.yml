@@ -5,7 +5,16 @@ environment:
   USERS_V8_1C_LOGIN: 20005700694
   USERS_V8_1C_PASSWORD:
     secure: hXnd+ZRsLxcdiBwhBbkzSob372B0Ce11cFzHMkmAcwU=
+  NCSM_VPN_LOGIN: sergei.s.betke@csm.nov.ru
+  NCSM_VPN_PASSWORD:
+    secure: JLKHHenr4eKeTuNMhx2A1R1OjBiW351fa5233PwjJC4=
 
 install:
   - cmd: GitVersion /output buildserver
   - ps: .\install\install.ps1 -ErrorAction Stop -InformationAction Continue -Verbose
+  - ps: >-
+      Add-VpnConnection -Name 'NCSM' -ServerAddress 'gate.csm.nov.ru' -TunnelType Pptp -Force;
+      Start-Process rasdial -ArgumentList "NCSM $( $env:NCSM_VPN_LOGIN ) `"$( $env:NCSM_VPN_PASSWORD )`"" -PassThru -Wait -NoNewWindow;
+
+build_script:
+  - cmd: ping srv-mgmt.csm.nov.ru

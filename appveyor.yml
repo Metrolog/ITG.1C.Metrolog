@@ -14,8 +14,9 @@ install:
   - ps: .\install\install.ps1 -ErrorAction Stop -InformationAction Continue -Verbose
   - ps: >-
       Add-VpnConnection -Name 'NCSM' -ServerAddress 'gate.csm.nov.ru' -TunnelType Pptp -Force;
-      Start-Process rasdial -ArgumentList "NCSM $( $env:NCSM_VPN_LOGIN ) `"$( $env:NCSM_VPN_PASSWORD )`"" -PassThru -Wait -NoNewWindow;
+      Add-VpnConnectionRoute -ConnectionName 'NCSM' -DestinationPrefix '192.168.100.0/24';
+      $p = Start-Process rasdial -ArgumentList "NCSM $( $env:NCSM_VPN_LOGIN ) `"$( $env:NCSM_VPN_PASSWORD )`"" -PassThru -Wait -NoNewWindow;
 
 build_script:
   - cmd: ping 192.168.100.4
-#  - cmd: ping srv-mgmt.csm.nov.ru
+  - cmd: ping srv-mgmt.csm.nov.ru

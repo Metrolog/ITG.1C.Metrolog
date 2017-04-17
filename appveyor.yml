@@ -15,7 +15,8 @@ install:
   - ps: >-
       Add-VpnConnection -Name 'NCSM' -ServerAddress 'gate.csm.nov.ru' -TunnelType Pptp -Force;
       Add-VpnConnectionRoute -ConnectionName 'NCSM' -DestinationPrefix '192.168.100.0/24';
-      $p = Start-Process rasdial -ArgumentList "NCSM $( $env:NCSM_VPN_LOGIN ) `"$( $env:NCSM_VPN_PASSWORD )`"" -PassThru -Wait -NoNewWindow;
+  - cmd: >-
+      rasdial NCSM %NCSM_VPN_LOGIN% "%NCSM_VPN_PASSWORD%"
 
 build_script:
   - cmd: ping 192.168.100.4

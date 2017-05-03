@@ -10,4 +10,4 @@
 -----------
 
 - Технологическая платформа 1С:Предприятие 8.3.10+
-  ((функции выгрузки конфигурации в XML и загрузки из XML оптимизированы в 8.3.10)[http://zdst.net/1s-8-3-novoe-v-platforme-1s-8-3-10-vygruzka-zagruzka-konfiguratsii-v-fajly/])
+  ((функции выгрузки и загрузки конфигурации в и из XML оптимизированы в 8.3.10)[http://zdst.net/1s-8-3-novoe-v-platforme-1s-8-3-10-vygruzka-zagruzka-konfiguratsii-v-fajly/])

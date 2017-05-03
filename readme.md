@@ -1,4 +1,4 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/26ouyvtwmfnoyf0r/branch/master?svg=true)](https://ci.appveyor.com/project/sergey-s-betke/measurementunits)
+[![Build status](https://ci.appveyor.com/api/projects/status/26ouyvtwmfnoyf0r?svg=true)](https://ci.appveyor.com/project/sergey-s-betke/measurementunits)
 
 1С:Метрологическая служба - Единицы величин
 ===========================================
@@ -10,4 +10,4 @@
 -----------
 
 - Технологическая платформа 1С:Предприятие 8.3.10+
-  ((функции выгрузки и загрузки конфигурации в и из XML оптимизированы в 8.3.10)[http://zdst.net/1s-8-3-novoe-v-platforme-1s-8-3-10-vygruzka-zagruzka-konfiguratsii-v-fajly/])
+  (функции выгрузки и загрузки конфигурации в и из XML [оптимизированы в 8.3.10](http://zdst.net/1s-8-3-novoe-v-platforme-1s-8-3-10-vygruzka-zagruzka-konfiguratsii-v-fajly/))

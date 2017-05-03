@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Rights xmlns="http://v8.1c.ru/8.2/roles" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Rights">
+<Rights xmlns="http://v8.1c.ru/8.2/roles" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Rights" version="2.3">
 	<setForNewObjects>false</setForNewObjects>
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
-		<name>Catalog.ЕдиницыВеличин</name>
+		<name>Catalog.МСЕдиницыВеличин</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -50,7 +50,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ЕдиницыВеличинПриставкиКратныхИДольных</name>
+		<name>Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -473,7 +473,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ЕдиницыВеличинБазовые</name>
+		<name>Catalog.МСЕдиницыВеличинБазовые</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>

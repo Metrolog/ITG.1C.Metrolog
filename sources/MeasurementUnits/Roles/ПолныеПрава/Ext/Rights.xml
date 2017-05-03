@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Rights xmlns="http://v8.1c.ru/8.2/roles" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Rights">
+<Rights xmlns="http://v8.1c.ru/8.2/roles" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Rights" version="2.3">
 	<setForNewObjects>true</setForNewObjects>
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
@@ -85,7 +85,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ЕдиницыВеличин</name>
+		<name>Catalog.МСЕдиницыВеличин</name>
 		<right>
 			<name>InteractiveDeletePredefinedData</name>
 			<value>false</value>
@@ -577,7 +577,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ЕдиницыВеличинПриставкиКратныхИДольных</name>
+		<name>Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных</name>
 		<right>
 			<name>Insert</name>
 			<value>false</value>

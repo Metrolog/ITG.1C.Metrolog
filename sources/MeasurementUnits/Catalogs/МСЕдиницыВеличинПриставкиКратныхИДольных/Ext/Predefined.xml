@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.3">
+	<Item id="7d1aacf5-64db-4bec-873c-5e0d3fab7115">
+		<Name>атто</Name>
+		<Code xsi:type="xs:decimal">0</Code>
+		<Description>атто</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="44147945-fa78-48c7-9a4b-9b0cbb121755">
+		<Name>гекто</Name>
+		<Code xsi:type="xs:decimal">0</Code>
+		<Description>гекто</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="577385f1-4f9c-4853-a5d3-daf42d45ea6f">
+		<Name>гига</Name>
+		<Code xsi:type="xs:decimal">0</Code>
+		<Description>гига</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="02a7ba73-9007-43c2-bcba-65a234bfa6a2">
+		<Name>дека</Name>
+		<Code xsi:type="xs:decimal">0</Code>
+		<Description>дека</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4e77ca9a-c1e7-43cc-ab36-6491520d9a3d">
+		<Name>деци</Name>
+		<Code xsi:type="xs:decimal">0</Code>
+		<Description>деци</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ec615fbf-41ac-49d7-affb-9a4579c1c1f3">
+		<Name>зепто</Name>
+		<Code xsi:type="xs:decimal">0</Code>
+		<Description>зепто</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f663d4bf-19e2-410a-b562-6c4c5a08e43d">
+		<Name>зетта</Name>
+		<Code xsi:type="xs:decimal">0</Code>
+		<Description>зетта</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="754d7362-4d5b-42dd-8153-554d775cf0dd">
+		<Name>иокто</Name>
+		<Code xsi:type="xs:decimal">0</Code>
+		<Description>иокто</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="bde2a2fb-4767-4407-8e0e-e2863d6396a5">
+		<Name>иотта</Name>
+		<Code xsi:type="xs:decimal">0</Code>
+		<Description>иотта</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="967b57e8-2f5f-4f8c-a3b4-f57ab9775ed5">
+		<Name>кило</Name>
+		<Code xsi:type="xs:decimal">0</Code>
+		<Description>кило</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1c40c8a0-72e4-44aa-a489-721c9ab1c5d9">
+		<Name>мега</Name>
+		<Code xsi:type="xs:decimal">0</Code>
+		<Description>мега</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="45d1ab5d-9f3d-4e42-9f66-701e13d91078">
+		<Name>микро</Name>
+		<Code xsi:type="xs:decimal">0</Code>
+		<Description>микро</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="dce34fb3-3779-4af9-86df-395d86ddb03b">
+		<Name>милли</Name>
+		<Code xsi:type="xs:decimal">0</Code>
+		<Description>милли</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="51f74317-b22e-48de-9a20-8c08532d1d6d">
+		<Name>нано</Name>
+		<Code xsi:type="xs:decimal">0</Code>
+		<Description>нано</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="98510541-e4a4-43c3-b9e3-1f1155d9222c">
+		<Name>пета</Name>
+		<Code xsi:type="xs:decimal">0</Code>
+		<Description>пета</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="81c7c3f6-a110-43e3-bb40-9e2f9e192551">
+		<Name>пико</Name>
+		<Code xsi:type="xs:decimal">0</Code>
+		<Description>пико</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e379a8b3-8a3f-44c0-8f14-9a628c5eace4">
+		<Name>санти</Name>
+		<Code xsi:type="xs:decimal">0</Code>
+		<Description>санти</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="2f8c3ef5-97f3-4cab-9c09-954b07f333ba">
+		<Name>тера</Name>
+		<Code xsi:type="xs:decimal">0</Code>
+		<Description>тера</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="52731af4-9492-410a-916e-b9cdc431fdf8">
+		<Name>фемто</Name>
+		<Code xsi:type="xs:decimal">0</Code>
+		<Description>фемто</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="aca1070e-c675-4d57-8dfe-262685961b34">
+		<Name>экса</Name>
+		<Code xsi:type="xs:decimal">0</Code>
+		<Description>экса</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

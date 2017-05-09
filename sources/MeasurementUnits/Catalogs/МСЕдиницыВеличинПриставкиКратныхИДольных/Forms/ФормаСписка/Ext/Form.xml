@@ -99,6 +99,11 @@
 					<ContextMenu name="ОбозначениеКонтекстноеМеню" id="38"/>
 					<ExtendedTooltip name="ОбозначениеРасширеннаяПодсказка" id="39"/>
 				</LabelField>
+				<LabelField name="Основание" id="40">
+					<DataPath>Список.Основание</DataPath>
+					<ContextMenu name="ОснованиеКонтекстноеМеню" id="41"/>
+					<ExtendedTooltip name="ОснованиеРасширеннаяПодсказка" id="42"/>
+				</LabelField>
 				<InputField name="Порядок" id="28">
 					<DataPath>Список.Порядок</DataPath>
 					<ContextMenu name="ПорядокКонтекстноеМеню" id="29"/>

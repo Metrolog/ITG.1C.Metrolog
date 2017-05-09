@@ -1236,10 +1236,10 @@
 			<Metadata name="Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных.Attribute.Обозначение" id="a3b5d2c8-81e1-40e8-8b39-cf7ae8e97cb5"/>
 			<Metadata name="Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных.Attribute.Основание" id="b427e8fe-c500-40cf-b2fe-f96f4a2a86de"/>
 		</Metadata>
-		<Metadata name="Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных.Form.ФормаВыбора" id="84c458a3-703b-4281-a422-ba76ca4d625b" configVersion="199580a9b861d747b8eec7f0eb742fb100000000"/>
-		<Metadata name="Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных.Form.ФормаВыбора.Form" id="84c458a3-703b-4281-a422-ba76ca4d625b.0" configVersion="dea69b848828134c9119ef4ee9adc4be00000000"/>
-		<Metadata name="Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных.Form.ФормаСписка" id="6c152c16-3c73-4aa7-9d67-663bea87659a" configVersion="50fe657f981f2d4e966b8d6852c0a53e00000000"/>
-		<Metadata name="Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных.Form.ФормаСписка.Form" id="6c152c16-3c73-4aa7-9d67-663bea87659a.0" configVersion="ad0617fe7da06e419f4a2416be9fb95d00000000"/>
+		<Metadata name="Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных.Form.ФормаВыбора" id="84c458a3-703b-4281-a422-ba76ca4d625b" configVersion="8ac8349fe6f16949b61acec02be60d1500000000"/>
+		<Metadata name="Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных.Form.ФормаВыбора.Form" id="84c458a3-703b-4281-a422-ba76ca4d625b.0" configVersion="dafc3136d793c843ac354d40bc054d1700000000"/>
+		<Metadata name="Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных.Form.ФормаСписка" id="6c152c16-3c73-4aa7-9d67-663bea87659a" configVersion="173639ceb3f9e043a96bd55f720e86f800000000"/>
+		<Metadata name="Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных.Form.ФормаСписка.Form" id="6c152c16-3c73-4aa7-9d67-663bea87659a.0" configVersion="cd019e77863e1c44934acae54118c6a500000000"/>
 		<Metadata name="Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных.Form.ФормаЭлемента" id="36d3a665-d1f3-410e-bff9-1c63e847281e" configVersion="3c13e53840317f439581dcad38adf99500000000"/>
 		<Metadata name="Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных.Form.ФормаЭлемента.Form" id="36d3a665-d1f3-410e-bff9-1c63e847281e.0" configVersion="0e71eef05ac877469c724a02adde6ee100000000"/>
 		<Metadata name="Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных.ManagerModule" id="147cc042-7d87-439d-9495-d9800752ac59.3" configVersion="70e6bbd5d0708844bd277a4d00c528c100000000"/>

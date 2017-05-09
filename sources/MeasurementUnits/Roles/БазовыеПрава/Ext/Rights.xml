@@ -1326,6 +1326,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Constant.МСИспользоватьПриставкиIEC60027</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.СоздаватьЭлектронныеПодписиНаСервере</name>
 		<right>
 			<name>Read</name>

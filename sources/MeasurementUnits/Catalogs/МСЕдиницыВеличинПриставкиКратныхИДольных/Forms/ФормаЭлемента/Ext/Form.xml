@@ -64,19 +64,43 @@
 				</InputField>
 			</ChildItems>
 		</UsualGroup>
-		<InputField name="Порядок" id="1">
-			<DataPath>Объект.Порядок</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<SpinButton>true</SpinButton>
-			<EditFormat>
+		<UsualGroup name="ГруппаПорядок" id="22">
+			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>ЧЦ=2; ЧДЦ=</v8:content>
+					<v8:content>Группа порядок</v8:content>
 				</v8:item>
-			</EditFormat>
-			<ContextMenu name="ПорядокКонтекстноеМеню" id="2"/>
-			<ExtendedTooltip name="ПорядокРасширеннаяПодсказка" id="3"/>
-		</InputField>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа порядок</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаПорядокРасширеннаяПодсказка" id="23"/>
+			<ChildItems>
+				<InputField name="Основание" id="24">
+					<DataPath>Объект.Основание</DataPath>
+					<ContextMenu name="ОснованиеКонтекстноеМеню" id="25"/>
+					<ExtendedTooltip name="ОснованиеРасширеннаяПодсказка" id="26"/>
+				</InputField>
+				<InputField name="Порядок" id="1">
+					<DataPath>Объект.Порядок</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<SpinButton>true</SpinButton>
+					<EditFormat>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧЦ=2; ЧДЦ=</v8:content>
+						</v8:item>
+					</EditFormat>
+					<ContextMenu name="ПорядокКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="ПорядокРасширеннаяПодсказка" id="3"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
 		<UsualGroup name="ГруппаОбозначениеПриставки" id="20">
 			<Title>
 				<v8:item>

@@ -97,14 +97,6 @@
 					<ContextMenu name="НаименованиеКонтекстноеМеню" id="17"/>
 					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="18"/>
 				</LabelField>
-				<LabelField name="Обозначение" id="34">
-					<DataPath>Список.Обозначение</DataPath>
-					<UserVisible>
-						<xr:Common>false</xr:Common>
-					</UserVisible>
-					<ContextMenu name="ОбозначениеКонтекстноеМеню" id="35"/>
-					<ExtendedTooltip name="ОбозначениеРасширеннаяПодсказка" id="36"/>
-				</LabelField>
 				<LabelField name="Основание" id="37">
 					<DataPath>Список.Основание</DataPath>
 					<UserVisible>
@@ -120,6 +112,49 @@
 					</UserVisible>
 					<ContextMenu name="ПорядокКонтекстноеМеню" id="23"/>
 					<ExtendedTooltip name="ПорядокРасширеннаяПодсказка" id="24"/>
+				</LabelField>
+				<LabelField name="Приставка" id="52">
+					<DataPath>Список.Приставка</DataPath>
+					<ContextMenu name="ПриставкаКонтекстноеМеню" id="53"/>
+					<ExtendedTooltip name="ПриставкаРасширеннаяПодсказка" id="54"/>
+				</LabelField>
+				<LabelField name="Обозначение" id="34">
+					<DataPath>Список.Обозначение</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ContextMenu name="ОбозначениеКонтекстноеМеню" id="35"/>
+					<ExtendedTooltip name="ОбозначениеРасширеннаяПодсказка" id="36"/>
+				</LabelField>
+				<LabelField name="ПриставкаМеждународная" id="58">
+					<DataPath>Список.ПриставкаМеждународная</DataPath>
+					<ContextMenu name="ПриставкаМеждународнаяКонтекстноеМеню" id="59"/>
+					<ExtendedTooltip name="ПриставкаМеждународнаяРасширеннаяПодсказка" id="60"/>
+				</LabelField>
+				<LabelField name="ОбозначениеМеждународное" id="61">
+					<DataPath>Список.ОбозначениеМеждународное</DataPath>
+					<ContextMenu name="ОбозначениеМеждународноеКонтекстноеМеню" id="62"/>
+					<ExtendedTooltip name="ОбозначениеМеждународноеРасширеннаяПодсказка" id="63"/>
+				</LabelField>
+				<LabelField name="ПриставкаIEC_60027_2" id="64">
+					<DataPath>Список.ПриставкаIEC_60027_2</DataPath>
+					<ContextMenu name="ПриставкаIEC_60027_2КонтекстноеМеню" id="65"/>
+					<ExtendedTooltip name="ПриставкаIEC_60027_2РасширеннаяПодсказка" id="66"/>
+				</LabelField>
+				<LabelField name="ОбозначениеIEC_60027_2" id="67">
+					<DataPath>Список.ОбозначениеIEC_60027_2</DataPath>
+					<ContextMenu name="ОбозначениеIEC_60027_2КонтекстноеМеню" id="68"/>
+					<ExtendedTooltip name="ОбозначениеIEC_60027_2РасширеннаяПодсказка" id="69"/>
+				</LabelField>
+				<LabelField name="ПриставкаМеждународнаяIEC_60027_2" id="70">
+					<DataPath>Список.ПриставкаМеждународнаяIEC_60027_2</DataPath>
+					<ContextMenu name="ПриставкаМеждународнаяIEC_60027_2КонтекстноеМеню" id="71"/>
+					<ExtendedTooltip name="ПриставкаМеждународнаяIEC_60027_2РасширеннаяПодсказка" id="72"/>
+				</LabelField>
+				<LabelField name="ОбозначениеМеждународноеIEC_60027_2" id="73">
+					<DataPath>Список.ОбозначениеМеждународноеIEC_60027_2</DataPath>
+					<ContextMenu name="ОбозначениеМеждународноеIEC_60027_2КонтекстноеМеню" id="74"/>
+					<ExtendedTooltip name="ОбозначениеМеждународноеIEC_60027_2РасширеннаяПодсказка" id="75"/>
 				</LabelField>
 			</ChildItems>
 		</Table>

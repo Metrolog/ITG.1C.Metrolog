@@ -39,31 +39,6 @@
 				</InputField>
 			</ChildItems>
 		</UsualGroup>
-		<UsualGroup name="ГруппаПриставка" id="18">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Приставка</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Группа приставка</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Representation>None</Representation>
-			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="ГруппаПриставкаРасширеннаяПодсказка" id="19"/>
-			<ChildItems>
-				<InputField name="Приставка" id="4">
-					<DataPath>1/0:b4a11f64-ebe2-4b60-bb9b-c44a8eabaaa7</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="ПриставкаКонтекстноеМеню" id="5"/>
-					<ExtendedTooltip name="ПриставкаРасширеннаяПодсказка" id="6"/>
-				</InputField>
-			</ChildItems>
-		</UsualGroup>
 		<UsualGroup name="ГруппаПорядок" id="22">
 			<Title>
 				<v8:item>
@@ -101,29 +76,155 @@
 				</InputField>
 			</ChildItems>
 		</UsualGroup>
-		<UsualGroup name="ГруппаОбозначениеПриставки" id="20">
+		<UsualGroup name="ГруппаПостановлениеПравительства" id="20">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Обозначение приставки</v8:content>
+					<v8:content>Постановление Правительства РФ от 31.10.2009 №879</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Группа обозначение приставки</v8:content>
+					<v8:content>Обозначения по Постановлению Правительства РФ от 31.10.2009 №879</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Representation>None</Representation>
-			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="ГруппаОбозначениеПриставкиРасширеннаяПодсказка" id="21"/>
+			<Group>Vertical</Group>
+			<Representation>NormalSeparation</Representation>
+			<ExtendedTooltip name="ГруппаПостановлениеПравительстваРасширеннаяПодсказка" id="21"/>
 			<ChildItems>
-				<InputField name="Обозначение" id="7">
-					<DataPath>Объект.Обозначение</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="ОбозначениеКонтекстноеМеню" id="8"/>
-					<ExtendedTooltip name="ОбозначениеРасширеннаяПодсказка" id="9"/>
-				</InputField>
+				<UsualGroup name="ГруппаПостановлениеПравительстваРусскиеОбозначения" id="30">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>русские</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Национальные обозначения</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Representation>None</Representation>
+					<ExtendedTooltip name="ГруппаПостановлениеПравительстваРусскиеОбозначенияРасширеннаяПодсказка" id="31"/>
+					<ChildItems>
+						<InputField name="Приставка" id="27">
+							<DataPath>Объект.Приставка</DataPath>
+							<ContextMenu name="ПриставкаКонтекстноеМеню" id="28"/>
+							<ExtendedTooltip name="ПриставкаРасширеннаяПодсказка" id="29"/>
+						</InputField>
+						<InputField name="Обозначение" id="7">
+							<DataPath>Объект.Обозначение</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ОбозначениеКонтекстноеМеню" id="8"/>
+							<ExtendedTooltip name="ОбозначениеРасширеннаяПодсказка" id="9"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаПостановлениеПравительстваМеждународныеОбозначения" id="32">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>международные</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Международные обозначения</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Representation>None</Representation>
+					<ExtendedTooltip name="ГруппаПостановлениеПравительстваМеждународныеОбозначенияРасширеннаяПодсказка" id="33"/>
+					<ChildItems>
+						<InputField name="ПриставкаМеждународная" id="34">
+							<DataPath>Объект.ПриставкаМеждународная</DataPath>
+							<ContextMenu name="ПриставкаМеждународнаяКонтекстноеМеню" id="35"/>
+							<ExtendedTooltip name="ПриставкаМеждународнаяРасширеннаяПодсказка" id="36"/>
+						</InputField>
+						<InputField name="ОбозначениеМеждународное" id="37">
+							<DataPath>Объект.ОбозначениеМеждународное</DataPath>
+							<ContextMenu name="ОбозначениеМеждународноеКонтекстноеМеню" id="38"/>
+							<ExtendedTooltip name="ОбозначениеМеждународноеРасширеннаяПодсказка" id="39"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаIEC_60027_2" id="40">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ГОСТ IEC 60027-2—2015</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обозначения по ГОСТ IEC 60027-2—2015</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Representation>NormalSeparation</Representation>
+			<ExtendedTooltip name="ГруппаIEC_60027_2РасширеннаяПодсказка" id="41"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаIEC_60027_2РусскиеОбозначения" id="42">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>русские</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Национальные обозначения</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Representation>None</Representation>
+					<ExtendedTooltip name="ГруппаIEC_60027_2РусскиеОбозначенияРасширеннаяПодсказка" id="43"/>
+					<ChildItems>
+						<InputField name="ПриставкаIEC_60027_2" id="52">
+							<DataPath>Объект.ПриставкаIEC_60027_2</DataPath>
+							<ContextMenu name="ПриставкаIEC_60027_2КонтекстноеМеню" id="53"/>
+							<ExtendedTooltip name="ПриставкаIEC_60027_2РасширеннаяПодсказка" id="54"/>
+						</InputField>
+						<InputField name="ОбозначениеIEC_60027_2" id="55">
+							<DataPath>Объект.ОбозначениеIEC_60027_2</DataPath>
+							<ContextMenu name="ОбозначениеIEC_60027_2КонтекстноеМеню" id="56"/>
+							<ExtendedTooltip name="ОбозначениеIEC_60027_2РасширеннаяПодсказка" id="57"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаIEC_60027_2МеждународныеОбозначения" id="50">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>международные</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Международные обозначения</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Representation>None</Representation>
+					<ExtendedTooltip name="ГруппаIEC_60027_2МеждународныеОбозначенияРасширеннаяПодсказка" id="51"/>
+					<ChildItems>
+						<InputField name="ПриставкаМеждународнаяIEC_60027_2" id="58">
+							<DataPath>Объект.ПриставкаМеждународнаяIEC_60027_2</DataPath>
+							<ContextMenu name="ПриставкаМеждународнаяIEC_60027_2КонтекстноеМеню" id="59"/>
+							<ExtendedTooltip name="ПриставкаМеждународнаяIEC_60027_2РасширеннаяПодсказка" id="60"/>
+						</InputField>
+						<InputField name="ОбозначениеМеждународноеIEC_60027_2" id="61">
+							<DataPath>Объект.ОбозначениеМеждународноеIEC_60027_2</DataPath>
+							<ContextMenu name="ОбозначениеМеждународноеIEC_60027_2КонтекстноеМеню" id="62"/>
+							<ExtendedTooltip name="ОбозначениеМеждународноеIEC_60027_2РасширеннаяПодсказка" id="63"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
 			</ChildItems>
 		</UsualGroup>
 	</ChildItems>

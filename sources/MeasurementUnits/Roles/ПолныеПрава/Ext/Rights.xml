@@ -615,10 +615,6 @@
 			<value>false</value>
 		</right>
 		<right>
-			<name>InputByString</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>InteractiveDeletePredefinedData</name>
 			<value>false</value>
 		</right>

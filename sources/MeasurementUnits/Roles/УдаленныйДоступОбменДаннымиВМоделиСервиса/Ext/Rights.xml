@@ -25,13 +25,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>WebService.RemoteAdministrationOfExchange.Operation.TestConnection</name>
 		<right>
 			<name>Use</name>

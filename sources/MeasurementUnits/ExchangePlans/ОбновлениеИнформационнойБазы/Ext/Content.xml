@@ -98,7 +98,7 @@
 	</Item>
 	<Item>
 		<Metadata>Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных</Metadata>
-		<AutoRecord>Allow</AutoRecord>
+		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
 		<Metadata>Catalog._ДемоКонтактныеЛицаПартнеров</Metadata>

@@ -151,6 +151,11 @@
 					<xr:ConditionalSeparation/>
 				</xr:Item>
 				<xr:Item>
+					<xr:Metadata>Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных</xr:Metadata>
+					<xr:Use>DontUse</xr:Use>
+					<xr:ConditionalSeparation/>
+				</xr:Item>
+				<xr:Item>
 					<xr:Metadata>Catalog.СообщенияОбластейДанных</xr:Metadata>
 					<xr:Use>DontUse</xr:Use>
 					<xr:ConditionalSeparation/>

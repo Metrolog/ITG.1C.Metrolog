@@ -281,11 +281,14 @@
 			<QuickChoice>true</QuickChoice>
 			<ChoiceMode>QuickChoice</ChoiceMode>
 			<InputByString>
-				<xr:Field>Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных.StandardAttribute.Description</xr:Field>
+				<xr:Field>Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных.Attribute.Приставка</xr:Field>
+				<xr:Field>Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных.Attribute.ПриставкаМеждународная</xr:Field>
+				<xr:Field>Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных.Attribute.ПриставкаISO_80000_1</xr:Field>
+				<xr:Field>Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных.Attribute.ПриставкаМеждународнаяISO_80000_1</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
-			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
+			<ChoiceDataGetModeOnInputByString>Background</ChoiceDataGetModeOnInputByString>
 			<DefaultObjectForm>Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных.Form.ФормаЭлемента</DefaultObjectForm>
 			<DefaultFolderForm/>
 			<DefaultListForm>Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных.Form.ФормаСписка</DefaultListForm>
@@ -520,7 +523,7 @@
 					<LinkByType/>
 					<ChoiceHistoryOnInput>DontUse</ChoiceHistoryOnInput>
 					<Use>ForItem</Use>
-					<Indexing>Index</Indexing>
+					<Indexing>DontIndex</Indexing>
 					<FullTextSearch>DontUse</FullTextSearch>
 				</Properties>
 			</Attribute>
@@ -712,7 +715,7 @@
 					<LinkByType/>
 					<ChoiceHistoryOnInput>DontUse</ChoiceHistoryOnInput>
 					<Use>ForItem</Use>
-					<Indexing>Index</Indexing>
+					<Indexing>DontIndex</Indexing>
 					<FullTextSearch>DontUse</FullTextSearch>
 				</Properties>
 			</Attribute>

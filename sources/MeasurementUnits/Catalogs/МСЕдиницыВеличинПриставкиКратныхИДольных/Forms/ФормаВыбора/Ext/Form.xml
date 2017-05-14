@@ -128,31 +128,67 @@
 				</LabelField>
 				<LabelField name="ПриставкаМеждународная" id="58">
 					<DataPath>Список.ПриставкаМеждународная</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Приставка</v8:content>
+						</v8:item>
+					</Title>
 					<ContextMenu name="ПриставкаМеждународнаяКонтекстноеМеню" id="59"/>
 					<ExtendedTooltip name="ПриставкаМеждународнаяРасширеннаяПодсказка" id="60"/>
 				</LabelField>
 				<LabelField name="ОбозначениеМеждународное" id="61">
 					<DataPath>Список.ОбозначениеМеждународное</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Обозначение</v8:content>
+						</v8:item>
+					</Title>
 					<ContextMenu name="ОбозначениеМеждународноеКонтекстноеМеню" id="62"/>
 					<ExtendedTooltip name="ОбозначениеМеждународноеРасширеннаяПодсказка" id="63"/>
 				</LabelField>
 				<LabelField name="ПриставкаISO_80000_1" id="100">
 					<DataPath>Список.ПриставкаISO_80000_1</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Приставка</v8:content>
+						</v8:item>
+					</Title>
 					<ContextMenu name="ПриставкаISO_80000_1КонтекстноеМеню" id="101"/>
 					<ExtendedTooltip name="ПриставкаISO_80000_1РасширеннаяПодсказка" id="102"/>
 				</LabelField>
 				<LabelField name="ОбозначениеISO_80000_1" id="103">
 					<DataPath>Список.ОбозначениеISO_80000_1</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Обозначение</v8:content>
+						</v8:item>
+					</Title>
 					<ContextMenu name="ОбозначениеISO_80000_1КонтекстноеМеню" id="104"/>
 					<ExtendedTooltip name="ОбозначениеISO_80000_1РасширеннаяПодсказка" id="105"/>
 				</LabelField>
 				<LabelField name="ПриставкаМеждународнаяISO_80000_1" id="106">
 					<DataPath>Список.ПриставкаМеждународнаяISO_80000_1</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Приставка</v8:content>
+						</v8:item>
+					</Title>
 					<ContextMenu name="ПриставкаМеждународнаяISO_80000_1КонтекстноеМеню" id="107"/>
 					<ExtendedTooltip name="ПриставкаМеждународнаяISO_80000_1РасширеннаяПодсказка" id="108"/>
 				</LabelField>
 				<LabelField name="ОбозначениеМеждународноеISO_80000_1" id="109">
 					<DataPath>Список.ОбозначениеМеждународноеISO_80000_1</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Обозначение</v8:content>
+						</v8:item>
+					</Title>
 					<ContextMenu name="ОбозначениеМеждународноеISO_80000_1КонтекстноеМеню" id="110"/>
 					<ExtendedTooltip name="ОбозначениеМеждународноеISO_80000_1РасширеннаяПодсказка" id="111"/>
 				</LabelField>

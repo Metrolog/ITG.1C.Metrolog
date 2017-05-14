@@ -533,7 +533,7 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Приставка</v8:content>
+							<v8:content>Приставка (межд.)</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -581,7 +581,7 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Обозначение</v8:content>
+							<v8:content>Обозначение (межд.)</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -629,7 +629,7 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Приставка</v8:content>
+							<v8:content>Приставка (ISO 80000-1)</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -677,7 +677,7 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Обозначение</v8:content>
+							<v8:content>Обозначение (ISO 80000-1)</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -725,7 +725,7 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Приставка</v8:content>
+							<v8:content>Приставка (ISO 80000-1, межд.)</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -773,7 +773,7 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Обозначение</v8:content>
+							<v8:content>Обозначение (ISO 80000-1, межд.)</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

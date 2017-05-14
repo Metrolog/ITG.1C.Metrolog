@@ -4,6 +4,7 @@
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
+		<Event name="AfterWriteAtServer">ПослеЗаписиНаСервере</Event>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
@@ -140,11 +141,23 @@
 					<ChildItems>
 						<InputField name="ПриставкаМеждународная" id="34">
 							<DataPath>Объект.ПриставкаМеждународная</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Приставка</v8:content>
+								</v8:item>
+							</Title>
 							<ContextMenu name="ПриставкаМеждународнаяКонтекстноеМеню" id="35"/>
 							<ExtendedTooltip name="ПриставкаМеждународнаяРасширеннаяПодсказка" id="36"/>
 						</InputField>
 						<InputField name="ОбозначениеМеждународное" id="37">
 							<DataPath>Объект.ОбозначениеМеждународное</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Обозначение</v8:content>
+								</v8:item>
+							</Title>
 							<ContextMenu name="ОбозначениеМеждународноеКонтекстноеМеню" id="38"/>
 							<ExtendedTooltip name="ОбозначениеМеждународноеРасширеннаяПодсказка" id="39"/>
 						</InputField>
@@ -187,11 +200,23 @@
 					<ChildItems>
 						<InputField name="ПриставкаISO_80000_1" id="52">
 							<DataPath>Объект.ПриставкаISO_80000_1</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Приставка</v8:content>
+								</v8:item>
+							</Title>
 							<ContextMenu name="ПриставкаISO_80000_1КонтекстноеМеню" id="53"/>
 							<ExtendedTooltip name="ПриставкаISO_80000_1РасширеннаяПодсказка" id="54"/>
 						</InputField>
 						<InputField name="ОбозначениеISO_80000_1" id="55">
 							<DataPath>Объект.ОбозначениеISO_80000_1</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Обозначение</v8:content>
+								</v8:item>
+							</Title>
 							<ContextMenu name="ОбозначениеISO_80000_1КонтекстноеМеню" id="56"/>
 							<ExtendedTooltip name="ОбозначениеISO_80000_1РасширеннаяПодсказка" id="57"/>
 						</InputField>
@@ -215,11 +240,23 @@
 					<ChildItems>
 						<InputField name="ПриставкаМеждународнаяISO_80000_1" id="58">
 							<DataPath>Объект.ПриставкаМеждународнаяISO_80000_1</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Приставка</v8:content>
+								</v8:item>
+							</Title>
 							<ContextMenu name="ПриставкаМеждународнаяISO_80000_1КонтекстноеМеню" id="59"/>
 							<ExtendedTooltip name="ПриставкаМеждународнаяISO_80000_1РасширеннаяПодсказка" id="60"/>
 						</InputField>
 						<InputField name="ОбозначениеМеждународноеISO_80000_1" id="61">
 							<DataPath>Объект.ОбозначениеМеждународноеISO_80000_1</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Обозначение</v8:content>
+								</v8:item>
+							</Title>
 							<ContextMenu name="ОбозначениеМеждународноеISO_80000_1КонтекстноеМеню" id="62"/>
 							<ExtendedTooltip name="ОбозначениеМеждународноеISO_80000_1РасширеннаяПодсказка" id="63"/>
 						</InputField>

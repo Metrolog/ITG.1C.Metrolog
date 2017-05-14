@@ -22,6 +22,7 @@
 				<v8:Type>cfg:ConstantValueManager.ПараметрыДополнительныхРеквизитовИСведений</v8:Type>
 				<v8:Type>cfg:ConstantValueManager.ИспользоватьСинхронизациюДанных</v8:Type>
 				<v8:Type>cfg:ConstantValueManager.ПараметрыЦентраМониторинга</v8:Type>
+				<v8:Type>cfg:CatalogObject.МСЕдиницыВеличинПриставкиКратныхИДольных</v8:Type>
 				<v8:Type>cfg:ConstantValueManager.УдалитьПарольСлужебногоПользователяМенеджераСервиса</v8:Type>
 				<v8:Type>cfg:ConstantValueManager.РазделыОписанияИзмененийСистемы</v8:Type>
 				<v8:Type>cfg:CatalogObject.СообщенияСистемы</v8:Type>

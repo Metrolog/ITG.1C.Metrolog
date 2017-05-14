@@ -2593,7 +2593,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Constant.МСИспользоватьПриставкиIEC60027</name>
+		<name>Constant.МСИспользоватьПриставкиISO_80000_1</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>

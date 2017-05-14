@@ -1550,7 +1550,7 @@
 			<ScheduledJob>ЭкспортОценкиПроизводительности</ScheduledJob>
 			<ScheduledJob>ЧтениеНовостейСлужбыПоддержки</ScheduledJob>
 			<SettingsStorage>ХранилищеВариантовОтчетов</SettingsStorage>
-			<FunctionalOption>МСИспользоватьПриставкиIEC_60027_2</FunctionalOption>
+			<FunctionalOption>МСИспользоватьПриставкиISO_80000_1</FunctionalOption>
 			<FunctionalOption>_ДемоИспользоватьАнкетированиеБСП</FunctionalOption>
 			<FunctionalOption>_ДемоИспользоватьБизнесПроцессыИЗадачиБСП</FunctionalOption>
 			<FunctionalOption>_ДемоИспользоватьВерсионированиеОбъектовБСП</FunctionalOption>
@@ -1790,7 +1790,7 @@
 			<CommandGroup>ПоказатьМестаИспользования</CommandGroup>
 			<CommandGroup>ПоискИЗаменаДублей</CommandGroup>
 			<CommandGroup>ГрупповоеИзменениеРеквизитов</CommandGroup>
-			<Constant>МСИспользоватьПриставкиIEC60027</Constant>
+			<Constant>МСИспользоватьПриставкиISO_80000_1</Constant>
 			<Constant>_ДемоИмяКонфигурацииВОбменеСБиблиотекойСтандартныхПодсистем</Constant>
 			<Constant>_ДемоИспользоватьКонтактныеЛицаПартнеров</Constant>
 			<Constant>_ДемоИспользоватьНесколькоОрганизаций</Constant>

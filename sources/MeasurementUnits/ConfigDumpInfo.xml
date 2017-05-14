@@ -3297,8 +3297,8 @@
 		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыКлиент.Module" id="ac5f945e-2d03-44fb-a8cf-5d786194cefd.0" configVersion="4d4c6d148885a946ba43f6bfc1f088da00000000"/>
 		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыКлиентПереопределяемый" id="698ec00f-bf75-420e-81ab-a98808daf3f7" configVersion="7870e6501568194c80978863b01d4d4200000000"/>
 		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыКлиентПереопределяемый.Module" id="698ec00f-bf75-420e-81ab-a98808daf3f7.0" configVersion="c5bf3255d3d9274ca248ccbdbb5ef9a400000000"/>
-		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыМСЕдиницыВеличин" id="eac15906-07dd-43d9-aa7d-ebae74d39566" configVersion="63c4a5b385ce864ca0c6a11c3c21010300000000"/>
-		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыМСЕдиницыВеличин.Module" id="eac15906-07dd-43d9-aa7d-ebae74d39566.0" configVersion="0fab563e92eebc4da035c7b88ea3d9b300000000"/>
+		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыМСЕдиницыВеличин" id="eac15906-07dd-43d9-aa7d-ebae74d39566" configVersion="8bd558cf89f4ef4f95e00b4899605f0d00000000"/>
+		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыМСЕдиницыВеличин.Module" id="eac15906-07dd-43d9-aa7d-ebae74d39566.0" configVersion="bf8acf5bf36e964db6620ff1bd0de3f700000000"/>
 		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыПереопределяемый" id="f441907c-d02e-431e-baf4-1854e48a1f50" configVersion="06aa40662b32dc4f95279bb4a03e7a9100000000"/>
 		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыПереопределяемый.Module" id="f441907c-d02e-431e-baf4-1854e48a1f50.0" configVersion="a04949fefda4aa4382a46393dbf58e4900000000"/>
 		<Metadata name="CommonModule.ОбновлениеИнформационнойБазыСлужебный" id="4ad722ca-10fc-4a83-91c9-ef0012685f89" configVersion="cc789ee7cc01f14d85038881946c164e00000000"/>

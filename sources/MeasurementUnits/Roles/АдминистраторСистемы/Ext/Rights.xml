@@ -1346,6 +1346,25 @@
 		</right>
 	</object>
 	<object>
+		<name>Constant.МСИспользоватьПриставкиРусские</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.ДатаПоследнегоСтартаКлиентскогоСеанса</name>
 		<right>
 			<name>Read</name>
@@ -1884,6 +1903,25 @@
 		</right>
 		<right>
 			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.МСИспользоватьПриставкиМеждународныеISO_80000_1</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -2593,7 +2631,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Constant.МСИспользоватьПриставкиISO_80000_1</name>
+		<name>Constant.МСИспользоватьПриставкиРусскиеISO_80000_1</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -2698,6 +2736,25 @@
 		<name>DataProcessor.ИнструментыРазработчикаЗамерСкоростиОткрытияФорм.Command.ЗамерСкоростиОткрытияФорм</name>
 		<right>
 			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.МСЕдиницыВеличинОбозначения</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -3215,6 +3272,25 @@
 		</right>
 		<right>
 			<name>TotalsControl</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.МСИспользоватьПриставкиМеждународные</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
 			<value>true</value>
 		</right>
 	</object>

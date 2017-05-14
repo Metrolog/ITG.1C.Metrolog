@@ -116,6 +116,37 @@
 				</UsualGroup>
 			</ChildItems>
 		</UsualGroup>
+		<UsualGroup name="ГруппаОбозначенияЕдиницВеличин" id="2061">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обозначения единиц величин</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройка используемых обозначений и наименований единиц величин</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Behavior>Collapsible</Behavior>
+			<Collapsed>true</Collapsed>
+			<ControlRepresentation>Picture</ControlRepresentation>
+			<Representation>NormalSeparation</Representation>
+			<ChildItemsWidth>Equal</ChildItemsWidth>
+			<ExtendedTooltip name="ГруппаОбозначенияЕдиницВеличинРасширеннаяПодсказка" id="2062"/>
+			<ChildItems>
+				<InputField name="МСЕдиницыВеличинОбозначения" id="2084">
+					<DataPath>НаборКонстант.МСЕдиницыВеличинОбозначения</DataPath>
+					<ContextMenu name="МСЕдиницыВеличинОбозначенияКонтекстноеМеню" id="2085"/>
+					<ExtendedTooltip name="МСЕдиницыВеличинОбозначенияРасширеннаяПодсказка" id="2086"/>
+					<Events>
+						<Event name="OnChange">МСЕдиницыВеличинОбозначенияПриИзменении</Event>
+					</Events>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
 		<UsualGroup name="ГруппаОткрытьВидыКонтактнойИнформации" id="1642">
 			<Title>
 				<v8:item>
@@ -948,6 +979,8 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<UseAlways>
+				<Field>НаборКонстант.МСЕдиницыВеличинОбозначения.Ref</Field>
+				<Field>НаборКонстант.МСЕдиницыВеличинОбозначения</Field>
 				<Field>НаборКонстант.ИспользоватьРазделениеПоОбластямДанных</Field>
 			</UseAlways>
 		</Attribute>

@@ -152,24 +152,24 @@
 				</UsualGroup>
 			</ChildItems>
 		</UsualGroup>
-		<UsualGroup name="ГруппаIEC_60027_2" id="40">
+		<UsualGroup name="ГруппаISO_80000_1" id="40">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>ГОСТ IEC 60027-2—2015</v8:content>
+					<v8:content>ISO 80000-1:2009</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Обозначения по ГОСТ IEC 60027-2—2015</v8:content>
+					<v8:content>Обозначения по ISO 80000-1:2009</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Group>Vertical</Group>
 			<Representation>NormalSeparation</Representation>
-			<ExtendedTooltip name="ГруппаIEC_60027_2РасширеннаяПодсказка" id="41"/>
+			<ExtendedTooltip name="ГруппаISO_80000_1РасширеннаяПодсказка" id="41"/>
 			<ChildItems>
-				<UsualGroup name="ГруппаIEC_60027_2РусскиеОбозначения" id="42">
+				<UsualGroup name="ГруппаISO_80000_1РусскиеОбозначения" id="42">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -183,21 +183,21 @@
 						</v8:item>
 					</ToolTip>
 					<Representation>None</Representation>
-					<ExtendedTooltip name="ГруппаIEC_60027_2РусскиеОбозначенияРасширеннаяПодсказка" id="43"/>
+					<ExtendedTooltip name="ГруппаISO_80000_1РусскиеОбозначенияРасширеннаяПодсказка" id="43"/>
 					<ChildItems>
-						<InputField name="ПриставкаIEC_60027_2" id="52">
-							<DataPath>Объект.ПриставкаIEC_60027_2</DataPath>
-							<ContextMenu name="ПриставкаIEC_60027_2КонтекстноеМеню" id="53"/>
-							<ExtendedTooltip name="ПриставкаIEC_60027_2РасширеннаяПодсказка" id="54"/>
+						<InputField name="ПриставкаISO_80000_1" id="52">
+							<DataPath>Объект.ПриставкаISO_80000_1</DataPath>
+							<ContextMenu name="ПриставкаISO_80000_1КонтекстноеМеню" id="53"/>
+							<ExtendedTooltip name="ПриставкаISO_80000_1РасширеннаяПодсказка" id="54"/>
 						</InputField>
-						<InputField name="ОбозначениеIEC_60027_2" id="55">
-							<DataPath>Объект.ОбозначениеIEC_60027_2</DataPath>
-							<ContextMenu name="ОбозначениеIEC_60027_2КонтекстноеМеню" id="56"/>
-							<ExtendedTooltip name="ОбозначениеIEC_60027_2РасширеннаяПодсказка" id="57"/>
+						<InputField name="ОбозначениеISO_80000_1" id="55">
+							<DataPath>Объект.ОбозначениеISO_80000_1</DataPath>
+							<ContextMenu name="ОбозначениеISO_80000_1КонтекстноеМеню" id="56"/>
+							<ExtendedTooltip name="ОбозначениеISO_80000_1РасширеннаяПодсказка" id="57"/>
 						</InputField>
 					</ChildItems>
 				</UsualGroup>
-				<UsualGroup name="ГруппаIEC_60027_2МеждународныеОбозначения" id="50">
+				<UsualGroup name="ГруппаISO_80000_1МеждународныеОбозначения" id="50">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -211,17 +211,17 @@
 						</v8:item>
 					</ToolTip>
 					<Representation>None</Representation>
-					<ExtendedTooltip name="ГруппаIEC_60027_2МеждународныеОбозначенияРасширеннаяПодсказка" id="51"/>
+					<ExtendedTooltip name="ГруппаISO_80000_1МеждународныеОбозначенияРасширеннаяПодсказка" id="51"/>
 					<ChildItems>
-						<InputField name="ПриставкаМеждународнаяIEC_60027_2" id="58">
-							<DataPath>Объект.ПриставкаМеждународнаяIEC_60027_2</DataPath>
-							<ContextMenu name="ПриставкаМеждународнаяIEC_60027_2КонтекстноеМеню" id="59"/>
-							<ExtendedTooltip name="ПриставкаМеждународнаяIEC_60027_2РасширеннаяПодсказка" id="60"/>
+						<InputField name="ПриставкаМеждународнаяISO_80000_1" id="58">
+							<DataPath>Объект.ПриставкаМеждународнаяISO_80000_1</DataPath>
+							<ContextMenu name="ПриставкаМеждународнаяISO_80000_1КонтекстноеМеню" id="59"/>
+							<ExtendedTooltip name="ПриставкаМеждународнаяISO_80000_1РасширеннаяПодсказка" id="60"/>
 						</InputField>
-						<InputField name="ОбозначениеМеждународноеIEC_60027_2" id="61">
-							<DataPath>Объект.ОбозначениеМеждународноеIEC_60027_2</DataPath>
-							<ContextMenu name="ОбозначениеМеждународноеIEC_60027_2КонтекстноеМеню" id="62"/>
-							<ExtendedTooltip name="ОбозначениеМеждународноеIEC_60027_2РасширеннаяПодсказка" id="63"/>
+						<InputField name="ОбозначениеМеждународноеISO_80000_1" id="61">
+							<DataPath>Объект.ОбозначениеМеждународноеISO_80000_1</DataPath>
+							<ContextMenu name="ОбозначениеМеждународноеISO_80000_1КонтекстноеМеню" id="62"/>
+							<ExtendedTooltip name="ОбозначениеМеждународноеISO_80000_1РасширеннаяПодсказка" id="63"/>
 						</InputField>
 					</ChildItems>
 				</UsualGroup>

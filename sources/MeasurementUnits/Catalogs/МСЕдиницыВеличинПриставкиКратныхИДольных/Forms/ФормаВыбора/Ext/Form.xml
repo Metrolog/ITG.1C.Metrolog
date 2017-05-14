@@ -136,25 +136,25 @@
 					<ContextMenu name="ОбозначениеМеждународноеКонтекстноеМеню" id="62"/>
 					<ExtendedTooltip name="ОбозначениеМеждународноеРасширеннаяПодсказка" id="63"/>
 				</LabelField>
-				<LabelField name="ПриставкаIEC_60027_2" id="64">
-					<DataPath>Список.ПриставкаIEC_60027_2</DataPath>
-					<ContextMenu name="ПриставкаIEC_60027_2КонтекстноеМеню" id="65"/>
-					<ExtendedTooltip name="ПриставкаIEC_60027_2РасширеннаяПодсказка" id="66"/>
+				<LabelField name="ПриставкаISO_80000_1" id="100">
+					<DataPath>Список.ПриставкаISO_80000_1</DataPath>
+					<ContextMenu name="ПриставкаISO_80000_1КонтекстноеМеню" id="101"/>
+					<ExtendedTooltip name="ПриставкаISO_80000_1РасширеннаяПодсказка" id="102"/>
 				</LabelField>
-				<LabelField name="ОбозначениеIEC_60027_2" id="67">
-					<DataPath>Список.ОбозначениеIEC_60027_2</DataPath>
-					<ContextMenu name="ОбозначениеIEC_60027_2КонтекстноеМеню" id="68"/>
-					<ExtendedTooltip name="ОбозначениеIEC_60027_2РасширеннаяПодсказка" id="69"/>
+				<LabelField name="ОбозначениеISO_80000_1" id="103">
+					<DataPath>Список.ОбозначениеISO_80000_1</DataPath>
+					<ContextMenu name="ОбозначениеISO_80000_1КонтекстноеМеню" id="104"/>
+					<ExtendedTooltip name="ОбозначениеISO_80000_1РасширеннаяПодсказка" id="105"/>
 				</LabelField>
-				<LabelField name="ПриставкаМеждународнаяIEC_60027_2" id="70">
-					<DataPath>Список.ПриставкаМеждународнаяIEC_60027_2</DataPath>
-					<ContextMenu name="ПриставкаМеждународнаяIEC_60027_2КонтекстноеМеню" id="71"/>
-					<ExtendedTooltip name="ПриставкаМеждународнаяIEC_60027_2РасширеннаяПодсказка" id="72"/>
+				<LabelField name="ПриставкаМеждународнаяISO_80000_1" id="106">
+					<DataPath>Список.ПриставкаМеждународнаяISO_80000_1</DataPath>
+					<ContextMenu name="ПриставкаМеждународнаяISO_80000_1КонтекстноеМеню" id="107"/>
+					<ExtendedTooltip name="ПриставкаМеждународнаяISO_80000_1РасширеннаяПодсказка" id="108"/>
 				</LabelField>
-				<LabelField name="ОбозначениеМеждународноеIEC_60027_2" id="73">
-					<DataPath>Список.ОбозначениеМеждународноеIEC_60027_2</DataPath>
-					<ContextMenu name="ОбозначениеМеждународноеIEC_60027_2КонтекстноеМеню" id="74"/>
-					<ExtendedTooltip name="ОбозначениеМеждународноеIEC_60027_2РасширеннаяПодсказка" id="75"/>
+				<LabelField name="ОбозначениеМеждународноеISO_80000_1" id="109">
+					<DataPath>Список.ОбозначениеМеждународноеISO_80000_1</DataPath>
+					<ContextMenu name="ОбозначениеМеждународноеISO_80000_1КонтекстноеМеню" id="110"/>
+					<ExtendedTooltip name="ОбозначениеМеждународноеISO_80000_1РасширеннаяПодсказка" id="111"/>
 				</LabelField>
 			</ChildItems>
 		</Table>

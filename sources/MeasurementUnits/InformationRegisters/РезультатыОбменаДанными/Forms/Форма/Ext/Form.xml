@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -1574,7 +1574,6 @@
 				<Field>НепроведенныеДокументы.НомерДокумента</Field>
 				<Field>НепроведенныеДокументы.ДатаДокумента</Field>
 				<Field>НепроведенныеДокументы.ДатаВозникновения</Field>
-				<Field>1/5</Field>
 			</UseAlways>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
@@ -1680,7 +1679,6 @@
 				<Field>НезаполненныеРеквизиты.Причина</Field>
 				<Field>НезаполненныеРеквизиты.ПометкаУдаления</Field>
 				<Field>НезаполненныеРеквизиты.ДатаВозникновения</Field>
-				<Field>6/5</Field>
 			</UseAlways>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
@@ -1739,15 +1737,6 @@
 				<Field>Коллизии.Дата</Field>
 				<Field>Коллизии.ВерсияПроигнорирована</Field>
 				<Field>Коллизии.АвторДругойВерсии</Field>
-				<Field>7/8</Field>
-				<Field>7/6</Field>
-				<Field>7/5</Field>
-				<Field>7/17</Field>
-				<Field>7/14</Field>
-				<Field>7/12</Field>
-				<Field>7/11</Field>
-				<Field>7/10</Field>
-				<Field>7/1</Field>
 			</UseAlways>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
@@ -1802,17 +1791,6 @@
 				<Field>НепринятыеПоДате.ДругаяВерсияПринята</Field>
 				<Field>НепринятыеПоДате.ВерсияПроигнорирована</Field>
 				<Field>НепринятыеПоДате.АвторДругойВерсии</Field>
-				<Field>8/9</Field>
-				<Field>8/7</Field>
-				<Field>8/6</Field>
-				<Field>8/5</Field>
-				<Field>8/4</Field>
-				<Field>8/24</Field>
-				<Field>8/15</Field>
-				<Field>8/14</Field>
-				<Field>8/13</Field>
-				<Field>8/12</Field>
-				<Field>8/1</Field>
 			</UseAlways>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>

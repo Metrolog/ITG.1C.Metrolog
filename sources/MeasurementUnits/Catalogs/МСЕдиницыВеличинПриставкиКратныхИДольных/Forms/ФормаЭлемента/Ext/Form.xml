@@ -1,9 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
+		<Event name="AfterWriteAtServer">ПослеЗаписиНаСервере</Event>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
@@ -36,31 +37,6 @@
 					</UserVisible>
 					<ContextMenu name="КодКонтекстноеМеню" id="14"/>
 					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="15"/>
-				</InputField>
-			</ChildItems>
-		</UsualGroup>
-		<UsualGroup name="ГруппаПриставка" id="18">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Приставка</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Группа приставка</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Representation>None</Representation>
-			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="ГруппаПриставкаРасширеннаяПодсказка" id="19"/>
-			<ChildItems>
-				<InputField name="Приставка" id="4">
-					<DataPath>1/0:b4a11f64-ebe2-4b60-bb9b-c44a8eabaaa7</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="ПриставкаКонтекстноеМеню" id="5"/>
-					<ExtendedTooltip name="ПриставкаРасширеннаяПодсказка" id="6"/>
 				</InputField>
 			</ChildItems>
 		</UsualGroup>
@@ -101,29 +77,191 @@
 				</InputField>
 			</ChildItems>
 		</UsualGroup>
-		<UsualGroup name="ГруппаОбозначениеПриставки" id="20">
+		<UsualGroup name="ГруппаПостановлениеПравительства" id="20">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Обозначение приставки</v8:content>
+					<v8:content>Постановление Правительства РФ от 31.10.2009 №879</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Группа обозначение приставки</v8:content>
+					<v8:content>Обозначения по Постановлению Правительства РФ от 31.10.2009 №879</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Representation>None</Representation>
-			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="ГруппаОбозначениеПриставкиРасширеннаяПодсказка" id="21"/>
+			<Group>Vertical</Group>
+			<Representation>NormalSeparation</Representation>
+			<ExtendedTooltip name="ГруппаПостановлениеПравительстваРасширеннаяПодсказка" id="21"/>
 			<ChildItems>
-				<InputField name="Обозначение" id="7">
-					<DataPath>Объект.Обозначение</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="ОбозначениеКонтекстноеМеню" id="8"/>
-					<ExtendedTooltip name="ОбозначениеРасширеннаяПодсказка" id="9"/>
-				</InputField>
+				<UsualGroup name="ГруппаПостановлениеПравительстваРусскиеОбозначения" id="30">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>русские</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Национальные обозначения</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Representation>None</Representation>
+					<ExtendedTooltip name="ГруппаПостановлениеПравительстваРусскиеОбозначенияРасширеннаяПодсказка" id="31"/>
+					<ChildItems>
+						<InputField name="Приставка" id="27">
+							<DataPath>Объект.Приставка</DataPath>
+							<ContextMenu name="ПриставкаКонтекстноеМеню" id="28"/>
+							<ExtendedTooltip name="ПриставкаРасширеннаяПодсказка" id="29"/>
+						</InputField>
+						<InputField name="Обозначение" id="7">
+							<DataPath>Объект.Обозначение</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ОбозначениеКонтекстноеМеню" id="8"/>
+							<ExtendedTooltip name="ОбозначениеРасширеннаяПодсказка" id="9"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаПостановлениеПравительстваМеждународныеОбозначения" id="32">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>международные</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Международные обозначения</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Representation>None</Representation>
+					<ExtendedTooltip name="ГруппаПостановлениеПравительстваМеждународныеОбозначенияРасширеннаяПодсказка" id="33"/>
+					<ChildItems>
+						<InputField name="ПриставкаМеждународная" id="34">
+							<DataPath>Объект.ПриставкаМеждународная</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Приставка</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ПриставкаМеждународнаяКонтекстноеМеню" id="35"/>
+							<ExtendedTooltip name="ПриставкаМеждународнаяРасширеннаяПодсказка" id="36"/>
+						</InputField>
+						<InputField name="ОбозначениеМеждународное" id="37">
+							<DataPath>Объект.ОбозначениеМеждународное</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Обозначение</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ОбозначениеМеждународноеКонтекстноеМеню" id="38"/>
+							<ExtendedTooltip name="ОбозначениеМеждународноеРасширеннаяПодсказка" id="39"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаISO_80000_1" id="40">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ISO 80000-1:2009</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обозначения по ISO 80000-1:2009</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Representation>NormalSeparation</Representation>
+			<ExtendedTooltip name="ГруппаISO_80000_1РасширеннаяПодсказка" id="41"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаISO_80000_1РусскиеОбозначения" id="42">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>русские</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Национальные обозначения</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Representation>None</Representation>
+					<ExtendedTooltip name="ГруппаISO_80000_1РусскиеОбозначенияРасширеннаяПодсказка" id="43"/>
+					<ChildItems>
+						<InputField name="ПриставкаISO_80000_1" id="52">
+							<DataPath>Объект.ПриставкаISO_80000_1</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Приставка</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ПриставкаISO_80000_1КонтекстноеМеню" id="53"/>
+							<ExtendedTooltip name="ПриставкаISO_80000_1РасширеннаяПодсказка" id="54"/>
+						</InputField>
+						<InputField name="ОбозначениеISO_80000_1" id="55">
+							<DataPath>Объект.ОбозначениеISO_80000_1</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Обозначение</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ОбозначениеISO_80000_1КонтекстноеМеню" id="56"/>
+							<ExtendedTooltip name="ОбозначениеISO_80000_1РасширеннаяПодсказка" id="57"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаISO_80000_1МеждународныеОбозначения" id="50">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>международные</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Международные обозначения</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Representation>None</Representation>
+					<ExtendedTooltip name="ГруппаISO_80000_1МеждународныеОбозначенияРасширеннаяПодсказка" id="51"/>
+					<ChildItems>
+						<InputField name="ПриставкаМеждународнаяISO_80000_1" id="58">
+							<DataPath>Объект.ПриставкаМеждународнаяISO_80000_1</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Приставка</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ПриставкаМеждународнаяISO_80000_1КонтекстноеМеню" id="59"/>
+							<ExtendedTooltip name="ПриставкаМеждународнаяISO_80000_1РасширеннаяПодсказка" id="60"/>
+						</InputField>
+						<InputField name="ОбозначениеМеждународноеISO_80000_1" id="61">
+							<DataPath>Объект.ОбозначениеМеждународноеISO_80000_1</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Обозначение</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ОбозначениеМеждународноеISO_80000_1КонтекстноеМеню" id="62"/>
+							<ExtendedTooltip name="ОбозначениеМеждународноеISO_80000_1РасширеннаяПодсказка" id="63"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
 			</ChildItems>
 		</UsualGroup>
 	</ChildItems>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<ChildItems>
 		<UsualGroup name="СписокКомпоновщикНастроекПользовательскиеНастройки" id="1">
@@ -18,9 +18,9 @@
 			<Representation>List</Representation>
 			<CommandBarLocation>None</CommandBarLocation>
 			<DefaultItem>true</DefaultItem>
+			<ChangeRowOrder>false</ChangeRowOrder>
 			<UseAlternationRowColor>true</UseAlternationRowColor>
 			<InitialTreeView>ExpandTopLevel</InitialTreeView>
-			<EnableStartDrag>true</EnableStartDrag>
 			<DataPath>Список</DataPath>
 			<RowPictureDataPath>Список.DefaultPicture</RowPictureDataPath>
 			<AutoRefresh>false</AutoRefresh>
@@ -33,7 +33,7 @@
 			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 			<RestoreCurrentRow>false</RestoreCurrentRow>
 			<TopLevelParent xsi:nil="true"/>
-			<ShowRoot>true</ShowRoot>
+			<ShowRoot>false</ShowRoot>
 			<AllowRootChoice>false</AllowRootChoice>
 			<UpdateOnDataChange>Auto</UpdateOnDataChange>
 			<UserSettingsGroup>СписокКомпоновщикНастроекПользовательскиеНастройки</UserSettingsGroup>
@@ -67,6 +67,14 @@
 				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="15"/>
 			</SearchControlAddition>
 			<ChildItems>
+				<PictureField name="СтандартнаяКартинка" id="115">
+					<DataPath>Список.DefaultPicture</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ContextMenu name="СтандартнаяКартинкаКонтекстноеМеню" id="116"/>
+					<ExtendedTooltip name="СтандартнаяКартинкаРасширеннаяПодсказка" id="117"/>
+				</PictureField>
 				<LabelField name="Код" id="22">
 					<DataPath>Список.Code</DataPath>
 					<UserVisible>
@@ -94,16 +102,92 @@
 					<ContextMenu name="НаименованиеКонтекстноеМеню" id="26"/>
 					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="27"/>
 				</LabelField>
-				<LabelField name="Обозначение" id="37">
-					<DataPath>Список.Обозначение</DataPath>
-					<ContextMenu name="ОбозначениеКонтекстноеМеню" id="38"/>
-					<ExtendedTooltip name="ОбозначениеРасширеннаяПодсказка" id="39"/>
+				<LabelField name="Основание" id="40">
+					<DataPath>Список.Основание</DataPath>
+					<ContextMenu name="ОснованиеКонтекстноеМеню" id="41"/>
+					<ExtendedTooltip name="ОснованиеРасширеннаяПодсказка" id="42"/>
 				</LabelField>
 				<InputField name="Порядок" id="28">
 					<DataPath>Список.Порядок</DataPath>
 					<ContextMenu name="ПорядокКонтекстноеМеню" id="29"/>
 					<ExtendedTooltip name="ПорядокРасширеннаяПодсказка" id="30"/>
 				</InputField>
+				<LabelField name="Приставка" id="55">
+					<DataPath>Список.Приставка</DataPath>
+					<ContextMenu name="ПриставкаКонтекстноеМеню" id="56"/>
+					<ExtendedTooltip name="ПриставкаРасширеннаяПодсказка" id="57"/>
+				</LabelField>
+				<LabelField name="Обозначение" id="37">
+					<DataPath>Список.Обозначение</DataPath>
+					<ContextMenu name="ОбозначениеКонтекстноеМеню" id="38"/>
+					<ExtendedTooltip name="ОбозначениеРасширеннаяПодсказка" id="39"/>
+				</LabelField>
+				<LabelField name="ПриставкаМеждународная" id="61">
+					<DataPath>Список.ПриставкаМеждународная</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Приставка</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ПриставкаМеждународнаяКонтекстноеМеню" id="62"/>
+					<ExtendedTooltip name="ПриставкаМеждународнаяРасширеннаяПодсказка" id="63"/>
+				</LabelField>
+				<LabelField name="ОбозначениеМеждународное" id="64">
+					<DataPath>Список.ОбозначениеМеждународное</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Обозначение</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ОбозначениеМеждународноеКонтекстноеМеню" id="65"/>
+					<ExtendedTooltip name="ОбозначениеМеждународноеРасширеннаяПодсказка" id="66"/>
+				</LabelField>
+				<LabelField name="ПриставкаISO_80000_1" id="103">
+					<DataPath>Список.ПриставкаISO_80000_1</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Приставка</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ПриставкаISO_80000_1КонтекстноеМеню" id="104"/>
+					<ExtendedTooltip name="ПриставкаISO_80000_1РасширеннаяПодсказка" id="105"/>
+				</LabelField>
+				<LabelField name="ОбозначениеISO_80000_1" id="106">
+					<DataPath>Список.ОбозначениеISO_80000_1</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Обозначение</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ОбозначениеISO_80000_1КонтекстноеМеню" id="107"/>
+					<ExtendedTooltip name="ОбозначениеISO_80000_1РасширеннаяПодсказка" id="108"/>
+				</LabelField>
+				<LabelField name="ПриставкаМеждународнаяISO_80000_1" id="109">
+					<DataPath>Список.ПриставкаМеждународнаяISO_80000_1</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Приставка</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ПриставкаМеждународнаяISO_80000_1КонтекстноеМеню" id="110"/>
+					<ExtendedTooltip name="ПриставкаМеждународнаяISO_80000_1РасширеннаяПодсказка" id="111"/>
+				</LabelField>
+				<LabelField name="ОбозначениеМеждународноеISO_80000_1" id="112">
+					<DataPath>Список.ОбозначениеМеждународноеISO_80000_1</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Обозначение</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ОбозначениеМеждународноеISO_80000_1КонтекстноеМеню" id="113"/>
+					<ExtendedTooltip name="ОбозначениеМеждународноеISO_80000_1РасширеннаяПодсказка" id="114"/>
+				</LabelField>
 			</ChildItems>
 		</Table>
 	</ChildItems>
@@ -114,7 +198,20 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<UseAlways>
+				<Field>Список.ПриставкаМеждународнаяISO_80000_1</Field>
+				<Field>Список.ПриставкаМеждународная</Field>
+				<Field>Список.ПриставкаISO_80000_1</Field>
+				<Field>Список.Приставка</Field>
+				<Field>Список.Порядок</Field>
+				<Field>Список.Основание</Field>
+				<Field>Список.ОбозначениеМеждународноеISO_80000_1</Field>
+				<Field>Список.ОбозначениеМеждународное</Field>
+				<Field>Список.ОбозначениеISO_80000_1</Field>
+				<Field>Список.Обозначение</Field>
 				<Field>Список.Ref</Field>
+				<Field>Список.Description</Field>
+				<Field>Список.DefaultPicture</Field>
+				<Field>Список.Code</Field>
 			</UseAlways>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>false</ManualQuery>
@@ -126,6 +223,14 @@
 						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
 					</dcsset:filter>
 					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:field>Основание</dcsset:field>
+							<dcsset:orderType>Asc</dcsset:orderType>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:field>Порядок</dcsset:field>
+							<dcsset:orderType>Asc</dcsset:orderType>
+						</dcsset:item>
 						<dcsset:viewMode>Normal</dcsset:viewMode>
 						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
 					</dcsset:order>

@@ -14,14 +14,14 @@
 			<IncludeInCommandInterface>true</IncludeInCommandInterface>
 			<Explanation/>
 			<Picture>
-				<xr:Ref>CommonPicture._ДемоРазделАнкетирование</xr:Ref>
+				<xr:Ref>CommonPicture.РазделАнкетирование</xr:Ref>
 				<xr:LoadTransparent>false</xr:LoadTransparent>
 			</Picture>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.Анкетирование</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.АнкетированиеКлиент</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.АнкетированиеКлиентСервер</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture._ДемоРазделАнкетирование48</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.РазделАнкетирование48</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ИспользоватьАнкетирование</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ВариантыОтветовАнкет</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ВопросыШаблонаАнкеты</xr:Item>
@@ -35,7 +35,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role._ДемоЧтениеДанныхРеспондентов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption._ДемоИспользоватьАнкетированиеБСП</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand._ДемоПанельОтчетовАнкетирование</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture._ДемоРазделАнкетирование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.РазделАнкетирование</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.Подсистема_ДемоАнкетирование</xr:Item>
 			</Content>
 		</Properties>

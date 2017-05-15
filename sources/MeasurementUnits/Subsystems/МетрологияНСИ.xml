@@ -14,7 +14,7 @@
 			<IncludeInCommandInterface>true</IncludeInCommandInterface>
 			<Explanation/>
 			<Picture>
-				<xr:Ref>CommonPicture.МетрологияНСИ</xr:Ref>
+				<xr:Ref>CommonPicture.РазделНормативноСправочнаяИнформация48</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Content>

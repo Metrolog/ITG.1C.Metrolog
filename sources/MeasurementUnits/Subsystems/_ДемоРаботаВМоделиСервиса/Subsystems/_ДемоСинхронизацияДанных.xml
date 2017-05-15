@@ -19,7 +19,7 @@
 				</v8:item>
 			</Explanation>
 			<Picture>
-				<xr:Ref>CommonPicture._ДемоРазделСинхронизацияДанных</xr:Ref>
+				<xr:Ref>CommonPicture.РазделСинхронизацияДанных</xr:Ref>
 				<xr:LoadTransparent>false</xr:LoadTransparent>
 			</Picture>
 			<Content>
@@ -66,7 +66,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription._ДемоОбменВРаспределеннойИнформационнойБазеРегистрацияНабораРасчета</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">adad6ad6-b57d-425c-8a11-03c3ecc7cdab</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor._ДемоПанельАдминистрирования</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture._ДемоРазделСинхронизацияДанных</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.РазделСинхронизацияДанных</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.СинхронизацияДанныхВМоделиСервиса</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">ExchangePlan._ДемоОбменСБиблиотекойСтандартныхПодсистем</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription._ДемоОбменСБиблиотекойСтандартныхПодсистем225Регистрация</xr:Item>

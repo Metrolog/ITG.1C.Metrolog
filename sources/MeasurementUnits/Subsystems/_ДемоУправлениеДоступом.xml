@@ -19,7 +19,7 @@
 				</v8:item>
 			</Explanation>
 			<Picture>
-				<xr:Ref>CommonPicture._ДемоРазделУправлениеДоступом</xr:Ref>
+				<xr:Ref>CommonPicture.РазделУправлениеДоступом</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 				<xr:TransparentPixel x="11" y="2"/>
 			</Picture>

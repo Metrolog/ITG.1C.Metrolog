@@ -24,9 +24,9 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role._ДемоДобавлениеИзменениеЗарплаты</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role._ДемоЧтениеЗарплаты</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription._ДемоЗаполнитьНаборыЗначенийДоступаТабличныхЧастейДокументов</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture._ДемоРазделУправлениеДоступом48</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.РазделУправлениеДоступом48</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role._ДемоДобавлениеИзменениеНоменклатуры</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture._ДемоРазделУправлениеДоступом</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.РазделУправлениеДоступом</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.Подсистема_ДемоУправлениеДоступом</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role._ДемоОплатаСчетовВнешнимиПользователями</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role._ДемоДобавлениеИзменениеДокументовПокупателей</xr:Item>

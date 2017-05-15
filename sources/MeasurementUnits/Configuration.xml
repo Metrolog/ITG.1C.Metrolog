@@ -227,27 +227,25 @@
 			<StyleItem>ЦветФонаКорректногоКонтрагентаВДокументе</StyleItem>
 			<StyleItem>ЦветФонаНекорректногоКонтрагентаВДокументе</StyleItem>
 			<StyleItem>ЦветФонаТестовогоРежимаСервисаФНС</StyleItem>
-			<CommonPicture>_ДемоQRКод</CommonPicture>
-			<CommonPicture>МетрологияНСИ</CommonPicture>
-			<CommonPicture>_ДемоРазделАнкетирование</CommonPicture>
-			<CommonPicture>_ДемоРазделАнкетирование48</CommonPicture>
-			<CommonPicture>_ДемоРазделБизнесПроцессыИЗадачи</CommonPicture>
-			<CommonPicture>_ДемоРазделБизнесПроцессыИЗадачи48</CommonPicture>
-			<CommonPicture>_ДемоРазделИнструментыРазработчика</CommonPicture>
-			<CommonPicture>_ДемоРазделИнструментыРазработчика48</CommonPicture>
-			<CommonPicture>_ДемоРазделИнтегрируемыеПодсистемы</CommonPicture>
-			<CommonPicture>_ДемоРазделИнтегрируемыеПодсистемы48</CommonPicture>
-			<CommonPicture>_ДемоРазделНормативноСправочнаяИнформация</CommonPicture>
-			<CommonPicture>_ДемоРазделНормативноСправочнаяИнформация48</CommonPicture>
-			<CommonPicture>_ДемоРазделОрганайзер</CommonPicture>
-			<CommonPicture>_ДемоРазделОрганайзер48</CommonPicture>
-			<CommonPicture>_ДемоРазделРаботаВМоделиСервиса</CommonPicture>
-			<CommonPicture>_ДемоРазделРаботаВМоделиСервиса48</CommonPicture>
-			<CommonPicture>_ДемоРазделСинхронизацияДанных</CommonPicture>
-			<CommonPicture>_ДемоРазделСтандартныеПодсистемы</CommonPicture>
-			<CommonPicture>_ДемоРазделСтандартныеПодсистемы48</CommonPicture>
-			<CommonPicture>_ДемоРазделУправлениеДоступом</CommonPicture>
-			<CommonPicture>_ДемоРазделУправлениеДоступом48</CommonPicture>
+			<CommonPicture>РазделАнкетирование</CommonPicture>
+			<CommonPicture>РазделАнкетирование48</CommonPicture>
+			<CommonPicture>РазделБизнесПроцессыИЗадачи</CommonPicture>
+			<CommonPicture>РазделБизнесПроцессыИЗадачи48</CommonPicture>
+			<CommonPicture>РазделИнструментыРазработчика</CommonPicture>
+			<CommonPicture>РазделИнструментыРазработчика48</CommonPicture>
+			<CommonPicture>РазделИнтегрируемыеПодсистемы</CommonPicture>
+			<CommonPicture>РазделИнтегрируемыеПодсистемы48</CommonPicture>
+			<CommonPicture>РазделНормативноСправочнаяИнформация</CommonPicture>
+			<CommonPicture>РазделНормативноСправочнаяИнформация48</CommonPicture>
+			<CommonPicture>РазделОрганайзер</CommonPicture>
+			<CommonPicture>РазделОрганайзер48</CommonPicture>
+			<CommonPicture>РазделРаботаВМоделиСервиса</CommonPicture>
+			<CommonPicture>РазделРаботаВМоделиСервиса48</CommonPicture>
+			<CommonPicture>РазделСинхронизацияДанных</CommonPicture>
+			<CommonPicture>РазделСтандартныеПодсистемы</CommonPicture>
+			<CommonPicture>РазделСтандартныеПодсистемы48</CommonPicture>
+			<CommonPicture>РазделУправлениеДоступом</CommonPicture>
+			<CommonPicture>РазделУправлениеДоступом48</CommonPicture>
 			<CommonPicture>GoogleMaps</CommonPicture>
 			<CommonPicture>Skype</CommonPicture>
 			<CommonPicture>АрхивАнкета</CommonPicture>

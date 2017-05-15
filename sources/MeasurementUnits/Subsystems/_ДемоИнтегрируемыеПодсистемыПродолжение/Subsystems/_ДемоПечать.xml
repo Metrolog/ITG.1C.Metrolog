@@ -20,7 +20,7 @@
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor._ДемоПечатнаяФорма</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonTemplate._ДемоПФ_ODT_СчетНаОплату</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture._ДемоQRКод</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">730aa669-865c-43d1-a27c-360d31980dd8</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПользовательскиеМакетыПечати</xr:Item>
 			</Content>
 		</Properties>

@@ -55,7 +55,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Configuration.БиблиотекаСтандартныхПодсистемДемо</name>
+		<name>Configuration.МетрологическаяСлужба</name>
 		<right>
 			<name>ThinClient</name>
 			<value>true</value>

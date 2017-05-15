@@ -754,7 +754,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Configuration.БиблиотекаСтандартныхПодсистемДемо</name>
+		<name>Configuration.МетрологическаяСлужба</name>
 		<right>
 			<name>Administration</name>
 			<value>true</value>

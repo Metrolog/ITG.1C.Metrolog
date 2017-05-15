@@ -18,7 +18,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.МСЕдиницыВеличин</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.МСЕдиницыВеличинСервер</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.МСЕдиницыВеличинКлиентСервер</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбновлениеИнформационнойБазыМСЕдиницыВеличин</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.МСЕдиницыВеличинОбновлениеИнформационнойБазы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.МСЕдиницыВеличин</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.МСЕдиницыВеличинБазовые</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных</xr:Item>

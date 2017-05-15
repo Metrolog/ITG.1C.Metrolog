@@ -26,7 +26,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Configuration.БиблиотекаСтандартныхПодсистемДемо</name>
+		<name>Configuration.МетрологическаяСлужба</name>
 		<right>
 			<name>Automation</name>
 			<value>true</value>

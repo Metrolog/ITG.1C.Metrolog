@@ -28,11 +28,11 @@
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
-			<Name>БиблиотекаСтандартныхПодсистемДемо</Name>
+			<Name>МетрологическаяСлужба</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Демонстрационная конфигурация "Библиотека стандартных подсистем", редакция 2.3</v8:content>
+					<v8:content>Метрологическая служба</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -48,9 +48,9 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.АдминистраторСистемы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</xr:Item>
 			</DefaultRoles>
-			<Vendor>Фирма "1С"</Vendor>
-			<Version>2.3.4.21</Version>
-			<UpdateCatalogAddress>http://downloads.v8.1c.ru/tmplts/</UpdateCatalogAddress>
+			<Vendor>ФБУ "Тест-С.-Петербург"</Vendor>
+			<Version>0.1.0.25</Version>
+			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>true</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>true</UseManagedFormInOrdinaryApplication>
 			<UseOrdinaryFormInManagedApplication>false</UseOrdinaryFormInManagedApplication>
@@ -115,31 +115,31 @@
 			<BriefInformation>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Демонстрационная конфигурация "Библиотека стандартных подсистем", редакция 2.3</v8:content>
+					<v8:content>Автоматизированная информационная система метрологических служб</v8:content>
 				</v8:item>
 			</BriefInformation>
 			<DetailedInformation>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Демонстрационная конфигурация "Библиотека стандартных подсистем", редакция 2.3</v8:content>
+					<v8:content>Автоматизированная информационная система метрологических служб</v8:content>
 				</v8:item>
 			</DetailedInformation>
 			<Copyright>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Copyright © ООО "1С-Софт", 2009-2016. Все права защищены</v8:content>
+					<v8:content>Copyright © ФБУ "Тест-С.-Петербург", 2014-2017. Все права защищены</v8:content>
 				</v8:item>
 			</Copyright>
 			<VendorInformationAddress>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>http://www.1c.ru</v8:content>
+					<v8:content>http://www.csm.nov.ru</v8:content>
 				</v8:item>
 			</VendorInformationAddress>
 			<ConfigurationInformationAddress>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>http://v8.1c.ru/ssl</v8:content>
+					<v8:content>https://github.com/Metrolog/ITG.1C.Metrolog</v8:content>
 				</v8:item>
 			</ConfigurationInformationAddress>
 			<DataLockControlMode>Managed</DataLockControlMode>
@@ -147,7 +147,7 @@
 			<ModalityUseMode>UseWithWarnings</ModalityUseMode>
 			<SynchronousPlatformExtensionAndAddInCallUseMode>Use</SynchronousPlatformExtensionAndAddInCallUseMode>
 			<InterfaceCompatibilityMode>TaxiEnableVersion8_2</InterfaceCompatibilityMode>
-			<CompatibilityMode>Version8_3_8</CompatibilityMode>
+			<CompatibilityMode>Version8_3_10</CompatibilityMode>
 			<DefaultConstantsForm/>
 		</Properties>
 		<ChildObjects>
@@ -758,16 +758,16 @@
 			<CommonTemplate>СтруктураПодчиненности</CommonTemplate>
 			<FilterCriterion>СвязанныеДокументы</FilterCriterion>
 			<FilterCriterion>ФайлыВТоме</FilterCriterion>
+			<CommonModule>МСОбновлениеИнформационнойБазы</CommonModule>
 			<CommonModule>МСЕдиницыВеличин</CommonModule>
 			<CommonModule>МСЕдиницыВеличинСервер</CommonModule>
 			<CommonModule>МСЕдиницыВеличинКлиентСервер</CommonModule>
-			<CommonModule>ОбновлениеИнформационнойБазыМСЕдиницыВеличин</CommonModule>
+			<CommonModule>МСЕдиницыВеличинОбновлениеИнформационнойБазы</CommonModule>
 			<CommonModule>РаботаСоСтрокамиЮникодКлиентСервер</CommonModule>
 			<CommonModule>РаботаСоСтрокамиЮникодСерверПовтИсп</CommonModule>
 			<CommonModule>_ДемоЗаметки</CommonModule>
 			<CommonModule>_ДемоМенеджерОбменаЧерезУниверсальныйФормат</CommonModule>
 			<CommonModule>_ДемоОбменДаннымиСобытия</CommonModule>
-			<CommonModule>_ДемоОбновлениеИнформационнойБазыБСП</CommonModule>
 			<CommonModule>_ДемоСвойства</CommonModule>
 			<CommonModule>_ДемоСообщенияУправлениеПроектами</CommonModule>
 			<CommonModule>_ДемоСообщенияШироковещательныйКанал</CommonModule>

@@ -3191,8 +3191,8 @@
 		<Metadata name="CommonModule.МСЕдиницыВеличинОбновлениеИнформационнойБазы.Module" id="eac15906-07dd-43d9-aa7d-ebae74d39566.0" configVersion="85669b8d4fe00f4a8b80be660f4f3de500000000"/>
 		<Metadata name="CommonModule.МСЕдиницыВеличинСервер" id="2ec5d9d0-270d-4198-9fe6-8c81bc8ee0b2" configVersion="b75d50f636b2554f91288cb70361a55c00000000"/>
 		<Metadata name="CommonModule.МСЕдиницыВеличинСервер.Module" id="2ec5d9d0-270d-4198-9fe6-8c81bc8ee0b2.0" configVersion="d0e255307bb9c9438035d1019cd8c6c200000000"/>
-		<Metadata name="CommonModule.МСОбновлениеИнформационнойБазы" id="1d55a7a1-eac4-43ef-81b5-7733f314c38f" configVersion="948f6460a9d68546a62ec244bcc2d62600000000"/>
-		<Metadata name="CommonModule.МСОбновлениеИнформационнойБазы.Module" id="1d55a7a1-eac4-43ef-81b5-7733f314c38f.0" configVersion="d97e755da8865f4581883befea28927900000000"/>
+		<Metadata name="CommonModule.МСОбновлениеИнформационнойБазы" id="1d55a7a1-eac4-43ef-81b5-7733f314c38f" configVersion="a72f6a95ed5904488ae63e74ffe7e21500000000"/>
+		<Metadata name="CommonModule.МСОбновлениеИнформационнойБазы.Module" id="1d55a7a1-eac4-43ef-81b5-7733f314c38f.0" configVersion="38a668263f5e5f499d5485238d93963b00000000"/>
 		<Metadata name="CommonModule.МанифестКонфигурации" id="635099ad-b6be-4ead-a0f6-a3c09f320ee8" configVersion="26c372e5b589494c8ba21ae9e927a99500000000"/>
 		<Metadata name="CommonModule.МанифестКонфигурации.Module" id="635099ad-b6be-4ead-a0f6-a3c09f320ee8.0" configVersion="e9257047efa99a4a81ab7d0fc59af9b300000000"/>
 		<Metadata name="CommonModule.МенеджерСервисаКриптографии" id="c3937ff9-c3c5-4d3a-8a80-952531a3d503" configVersion="496d23a1804ebe45a04a5773abe5820800000000"/>
@@ -4687,7 +4687,7 @@
 		<Metadata name="CommonTemplate.СоответствиеТэговОбщимФормам.Template" id="c8d797cf-e72c-4d99-bd6f-f4a8b0ca7c8d.0" configVersion="3daf31abca356c4fb4e602f28a76fdf400000000"/>
 		<Metadata name="CommonTemplate.СтруктураПодчиненности" id="7a62d031-c340-4b1e-90af-fff697a2e979" configVersion="74689eaa16785645b41dd68a3f5f878c00000000"/>
 		<Metadata name="CommonTemplate.СтруктураПодчиненности.Template" id="7a62d031-c340-4b1e-90af-fff697a2e979.0" configVersion="71f596b44f17274ea53a1a15aecf584100000000"/>
-		<Metadata name="Configuration.МетрологическаяСлужба" id="23bf4dc1-1a94-4b3b-92c2-1b132871ab30" configVersion="93a2a0d5a4b65a4eb83acaac222b696900000000"/>
+		<Metadata name="Configuration.МетрологическаяСлужба" id="23bf4dc1-1a94-4b3b-92c2-1b132871ab30" configVersion="bcc2eadeef255d4b900b093f154919a600000000"/>
 		<Metadata name="Configuration.МетрологическаяСлужба.ClientApplicationInterface" id="b8046913-9a03-48e9-97b4-b9971a833256.b" configVersion="d0d9749165866b4b9eff55787766644200000000"/>
 		<Metadata name="Configuration.МетрологическаяСлужба.CommandInterface" id="b8046913-9a03-48e9-97b4-b9971a833256.a" configVersion="ab8813e05f1fb244aaf9c2bcdd56483800000000"/>
 		<Metadata name="Configuration.МетрологическаяСлужба.ExternalConnectionModule" id="b8046913-9a03-48e9-97b4-b9971a833256.5" configVersion="fe07d517d477454a825fc3827d71c68c00000000"/>
@@ -4698,7 +4698,7 @@
 		<Metadata name="Configuration.МетрологическаяСлужба.MainSectionPicture" id="b8046913-9a03-48e9-97b4-b9971a833256.c" configVersion="ab56f17fc170b04ca70d3f047daa7ec500000000"/>
 		<Metadata name="Configuration.МетрологическаяСлужба.ManagedApplicationModule" id="b8046913-9a03-48e9-97b4-b9971a833256.6" configVersion="4accfb2e2d0d3f4cb2dac01ffa05c7cd00000000"/>
 		<Metadata name="Configuration.МетрологическаяСлужба.OrdinaryApplicationModule" id="b8046913-9a03-48e9-97b4-b9971a833256.0" configVersion="da77abaa798f2b4089029a5405343e3300000000"/>
-		<Metadata name="Configuration.МетрологическаяСлужба.ParentConfigurations" id="b8046913-9a03-48e9-97b4-b9971a833256.4" configVersion="079b2f2cb2ae154cb10ebbaf96288a3700000000"/>
+		<Metadata name="Configuration.МетрологическаяСлужба.ParentConfigurations" id="b8046913-9a03-48e9-97b4-b9971a833256.4" configVersion="bc34d51954afe44eb60ad0ce90c44e7300000000"/>
 		<Metadata name="Configuration.МетрологическаяСлужба.SessionModule" id="b8046913-9a03-48e9-97b4-b9971a833256.7" configVersion="ec1d5f111361934095fdd3bb48246f2200000000"/>
 		<Metadata name="Configuration.МетрологическаяСлужба.Splash" id="b8046913-9a03-48e9-97b4-b9971a833256.2" configVersion="9ab40bc63735524bb977af72daa6d38300000000"/>
 		<Metadata name="Constant._ДемоИмяКонфигурацииВОбменеСБиблиотекойСтандартныхПодсистем" id="63eb6a1b-5f48-461a-9a6f-821db663c9d3" configVersion="98a6688e7aeb294791ca194473fdc4a600000000"/>

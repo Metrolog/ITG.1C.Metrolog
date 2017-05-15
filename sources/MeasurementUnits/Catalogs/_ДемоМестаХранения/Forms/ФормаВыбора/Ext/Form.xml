@@ -112,7 +112,6 @@
 					<ExtendedTooltip name="СписокТипМестаХраненияExtendedTooltip" id="28"/>
 				</InputField>
 				<InputField name="СписокПодразделение" id="17">
-					<DataPath/>
 					<UserVisible>
 						<xr:Common>false</xr:Common>
 					</UserVisible>

@@ -67,6 +67,14 @@
 				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="15"/>
 			</SearchControlAddition>
 			<ChildItems>
+				<PictureField name="СтандартнаяКартинка" id="115">
+					<DataPath>Список.DefaultPicture</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ContextMenu name="СтандартнаяКартинкаКонтекстноеМеню" id="116"/>
+					<ExtendedTooltip name="СтандартнаяКартинкаРасширеннаяПодсказка" id="117"/>
+				</PictureField>
 				<LabelField name="Код" id="22">
 					<DataPath>Список.Code</DataPath>
 					<UserVisible>
@@ -190,7 +198,20 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<UseAlways>
+				<Field>Список.ПриставкаМеждународнаяISO_80000_1</Field>
+				<Field>Список.ПриставкаМеждународная</Field>
+				<Field>Список.ПриставкаISO_80000_1</Field>
+				<Field>Список.Приставка</Field>
+				<Field>Список.Порядок</Field>
+				<Field>Список.Основание</Field>
+				<Field>Список.ОбозначениеМеждународноеISO_80000_1</Field>
+				<Field>Список.ОбозначениеМеждународное</Field>
+				<Field>Список.ОбозначениеISO_80000_1</Field>
+				<Field>Список.Обозначение</Field>
 				<Field>Список.Ref</Field>
+				<Field>Список.Description</Field>
+				<Field>Список.DefaultPicture</Field>
+				<Field>Список.Code</Field>
 			</UseAlways>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>false</ManualQuery>

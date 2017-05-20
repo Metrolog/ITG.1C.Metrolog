@@ -18,6 +18,7 @@
 		<Autofill>false</Autofill>
 	</AutoCommandBar>
 	<Events>
+		<Event name="NotificationProcessing">ОбработкаОповещения</Event>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 		<Event name="OnClose">ПриЗакрытии</Event>
 	</Events>
@@ -145,6 +146,88 @@
 						<Event name="OnChange">МСЕдиницыВеличинОбозначенияПриИзменении</Event>
 					</Events>
 				</InputField>
+				<UsualGroup name="ГруппаИспользуемыеОбозначения" id="2101">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Доступные обозначения единиц величин</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа используемые обозначения</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Representation>None</Representation>
+					<ExtendedTooltip name="ГруппаИспользуемыеОбозначенияРасширеннаяПодсказка" id="2102"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаРусские" id="2099">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа русские</v8:content>
+								</v8:item>
+							</Title>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаРусскиеРасширеннаяПодсказка" id="2100"/>
+							<ChildItems>
+								<CheckBoxField name="МСИспользоватьОбозначенияРус" id="2087">
+									<DataPath>НаборКонстант.МСИспользоватьОбозначенияРус</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="МСИспользоватьОбозначенияРусКонтекстноеМеню" id="2088"/>
+									<ExtendedTooltip name="МСИспользоватьОбозначенияРусРасширеннаяПодсказка" id="2089"/>
+									<Events>
+										<Event name="OnChange">МСЕдиницыВеличинОбозначенияПриИзменении</Event>
+									</Events>
+								</CheckBoxField>
+								<CheckBoxField name="МСИспользоватьОбозначенияРусISO_80000_1" id="2093">
+									<DataPath>НаборКонстант.МСИспользоватьОбозначенияРусISO_80000_1</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="МСИспользоватьОбозначенияРусISO_80000_1КонтекстноеМеню" id="2094"/>
+									<ExtendedTooltip name="МСИспользоватьОбозначенияРусISO_80000_1РасширеннаяПодсказка" id="2095"/>
+									<Events>
+										<Event name="OnChange">МСЕдиницыВеличинОбозначенияПриИзменении</Event>
+									</Events>
+								</CheckBoxField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаМеждународные" id="2103">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа международные</v8:content>
+								</v8:item>
+							</Title>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаМеждународныеРасширеннаяПодсказка" id="2104"/>
+							<ChildItems>
+								<CheckBoxField name="МСИспользоватьОбозначенияМн" id="2090">
+									<DataPath>НаборКонстант.МСИспользоватьОбозначенияМн</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="МСИспользоватьОбозначенияМнКонтекстноеМеню" id="2091"/>
+									<ExtendedTooltip name="МСИспользоватьОбозначенияМнРасширеннаяПодсказка" id="2092"/>
+									<Events>
+										<Event name="OnChange">МСЕдиницыВеличинОбозначенияПриИзменении</Event>
+									</Events>
+								</CheckBoxField>
+								<CheckBoxField name="МСИспользоватьОбозначенияМнISO_80000_1" id="2096">
+									<DataPath>НаборКонстант.МСИспользоватьОбозначенияМнISO_80000_1</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="МСИспользоватьОбозначенияМнISO_80000_1КонтекстноеМеню" id="2097"/>
+									<ExtendedTooltip name="МСИспользоватьОбозначенияМнISO_80000_1РасширеннаяПодсказка" id="2098"/>
+									<Events>
+										<Event name="OnChange">МСЕдиницыВеличинОбозначенияПриИзменении</Event>
+									</Events>
+								</CheckBoxField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="ГруппаОткрытьВидыКонтактнойИнформации" id="1642">

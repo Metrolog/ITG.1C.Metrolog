@@ -18,7 +18,6 @@
 			<Comment/>
 			<Type>
 				<v8:Type>cfg:CatalogObject._ДемоНоменклатура</v8:Type>
-				<v8:Type>cfg:DocumentObject._ДемоНачислениеЗарплаты</v8:Type>
 				<v8:Type>cfg:BusinessProcessObject.Задание</v8:Type>
 				<v8:Type>cfg:DocumentObject.Встреча</v8:Type>
 				<v8:Type>cfg:DocumentObject.ЭлектронноеПисьмоВходящее</v8:Type>

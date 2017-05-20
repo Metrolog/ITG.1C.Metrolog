@@ -59,8 +59,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.СинхронизацияДанных</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.ПредупрежденияПриСинхронизацииДанных</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant._ДемоИмяКонфигурацииВОбменеСБиблиотекойСтандартныхПодсистем</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription._ДемоАвтономнаяРаботаРегистрацияНабораРасчета</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription._ДемоОбменВРаспределеннойИнформационнойБазеРегистрацияНабораРасчета</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">de241cf0-3d9b-41f2-a959-b301a71dfb7d</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">6f71c75d-a637-4253-8867-eb934707a43b</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor._ДемоПанельАдминистрирования</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.РазделСинхронизацияДанных</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ПанельАдминистрированияБСП</xr:Item>

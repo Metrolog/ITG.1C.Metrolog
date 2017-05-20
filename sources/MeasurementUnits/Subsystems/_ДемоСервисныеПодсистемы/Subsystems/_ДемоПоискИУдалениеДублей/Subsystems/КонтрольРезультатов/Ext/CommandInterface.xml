@@ -6,7 +6,7 @@
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="CalculationRegister._ДемоОсновныеНачисления.StandardCommand.OpenList">
+		<Command name="0:a6756af4-964f-400d-97d4-0bd3f5916693">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>

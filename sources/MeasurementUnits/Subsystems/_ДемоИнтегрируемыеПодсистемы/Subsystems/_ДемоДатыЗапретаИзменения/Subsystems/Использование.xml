@@ -26,7 +26,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">ExchangePlan._ДемоОбменСБиблиотекойСтандартныхПодсистем</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">ExchangePlan._ДемоОбменСБиблиотекойСтандартныхПодсистем225</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">ExchangePlan._ДемоСинхронизацияДанныхЧерезУниверсальныйФормат</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document._ДемоНачислениеЗарплаты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">6bc726e3-2f94-498d-9584-c1a54fda5b27</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document._ДемоОприходованиеТоваров</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КурсыВалют</xr:Item>
 			</Content>

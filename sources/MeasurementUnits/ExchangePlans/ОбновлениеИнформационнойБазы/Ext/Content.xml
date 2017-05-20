@@ -449,10 +449,6 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
-		<Metadata>Document._ДемоНачислениеЗарплаты</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
 		<Metadata>InformationRegister.ЗапросыРазрешенийНаИспользованиеВнешнихРесурсов</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -565,10 +561,6 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
-		<Metadata>CalculationRegister._ДемоОсновныеНачисления.Recalculation.ПерерасчетОсновныхНачислений</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
 		<Metadata>InformationRegister.УдалитьОчередьИзвлеченияТекста</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -677,10 +669,6 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
-		<Metadata>ChartOfCalculationTypes._ДемоОсновныеНачисления</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
 		<Metadata>InformationRegister.РучныеИзмененияГрафиковРаботы</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -694,10 +682,6 @@
 	</Item>
 	<Item>
 		<Metadata>AccountingRegister._ДемоОсновной</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>CalculationRegister._ДемоОсновныеНачисления</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>

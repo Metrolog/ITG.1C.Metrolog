@@ -52,7 +52,7 @@
 		<Command name="ExchangePlan._ДемоСинхронизацияДанныхЧерезУниверсальныйФормат.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="Document._ДемоНачислениеЗарплаты.StandardCommand.OpenList">
+		<Command name="0:6bc726e3-2f94-498d-9584-c1a54fda5b27">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
 		<Command name="InformationRegister.КурсыВалют.StandardCommand.OpenList">

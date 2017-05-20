@@ -49,7 +49,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</xr:Item>
 			</DefaultRoles>
 			<Vendor>ФБУ "Тест-С.-Петербург"</Vendor>
-			<Version>0.1.0.26</Version>
+			<Version>0.1.0.27</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>true</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>true</UseManagedFormInOrdinaryApplication>
@@ -611,7 +611,6 @@
 			<Role>_ДемоДобавлениеИзменениеЗаданийСРолевойАдресацией</Role>
 			<Role>ДобавлениеИзменениеЕдиницВеличинБазовых</Role>
 			<Role>ДобавлениеИзменениеНСИ</Role>
-			<Role>_ДемоДобавлениеИзменениеЗарплаты</Role>
 			<Role>_ДемоДобавлениеИзменениеИсполнителейРолейПоОбъектамАдресации</Role>
 			<Role>_ДемоДобавлениеИзменениеКассовыхДокументов</Role>
 			<Role>_ДемоДобавлениеИзменениеНоменклатуры</Role>
@@ -635,7 +634,6 @@
 			<Role>_ДемоЧтениеДанныхРеспондентов</Role>
 			<Role>_ДемоЧтениеДокументовПокупателей</Role>
 			<Role>_ДемоЧтениеЗаданийСРолевойАдресацией</Role>
-			<Role>_ДемоЧтениеЗарплаты</Role>
 			<Role>_ДемоЧтениеКассовыхДокументов</Role>
 			<Role>_ДемоЧтениеНСИ</Role>
 			<Role>_ДемоЧтениеПеремещенийТоваров</Role>
@@ -1394,14 +1392,12 @@
 			<EventSubscription>_ДемоАвтономнаяРаботаРегистрацияДокумента</EventSubscription>
 			<EventSubscription>_ДемоАвтономнаяРаботаРегистрацияКонстанты</EventSubscription>
 			<EventSubscription>_ДемоАвтономнаяРаботаРегистрацияНабора</EventSubscription>
-			<EventSubscription>_ДемоАвтономнаяРаботаРегистрацияНабораРасчета</EventSubscription>
 			<EventSubscription>_ДемоАвтономнаяРаботаРегистрацияУдаления</EventSubscription>
 			<EventSubscription>_ДемоДополнительныеОтчетыИОбработкиЗагрузитьИзОбщихМакетов</EventSubscription>
 			<EventSubscription>_ДемоЗаписатьВерсиюДокумента</EventSubscription>
 			<EventSubscription>_ДемоЗаполнитьДатуДокументаПоРабочейДате</EventSubscription>
 			<EventSubscription>_ДемоЗаполнитьДатуДокументаПоРабочейДатеПриКопировании</EventSubscription>
 			<EventSubscription>_ДемоЗаполнитьКонтактнуюИнформациюДокумента</EventSubscription>
-			<EventSubscription>_ДемоЗаполнитьНаборыЗначенийДоступаТабличныхЧастейДокументов</EventSubscription>
 			<EventSubscription>_ДемоОбменБезИспользованияПравилКонвертацииРегистрация</EventSubscription>
 			<EventSubscription>_ДемоОбменБезИспользованияПравилКонвертацииРегистрацияДокумента</EventSubscription>
 			<EventSubscription>_ДемоОбменБезИспользованияПравилКонвертацииРегистрацияНабора</EventSubscription>
@@ -1410,7 +1406,6 @@
 			<EventSubscription>_ДемоОбменВРаспределеннойИнформационнойБазеРегистрацияДокумента</EventSubscription>
 			<EventSubscription>_ДемоОбменВРаспределеннойИнформационнойБазеРегистрацияКонстанты</EventSubscription>
 			<EventSubscription>_ДемоОбменВРаспределеннойИнформационнойБазеРегистрацияНабора</EventSubscription>
-			<EventSubscription>_ДемоОбменВРаспределеннойИнформационнойБазеРегистрацияНабораРасчета</EventSubscription>
 			<EventSubscription>_ДемоОбменВРаспределеннойИнформационнойБазеРегистрацияУдаления</EventSubscription>
 			<EventSubscription>_ДемоОбменСБиблиотекойСтандартныхПодсистем225Регистрация</EventSubscription>
 			<EventSubscription>_ДемоОбменСБиблиотекойСтандартныхПодсистем225РегистрацияДокумента</EventSubscription>
@@ -1705,7 +1700,6 @@
 			<CommonCommand>_ДемоЖурналПроводокБухгалтерскогоУчета</CommonCommand>
 			<CommonCommand>_ДемоМестаИспользованияЭлемента</CommonCommand>
 			<CommonCommand>_ДемоНапомнитьЗа5Минут</CommonCommand>
-			<CommonCommand>_ДемоОсновныеНачисленияСотрудников</CommonCommand>
 			<CommonCommand>_ДемоОстаткиТоваровВМестахХранения</CommonCommand>
 			<CommonCommand>_ДемоОценкаПроизводительности</CommonCommand>
 			<CommonCommand>_ДемоПанельОтчетовАнкетирование</CommonCommand>
@@ -1720,7 +1714,6 @@
 			<CommonCommand>_ДемоСоздатьЗадачуБезБизнесПроцесса</CommonCommand>
 			<CommonCommand>_ДемоСтандартыРазработки</CommonCommand>
 			<CommonCommand>_ДемоСтраницаПродуктаНаСайте1С</CommonCommand>
-			<CommonCommand>_ДемоФактическиеНачисленияСотрудника</CommonCommand>
 			<CommonCommand>АвтономнаяРабота</CommonCommand>
 			<CommonCommand>АвтономнаяРаботаВМоделиСервиса</CommonCommand>
 			<CommonCommand>ВыгрузитьДанныеВЛокальнуюВерсию</CommonCommand>
@@ -2162,7 +2155,6 @@
 			<Catalog>ЭлектронноеПисьмоВходящееПрисоединенныеФайлы</Catalog>
 			<Catalog>ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы</Catalog>
 			<Document>_ДемоЗаказПокупателя</Document>
-			<Document>_ДемоНачислениеЗарплаты</Document>
 			<Document>_ДемоОприходованиеТоваров</Document>
 			<Document>_ДемоПеремещениеТоваров</Document>
 			<Document>_ДемоПоступлениеТоваров</Document>
@@ -2325,8 +2317,6 @@
 			<DataProcessor>_ДемоПечатьСчетовНаОплатуПокупателю</DataProcessor>
 			<DataProcessor>_ДемоПолучениеФайловИзИнтернета</DataProcessor>
 			<DataProcessor>_ДемоПроверкаВходящихСообщений</DataProcessor>
-			<DataProcessor>_ДемоСозданиеДублей</DataProcessor>
-			<DataProcessor>_ДемоСозданиеПомеченныхНаУдаление</DataProcessor>
 			<DataProcessor>_ДемоУправлениеОтложеннымОбновлением</DataProcessor>
 			<DataProcessor>_ДемоУправлениеПолнотекстовымПоиском</DataProcessor>
 			<DataProcessor>_ДемоШаблонПомощника</DataProcessor>
@@ -2596,8 +2586,6 @@
 			<ChartOfCharacteristicTypes>УдалитьВидыДоступа</ChartOfCharacteristicTypes>
 			<ChartOfAccounts>_ДемоОсновной</ChartOfAccounts>
 			<AccountingRegister>_ДемоОсновной</AccountingRegister>
-			<ChartOfCalculationTypes>_ДемоОсновныеНачисления</ChartOfCalculationTypes>
-			<CalculationRegister>_ДемоОсновныеНачисления</CalculationRegister>
 			<BusinessProcess>_ДемоЗаданиеСРолевойАдресацией</BusinessProcess>
 			<BusinessProcess>Задание</BusinessProcess>
 			<Task>ЗадачаИсполнителя</Task>

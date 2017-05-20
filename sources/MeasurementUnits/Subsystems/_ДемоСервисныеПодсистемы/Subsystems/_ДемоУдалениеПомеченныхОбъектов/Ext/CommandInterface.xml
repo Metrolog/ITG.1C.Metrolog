@@ -14,7 +14,7 @@
 		<Command name="Catalog._ДемоНоменклатура.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="DataProcessor._ДемоСозданиеПомеченныхНаУдаление.Command._ДемоСозданиеПомеченныхНаУдаление">
+		<Command name="0:780ac8ff-76fa-499d-80e3-ce8cae10a172">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
 	</CommandsOrder>

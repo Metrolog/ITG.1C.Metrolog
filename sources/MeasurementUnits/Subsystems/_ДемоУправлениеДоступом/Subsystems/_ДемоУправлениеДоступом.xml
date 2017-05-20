@@ -21,9 +21,9 @@
 			<Picture/>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Role._ДемоПечатьНепроведенныхДокументов</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Role._ДемоДобавлениеИзменениеЗарплаты</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Role._ДемоЧтениеЗарплаты</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription._ДемоЗаполнитьНаборыЗначенийДоступаТабличныхЧастейДокументов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ce7f6d85-a6bc-460f-8d37-735aef9bf7c0</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">479f668d-dd41-4313-9dae-36b2ebdaaa49</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">4879a8f2-c41b-4c8e-9291-936e307eca99</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.РазделУправлениеДоступом48</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role._ДемоДобавлениеИзменениеНоменклатуры</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.РазделУправлениеДоступом</xr:Item>

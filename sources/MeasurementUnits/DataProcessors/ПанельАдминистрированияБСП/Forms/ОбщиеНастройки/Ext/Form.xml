@@ -979,7 +979,6 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<UseAlways>
-				<Field>НаборКонстант.МСЕдиницыВеличинОбозначения.Ref</Field>
 				<Field>НаборКонстант.МСЕдиницыВеличинОбозначения</Field>
 				<Field>НаборКонстант.ИспользоватьРазделениеПоОбластямДанных</Field>
 			</UseAlways>

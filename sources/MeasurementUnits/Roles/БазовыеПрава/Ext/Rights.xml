@@ -634,7 +634,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Constant.МСИспользоватьПриставкиРусские</name>
+		<name>Constant.МСИспользоватьОбозначенияРус</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -1008,7 +1008,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Constant.МСИспользоватьПриставкиМеждународныеISO_80000_1</name>
+		<name>Constant.МСИспользоватьОбозначенияМнISO_80000_1</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -1352,7 +1352,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Constant.МСИспользоватьПриставкиРусскиеISO_80000_1</name>
+		<name>Constant.МСИспользоватьОбозначенияРусISO_80000_1</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -1853,7 +1853,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Constant.МСИспользоватьПриставкиМеждународные</name>
+		<name>Constant.МСИспользоватьОбозначенияМн</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>

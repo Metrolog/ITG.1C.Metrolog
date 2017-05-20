@@ -121,84 +121,105 @@
 					<ContextMenu name="ПорядокКонтекстноеМеню" id="23"/>
 					<ExtendedTooltip name="ПорядокРасширеннаяПодсказка" id="24"/>
 				</LabelField>
-				<LabelField name="Приставка" id="52">
-					<DataPath>Список.Приставка</DataPath>
-					<ContextMenu name="ПриставкаКонтекстноеМеню" id="53"/>
-					<ExtendedTooltip name="ПриставкаРасширеннаяПодсказка" id="54"/>
-				</LabelField>
-				<LabelField name="Обозначение" id="34">
-					<DataPath>Список.Обозначение</DataPath>
+				<LabelField name="НаименованиеРус" id="127">
+					<DataPath>Список.НаименованиеРус</DataPath>
 					<UserVisible>
 						<xr:Common>false</xr:Common>
 					</UserVisible>
-					<ContextMenu name="ОбозначениеКонтекстноеМеню" id="35"/>
-					<ExtendedTooltip name="ОбозначениеРасширеннаяПодсказка" id="36"/>
-				</LabelField>
-				<LabelField name="ПриставкаМеждународная" id="58">
-					<DataPath>Список.ПриставкаМеждународная</DataPath>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Приставка</v8:content>
+							<v8:content>Наименование</v8:content>
 						</v8:item>
 					</Title>
-					<ContextMenu name="ПриставкаМеждународнаяКонтекстноеМеню" id="59"/>
-					<ExtendedTooltip name="ПриставкаМеждународнаяРасширеннаяПодсказка" id="60"/>
+					<ContextMenu name="НаименованиеРусКонтекстноеМеню" id="128"/>
+					<ExtendedTooltip name="НаименованиеРусРасширеннаяПодсказка" id="129"/>
 				</LabelField>
-				<LabelField name="ОбозначениеМеждународное" id="61">
-					<DataPath>Список.ОбозначениеМеждународное</DataPath>
+				<LabelField name="ОбозначениеРус" id="130">
+					<DataPath>Список.ОбозначениеРус</DataPath>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Обозначение</v8:content>
 						</v8:item>
 					</Title>
-					<ContextMenu name="ОбозначениеМеждународноеКонтекстноеМеню" id="62"/>
-					<ExtendedTooltip name="ОбозначениеМеждународноеРасширеннаяПодсказка" id="63"/>
+					<ContextMenu name="ОбозначениеРусКонтекстноеМеню" id="131"/>
+					<ExtendedTooltip name="ОбозначениеРусРасширеннаяПодсказка" id="132"/>
 				</LabelField>
-				<LabelField name="ПриставкаISO_80000_1" id="100">
-					<DataPath>Список.ПриставкаISO_80000_1</DataPath>
+				<LabelField name="НаименованиеМн" id="133">
+					<DataPath>Список.НаименованиеМн</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Приставка</v8:content>
+							<v8:content>Наименование</v8:content>
 						</v8:item>
 					</Title>
-					<ContextMenu name="ПриставкаISO_80000_1КонтекстноеМеню" id="101"/>
-					<ExtendedTooltip name="ПриставкаISO_80000_1РасширеннаяПодсказка" id="102"/>
+					<ContextMenu name="НаименованиеМнКонтекстноеМеню" id="134"/>
+					<ExtendedTooltip name="НаименованиеМнРасширеннаяПодсказка" id="135"/>
 				</LabelField>
-				<LabelField name="ОбозначениеISO_80000_1" id="103">
-					<DataPath>Список.ОбозначениеISO_80000_1</DataPath>
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Обозначение</v8:content>
-						</v8:item>
-					</Title>
-					<ContextMenu name="ОбозначениеISO_80000_1КонтекстноеМеню" id="104"/>
-					<ExtendedTooltip name="ОбозначениеISO_80000_1РасширеннаяПодсказка" id="105"/>
-				</LabelField>
-				<LabelField name="ПриставкаМеждународнаяISO_80000_1" id="106">
-					<DataPath>Список.ПриставкаМеждународнаяISO_80000_1</DataPath>
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Приставка</v8:content>
-						</v8:item>
-					</Title>
-					<ContextMenu name="ПриставкаМеждународнаяISO_80000_1КонтекстноеМеню" id="107"/>
-					<ExtendedTooltip name="ПриставкаМеждународнаяISO_80000_1РасширеннаяПодсказка" id="108"/>
-				</LabelField>
-				<LabelField name="ОбозначениеМеждународноеISO_80000_1" id="109">
-					<DataPath>Список.ОбозначениеМеждународноеISO_80000_1</DataPath>
+				<LabelField name="ОбозначениеМн" id="136">
+					<DataPath>Список.ОбозначениеМн</DataPath>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Обозначение</v8:content>
 						</v8:item>
 					</Title>
-					<ContextMenu name="ОбозначениеМеждународноеISO_80000_1КонтекстноеМеню" id="110"/>
-					<ExtendedTooltip name="ОбозначениеМеждународноеISO_80000_1РасширеннаяПодсказка" id="111"/>
+					<ContextMenu name="ОбозначениеМнКонтекстноеМеню" id="137"/>
+					<ExtendedTooltip name="ОбозначениеМнРасширеннаяПодсказка" id="138"/>
+				</LabelField>
+				<LabelField name="НаименованиеРусISO_80000_1" id="139">
+					<DataPath>Список.НаименованиеРусISO_80000_1</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Наименование</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="НаименованиеРусISO_80000_1КонтекстноеМеню" id="140"/>
+					<ExtendedTooltip name="НаименованиеРусISO_80000_1РасширеннаяПодсказка" id="141"/>
+				</LabelField>
+				<LabelField name="ОбозначениеРусISO_80000_1" id="142">
+					<DataPath>Список.ОбозначениеРусISO_80000_1</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Обозначение</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ОбозначениеРусISO_80000_1КонтекстноеМеню" id="143"/>
+					<ExtendedTooltip name="ОбозначениеРусISO_80000_1РасширеннаяПодсказка" id="144"/>
+				</LabelField>
+				<LabelField name="НаименованиеМнISO_80000_1" id="145">
+					<DataPath>Список.НаименованиеМнISO_80000_1</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Наименование</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="НаименованиеМнISO_80000_1КонтекстноеМеню" id="146"/>
+					<ExtendedTooltip name="НаименованиеМнISO_80000_1РасширеннаяПодсказка" id="147"/>
+				</LabelField>
+				<LabelField name="ОбозначениеМнISO_80000_1" id="148">
+					<DataPath>Список.ОбозначениеМнISO_80000_1</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Обозначение</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ОбозначениеМнISO_80000_1КонтекстноеМеню" id="149"/>
+					<ExtendedTooltip name="ОбозначениеМнISO_80000_1РасширеннаяПодсказка" id="150"/>
 				</LabelField>
 			</ChildItems>
 		</Table>
@@ -210,20 +231,28 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<UseAlways>
-				<Field>Список.ПриставкаМеждународнаяISO_80000_1</Field>
-				<Field>Список.ПриставкаМеждународная</Field>
-				<Field>Список.ПриставкаISO_80000_1</Field>
-				<Field>Список.Приставка</Field>
 				<Field>Список.Порядок</Field>
 				<Field>Список.Основание</Field>
-				<Field>Список.ОбозначениеМеждународноеISO_80000_1</Field>
-				<Field>Список.ОбозначениеМеждународное</Field>
-				<Field>Список.ОбозначениеISO_80000_1</Field>
-				<Field>Список.Обозначение</Field>
+				<Field>Список.ОбозначениеРусISO_80000_1</Field>
+				<Field>Список.ОбозначениеРус</Field>
+				<Field>Список.ОбозначениеМнISO_80000_1</Field>
+				<Field>Список.ОбозначениеМн</Field>
+				<Field>Список.НаименованиеРусISO_80000_1</Field>
+				<Field>Список.НаименованиеРус</Field>
+				<Field>Список.НаименованиеМнISO_80000_1</Field>
+				<Field>Список.НаименованиеМн</Field>
 				<Field>Список.Ref</Field>
 				<Field>Список.Description</Field>
 				<Field>Список.DefaultPicture</Field>
 				<Field>Список.Code</Field>
+				<Field>~Список.ПриставкаМеждународнаяISO_80000_1</Field>
+				<Field>~Список.ПриставкаМеждународная</Field>
+				<Field>~Список.ПриставкаISO_80000_1</Field>
+				<Field>~Список.Приставка</Field>
+				<Field>~Список.ОбозначениеМеждународноеISO_80000_1</Field>
+				<Field>~Список.ОбозначениеМеждународное</Field>
+				<Field>~Список.ОбозначениеISO_80000_1</Field>
+				<Field>~Список.Обозначение</Field>
 			</UseAlways>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>false</ManualQuery>

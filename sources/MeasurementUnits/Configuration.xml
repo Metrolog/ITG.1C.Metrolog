@@ -49,7 +49,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</xr:Item>
 			</DefaultRoles>
 			<Vendor>ФБУ "Тест-С.-Петербург"</Vendor>
-			<Version>0.1.0.25</Version>
+			<Version>0.1.0.26</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>true</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>true</UseManagedFormInOrdinaryApplication>
@@ -760,6 +760,7 @@
 			<CommonModule>МСЕдиницыВеличин</CommonModule>
 			<CommonModule>МСЕдиницыВеличинСервер</CommonModule>
 			<CommonModule>МСЕдиницыВеличинКлиентСервер</CommonModule>
+			<CommonModule>МСЕдиницыВеличинКлиентСерверПовтИсп</CommonModule>
 			<CommonModule>МСЕдиницыВеличинОбновлениеИнформационнойБазы</CommonModule>
 			<CommonModule>РаботаСоСтрокамиЮникодКлиентСервер</CommonModule>
 			<CommonModule>РаботаСоСтрокамиЮникодСерверПовтИсп</CommonModule>
@@ -1549,10 +1550,10 @@
 			<ScheduledJob>ЧтениеНовостейСлужбыПоддержки</ScheduledJob>
 			<SettingsStorage>ХранилищеВариантовОтчетов</SettingsStorage>
 			<FunctionalOption>МСЕдиницыВеличинОбозначения</FunctionalOption>
-			<FunctionalOption>МСИспользоватьПриставкиРусские</FunctionalOption>
-			<FunctionalOption>МСИспользоватьПриставкиМеждународные</FunctionalOption>
-			<FunctionalOption>МСИспользоватьПриставкиРусскиеISO_80000_1</FunctionalOption>
-			<FunctionalOption>МСИспользоватьПриставкиМеждународныеISO_80000_1</FunctionalOption>
+			<FunctionalOption>МСИспользоватьОбозначенияРус</FunctionalOption>
+			<FunctionalOption>МСИспользоватьОбозначенияМн</FunctionalOption>
+			<FunctionalOption>МСИспользоватьОбозначенияРусISO_80000_1</FunctionalOption>
+			<FunctionalOption>МСИспользоватьОбозначенияМнISO_80000_1</FunctionalOption>
 			<FunctionalOption>_ДемоИспользоватьАнкетированиеБСП</FunctionalOption>
 			<FunctionalOption>_ДемоИспользоватьБизнесПроцессыИЗадачиБСП</FunctionalOption>
 			<FunctionalOption>_ДемоИспользоватьВерсионированиеОбъектовБСП</FunctionalOption>
@@ -1793,10 +1794,10 @@
 			<CommandGroup>ПоискИЗаменаДублей</CommandGroup>
 			<CommandGroup>ГрупповоеИзменениеРеквизитов</CommandGroup>
 			<Constant>МСЕдиницыВеличинОбозначения</Constant>
-			<Constant>МСИспользоватьПриставкиРусские</Constant>
-			<Constant>МСИспользоватьПриставкиМеждународные</Constant>
-			<Constant>МСИспользоватьПриставкиРусскиеISO_80000_1</Constant>
-			<Constant>МСИспользоватьПриставкиМеждународныеISO_80000_1</Constant>
+			<Constant>МСИспользоватьОбозначенияРус</Constant>
+			<Constant>МСИспользоватьОбозначенияМн</Constant>
+			<Constant>МСИспользоватьОбозначенияРусISO_80000_1</Constant>
+			<Constant>МСИспользоватьОбозначенияМнISO_80000_1</Constant>
 			<Constant>_ДемоИмяКонфигурацииВОбменеСБиблиотекойСтандартныхПодсистем</Constant>
 			<Constant>_ДемоИспользоватьКонтактныеЛицаПартнеров</Constant>
 			<Constant>_ДемоИспользоватьНесколькоОрганизаций</Constant>

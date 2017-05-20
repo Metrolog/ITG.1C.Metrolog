@@ -152,7 +152,7 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
-			<Subsystem>МетрологияНСИ</Subsystem>
+			<Subsystem>НормативноСправочнаяИнформация</Subsystem>
 			<Subsystem>_ДемоАнкетирование</Subsystem>
 			<Subsystem>_ДемоБизнесПроцессыИЗадачи</Subsystem>
 			<Subsystem>_ДемоИнструментыРазработчика</Subsystem>

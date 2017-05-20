@@ -11,7 +11,7 @@
 			</Synonym>
 			<Comment>Непоставляемые объекты без префикса _Демо, которые используются как средства разработки</Comment>
 			<IncludeHelpInContents>true</IncludeHelpInContents>
-			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<IncludeInCommandInterface>false</IncludeInCommandInterface>
 			<Explanation/>
 			<Picture>
 				<xr:Ref>CommonPicture.РазделИнструментыРазработчика</xr:Ref>

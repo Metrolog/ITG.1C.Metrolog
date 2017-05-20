@@ -74,7 +74,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.МетрологияНСИ</name>
+		<name>Subsystem.НормативноСправочнаяИнформация</name>
 		<right>
 			<name>View</name>
 			<value>true</value>

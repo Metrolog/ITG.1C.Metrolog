@@ -11,7 +11,7 @@
 			</Synonym>
 			<Comment/>
 			<IncludeHelpInContents>true</IncludeHelpInContents>
-			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<IncludeInCommandInterface>false</IncludeInCommandInterface>
 			<Explanation>
 				<v8:item>
 					<v8:lang>ru</v8:lang>

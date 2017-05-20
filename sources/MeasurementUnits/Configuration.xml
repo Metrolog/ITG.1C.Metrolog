@@ -1550,10 +1550,10 @@
 			<ScheduledJob>ЧтениеНовостейСлужбыПоддержки</ScheduledJob>
 			<SettingsStorage>ХранилищеВариантовОтчетов</SettingsStorage>
 			<FunctionalOption>МСЕдиницыВеличинОбозначения</FunctionalOption>
-			<FunctionalOption>МСИспользоватьОбозначенияРус</FunctionalOption>
-			<FunctionalOption>МСИспользоватьОбозначенияМн</FunctionalOption>
-			<FunctionalOption>МСИспользоватьОбозначенияРусISO_80000_1</FunctionalOption>
-			<FunctionalOption>МСИспользоватьОбозначенияМнISO_80000_1</FunctionalOption>
+			<FunctionalOption>МСЕдиницыВеличинИспользоватьОбозначенияРус</FunctionalOption>
+			<FunctionalOption>МСЕдиницыВеличинИспользоватьОбозначенияМн</FunctionalOption>
+			<FunctionalOption>МСЕдиницыВеличинИспользоватьОбозначенияРусISO_80000_1</FunctionalOption>
+			<FunctionalOption>МСЕдиницыВеличинИспользоватьОбозначенияМнISO_80000_1</FunctionalOption>
 			<FunctionalOption>_ДемоИспользоватьАнкетированиеБСП</FunctionalOption>
 			<FunctionalOption>_ДемоИспользоватьБизнесПроцессыИЗадачиБСП</FunctionalOption>
 			<FunctionalOption>_ДемоИспользоватьВерсионированиеОбъектовБСП</FunctionalOption>
@@ -1794,10 +1794,10 @@
 			<CommandGroup>ПоискИЗаменаДублей</CommandGroup>
 			<CommandGroup>ГрупповоеИзменениеРеквизитов</CommandGroup>
 			<Constant>МСЕдиницыВеличинОбозначения</Constant>
-			<Constant>МСИспользоватьОбозначенияРус</Constant>
-			<Constant>МСИспользоватьОбозначенияМн</Constant>
-			<Constant>МСИспользоватьОбозначенияРусISO_80000_1</Constant>
-			<Constant>МСИспользоватьОбозначенияМнISO_80000_1</Constant>
+			<Constant>МСЕдиницыВеличинИспользоватьОбозначенияРус</Constant>
+			<Constant>МСЕдиницыВеличинИспользоватьОбозначенияМн</Constant>
+			<Constant>МСЕдиницыВеличинИспользоватьОбозначенияРусISO_80000_1</Constant>
+			<Constant>МСЕдиницыВеличинИспользоватьОбозначенияМнISO_80000_1</Constant>
 			<Constant>_ДемоИмяКонфигурацииВОбменеСБиблиотекойСтандартныхПодсистем</Constant>
 			<Constant>_ДемоИспользоватьКонтактныеЛицаПартнеров</Constant>
 			<Constant>_ДемоИспользоватьНесколькоОрганизаций</Constant>

@@ -3187,8 +3187,8 @@
 		<Metadata name="CommonModule.МСЕдиницыВеличин.Module" id="acfbcd43-b1bf-4388-82a9-9f9d410f716d.0" configVersion="d47a8c7ee8ac1f4bb73c36ea81510f3100000000"/>
 		<Metadata name="CommonModule.МСЕдиницыВеличинКлиентСервер" id="5b379540-de95-4729-b2ed-b7a4f3fc8032" configVersion="9777ababf8e1034c9404c9aa309e5aa500000000"/>
 		<Metadata name="CommonModule.МСЕдиницыВеличинКлиентСервер.Module" id="5b379540-de95-4729-b2ed-b7a4f3fc8032.0" configVersion="3f30ab87d0a7334493b52cf582c1694000000000"/>
-		<Metadata name="CommonModule.МСЕдиницыВеличинКлиентСерверПовтИсп" id="7cd54afb-3e5d-4772-b1b9-8bb46425ec89" configVersion="c6e4aee415608f4fa12ca7eac064286500000000"/>
-		<Metadata name="CommonModule.МСЕдиницыВеличинКлиентСерверПовтИсп.Module" id="7cd54afb-3e5d-4772-b1b9-8bb46425ec89.0" configVersion="75e3cc322d9eb041926c6eb3cfb7d8a100000000"/>
+		<Metadata name="CommonModule.МСЕдиницыВеличинКлиентСерверПовтИсп" id="7cd54afb-3e5d-4772-b1b9-8bb46425ec89" configVersion="a30b343c06bc5a4c9e142fe06c896b6700000000"/>
+		<Metadata name="CommonModule.МСЕдиницыВеличинКлиентСерверПовтИсп.Module" id="7cd54afb-3e5d-4772-b1b9-8bb46425ec89.0" configVersion="34db7ef2ffcaf741a335a3fedf6d487500000000"/>
 		<Metadata name="CommonModule.МСЕдиницыВеличинОбновлениеИнформационнойБазы" id="eac15906-07dd-43d9-aa7d-ebae74d39566" configVersion="dcd5d09abc4e274e8882757aa9d50e9800000000"/>
 		<Metadata name="CommonModule.МСЕдиницыВеличинОбновлениеИнформационнойБазы.Module" id="eac15906-07dd-43d9-aa7d-ebae74d39566.0" configVersion="a2e2f8a22074364aabb555f56a7cfb6500000000"/>
 		<Metadata name="CommonModule.МСЕдиницыВеличинСервер" id="2ec5d9d0-270d-4198-9fe6-8c81bc8ee0b2" configVersion="1e8e62d45c224742a3aa959c21caf63300000000"/>
@@ -4826,12 +4826,12 @@
 		<Metadata name="Constant.КонечнаяТочкаМенеджераСервиса" id="9da32b56-ff89-4739-bb99-615074b72298" configVersion="05decef05448584aaa243423289f7a9b00000000"/>
 		<Metadata name="Constant.КопироватьОбластиДанныхИзЭталонной" id="08baf3ee-b8ca-4f29-89fc-c15344064ad3" configVersion="8518af9fd4da124abb9c9d9ac9fdb3cf00000000"/>
 		<Metadata name="Constant.ЛогинДоступаКСервисуMorpher" id="4766c40e-6330-4c1d-a64f-0c8c672886a4" configVersion="8bf2942a5ae8a449ba5e68b53541179900000000"/>
-		<Metadata name="Constant.МСЕдиницыВеличинОбозначения" id="8b878d80-e74b-42a7-870d-3093feb1925d" configVersion="45188e53ecbcb74da92b4093cdff0f3a00000000"/>
-		<Metadata name="Constant.МСЕдиницыВеличинОбозначения.ValueManagerModule" id="8b878d80-e74b-42a7-870d-3093feb1925d.0" configVersion="4eef407e52567241920445b00541874600000000"/>
-		<Metadata name="Constant.МСИспользоватьОбозначенияМн" id="ad37181d-54aa-480d-bcaa-1a0534449611" configVersion="dfc28926303e0c41a20a614bee356a9b00000000"/>
-		<Metadata name="Constant.МСИспользоватьОбозначенияМнISO_80000_1" id="5d2ecc23-a0f7-404c-a2aa-10f2435f8ef7" configVersion="de63d702dd9f9f4f92ea54d4d8f5dc5200000000"/>
-		<Metadata name="Constant.МСИспользоватьОбозначенияРус" id="40428797-e27b-455a-ad87-f7e3a5c86805" configVersion="91c60fdfeb232146ba589ec759cb349100000000"/>
-		<Metadata name="Constant.МСИспользоватьОбозначенияРусISO_80000_1" id="795847e6-9b3d-43e6-b117-ed34b1c72477" configVersion="f1205f870bc78f408c2a5c142ac5d8fe00000000"/>
+		<Metadata name="Constant.МСЕдиницыВеличинИспользоватьОбозначенияМн" id="ad37181d-54aa-480d-bcaa-1a0534449611" configVersion="ccc64e6e0e3db6409c1350923be3956400000000"/>
+		<Metadata name="Constant.МСЕдиницыВеличинИспользоватьОбозначенияМнISO_80000_1" id="5d2ecc23-a0f7-404c-a2aa-10f2435f8ef7" configVersion="35dc6ed455102d4bb3d9ccc8e8760b0800000000"/>
+		<Metadata name="Constant.МСЕдиницыВеличинИспользоватьОбозначенияРус" id="40428797-e27b-455a-ad87-f7e3a5c86805" configVersion="a0df162817dc25459226220db76a10f900000000"/>
+		<Metadata name="Constant.МСЕдиницыВеличинИспользоватьОбозначенияРусISO_80000_1" id="795847e6-9b3d-43e6-b117-ed34b1c72477" configVersion="3f6e3f9e6b8c0b45bfbc0343fa7dde2300000000"/>
+		<Metadata name="Constant.МСЕдиницыВеличинОбозначения" id="8b878d80-e74b-42a7-870d-3093feb1925d" configVersion="144ec814b1d19b4ba8b6291f40e0425000000000"/>
+		<Metadata name="Constant.МСЕдиницыВеличинОбозначения.ValueManagerModule" id="8b878d80-e74b-42a7-870d-3093feb1925d.0" configVersion="2f66451306fef045964ec52ae2236e2500000000"/>
 		<Metadata name="Constant.МаксимальнаяДлительностьВыполненияИсполняющегоФоновогоЗадания" id="01b85e3a-9920-425a-9de5-5079fffeef93" configVersion="95b6cb3ff5c83f48b360cef814e0c55e00000000"/>
 		<Metadata name="Constant.МаксимальноеКоличествоИсполняющихФоновыхЗаданий" id="82e12316-cc64-4d2f-83fa-054b5a738f02" configVersion="f9072740c8771841ad40798732fd53d200000000"/>
 		<Metadata name="Constant.МаксимальныйРазмерФайла" id="6b70f7e1-8bdb-4fc4-9b95-0e045bfa288c" configVersion="14dcabb83788b546aa64e2d92a2432c300000000"/>
@@ -5893,8 +5893,8 @@
 		<Metadata name="DataProcessor.ПанельАдминистрированияБСП.Form.НастройкиСинхронизацииДанных" id="01dedf5b-2cce-4d24-81ea-2e3af82f5794" configVersion="ba8a6f338688a04783fff3862434b37900000000"/>
 		<Metadata name="DataProcessor.ПанельАдминистрированияБСП.Form.НастройкиСинхронизацииДанных.Form" id="01dedf5b-2cce-4d24-81ea-2e3af82f5794.0" configVersion="dc16e5257d28944485e317f046f2aa0600000000"/>
 		<Metadata name="DataProcessor.ПанельАдминистрированияБСП.Form.НастройкиСинхронизацииДанных.Help" id="01dedf5b-2cce-4d24-81ea-2e3af82f5794.1" configVersion="aea67bd0eec7d64384f92dbb01c3306100000000"/>
-		<Metadata name="DataProcessor.ПанельАдминистрированияБСП.Form.ОбщиеНастройки" id="2f8a5b9d-ab86-492b-85d1-5a28535b2ebc" configVersion="cbb7be5f7480434689501a609cdd309000000000"/>
-		<Metadata name="DataProcessor.ПанельАдминистрированияБСП.Form.ОбщиеНастройки.Form" id="2f8a5b9d-ab86-492b-85d1-5a28535b2ebc.0" configVersion="180d50f317e3974f905138fb9280047400000000"/>
+		<Metadata name="DataProcessor.ПанельАдминистрированияБСП.Form.ОбщиеНастройки" id="2f8a5b9d-ab86-492b-85d1-5a28535b2ebc" configVersion="1ff7b2dd0ed0264da063c360a2c62a8500000000"/>
+		<Metadata name="DataProcessor.ПанельАдминистрированияБСП.Form.ОбщиеНастройки.Form" id="2f8a5b9d-ab86-492b-85d1-5a28535b2ebc.0" configVersion="8e566a4b44e2054c9a15d5e90e4cb7fb00000000"/>
 		<Metadata name="DataProcessor.ПанельАдминистрированияБСП.Form.ОбщиеНастройки.Help" id="2f8a5b9d-ab86-492b-85d1-5a28535b2ebc.1" configVersion="8ddaadb462616849b4b1e88c89cb70a400000000"/>
 		<Metadata name="DataProcessor.ПанельАдминистрированияБСП.Form.Органайзер" id="737f6f1b-9ffc-4916-b378-7321eab1f886" configVersion="d73bd52853c3354eaa9bd21bca75f24900000000"/>
 		<Metadata name="DataProcessor.ПанельАдминистрированияБСП.Form.Органайзер.Form" id="737f6f1b-9ffc-4916-b378-7321eab1f886.0" configVersion="ca1da8b91d892142a78d30fc4802544500000000"/>
@@ -8225,11 +8225,11 @@
 		<Metadata name="FunctionalOption.ИспользоватьЭлектронныеПодписи" id="0dcc3bbf-afbe-4a4e-bc4a-17534d5fab28" configVersion="cb788bbc67bdf142b6a0af097a5b505200000000"/>
 		<Metadata name="FunctionalOption.ИспользуютсяПрофилиБезопасности" id="bf75c4de-b36a-4a7f-8d84-9fa3d020a6cb" configVersion="195df2a9a5f84e48a1389fb2e9e3b37c00000000"/>
 		<Metadata name="FunctionalOption.ИсточникДанныхАдресногоКлассификатора" id="f95adb50-fa0b-434c-93dd-b7fd211220b7" configVersion="51912102a59fe44d9670af0e8a7d479000000000"/>
-		<Metadata name="FunctionalOption.МСЕдиницыВеличинОбозначения" id="630df8db-b328-467e-b8f1-82f7b166a6cf" configVersion="6fd8c9f5c692b64092ac0f20d4121d5800000000"/>
-		<Metadata name="FunctionalOption.МСИспользоватьОбозначенияМн" id="f7e86529-8bd0-41d7-90d7-00ee2ef9d2bc" configVersion="709e28646d29a44ca86fb4d8fd4d479f00000000"/>
-		<Metadata name="FunctionalOption.МСИспользоватьОбозначенияМнISO_80000_1" id="7fd9328c-66f6-4d32-a7c0-1e10d79c43c5" configVersion="e0c2c8da8667be4c9e9662072bb55f1400000000"/>
-		<Metadata name="FunctionalOption.МСИспользоватьОбозначенияРус" id="70847fd7-a1e9-4e4b-9e6a-b93430cf20e6" configVersion="6404ed0baba8924b91a3a8866ab72edb00000000"/>
-		<Metadata name="FunctionalOption.МСИспользоватьОбозначенияРусISO_80000_1" id="71f8f42a-b4e6-47e5-a329-e9a0f318b9fe" configVersion="a658d27560d8bd45b6164819fe82020e00000000"/>
+		<Metadata name="FunctionalOption.МСЕдиницыВеличинИспользоватьОбозначенияМн" id="f7e86529-8bd0-41d7-90d7-00ee2ef9d2bc" configVersion="f04fe21655fa0242b8d5ee6255324eac00000000"/>
+		<Metadata name="FunctionalOption.МСЕдиницыВеличинИспользоватьОбозначенияМнISO_80000_1" id="7fd9328c-66f6-4d32-a7c0-1e10d79c43c5" configVersion="d49b30022eebd341a8a7c60950c1cc1000000000"/>
+		<Metadata name="FunctionalOption.МСЕдиницыВеличинИспользоватьОбозначенияРус" id="70847fd7-a1e9-4e4b-9e6a-b93430cf20e6" configVersion="4881a44b452eb24cb1e1d0760e09c52500000000"/>
+		<Metadata name="FunctionalOption.МСЕдиницыВеличинИспользоватьОбозначенияРусISO_80000_1" id="71f8f42a-b4e6-47e5-a329-e9a0f318b9fe" configVersion="4c5211d1e98e5049838c5c7c9d53f27300000000"/>
+		<Metadata name="FunctionalOption.МСЕдиницыВеличинОбозначения" id="630df8db-b328-467e-b8f1-82f7b166a6cf" configVersion="1eed864aa2bee7439d2d222730420dbc00000000"/>
 		<Metadata name="FunctionalOption.НезависимоеИспользованиеДополнительныхОтчетовИОбработокВМоделиСервиса" id="e590825f-10c6-4fdd-98cd-3da01da2ed4f" configVersion="33f3203466c9bd4082fc3e0484ccd75e00000000"/>
 		<Metadata name="FunctionalOption.ОграничиватьДоступНаУровнеЗаписей" id="2233ce53-b8a8-4c83-97a2-683c8575462a" configVersion="10530180a50f604381aed0116ae9680600000000"/>
 		<Metadata name="FunctionalOption.ОтложенноеОбновлениеВГлавномУзлеЗавершеноУспешно" id="d6a5083f-ca9a-42ed-b202-2983e4ba21c2" configVersion="28142a42dcbc0e4bb0a998ee6ed81c8e00000000"/>

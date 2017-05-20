@@ -1,22 +1,22 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
-	<Constant uuid="40428797-e27b-455a-ad87-f7e3a5c86805">
+	<Constant uuid="795847e6-9b3d-43e6-b117-ed34b1c72477">
 		<InternalInfo>
-			<xr:GeneratedType name="ConstantManager.МСИспользоватьОбозначенияРус" category="Manager">
-				<xr:TypeId>976ce68e-590a-4001-8307-ec2388677436</xr:TypeId>
-				<xr:ValueId>90308347-a370-429f-9f1f-863dce7fa7a6</xr:ValueId>
+			<xr:GeneratedType name="ConstantManager.МСЕдиницыВеличинИспользоватьОбозначенияРусISO_80000_1" category="Manager">
+				<xr:TypeId>04e4614f-3001-4aa5-84c7-b048a7179431</xr:TypeId>
+				<xr:ValueId>be10866f-a8af-4718-bd6c-74829b43e069</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="ConstantValueManager.МСИспользоватьОбозначенияРус" category="ValueManager">
-				<xr:TypeId>4cf6653a-bfbc-450f-8ede-d93e1ba5eb19</xr:TypeId>
-				<xr:ValueId>2b5c4ae1-5306-417e-9b57-8077a7ebdd41</xr:ValueId>
+			<xr:GeneratedType name="ConstantValueManager.МСЕдиницыВеличинИспользоватьОбозначенияРусISO_80000_1" category="ValueManager">
+				<xr:TypeId>ea8796e0-602a-4dec-8c09-f0d8e21c452d</xr:TypeId>
+				<xr:ValueId>a6ad89af-bb3b-4fee-851f-1b90e5f01348</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>МСИспользоватьОбозначенияРус</Name>
+			<Name>МСЕдиницыВеличинИспользоватьОбозначенияРусISO_80000_1</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Кириллические</v8:content>
+					<v8:content>Кириллические по ISO 80000-1:2009</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -33,7 +33,7 @@
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Использовать кириллические (русские) наименования и обозначения приставок кратных и дольных единиц величин по Постановлению Правительства РФ от 31.10.2009 №879</v8:content>
+					<v8:content>Использовать кириллические (русские) наименования и обозначения приставок кратных и дольных единиц величин по ISO 80000-1:2009 (в части бинарных приставок)</v8:content>
 				</v8:item>
 			</ToolTip>
 			<MarkNegatives>false</MarkNegatives>

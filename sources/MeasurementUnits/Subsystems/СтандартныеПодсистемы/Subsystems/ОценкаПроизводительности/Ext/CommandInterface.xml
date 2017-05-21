@@ -36,7 +36,7 @@
 		<Command name="Catalog.КлючевыеОперации.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="Enum.УдалитьКлючевыеОперации.StandardCommand.OpenList">
+		<Command name="0:c4a5c44d-329d-41b5-9a6c-bddbc15f6249">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
 		<Command name="InformationRegister.УдалитьЗамерыВремени2.StandardCommand.OpenList">

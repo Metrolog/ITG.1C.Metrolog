@@ -568,7 +568,6 @@
 			<CommonPicture>ЭлектронноеПисьмоИсходящее</CommonPicture>
 			<CommonPicture>ЯндексКарты</CommonPicture>
 			<CommonPicture>КоллекцияПиктограммПараметрыШаблонаСообщения</CommonPicture>
-			<SessionParameter>_ДемоТекущийПроект</SessionParameter>
 			<SessionParameter>АвторизованныйПользователь</SessionParameter>
 			<SessionParameter>БуферОбмена</SessionParameter>
 			<SessionParameter>ВерсияРасширений</SessionParameter>
@@ -616,7 +615,6 @@
 			<Role>_ДемоДобавлениеИзменениеНоменклатуры</Role>
 			<Role>_ДемоДобавлениеИзменениеНСИ</Role>
 			<Role>_ДемоДобавлениеИзменениеПеремещенийТоваров</Role>
-			<Role>_ДемоДобавлениеИзменениеПроектов</Role>
 			<Role>_ДемоДобавлениеИзменениеСкладскихДокументов</Role>
 			<Role>_ДемоДобавлениеИзменениеСогласийНаОбработкуПерсональныхДанных</Role>
 			<Role>_ДемоИнтеграция1СБухфон</Role>
@@ -637,7 +635,6 @@
 			<Role>_ДемоЧтениеКассовыхДокументов</Role>
 			<Role>_ДемоЧтениеНСИ</Role>
 			<Role>_ДемоЧтениеПеремещенийТоваров</Role>
-			<Role>_ДемоЧтениеПроектов</Role>
 			<Role>_ДемоЧтениеСкладскихДокументов</Role>
 			<Role>_ДемоЧтениеСогласийНаОбработкуПерсональныхДанных</Role>
 			<Role>АдминистраторСистемы</Role>
@@ -766,7 +763,6 @@
 			<CommonModule>_ДемоМенеджерОбменаЧерезУниверсальныйФормат</CommonModule>
 			<CommonModule>_ДемоОбменДаннымиСобытия</CommonModule>
 			<CommonModule>_ДемоСвойства</CommonModule>
-			<CommonModule>_ДемоСообщенияУправлениеПроектами</CommonModule>
 			<CommonModule>_ДемоСообщенияШироковещательныйКанал</CommonModule>
 			<CommonModule>_ДемоСтандартныеПодсистемы</CommonModule>
 			<CommonModule>_ДемоСтандартныеПодсистемыВызовСервера</CommonModule>
@@ -1421,7 +1417,6 @@
 			<EventSubscription>_ДемоПроверитьДатуЗапретаИзмененияПередЗаписьюДокумента</EventSubscription>
 			<EventSubscription>_ДемоПроверитьДатуЗапретаИзмененияПередЗаписьюНабораЗаписей</EventSubscription>
 			<EventSubscription>_ДемоПроверитьДатуЗапретаИзмененияПередУдалением</EventSubscription>
-			<EventSubscription>_ДемоПроверитьКодСправочникаПоОрганизации</EventSubscription>
 			<EventSubscription>_ДемоПроверитьНаличиеЗаметокПоПредмету</EventSubscription>
 			<EventSubscription>_ДемоПроверитьНомерБизнесПроцессаПоДате</EventSubscription>
 			<EventSubscription>_ДемоПроверитьНомерДокументаПоДатеИОрганизации</EventSubscription>
@@ -2085,8 +2080,6 @@
 			<Catalog>_ДемоОрганизации</Catalog>
 			<Catalog>_ДемоПартнеры</Catalog>
 			<Catalog>_ДемоПодразделения</Catalog>
-			<Catalog>_ДемоПроекты</Catalog>
-			<Catalog>_ДемоПроектыПрисоединенныеФайлы</Catalog>
 			<Catalog>_ДемоСтавкиНДС</Catalog>
 			<Catalog>_ДемоСчетНаОплатуПокупателюПрисоединенныеФайлы</Catalog>
 			<Catalog>_ДемоФизическиеЛица</Catalog>
@@ -2252,7 +2245,6 @@
 			<Enum>ТипыФайловДляВстроенногоРедактора</Enum>
 			<Enum>ТипыХраненияФайлов</Enum>
 			<Enum>УдалитьВидыКалендарей</Enum>
-			<Enum>УдалитьКлючевыеОперации</Enum>
 			<Enum>УровниПроизводительности</Enum>
 			<Enum>ФорматыСканированногоИзображения</Enum>
 			<Enum>ФорматыСохраненияОтчетов</Enum>

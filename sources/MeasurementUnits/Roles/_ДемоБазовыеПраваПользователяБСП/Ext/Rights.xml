@@ -271,17 +271,6 @@
 		</right>
 	</object>
 	<object>
-		<name>SessionParameter._ДемоТекущийПроект</name>
-		<right>
-			<name>Get</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Set</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Subsystem._ДемоСинхронизацияДанных.Subsystem._ДемоОбъектыСинхронизации</name>
 		<right>
 			<name>View</name>

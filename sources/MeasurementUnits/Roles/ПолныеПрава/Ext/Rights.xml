@@ -1081,29 +1081,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog._ДемоПроектыПрисоединенныеФайлы</name>
-		<right>
-			<name>InteractiveDelete</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveDeletePredefinedData</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveSetDeletionMarkPredefinedData</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveClearDeletionMarkPredefinedData</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveDeleteMarkedPredefinedData</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Report.ИнструментыРазработчикаЗависимостиПодсистем</name>
 		<right>
 			<name>Use</name>
@@ -3549,29 +3526,6 @@
 		</right>
 		<right>
 			<name>TotalsControl</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog._ДемоПроекты</name>
-		<right>
-			<name>InteractiveDelete</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveDeletePredefinedData</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveSetDeletionMarkPredefinedData</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveClearDeletionMarkPredefinedData</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveDeleteMarkedPredefinedData</name>
 			<value>false</value>
 		</right>
 	</object>

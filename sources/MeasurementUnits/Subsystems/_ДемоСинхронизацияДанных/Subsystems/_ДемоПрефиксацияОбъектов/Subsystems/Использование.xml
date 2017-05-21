@@ -20,7 +20,6 @@
 				<xr:Item xsi:type="xr:MDObjectRef">BusinessProcess._ДемоЗаданиеСРолевойАдресацией</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum._ДемоСовместимостьНоменклатуры</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document._ДемоСчетНаОплатуПокупателю</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog._ДемоПроекты</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

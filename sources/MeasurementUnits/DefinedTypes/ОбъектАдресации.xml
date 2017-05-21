@@ -19,7 +19,6 @@
 			<Type>
 				<v8:Type>cfg:CatalogRef._ДемоПодразделения</v8:Type>
 				<v8:Type>cfg:CatalogRef._ДемоОрганизации</v8:Type>
-				<v8:Type>cfg:CatalogRef._ДемоПроекты</v8:Type>
 				<v8:Type>cfg:CatalogRef.ИдентификаторыОбъектовМетаданных</v8:Type>
 			</Type>
 		</Properties>

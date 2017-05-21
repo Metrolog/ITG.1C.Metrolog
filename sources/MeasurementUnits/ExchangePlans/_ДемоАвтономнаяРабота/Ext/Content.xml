@@ -141,10 +141,6 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
-		<Metadata>Catalog._ДемоПроектыПрисоединенныеФайлы</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
 		<Metadata>Constant._ДемоОграничиватьДоступПоНоменклатуре</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -486,10 +482,6 @@
 	</Item>
 	<Item>
 		<Metadata>InformationRegister.НастройкиПравОбъектов</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>Catalog._ДемоПроекты</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>

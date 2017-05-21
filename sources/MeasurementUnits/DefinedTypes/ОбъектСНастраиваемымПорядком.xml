@@ -19,7 +19,6 @@
 			<Type>
 				<v8:Type>cfg:CatalogObject.ПравилаОбработкиЭлектроннойПочты</v8:Type>
 				<v8:Type>cfg:CatalogObject.ВидыКонтактнойИнформации</v8:Type>
-				<v8:Type>cfg:CatalogObject._ДемоПроекты</v8:Type>
 				<v8:Type>cfg:CatalogObject.ВариантыОтветовАнкет</v8:Type>
 				<v8:Type>cfg:CatalogObject.ИдентификаторыОбъектовМетаданных</v8:Type>
 			</Type>

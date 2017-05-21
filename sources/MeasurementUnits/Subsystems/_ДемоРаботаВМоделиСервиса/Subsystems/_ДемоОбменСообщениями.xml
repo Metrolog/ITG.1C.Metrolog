@@ -15,7 +15,6 @@
 			<Explanation/>
 			<Picture/>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule._ДемоСообщенияУправлениеПроектами</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule._ДемоСообщенияШироковещательныйКанал</xr:Item>
 			</Content>
 		</Properties>

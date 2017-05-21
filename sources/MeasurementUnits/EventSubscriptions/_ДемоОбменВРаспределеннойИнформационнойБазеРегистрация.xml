@@ -56,7 +56,6 @@
 				<v8:Type>cfg:CatalogObject.ПредопределенныеВариантыОтчетов</v8:Type>
 				<v8:Type>cfg:CatalogObject.ВидыКонтактнойИнформации</v8:Type>
 				<v8:Type>cfg:CatalogObject._ДемоКассыККМ</v8:Type>
-				<v8:Type>cfg:CatalogObject._ДемоПроекты</v8:Type>
 				<v8:Type>cfg:CatalogObject.Календари</v8:Type>
 				<v8:Type>cfg:CatalogObject.ВнешниеПользователи</v8:Type>
 				<v8:Type>cfg:ChartOfCharacteristicTypesObject.УдалитьВидыДоступа</v8:Type>

@@ -544,7 +544,7 @@
 					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>true</FillFromFillingValue>
-					<FillValue xsi:type="xr:DesignTimeRef">ChartOfCharacteristicTypes.ОбъектыАдресацииЗадач.ВсеОбъектыАдресации</FillValue>
+					<FillValue xsi:type="xr:DesignTimeRef">ChartOfCharacteristicTypes.ОбъектыАдресацииЗадач.</FillValue>
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
@@ -588,7 +588,7 @@
 					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>true</FillFromFillingValue>
-					<FillValue xsi:type="xr:DesignTimeRef">ChartOfCharacteristicTypes.ОбъектыАдресацииЗадач.ВсеОбъектыАдресации</FillValue>
+					<FillValue xsi:type="xr:DesignTimeRef">ChartOfCharacteristicTypes.ОбъектыАдресацииЗадач.</FillValue>
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>

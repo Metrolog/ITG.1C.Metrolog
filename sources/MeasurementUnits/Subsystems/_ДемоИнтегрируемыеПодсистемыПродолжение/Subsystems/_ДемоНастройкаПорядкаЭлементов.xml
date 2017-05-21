@@ -15,7 +15,6 @@
 			<Explanation/>
 			<Picture/>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog._ДемоПроекты</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ВидыКонтактнойИнформации</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCharacteristicTypes.ВопросыДляАнкетирования</xr:Item>
 			</Content>

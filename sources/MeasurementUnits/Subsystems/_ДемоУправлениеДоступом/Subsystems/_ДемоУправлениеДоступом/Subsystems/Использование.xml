@@ -22,7 +22,6 @@
 				<xr:Item xsi:type="xr:MDObjectRef">6bc726e3-2f94-498d-9584-c1a54fda5b27</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document._ДемоРасходныйКассовыйОрдер</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Файлы</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog._ДемоПроекты</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document._ДемоЗаказПокупателя</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document._ДемоСписаниеТоваров</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog._ДемоБанковскиеСчета</xr:Item>
@@ -37,7 +36,6 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog._ДемоНоменклатура</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog._ДемоНоменклатураПрисоединенныеФайлы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog._ДемоПартнеры</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog._ДемоПроектыПрисоединенныеФайлы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog._ДемоСчетНаОплатуПокупателюПрисоединенныеФайлы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ВерсииФайлов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ВнешниеПользователи</xr:Item>

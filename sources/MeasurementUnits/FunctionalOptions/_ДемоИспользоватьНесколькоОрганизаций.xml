@@ -13,7 +13,6 @@
 			<Location>Constant._ДемоИспользоватьНесколькоОрганизаций</Location>
 			<PrivilegedGetMode>true</PrivilegedGetMode>
 			<Content>
-				<xr:Object>Catalog._ДемоПроекты.Attribute.Организация</xr:Object>
 				<xr:Object>Document._ДемоЗаказПокупателя.Attribute.Организация</xr:Object>
 				<xr:Object>Document._ДемоОприходованиеТоваров.Attribute.Организация</xr:Object>
 				<xr:Object>Document._ДемоПеремещениеТоваров.Attribute.Организация</xr:Object>

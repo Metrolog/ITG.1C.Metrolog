@@ -26,8 +26,6 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog._ДемоВидыНоменклатуры</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog._ДемоГруппыДоступаНоменклатуры</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog._ДемоГруппыДоступаПартнеров</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog._ДемоКассы</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog._ДемоКассыККМ</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog._ДемоКонтактныеЛицаПартнеров</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog._ДемоКонтрагенты</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog._ДемоМестаХранения</xr:Item>

@@ -49,7 +49,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</xr:Item>
 			</DefaultRoles>
 			<Vendor>ФБУ "Тест-С.-Петербург"</Vendor>
-			<Version>0.1.0.29</Version>
+			<Version>0.1.0.30</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>true</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>true</UseManagedFormInOrdinaryApplication>
@@ -2065,8 +2065,6 @@
 			<Catalog>_ДемоГруппыДоступаНоменклатуры</Catalog>
 			<Catalog>_ДемоГруппыДоступаПартнеров</Catalog>
 			<Catalog>_ДемоДоговорыКонтрагентов</Catalog>
-			<Catalog>_ДемоКассы</Catalog>
-			<Catalog>_ДемоКассыККМ</Catalog>
 			<Catalog>_ДемоКонтактныеЛицаПартнеров</Catalog>
 			<Catalog>_ДемоКонтрагенты</Catalog>
 			<Catalog>_ДемоМестаХранения</Catalog>

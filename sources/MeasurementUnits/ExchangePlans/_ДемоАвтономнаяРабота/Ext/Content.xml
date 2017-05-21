@@ -381,10 +381,6 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
-		<Metadata>Catalog._ДемоКассы</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
 		<Metadata>InformationRegister.ПользовательскиеНастройкиДоступаКОбработкам</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -654,10 +650,6 @@
 	</Item>
 	<Item>
 		<Metadata>Constant.ИспользоватьЗаметки</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>Catalog._ДемоКассыККМ</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>

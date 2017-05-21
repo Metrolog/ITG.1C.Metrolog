@@ -56,12 +56,12 @@
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="Catalog._ДемоКассы.StandardCommand.OpenList">
+		<Command name="0:6bc2c3f8-6027-411e-97c5-6f1b7e4cea61">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="Catalog._ДемоКассыККМ.StandardCommand.OpenList">
+		<Command name="0:c7d8ee39-01e4-44b6-8aef-afc2c6aa1a14">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
@@ -272,10 +272,10 @@
 		<Command name="BusinessProcess._ДемоЗаданиеСРолевойАдресацией.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="Catalog._ДемоКассы.StandardCommand.OpenList">
+		<Command name="0:6bc2c3f8-6027-411e-97c5-6f1b7e4cea61">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="Catalog._ДемоКассыККМ.StandardCommand.OpenList">
+		<Command name="0:c7d8ee39-01e4-44b6-8aef-afc2c6aa1a14">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
 		<Command name="Catalog._ДемоКонтактныеЛицаПартнеров.StandardCommand.OpenList">

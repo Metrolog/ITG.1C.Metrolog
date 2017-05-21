@@ -32,7 +32,7 @@
 		<Command name="Catalog.ВидыКонтактнойИнформации.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="Catalog._ДемоКассыККМ.StandardCommand.OpenList">
+		<Command name="0:c7d8ee39-01e4-44b6-8aef-afc2c6aa1a14">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
 		<Command name="ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения.StandardCommand.OpenList">

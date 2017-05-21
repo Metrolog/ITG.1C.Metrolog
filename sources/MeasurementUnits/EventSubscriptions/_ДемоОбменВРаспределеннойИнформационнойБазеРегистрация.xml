@@ -53,7 +53,6 @@
 				<v8:Type>cfg:CatalogObject.СертификатыКлючейЭлектроннойПодписиИШифрования</v8:Type>
 				<v8:Type>cfg:CatalogObject.ПредопределенныеВариантыОтчетов</v8:Type>
 				<v8:Type>cfg:CatalogObject.ВидыКонтактнойИнформации</v8:Type>
-				<v8:Type>cfg:CatalogObject._ДемоКассыККМ</v8:Type>
 				<v8:Type>cfg:CatalogObject.Календари</v8:Type>
 				<v8:Type>cfg:CatalogObject.ВнешниеПользователи</v8:Type>
 				<v8:Type>cfg:ChartOfCharacteristicTypesObject.УдалитьВидыДоступа</v8:Type>
@@ -63,7 +62,6 @@
 				<v8:Type>cfg:CatalogObject.НаборыДополнительныхРеквизитовИСведений</v8:Type>
 				<v8:Type>cfg:CatalogObject.ПроизводственныеКалендари</v8:Type>
 				<v8:Type>cfg:CatalogObject.Файлы</v8:Type>
-				<v8:Type>cfg:CatalogObject._ДемоКассы</v8:Type>
 				<v8:Type>cfg:CatalogObject._ДемоМестаХранения</v8:Type>
 				<v8:Type>cfg:CatalogObject.ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы</v8:Type>
 				<v8:Type>cfg:CatalogObject.ВариантыОтветовАнкет</v8:Type>

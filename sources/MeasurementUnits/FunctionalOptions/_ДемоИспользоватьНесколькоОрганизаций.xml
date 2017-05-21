@@ -17,7 +17,6 @@
 				<xr:Object>Document._ДемоОприходованиеТоваров.Attribute.Организация</xr:Object>
 				<xr:Object>Document._ДемоПеремещениеТоваров.Attribute.Организация</xr:Object>
 				<xr:Object>Document._ДемоПоступлениеТоваров.Attribute.Организация</xr:Object>
-				<xr:Object>Document._ДемоРасходныйКассовыйОрдер.Attribute.Касса</xr:Object>
 				<xr:Object>Document._ДемоРеализацияТоваров.Attribute.ГоловнаяОрганизация</xr:Object>
 				<xr:Object>Document._ДемоСписаниеТоваров.Attribute.Организация</xr:Object>
 				<xr:Object>Document._ДемоСчетНаОплатуПокупателю.Attribute.Организация</xr:Object>

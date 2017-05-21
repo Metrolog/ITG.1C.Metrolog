@@ -449,10 +449,6 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
-		<Metadata>Document._ДемоСписаниеБезналичныхДенежныхСредств</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
 		<Metadata>InformationRegister.ПользовательскиеНастройкиДоступаКОбработкам</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -810,10 +806,6 @@
 	</Item>
 	<Item>
 		<Metadata>Document._ДемоСписаниеТоваров</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>Document._ДемоРасходныйКассовыйОрдер</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>

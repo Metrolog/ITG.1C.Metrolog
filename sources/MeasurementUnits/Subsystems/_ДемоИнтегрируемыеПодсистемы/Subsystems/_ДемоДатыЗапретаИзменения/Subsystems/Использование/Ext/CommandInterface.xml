@@ -46,7 +46,7 @@
 		<Command name="InformationRegister._ДемоЗаведующиеМестамиХранения.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="Document._ДемоСписаниеБезналичныхДенежныхСредств.StandardCommand.OpenList">
+		<Command name="0:6dea10e0-fc48-4ff0-83c2-b0e9b9751fe2">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
 		<Command name="ExchangePlan._ДемоСинхронизацияДанныхЧерезУниверсальныйФормат.StandardCommand.OpenList">

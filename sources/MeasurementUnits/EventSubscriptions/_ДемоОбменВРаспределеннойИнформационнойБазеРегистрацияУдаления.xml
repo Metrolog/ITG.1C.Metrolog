@@ -38,7 +38,6 @@
 				<v8:Type>cfg:CatalogObject._ДемоФизическиеЛица</v8:Type>
 				<v8:Type>cfg:CatalogObject._ДемоОрганизации</v8:Type>
 				<v8:Type>cfg:DocumentObject.ЭлектронноеПисьмоВходящее</v8:Type>
-				<v8:Type>cfg:DocumentObject._ДемоРасходныйКассовыйОрдер</v8:Type>
 				<v8:Type>cfg:DocumentObject._ДемоПеремещениеТоваров</v8:Type>
 				<v8:Type>cfg:CatalogObject._ДемоПартнеры</v8:Type>
 				<v8:Type>cfg:DocumentObject._ДемоСписаниеТоваров</v8:Type>

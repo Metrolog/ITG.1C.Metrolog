@@ -215,7 +215,7 @@
 		<Command name="0:6bc726e3-2f94-498d-9584-c1a54fda5b27">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="Document._ДемоРасходныйКассовыйОрдер.StandardCommand.OpenList">
+		<Command name="0:c136e638-f8b3-4942-a8de-2bd90e899d95">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
 		<Command name="AccumulationRegister._ДемоОстаткиТоваровВМестахХранения.StandardCommand.OpenList">

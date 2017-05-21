@@ -21,7 +21,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document._ДемоПоступлениеТоваров</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document._ДемоРеализацияТоваров</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document._ДемоСписаниеТоваров</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document._ДемоСписаниеБезналичныхДенежныхСредств</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">6dea10e0-fc48-4ff0-83c2-b0e9b9751fe2</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">ExchangePlan._ДемоОбменБезИспользованияПравилКонвертации</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">ExchangePlan._ДемоОбменСБиблиотекойСтандартныхПодсистем</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">ExchangePlan._ДемоОбменСБиблиотекойСтандартныхПодсистем225</xr:Item>

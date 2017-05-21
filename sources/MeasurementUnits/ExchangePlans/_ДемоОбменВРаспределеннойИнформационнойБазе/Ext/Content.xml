@@ -685,10 +685,6 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
-		<Metadata>Document._ДемоРасходныйКассовыйОрдер</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
 		<Metadata>Constant.ИспользоватьНапоминанияПользователя</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>

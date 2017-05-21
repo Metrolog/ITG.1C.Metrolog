@@ -2853,13 +2853,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document._ДемоСписаниеБезналичныхДенежныхСредств</name>
-		<right>
-			<name>InteractiveDelete</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>CommonAttribute.ОбластьДанныхОсновныеДанные</name>
 		<right>
 			<name>View</name>
@@ -4605,13 +4598,6 @@
 	</object>
 	<object>
 		<name>Document._ДемоСписаниеТоваров</name>
-		<right>
-			<name>InteractiveDelete</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document._ДемоРасходныйКассовыйОрдер</name>
 		<right>
 			<name>InteractiveDelete</name>
 			<value>false</value>

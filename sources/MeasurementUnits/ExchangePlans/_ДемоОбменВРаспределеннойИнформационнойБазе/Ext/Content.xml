@@ -585,10 +585,6 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
-		<Metadata>AccountingRegister._ДемоОсновной</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
 		<Metadata>InformationRegister.НастройкиОчисткиФайлов</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -746,10 +742,6 @@
 	</Item>
 	<Item>
 		<Metadata>Constant.ОтложенноеОбновлениеВГлавномУзлеЗавершеноУспешно</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>ChartOfAccounts._ДемоОсновной</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>

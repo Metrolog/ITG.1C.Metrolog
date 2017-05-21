@@ -22,7 +22,6 @@
 				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription._ДемоУстановитьПрефиксИнформационнойБазыКодуСправочника</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription._ДемоУстановитьПрефиксИнформационнойБазыНомеруБизнесПроцесса</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription._ДемоУстановитьПрефиксИнформационнойБазыНомеруДокумента</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">2bfab282-e981-460d-8803-209b17d445ad</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant._ДемоИспользоватьНесколькоОрганизаций</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant._ДемоНеИспользоватьНесколькоОрганизаций</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption._ДемоПрефиксыОрганизаций</xr:Item>

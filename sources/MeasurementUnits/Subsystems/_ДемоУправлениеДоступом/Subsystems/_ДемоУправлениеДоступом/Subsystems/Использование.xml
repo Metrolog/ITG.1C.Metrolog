@@ -19,7 +19,6 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document._ДемоПеремещениеТоваров</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DocumentJournal._ДемоСкладскиеДокументы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister._ДемоОстаткиТоваровВМестахХранения</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">6bc726e3-2f94-498d-9584-c1a54fda5b27</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document._ДемоРасходныйКассовыйОрдер</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Файлы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document._ДемоЗаказПокупателя</xr:Item>

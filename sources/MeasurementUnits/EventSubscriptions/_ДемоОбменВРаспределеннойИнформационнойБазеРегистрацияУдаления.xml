@@ -54,7 +54,6 @@
 				<v8:Type>cfg:CatalogObject._ДемоДоговорыКонтрагентов</v8:Type>
 				<v8:Type>cfg:ChartOfCharacteristicTypesObject.ДополнительныеРеквизитыИСведения</v8:Type>
 				<v8:Type>cfg:CatalogObject.ДополнительныеОтчетыИОбработки</v8:Type>
-				<v8:Type>cfg:ChartOfAccountsObject._ДемоОсновной</v8:Type>
 				<v8:Type>cfg:BusinessProcessObject._ДемоЗаданиеСРолевойАдресацией</v8:Type>
 				<v8:Type>cfg:DocumentObject.ЗапланированноеВзаимодействие</v8:Type>
 				<v8:Type>cfg:CatalogObject.СертификатыКлючейЭлектроннойПодписиИШифрования</v8:Type>

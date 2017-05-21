@@ -16,7 +16,6 @@
 			<Picture/>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.РассылкиОтчетов</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Report._ДемоОборотноСальдоваяВедомость</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report._ДемоСтатусыЗаказовПокупателей</xr:Item>
 			</Content>
 		</Properties>

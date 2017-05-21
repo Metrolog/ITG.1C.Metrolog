@@ -15,17 +15,11 @@
 			<Explanation/>
 			<Picture/>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">AccountingRegister._ДемоОсновной</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister._ДемоОстаткиТоваровВМестахХранения</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">a6756af4-964f-400d-97d4-0bd3f5916693</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand._ДемоЖурналПроводокБухгалтерскогоУчета</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">f38534be-2d35-454f-9a70-bb350565d703</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand._ДемоОстаткиТоваровВМестахХранения</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Report._ДемоОборотноСальдоваяВедомость</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document._ДемоПоступлениеТоваров</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document._ДемоРеализацияТоваров</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister._ДемоОтветственныеЛица</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">6bc726e3-2f94-498d-9584-c1a54fda5b27</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

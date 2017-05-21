@@ -41,8 +41,6 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.КоличествоЗамеровВПакетеЭкспорта</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ПериодХраненияЗамеров</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.ОчисткаЗамеровВремени</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">aef1aaa6-a443-44c6-a541-613e8614f7bc</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">3b25e690-4660-4c15-914b-96ea4ddce316</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОценкаПроизводительностиПовтИсп</xr:Item>
 			</Content>
 		</Properties>

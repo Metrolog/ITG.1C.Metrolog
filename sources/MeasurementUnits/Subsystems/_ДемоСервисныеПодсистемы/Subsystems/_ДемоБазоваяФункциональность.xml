@@ -18,9 +18,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor._ДемоВыводСообщенийПользователю</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule._ДемоСтандартныеПодсистемы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document._ДемоСписаниеТоваров</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">a6756af4-964f-400d-97d4-0bd3f5916693</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister._ДемоГрафикиРаботы</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">AccountingRegister._ДемоОсновной</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor._ДемоВыборОбъектовМетаданных</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor._ДемоШаблонПомощника</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule._ДемоСтандартныеПодсистемыСобытия</xr:Item>

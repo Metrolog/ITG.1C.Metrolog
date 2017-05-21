@@ -16,11 +16,8 @@
 			<Picture/>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog._ДемоНоменклатура</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">ChartOfAccounts._ДемоОсновной</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">a1c76fb2-6237-41a1-8b2f-66d8c1ed2fd9</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCharacteristicTypes._ДемоВидыСубконто</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand._ДемоМестаИспользованияЭлемента</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">832b3286-8b56-46e8-9d7b-beab7d7f89ee</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum._ДемоВидыПлатежейВБюджет</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ЗаменаИОбъединениеЭлементов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ПоискИУдалениеДублей</xr:Item>
@@ -28,7 +25,6 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Валюты</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog._ДемоДоговорыКонтрагентов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum._ДемоСовместимостьНоменклатуры</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">6e48352a-0de4-40a3-9180-673364d1aa3a</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>

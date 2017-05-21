@@ -28,7 +28,6 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog._ДемоОрганизации</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document._ДемоПоступлениеТоваров</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document._ДемоРеализацияТоваров</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCharacteristicTypes._ДемоВидыСубконто</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister._ДемоОтветственныеЛица</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister._ДемоРаботникиОрганизаций</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КурсыВалют</xr:Item>

@@ -665,10 +665,6 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
-		<Metadata>ChartOfCharacteristicTypes._ДемоВидыСубконто</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
 		<Metadata>Catalog.СообщениеSMSПрисоединенныеФайлы</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>

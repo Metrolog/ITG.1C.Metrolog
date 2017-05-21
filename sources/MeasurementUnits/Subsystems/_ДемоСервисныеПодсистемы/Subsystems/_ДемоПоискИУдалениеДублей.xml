@@ -16,7 +16,6 @@
 			<Picture/>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog._ДемоНоменклатура</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCharacteristicTypes._ДемоВидыСубконто</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand._ДемоМестаИспользованияЭлемента</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum._ДемоВидыПлатежейВБюджет</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ЗаменаИОбъединениеЭлементов</xr:Item>

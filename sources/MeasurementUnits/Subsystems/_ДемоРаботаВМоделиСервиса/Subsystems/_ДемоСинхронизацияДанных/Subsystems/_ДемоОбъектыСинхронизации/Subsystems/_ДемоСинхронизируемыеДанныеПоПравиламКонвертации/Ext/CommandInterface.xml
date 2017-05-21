@@ -6,7 +6,7 @@
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="ChartOfCharacteristicTypes._ДемоВидыСубконто.StandardCommand.OpenList">
+		<Command name="0:b850d595-0fab-4f29-9eb2-334fe98c8adf">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
@@ -26,6 +26,7 @@
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
+		<Command name="0:d52cf615-a846-44fb-9b13-61084d0a3c77">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>

@@ -153,6 +153,7 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>НормативноСправочнаяИнформация</Subsystem>
+			<Subsystem>Администрирование</Subsystem>
 			<Subsystem>_ДемоАнкетирование</Subsystem>
 			<Subsystem>_ДемоБизнесПроцессыИЗадачи</Subsystem>
 			<Subsystem>_ДемоИнструментыРазработчика</Subsystem>
@@ -166,13 +167,11 @@
 			<Subsystem>_ДемоСервисныеПодсистемы</Subsystem>
 			<Subsystem>_ДемоСинхронизацияДанных</Subsystem>
 			<Subsystem>_ДемоУправлениеДоступом</Subsystem>
-			<Subsystem>Администрирование</Subsystem>
 			<Subsystem>ИнтернетПоддержкаПользователей</Subsystem>
 			<Subsystem>ПодключаемыеОтчетыИОбработки</Subsystem>
 			<Subsystem>СтандартныеПодсистемы</Subsystem>
 			<Subsystem>ТехнологияСервиса</Subsystem>
 			<Subsystem>МетрологическаяСлужба</Subsystem>
-			<StyleItem>_ДемоОсновнойПроектШрифт</StyleItem>
 			<StyleItem>ВидДняПроизводственногоКалендаряВоскресеньеЦвет</StyleItem>
 			<StyleItem>ВидДняПроизводственногоКалендаряНеУказанЦвет</StyleItem>
 			<StyleItem>ВидДняПроизводственногоКалендаряПраздникЦвет</StyleItem>

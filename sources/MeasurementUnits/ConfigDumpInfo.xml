@@ -4568,15 +4568,15 @@
 		<Metadata name="CommonTemplate.СоответствиеТэговОбщимФормам.Template" id="c8d797cf-e72c-4d99-bd6f-f4a8b0ca7c8d.0" configVersion="55b2643dd5325d469d9ba09c117e64fc00000000"/>
 		<Metadata name="CommonTemplate.СтруктураПодчиненности" id="7a62d031-c340-4b1e-90af-fff697a2e979" configVersion="f8bd0751e737e343817341c9bc9653b700000000"/>
 		<Metadata name="CommonTemplate.СтруктураПодчиненности.Template" id="7a62d031-c340-4b1e-90af-fff697a2e979.0" configVersion="42ca684c51be6144b94a4a10d01fa64000000000"/>
-		<Metadata name="Configuration.МетрологическаяСлужба" id="23bf4dc1-1a94-4b3b-92c2-1b132871ab30" configVersion="321b9eab44df5544a60e10cd55a9e12d00000000"/>
-		<Metadata name="Configuration.МетрологическаяСлужба.ClientApplicationInterface" id="b8046913-9a03-48e9-97b4-b9971a833256.b" configVersion="617578219216654b8d4e44238050356400000000"/>
+		<Metadata name="Configuration.МетрологическаяСлужба" id="23bf4dc1-1a94-4b3b-92c2-1b132871ab30" configVersion="df4c555efb131e438cc58a734f57d09c00000000"/>
+		<Metadata name="Configuration.МетрологическаяСлужба.ClientApplicationInterface" id="b8046913-9a03-48e9-97b4-b9971a833256.b" configVersion="d32e8a09bbc3404cb303d4a103183b6c00000000"/>
 		<Metadata name="Configuration.МетрологическаяСлужба.CommandInterface" id="b8046913-9a03-48e9-97b4-b9971a833256.a" configVersion="b4dc4f75e56b9340973ad455784ac7d600000000"/>
 		<Metadata name="Configuration.МетрологическаяСлужба.ExternalConnectionModule" id="b8046913-9a03-48e9-97b4-b9971a833256.5" configVersion="9e2830591014da4e8bc1b0a3ce8c1d4800000000"/>
 		<Metadata name="Configuration.МетрологическаяСлужба.Help" id="b8046913-9a03-48e9-97b4-b9971a833256.3" configVersion="2f00f18966cb4a418a4694ae2a70ae5f00000000"/>
-		<Metadata name="Configuration.МетрологическаяСлужба.HomePageWorkArea" id="b8046913-9a03-48e9-97b4-b9971a833256.8" configVersion="f99bcec7c2018d4eac8a62165f5740da00000000"/>
+		<Metadata name="Configuration.МетрологическаяСлужба.HomePageWorkArea" id="b8046913-9a03-48e9-97b4-b9971a833256.8" configVersion="807ffa487be0fb408909542d45cd94e200000000"/>
 		<Metadata name="Configuration.МетрологическаяСлужба.Logo" id="b8046913-9a03-48e9-97b4-b9971a833256.1" configVersion="3a7c08bb4593cc44acfcf1f696279a6b00000000"/>
 		<Metadata name="Configuration.МетрологическаяСлужба.MainSectionCommandInterface" id="b8046913-9a03-48e9-97b4-b9971a833256.9" configVersion="e0c696bff5a4fe4abc2fa92c69f3c93900000000"/>
-		<Metadata name="Configuration.МетрологическаяСлужба.MainSectionPicture" id="b8046913-9a03-48e9-97b4-b9971a833256.c" configVersion="1f5aed36793dd642b3fd068f80c5ba4100000000"/>
+		<Metadata name="Configuration.МетрологическаяСлужба.MainSectionPicture" id="b8046913-9a03-48e9-97b4-b9971a833256.c" configVersion="f46a589235efbb448aff8b35ee81050900000000"/>
 		<Metadata name="Configuration.МетрологическаяСлужба.ManagedApplicationModule" id="b8046913-9a03-48e9-97b4-b9971a833256.6" configVersion="fede9e6abb84f746aa172696e644ec7400000000"/>
 		<Metadata name="Configuration.МетрологическаяСлужба.OrdinaryApplicationModule" id="b8046913-9a03-48e9-97b4-b9971a833256.0" configVersion="8ea526185a1b41419069e0f271f90e7600000000"/>
 		<Metadata name="Configuration.МетрологическаяСлужба.ParentConfigurations" id="b8046913-9a03-48e9-97b4-b9971a833256.4" configVersion="94f8253eeb693d4e855cb6e8ccbe341e00000000"/>
@@ -10315,7 +10315,6 @@
 		<Metadata name="SettingsStorage.ХранилищеВариантовОтчетов.Form.ЭлементУсловногоОформленияОтчета.Form" id="f259b6b4-d582-429f-a16f-027a6bcb7438.0" configVersion="3dd3c0a8f8d78b4e9fc9403047c35e3100000000"/>
 		<Metadata name="SettingsStorage.ХранилищеВариантовОтчетов.Form.ЭлементУсловногоОформленияОтчета.Help" id="f259b6b4-d582-429f-a16f-027a6bcb7438.1" configVersion="b2968724e2a29a42913760ed2d99c4c400000000"/>
 		<Metadata name="SettingsStorage.ХранилищеВариантовОтчетов.ManagerModule" id="14512818-58b0-44cc-b00d-d37913c57aad.8" configVersion="a9dee832a1219048838fd0775ab3b94400000000"/>
-		<Metadata name="StyleItem._ДемоОсновнойПроектШрифт" id="0f3d960a-e6c3-4e01-9c10-094de30b2c03" configVersion="64bd7cad9cfced46b78f6f97a6d3e43c00000000"/>
 		<Metadata name="StyleItem.ВидДняПроизводственногоКалендаряВоскресеньеЦвет" id="b7e435a9-6107-4d02-a949-cff793462e31" configVersion="069033893a11b9488c061d6b6d298eeb00000000"/>
 		<Metadata name="StyleItem.ВидДняПроизводственногоКалендаряНеУказанЦвет" id="f0cda8f5-56f5-423b-8c1c-7113433ebf25" configVersion="40d4a5c5a1bbf546b0b016628e670ab200000000"/>
 		<Metadata name="StyleItem.ВидДняПроизводственногоКалендаряПраздникЦвет" id="1a220e88-428b-4d85-926d-e572bf19997c" configVersion="a86ea59851f48a40b3dcd84e2547ac3600000000"/>
@@ -10507,7 +10506,7 @@
 		<Metadata name="Subsystem._ДемоРаботаВМоделиСервиса.Subsystem._ДемоСинхронизацияДанных.Subsystem._ДемоОбъектыСинхронизации.Subsystem._ДемоСинхронизируемыеДанныеПоПравиламКонвертации.CommandInterface" id="5a590f43-3f7b-429e-b2f1-ff0100696fac.1" configVersion="463a011f33a0124cbc646a7ad7774e2b00000000"/>
 		<Metadata name="Subsystem._ДемоСервисныеПодсистемы" id="6334a593-abf8-4ba0-81da-e57bafcff43f" configVersion="5ea94bfcdc85c0459eca88ffad17b09500000000"/>
 		<Metadata name="Subsystem._ДемоСервисныеПодсистемы.CommandInterface" id="6334a593-abf8-4ba0-81da-e57bafcff43f.1" configVersion="190af5e9e590d245a55558b02e7b9cdb00000000"/>
-		<Metadata name="Subsystem._ДемоСервисныеПодсистемы.Subsystem._ДемоБазоваяФункциональность" id="4ded515b-a3b6-4292-8d6b-66c439e2bb88" configVersion="5bf66e126de1f54690a86c7fe1e3434900000000"/>
+		<Metadata name="Subsystem._ДемоСервисныеПодсистемы.Subsystem._ДемоБазоваяФункциональность" id="4ded515b-a3b6-4292-8d6b-66c439e2bb88" configVersion="abef43221781454a986b26e943d02b8100000000"/>
 		<Metadata name="Subsystem._ДемоСервисныеПодсистемы.Subsystem._ДемоБазоваяФункциональность.CommandInterface" id="4ded515b-a3b6-4292-8d6b-66c439e2bb88.1" configVersion="19eb020eb41968498d3f1fa93b0ff2c100000000"/>
 		<Metadata name="Subsystem._ДемоСервисныеПодсистемы.Subsystem._ДемоГрупповоеИзменениеОбъектов" id="9bafa7ae-03d4-4a32-8c97-991100543eec" configVersion="84ea757273009c4da6eb899763dc355100000000"/>
 		<Metadata name="Subsystem._ДемоСервисныеПодсистемы.Subsystem._ДемоГрупповоеИзменениеОбъектов.CommandInterface" id="9bafa7ae-03d4-4a32-8c97-991100543eec.1" configVersion="561fed8830e79945b70b08648cb0669d00000000"/>
@@ -10568,7 +10567,7 @@
 		<Metadata name="Subsystem.МетрологическаяСлужба.Subsystem.ЕдиницыВеличин" id="84293ecf-872c-4a8b-868c-e2aa65cf5346" configVersion="9e1588d60d3af54491a927670310b86c00000000"/>
 		<Metadata name="Subsystem.НормативноСправочнаяИнформация" id="326dd5e6-5c2b-42b1-a9d2-f4ce7b3e4ecd" configVersion="0b835d13ae58f6418b894e2d3df5746a00000000"/>
 		<Metadata name="Subsystem.НормативноСправочнаяИнформация.CommandInterface" id="326dd5e6-5c2b-42b1-a9d2-f4ce7b3e4ecd.1" configVersion="52d0857672906c4b8ed84463f7623bfe00000000"/>
-		<Metadata name="Subsystem.НормативноСправочнаяИнформация.Subsystem.ЕдиницыВеличин" id="4c5e4fa4-9eff-4dec-882d-1b34e06e9126" configVersion="fdad85a43b58f84eb1c5886f0b7f2ed700000000"/>
+		<Metadata name="Subsystem.НормативноСправочнаяИнформация.Subsystem.ЕдиницыВеличин" id="4c5e4fa4-9eff-4dec-882d-1b34e06e9126" configVersion="7d87b1b04959394f8c8696436e8d2e3e00000000"/>
 		<Metadata name="Subsystem.НормативноСправочнаяИнформация.Subsystem.ЕдиницыВеличин.CommandInterface" id="4c5e4fa4-9eff-4dec-882d-1b34e06e9126.1" configVersion="485261af7001ee468e9c6e8c4426554300000000"/>
 		<Metadata name="Subsystem.ПодключаемыеОтчетыИОбработки" id="7795348b-2f52-47f7-bf00-e11e5e795a43" configVersion="cb409d1411411441a453bba62a3955ad00000000"/>
 		<Metadata name="Subsystem.СтандартныеПодсистемы" id="0421b67e-ed26-491d-ab98-ec59002ed4ce" configVersion="1bf16c67d45c3448b2a22053716f82f100000000"/>

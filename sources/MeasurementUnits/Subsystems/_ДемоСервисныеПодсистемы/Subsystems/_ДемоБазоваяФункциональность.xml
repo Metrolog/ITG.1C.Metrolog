@@ -26,7 +26,6 @@
 				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription._ДемоЗаполнитьДатуДокументаПоРабочейДатеПриКопировании</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule._ДемоСтандартныеПодсистемыКлиент</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor._ДемоДлительнаяОперация</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">StyleItem._ДемоОсновнойПроектШрифт</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule._ДемоСтандартныеПодсистемыВызовСервера</xr:Item>
 			</Content>
 		</Properties>

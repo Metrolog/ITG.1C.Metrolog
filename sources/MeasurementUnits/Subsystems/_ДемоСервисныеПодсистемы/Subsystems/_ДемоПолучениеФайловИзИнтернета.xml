@@ -16,7 +16,6 @@
 			<Picture/>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor._ДемоПолучениеФайловИзИнтернета</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Subsystem._ДемоСервисныеПодсистемы.Subsystem._ДемоПолучениеФайловИзИнтернета</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

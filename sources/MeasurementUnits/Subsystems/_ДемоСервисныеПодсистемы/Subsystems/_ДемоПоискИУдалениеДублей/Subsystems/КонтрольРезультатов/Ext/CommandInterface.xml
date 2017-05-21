@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
 	<CommandsVisibility>
-		<Command name="AccountingRegister._ДемоОсновной.StandardCommand.OpenList">
+		<Command name="0:a61abe1c-de4e-43cc-bee3-aeb81b5dfa0c">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="CalculationRegister._ДемоОсновныеНачисления.StandardCommand.OpenList">
+		<Command name="0:a6756af4-964f-400d-97d4-0bd3f5916693">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
@@ -16,7 +16,7 @@
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="Report._ДемоОборотноСальдоваяВедомость.StandardCommand.Open">
+		<Command name="0:3de5f404-6b1f-48f0-8fb3-9d051d889643">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>

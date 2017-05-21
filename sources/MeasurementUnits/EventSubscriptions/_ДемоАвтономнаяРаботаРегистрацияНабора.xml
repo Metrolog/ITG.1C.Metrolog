@@ -52,7 +52,6 @@
 				<v8:Type>cfg:InformationRegisterRecordSet.КалендарныеГрафики</v8:Type>
 				<v8:Type>cfg:InformationRegisterRecordSet.НастройкиПравОбъектов</v8:Type>
 				<v8:Type>cfg:InformationRegisterRecordSet.ТаблицыГруппДоступа</v8:Type>
-				<v8:Type>cfg:AccountingRegisterRecordSet._ДемоОсновной</v8:Type>
 				<v8:Type>cfg:InformationRegisterRecordSet.ИдентификаторыПолученныхЭлектронныхПисем</v8:Type>
 				<v8:Type>cfg:InformationRegisterRecordSet.ПользовательскиеНастройкиДоступаКОбработкам</v8:Type>
 				<v8:Type>cfg:InformationRegisterRecordSet.ПроцессыДляЗапуска</v8:Type>

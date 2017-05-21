@@ -40,7 +40,7 @@
 		<ChildObjects>
 			<EnumValue uuid="fb747405-d3a9-4b6c-9eeb-5037c05ba607">
 				<Properties>
-					<Name>Русские</Name>
+					<Name>Рус</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -52,7 +52,7 @@
 			</EnumValue>
 			<EnumValue uuid="5d2bb0fe-2272-43df-a6e2-088e720f706c">
 				<Properties>
-					<Name>Международные</Name>
+					<Name>Мн</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -64,7 +64,7 @@
 			</EnumValue>
 			<EnumValue uuid="7653ed5d-225c-412c-a99d-b580d8b4cf34">
 				<Properties>
-					<Name>РусскиеISO_80000_1</Name>
+					<Name>РусISO_80000_1</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -76,7 +76,7 @@
 			</EnumValue>
 			<EnumValue uuid="465d76d2-b54b-463f-92c5-c408a6de25ee">
 				<Properties>
-					<Name>МеждународныеISO_80000_1</Name>
+					<Name>МнISO_80000_1</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>

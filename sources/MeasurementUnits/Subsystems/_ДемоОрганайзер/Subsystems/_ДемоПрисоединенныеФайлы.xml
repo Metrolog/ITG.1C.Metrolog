@@ -15,16 +15,12 @@
 			<Explanation/>
 			<Picture/>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog._ДемоПроекты</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog._ДемоНоменклатура</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document._ДемоСчетНаОплатуПокупателю</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription._ДемоПереопределитьПолучаемуюФормуПрисоединенногоФайла</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription._ДемоУстановитьПометкуУдаленияПрисоединенныхФайловДокументов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog._ДемоНоменклатураПрисоединенныеФайлы</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog._ДемоПроектыПрисоединенныеФайлы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog._ДемоСчетНаОплатуПокупателюПрисоединенныеФайлы</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Role._ДемоДобавлениеИзменениеПроектов</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Role._ДемоЧтениеПроектов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum._ДемоСовместимостьНоменклатуры</xr:Item>
 			</Content>
 		</Properties>

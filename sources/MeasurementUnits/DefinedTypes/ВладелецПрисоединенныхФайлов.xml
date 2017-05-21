@@ -26,7 +26,6 @@
 				<v8:Type>cfg:DocumentRef.Встреча</v8:Type>
 				<v8:Type>cfg:CatalogRef.ШаблоныСообщений</v8:Type>
 				<v8:Type>cfg:DocumentRef.СообщениеSMS</v8:Type>
-				<v8:Type>cfg:CatalogRef._ДемоПроекты</v8:Type>
 				<v8:Type>cfg:CatalogRef.ИдентификаторыОбъектовМетаданных</v8:Type>
 			</Type>
 		</Properties>

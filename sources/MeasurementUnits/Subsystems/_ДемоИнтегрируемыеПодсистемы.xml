@@ -11,7 +11,7 @@
 			</Synonym>
 			<Comment/>
 			<IncludeHelpInContents>true</IncludeHelpInContents>
-			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<IncludeInCommandInterface>false</IncludeInCommandInterface>
 			<Explanation>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -19,14 +19,14 @@
 				</v8:item>
 			</Explanation>
 			<Picture>
-				<xr:Ref>CommonPicture._ДемоРазделИнтегрируемыеПодсистемы</xr:Ref>
+				<xr:Ref>CommonPicture.РазделИнтегрируемыеПодсистемы</xr:Ref>
 				<xr:LoadTransparent>false</xr:LoadTransparent>
 			</Picture>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand._ДемоДополнительныеОбработкиИнтегрируемыеПодсистемы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand._ДемоДополнительныеОтчетыИнтегрируемыеПодсистемы</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture._ДемоРазделИнтегрируемыеПодсистемы48</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture._ДемоРазделИнтегрируемыеПодсистемы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.РазделИнтегрируемыеПодсистемы48</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.РазделИнтегрируемыеПодсистемы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.Подсистема_ДемоИнтегрируемыеПодсистемы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand._ДемоПанельОтчетовИнтегрируемыеПодсистемы</xr:Item>
 			</Content>

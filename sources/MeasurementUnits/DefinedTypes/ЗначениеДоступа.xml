@@ -18,7 +18,6 @@
 			<Comment>Типы значений и групп значений</Comment>
 			<Type>
 				<v8:Type>cfg:CatalogRef._ДемоФизическиеЛица</v8:Type>
-				<v8:Type>cfg:CatalogRef._ДемоКассыККМ</v8:Type>
 				<v8:Type>cfg:CatalogRef._ДемоНоменклатура</v8:Type>
 				<v8:Type>cfg:CatalogRef.ВнешниеПользователи</v8:Type>
 				<v8:Type>cfg:EnumRef._ДемоХозяйственныеОперации</v8:Type>
@@ -35,7 +34,6 @@
 				<v8:Type>cfg:CatalogRef._ДемоОрганизации</v8:Type>
 				<v8:Type>cfg:CatalogRef.ГруппыИсполнителейЗадач</v8:Type>
 				<v8:Type>cfg:CatalogRef._ДемоМестаХранения</v8:Type>
-				<v8:Type>cfg:CatalogRef._ДемоКассы</v8:Type>
 				<v8:Type>cfg:CatalogRef.УчетныеЗаписиЭлектроннойПочты</v8:Type>
 				<v8:Type>cfg:CatalogRef._ДемоГруппыДоступаПартнеров</v8:Type>
 				<v8:Type>cfg:CatalogRef.ИдентификаторыОбъектовМетаданных</v8:Type>

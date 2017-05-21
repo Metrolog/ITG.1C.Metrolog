@@ -31,7 +31,6 @@
 			</Documents>
 			<RegisterRecords>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister._ДемоОстаткиТоваровВМестахХранения</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">AccountingRegister._ДемоОсновной</xr:Item>
 			</RegisterRecords>
 			<DataLockControlMode>Managed</DataLockControlMode>
 		</Properties>

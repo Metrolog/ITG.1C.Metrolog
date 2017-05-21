@@ -21,22 +21,15 @@
 			<Picture/>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Role._ДемоПечатьНепроведенныхДокументов</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Role._ДемоДобавлениеИзменениеЗарплаты</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Role._ДемоЧтениеЗарплаты</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription._ДемоЗаполнитьНаборыЗначенийДоступаТабличныхЧастейДокументов</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture._ДемоРазделУправлениеДоступом48</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.РазделУправлениеДоступом48</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role._ДемоДобавлениеИзменениеНоменклатуры</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture._ДемоРазделУправлениеДоступом</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.РазделУправлениеДоступом</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.Подсистема_ДемоУправлениеДоступом</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role._ДемоОплатаСчетовВнешнимиПользователями</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role._ДемоДобавлениеИзменениеДокументовПокупателей</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role._ДемоДобавлениеИзменениеСкладскихДокументов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role._ДемоЧтениеДокументовПокупателей</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role._ДемоЧтениеСкладскихДокументов</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Role._ДемоДобавлениеИзменениеКассовыхДокументов</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Role._ДемоДобавлениеИзменениеБанковскихДокументов</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Role._ДемоЧтениеБанковскихДокументов</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Role._ДемоЧтениеКассовыхДокументов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ПрофилиГруппДоступа</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ГруппыДоступа</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ИнструментыРазработчикаУправлениеДоступом</xr:Item>

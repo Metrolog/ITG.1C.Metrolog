@@ -11,20 +11,20 @@
 			</Synonym>
 			<Comment/>
 			<IncludeHelpInContents>true</IncludeHelpInContents>
-			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<IncludeInCommandInterface>false</IncludeInCommandInterface>
 			<Explanation/>
 			<Picture>
-				<xr:Ref>CommonPicture._ДемоРазделРаботаВМоделиСервиса</xr:Ref>
+				<xr:Ref>CommonPicture.РазделРаботаВМоделиСервиса</xr:Ref>
 				<xr:LoadTransparent>false</xr:LoadTransparent>
 			</Picture>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.ВходВОбластьДанных</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.ДобавитьПользователейСервиса</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture._ДемоРазделРаботаВМоделиСервиса48</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.РазделРаботаВМоделиСервиса48</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.УдалитьОбластиДанных</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ОбластиДанных</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КэшПрограммныхИнтерфейсов</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture._ДемоРазделРаботаВМоделиСервиса</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.РазделРаботаВМоделиСервиса</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.Подсистема_ДемоРаботаВМоделиСервиса</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant._ДемоНазначатьПраваПоУмолчаниюВОбластяхДанных</xr:Item>
 			</Content>

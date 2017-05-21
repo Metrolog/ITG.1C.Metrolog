@@ -14,10 +14,8 @@
 				<v8:Type>cfg:CatalogObject._ДемоНоменклатура</v8:Type>
 				<v8:Type>cfg:CatalogObject._ДемоФизическиеЛица</v8:Type>
 				<v8:Type>cfg:CatalogObject._ДемоОрганизации</v8:Type>
-				<v8:Type>cfg:ChartOfCharacteristicTypesObject._ДемоВидыСубконто</v8:Type>
 				<v8:Type>cfg:CatalogObject._ДемоПодразделения</v8:Type>
 				<v8:Type>cfg:CatalogObject.Валюты</v8:Type>
-				<v8:Type>cfg:ChartOfAccountsObject._ДемоОсновной</v8:Type>
 				<v8:Type>cfg:CatalogObject.ВидыКонтактнойИнформации</v8:Type>
 				<v8:Type>cfg:CatalogObject._ДемоМестаХранения</v8:Type>
 			</Source>

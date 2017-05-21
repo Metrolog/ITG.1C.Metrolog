@@ -16,8 +16,6 @@
 				<xr:Object>Catalog.Файлы.Attribute.Зашифрован</xr:Object>
 				<xr:Object>Catalog.Файлы.Attribute.ПодписанЭП</xr:Object>
 				<xr:Object>Catalog.Файлы.TabularSection.СертификатыШифрования</xr:Object>
-				<xr:Object>Catalog._ДемоПроектыПрисоединенныеФайлы.TabularSection.ЭлектронныеПодписи</xr:Object>
-				<xr:Object>Catalog._ДемоПроектыПрисоединенныеФайлы.Attribute.ПодписанЭП</xr:Object>
 				<xr:Object>Catalog._ДемоНоменклатураПрисоединенныеФайлы.Attribute.ПодписанЭП</xr:Object>
 				<xr:Object>Catalog._ДемоНоменклатураПрисоединенныеФайлы.TabularSection.ЭлектронныеПодписи</xr:Object>
 				<xr:Object>Catalog._ДемоСчетНаОплатуПокупателюПрисоединенныеФайлы.Attribute.ПодписанЭП</xr:Object>

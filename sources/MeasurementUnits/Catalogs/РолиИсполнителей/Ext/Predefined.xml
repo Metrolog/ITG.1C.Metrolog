@@ -18,12 +18,6 @@
 		<Description>Демо: Руководитель подразделения</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
-	<Item id="7b8992bf-67d8-4ea3-af6e-d9d7ed389445">
-		<Name>_ДемоРуководительПроекта</Name>
-		<Code>000000004</Code>
-		<Description>Демо: Руководитель проекта</Description>
-		<IsFolder>false</IsFolder>
-	</Item>
 	<Item id="7867b46d-b01b-4533-bb49-170b54646753">
 		<Name>ОтветственныйЗаКонтрольИсполнения</Name>
 		<Code>000000001</Code>

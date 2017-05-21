@@ -157,10 +157,6 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
-		<Metadata>Catalog._ДемоПроектыПрисоединенныеФайлы</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
 		<Metadata>Constant._ДемоОграничиватьДоступПоНоменклатуре</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -413,14 +409,6 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
-		<Metadata>Catalog._ДемоКассы</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>Document._ДемоНачислениеЗарплаты</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
 		<Metadata>InformationRegister.ПользовательскиеНастройкиДоступаКОбработкам</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -525,10 +513,6 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
-		<Metadata>Catalog._ДемоПроекты</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
 		<Metadata>Catalog.ДополнительныеОтчетыИОбработки</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -585,10 +569,6 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
-		<Metadata>ChartOfCalculationTypes._ДемоОсновныеНачисления</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
 		<Metadata>InformationRegister.РучныеИзмененияГрафиковРаботы</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -598,14 +578,6 @@
 	</Item>
 	<Item>
 		<Metadata>Catalog.ГруппыПользователей</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>AccountingRegister._ДемоОсновной</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>CalculationRegister._ДемоОсновныеНачисления</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -689,10 +661,6 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
-		<Metadata>ChartOfCharacteristicTypes._ДемоВидыСубконто</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
 		<Metadata>Catalog.СообщениеSMSПрисоединенныеФайлы</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -713,19 +681,11 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
-		<Metadata>Document._ДемоРасходныйКассовыйОрдер</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
 		<Metadata>Constant.ИспользоватьНапоминанияПользователя</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
 		<Metadata>Constant.ИспользоватьЗаметки</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>Catalog._ДемоКассыККМ</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -766,10 +726,6 @@
 	</Item>
 	<Item>
 		<Metadata>Constant.ОтложенноеОбновлениеВГлавномУзлеЗавершеноУспешно</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>ChartOfAccounts._ДемоОсновной</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>

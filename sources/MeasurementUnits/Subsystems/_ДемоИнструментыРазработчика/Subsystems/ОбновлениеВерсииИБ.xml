@@ -15,7 +15,7 @@
 			<Explanation/>
 			<Picture/>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule._ДемоОбновлениеИнформационнойБазыБСП</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.МСОбновлениеИнформационнойБазы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ИнструментыРазработчикаОбновлениеВерсииИБ</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ИнструментыРазработчикаСтатистикаВыполненияОбработчиковОбновления</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ИнструментыРазработчикаОбновлениеВспомогательныхДанных</xr:Item>

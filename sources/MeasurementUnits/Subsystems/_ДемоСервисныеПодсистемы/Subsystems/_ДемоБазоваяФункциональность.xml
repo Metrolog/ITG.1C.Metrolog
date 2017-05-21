@@ -18,9 +18,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor._ДемоВыводСообщенийПользователю</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule._ДемоСтандартныеПодсистемы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document._ДемоСписаниеТоваров</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CalculationRegister._ДемоОсновныеНачисления</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister._ДемоГрафикиРаботы</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">AccountingRegister._ДемоОсновной</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor._ДемоВыборОбъектовМетаданных</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor._ДемоШаблонПомощника</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule._ДемоСтандартныеПодсистемыСобытия</xr:Item>
@@ -28,8 +26,6 @@
 				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription._ДемоЗаполнитьДатуДокументаПоРабочейДатеПриКопировании</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule._ДемоСтандартныеПодсистемыКлиент</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor._ДемоДлительнаяОперация</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter._ДемоТекущийПроект</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">StyleItem._ДемоОсновнойПроектШрифт</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule._ДемоСтандартныеПодсистемыВызовСервера</xr:Item>
 			</Content>
 		</Properties>

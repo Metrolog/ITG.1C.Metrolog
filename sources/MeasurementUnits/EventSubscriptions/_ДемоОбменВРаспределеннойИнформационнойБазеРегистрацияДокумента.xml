@@ -11,14 +11,12 @@
 			</Synonym>
 			<Comment/>
 			<Source>
-				<v8:Type>cfg:DocumentObject._ДемоНачислениеЗарплаты</v8:Type>
 				<v8:Type>cfg:DocumentObject._ДемоСчетНаОплатуПокупателю</v8:Type>
 				<v8:Type>cfg:DocumentObject._ДемоРеализацияТоваров</v8:Type>
 				<v8:Type>cfg:DocumentObject.Встреча</v8:Type>
 				<v8:Type>cfg:DocumentObject.НазначениеОпросов</v8:Type>
 				<v8:Type>cfg:DocumentObject._ДемоПоступлениеТоваров</v8:Type>
 				<v8:Type>cfg:DocumentObject.ЭлектронноеПисьмоВходящее</v8:Type>
-				<v8:Type>cfg:DocumentObject._ДемоРасходныйКассовыйОрдер</v8:Type>
 				<v8:Type>cfg:DocumentObject._ДемоПеремещениеТоваров</v8:Type>
 				<v8:Type>cfg:DocumentObject._ДемоСписаниеТоваров</v8:Type>
 				<v8:Type>cfg:DocumentObject.ОтзывСогласияНаОбработкуПерсональныхДанных</v8:Type>

@@ -18,8 +18,6 @@
 				<xr:Object>Catalog.Файлы.TabularSection.СертификатыШифрования</xr:Object>
 				<xr:Object>Catalog._ДемоНоменклатураПрисоединенныеФайлы.Attribute.Зашифрован</xr:Object>
 				<xr:Object>Catalog._ДемоНоменклатураПрисоединенныеФайлы.TabularSection.СертификатыШифрования</xr:Object>
-				<xr:Object>Catalog._ДемоПроектыПрисоединенныеФайлы.Attribute.Зашифрован</xr:Object>
-				<xr:Object>Catalog._ДемоПроектыПрисоединенныеФайлы.TabularSection.СертификатыШифрования</xr:Object>
 				<xr:Object>Catalog._ДемоСчетНаОплатуПокупателюПрисоединенныеФайлы.Attribute.Зашифрован</xr:Object>
 				<xr:Object>Catalog._ДемоСчетНаОплатуПокупателюПрисоединенныеФайлы.TabularSection.СертификатыШифрования</xr:Object>
 			</Content>

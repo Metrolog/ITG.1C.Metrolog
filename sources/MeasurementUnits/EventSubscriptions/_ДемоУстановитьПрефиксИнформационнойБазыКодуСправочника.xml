@@ -18,7 +18,6 @@
 				<v8:Type>cfg:CatalogObject._ДемоПодразделения</v8:Type>
 				<v8:Type>cfg:CatalogObject._ДемоКонтрагенты</v8:Type>
 				<v8:Type>cfg:CatalogObject._ДемоДоговорыКонтрагентов</v8:Type>
-				<v8:Type>cfg:CatalogObject._ДемоПроекты</v8:Type>
 				<v8:Type>cfg:CatalogObject._ДемоМестаХранения</v8:Type>
 				<v8:Type>cfg:CatalogObject._ДемоВидыНоменклатуры</v8:Type>
 			</Source>

@@ -28,11 +28,11 @@
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
-			<Name>БиблиотекаСтандартныхПодсистемДемо</Name>
+			<Name>МетрологическаяСлужба</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Демонстрационная конфигурация "Библиотека стандартных подсистем", редакция 2.3</v8:content>
+					<v8:content>Метрологическая служба</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -48,9 +48,9 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.АдминистраторСистемы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</xr:Item>
 			</DefaultRoles>
-			<Vendor>Фирма "1С"</Vendor>
-			<Version>2.3.4.21</Version>
-			<UpdateCatalogAddress>http://downloads.v8.1c.ru/tmplts/</UpdateCatalogAddress>
+			<Vendor>ФБУ "Тест-С.-Петербург"</Vendor>
+			<Version>0.1.0.30</Version>
+			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>true</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>true</UseManagedFormInOrdinaryApplication>
 			<UseOrdinaryFormInManagedApplication>false</UseOrdinaryFormInManagedApplication>
@@ -115,31 +115,31 @@
 			<BriefInformation>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Демонстрационная конфигурация "Библиотека стандартных подсистем", редакция 2.3</v8:content>
+					<v8:content>Автоматизированная информационная система метрологических служб</v8:content>
 				</v8:item>
 			</BriefInformation>
 			<DetailedInformation>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Демонстрационная конфигурация "Библиотека стандартных подсистем", редакция 2.3</v8:content>
+					<v8:content>Автоматизированная информационная система метрологических служб</v8:content>
 				</v8:item>
 			</DetailedInformation>
 			<Copyright>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Copyright © ООО "1С-Софт", 2009-2016. Все права защищены</v8:content>
+					<v8:content>Copyright © ФБУ "Тест-С.-Петербург", 2014-2017. Все права защищены</v8:content>
 				</v8:item>
 			</Copyright>
 			<VendorInformationAddress>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>http://www.1c.ru</v8:content>
+					<v8:content>http://www.csm.nov.ru</v8:content>
 				</v8:item>
 			</VendorInformationAddress>
 			<ConfigurationInformationAddress>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>http://v8.1c.ru/ssl</v8:content>
+					<v8:content>https://github.com/Metrolog/ITG.1C.Metrolog</v8:content>
 				</v8:item>
 			</ConfigurationInformationAddress>
 			<DataLockControlMode>Managed</DataLockControlMode>
@@ -147,12 +147,13 @@
 			<ModalityUseMode>UseWithWarnings</ModalityUseMode>
 			<SynchronousPlatformExtensionAndAddInCallUseMode>Use</SynchronousPlatformExtensionAndAddInCallUseMode>
 			<InterfaceCompatibilityMode>TaxiEnableVersion8_2</InterfaceCompatibilityMode>
-			<CompatibilityMode>Version8_3_8</CompatibilityMode>
+			<CompatibilityMode>Version8_3_10</CompatibilityMode>
 			<DefaultConstantsForm/>
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
-			<Subsystem>МетрологияНСИ</Subsystem>
+			<Subsystem>НормативноСправочнаяИнформация</Subsystem>
+			<Subsystem>Администрирование</Subsystem>
 			<Subsystem>_ДемоАнкетирование</Subsystem>
 			<Subsystem>_ДемоБизнесПроцессыИЗадачи</Subsystem>
 			<Subsystem>_ДемоИнструментыРазработчика</Subsystem>
@@ -166,13 +167,11 @@
 			<Subsystem>_ДемоСервисныеПодсистемы</Subsystem>
 			<Subsystem>_ДемоСинхронизацияДанных</Subsystem>
 			<Subsystem>_ДемоУправлениеДоступом</Subsystem>
-			<Subsystem>Администрирование</Subsystem>
 			<Subsystem>ИнтернетПоддержкаПользователей</Subsystem>
 			<Subsystem>ПодключаемыеОтчетыИОбработки</Subsystem>
 			<Subsystem>СтандартныеПодсистемы</Subsystem>
 			<Subsystem>ТехнологияСервиса</Subsystem>
 			<Subsystem>МетрологическаяСлужба</Subsystem>
-			<StyleItem>_ДемоОсновнойПроектШрифт</StyleItem>
 			<StyleItem>ВидДняПроизводственногоКалендаряВоскресеньеЦвет</StyleItem>
 			<StyleItem>ВидДняПроизводственногоКалендаряНеУказанЦвет</StyleItem>
 			<StyleItem>ВидДняПроизводственногоКалендаряПраздникЦвет</StyleItem>
@@ -227,27 +226,25 @@
 			<StyleItem>ЦветФонаКорректногоКонтрагентаВДокументе</StyleItem>
 			<StyleItem>ЦветФонаНекорректногоКонтрагентаВДокументе</StyleItem>
 			<StyleItem>ЦветФонаТестовогоРежимаСервисаФНС</StyleItem>
-			<CommonPicture>_ДемоQRКод</CommonPicture>
-			<CommonPicture>МетрологияНСИ</CommonPicture>
-			<CommonPicture>_ДемоРазделАнкетирование</CommonPicture>
-			<CommonPicture>_ДемоРазделАнкетирование48</CommonPicture>
-			<CommonPicture>_ДемоРазделБизнесПроцессыИЗадачи</CommonPicture>
-			<CommonPicture>_ДемоРазделБизнесПроцессыИЗадачи48</CommonPicture>
-			<CommonPicture>_ДемоРазделИнструментыРазработчика</CommonPicture>
-			<CommonPicture>_ДемоРазделИнструментыРазработчика48</CommonPicture>
-			<CommonPicture>_ДемоРазделИнтегрируемыеПодсистемы</CommonPicture>
-			<CommonPicture>_ДемоРазделИнтегрируемыеПодсистемы48</CommonPicture>
-			<CommonPicture>_ДемоРазделНормативноСправочнаяИнформация</CommonPicture>
-			<CommonPicture>_ДемоРазделНормативноСправочнаяИнформация48</CommonPicture>
-			<CommonPicture>_ДемоРазделОрганайзер</CommonPicture>
-			<CommonPicture>_ДемоРазделОрганайзер48</CommonPicture>
-			<CommonPicture>_ДемоРазделРаботаВМоделиСервиса</CommonPicture>
-			<CommonPicture>_ДемоРазделРаботаВМоделиСервиса48</CommonPicture>
-			<CommonPicture>_ДемоРазделСинхронизацияДанных</CommonPicture>
-			<CommonPicture>_ДемоРазделСтандартныеПодсистемы</CommonPicture>
-			<CommonPicture>_ДемоРазделСтандартныеПодсистемы48</CommonPicture>
-			<CommonPicture>_ДемоРазделУправлениеДоступом</CommonPicture>
-			<CommonPicture>_ДемоРазделУправлениеДоступом48</CommonPicture>
+			<CommonPicture>РазделАнкетирование</CommonPicture>
+			<CommonPicture>РазделАнкетирование48</CommonPicture>
+			<CommonPicture>РазделБизнесПроцессыИЗадачи</CommonPicture>
+			<CommonPicture>РазделБизнесПроцессыИЗадачи48</CommonPicture>
+			<CommonPicture>РазделИнструментыРазработчика</CommonPicture>
+			<CommonPicture>РазделИнструментыРазработчика48</CommonPicture>
+			<CommonPicture>РазделИнтегрируемыеПодсистемы</CommonPicture>
+			<CommonPicture>РазделИнтегрируемыеПодсистемы48</CommonPicture>
+			<CommonPicture>РазделНормативноСправочнаяИнформация</CommonPicture>
+			<CommonPicture>РазделНормативноСправочнаяИнформация48</CommonPicture>
+			<CommonPicture>РазделОрганайзер</CommonPicture>
+			<CommonPicture>РазделОрганайзер48</CommonPicture>
+			<CommonPicture>РазделРаботаВМоделиСервиса</CommonPicture>
+			<CommonPicture>РазделРаботаВМоделиСервиса48</CommonPicture>
+			<CommonPicture>РазделСинхронизацияДанных</CommonPicture>
+			<CommonPicture>РазделСтандартныеПодсистемы</CommonPicture>
+			<CommonPicture>РазделСтандартныеПодсистемы48</CommonPicture>
+			<CommonPicture>РазделУправлениеДоступом</CommonPicture>
+			<CommonPicture>РазделУправлениеДоступом48</CommonPicture>
 			<CommonPicture>GoogleMaps</CommonPicture>
 			<CommonPicture>Skype</CommonPicture>
 			<CommonPicture>АрхивАнкета</CommonPicture>
@@ -570,7 +567,6 @@
 			<CommonPicture>ЭлектронноеПисьмоИсходящее</CommonPicture>
 			<CommonPicture>ЯндексКарты</CommonPicture>
 			<CommonPicture>КоллекцияПиктограммПараметрыШаблонаСообщения</CommonPicture>
-			<SessionParameter>_ДемоТекущийПроект</SessionParameter>
 			<SessionParameter>АвторизованныйПользователь</SessionParameter>
 			<SessionParameter>БуферОбмена</SessionParameter>
 			<SessionParameter>ВерсияРасширений</SessionParameter>
@@ -608,18 +604,14 @@
 			<SessionParameter>ТипыЗначенийДоступаСГруппами</SessionParameter>
 			<SessionParameter>УстановленныеРасширения</SessionParameter>
 			<Role>_ДемоБазовыеПраваПользователяБСП</Role>
-			<Role>_ДемоДобавлениеИзменениеБанковскихДокументов</Role>
 			<Role>_ДемоДобавлениеИзменениеДокументовПокупателей</Role>
 			<Role>_ДемоДобавлениеИзменениеЗаданийСРолевойАдресацией</Role>
 			<Role>ДобавлениеИзменениеЕдиницВеличинБазовых</Role>
 			<Role>ДобавлениеИзменениеНСИ</Role>
-			<Role>_ДемоДобавлениеИзменениеЗарплаты</Role>
 			<Role>_ДемоДобавлениеИзменениеИсполнителейРолейПоОбъектамАдресации</Role>
-			<Role>_ДемоДобавлениеИзменениеКассовыхДокументов</Role>
 			<Role>_ДемоДобавлениеИзменениеНоменклатуры</Role>
 			<Role>_ДемоДобавлениеИзменениеНСИ</Role>
 			<Role>_ДемоДобавлениеИзменениеПеремещенийТоваров</Role>
-			<Role>_ДемоДобавлениеИзменениеПроектов</Role>
 			<Role>_ДемоДобавлениеИзменениеСкладскихДокументов</Role>
 			<Role>_ДемоДобавлениеИзменениеСогласийНаОбработкуПерсональныхДанных</Role>
 			<Role>_ДемоИнтеграция1СБухфон</Role>
@@ -631,17 +623,13 @@
 			<Role>_ДемоПросмотрОтчетаКнигаПокупок</Role>
 			<Role>_ДемоРаботаСПочтовымиСообщениями</Role>
 			<Role>_ДемоРаботаСФайлами</Role>
-			<Role>_ДемоЧтениеБанковскихДокументов</Role>
 			<Role>_ДемоЧтениеДанныхДляОтветовНаВопросыАнкет</Role>
 			<Role>_ДемоЧтениеДанныхОбъектовАвторизации</Role>
 			<Role>_ДемоЧтениеДанныхРеспондентов</Role>
 			<Role>_ДемоЧтениеДокументовПокупателей</Role>
 			<Role>_ДемоЧтениеЗаданийСРолевойАдресацией</Role>
-			<Role>_ДемоЧтениеЗарплаты</Role>
-			<Role>_ДемоЧтениеКассовыхДокументов</Role>
 			<Role>_ДемоЧтениеНСИ</Role>
 			<Role>_ДемоЧтениеПеремещенийТоваров</Role>
-			<Role>_ДемоЧтениеПроектов</Role>
 			<Role>_ДемоЧтениеСкладскихДокументов</Role>
 			<Role>_ДемоЧтениеСогласийНаОбработкуПерсональныхДанных</Role>
 			<Role>АдминистраторСистемы</Role>
@@ -758,18 +746,18 @@
 			<CommonTemplate>СтруктураПодчиненности</CommonTemplate>
 			<FilterCriterion>СвязанныеДокументы</FilterCriterion>
 			<FilterCriterion>ФайлыВТоме</FilterCriterion>
+			<CommonModule>МСОбновлениеИнформационнойБазы</CommonModule>
 			<CommonModule>МСЕдиницыВеличин</CommonModule>
 			<CommonModule>МСЕдиницыВеличинСервер</CommonModule>
 			<CommonModule>МСЕдиницыВеличинКлиентСервер</CommonModule>
-			<CommonModule>ОбновлениеИнформационнойБазыМСЕдиницыВеличин</CommonModule>
+			<CommonModule>МСЕдиницыВеличинКлиентСерверПовтИсп</CommonModule>
+			<CommonModule>МСЕдиницыВеличинОбновлениеИнформационнойБазы</CommonModule>
 			<CommonModule>РаботаСоСтрокамиЮникодКлиентСервер</CommonModule>
 			<CommonModule>РаботаСоСтрокамиЮникодСерверПовтИсп</CommonModule>
 			<CommonModule>_ДемоЗаметки</CommonModule>
 			<CommonModule>_ДемоМенеджерОбменаЧерезУниверсальныйФормат</CommonModule>
 			<CommonModule>_ДемоОбменДаннымиСобытия</CommonModule>
-			<CommonModule>_ДемоОбновлениеИнформационнойБазыБСП</CommonModule>
 			<CommonModule>_ДемоСвойства</CommonModule>
-			<CommonModule>_ДемоСообщенияУправлениеПроектами</CommonModule>
 			<CommonModule>_ДемоСообщенияШироковещательныйКанал</CommonModule>
 			<CommonModule>_ДемоСтандартныеПодсистемы</CommonModule>
 			<CommonModule>_ДемоСтандартныеПодсистемыВызовСервера</CommonModule>
@@ -1395,14 +1383,12 @@
 			<EventSubscription>_ДемоАвтономнаяРаботаРегистрацияДокумента</EventSubscription>
 			<EventSubscription>_ДемоАвтономнаяРаботаРегистрацияКонстанты</EventSubscription>
 			<EventSubscription>_ДемоАвтономнаяРаботаРегистрацияНабора</EventSubscription>
-			<EventSubscription>_ДемоАвтономнаяРаботаРегистрацияНабораРасчета</EventSubscription>
 			<EventSubscription>_ДемоАвтономнаяРаботаРегистрацияУдаления</EventSubscription>
 			<EventSubscription>_ДемоДополнительныеОтчетыИОбработкиЗагрузитьИзОбщихМакетов</EventSubscription>
 			<EventSubscription>_ДемоЗаписатьВерсиюДокумента</EventSubscription>
 			<EventSubscription>_ДемоЗаполнитьДатуДокументаПоРабочейДате</EventSubscription>
 			<EventSubscription>_ДемоЗаполнитьДатуДокументаПоРабочейДатеПриКопировании</EventSubscription>
 			<EventSubscription>_ДемоЗаполнитьКонтактнуюИнформациюДокумента</EventSubscription>
-			<EventSubscription>_ДемоЗаполнитьНаборыЗначенийДоступаТабличныхЧастейДокументов</EventSubscription>
 			<EventSubscription>_ДемоОбменБезИспользованияПравилКонвертацииРегистрация</EventSubscription>
 			<EventSubscription>_ДемоОбменБезИспользованияПравилКонвертацииРегистрацияДокумента</EventSubscription>
 			<EventSubscription>_ДемоОбменБезИспользованияПравилКонвертацииРегистрацияНабора</EventSubscription>
@@ -1411,7 +1397,6 @@
 			<EventSubscription>_ДемоОбменВРаспределеннойИнформационнойБазеРегистрацияДокумента</EventSubscription>
 			<EventSubscription>_ДемоОбменВРаспределеннойИнформационнойБазеРегистрацияКонстанты</EventSubscription>
 			<EventSubscription>_ДемоОбменВРаспределеннойИнформационнойБазеРегистрацияНабора</EventSubscription>
-			<EventSubscription>_ДемоОбменВРаспределеннойИнформационнойБазеРегистрацияНабораРасчета</EventSubscription>
 			<EventSubscription>_ДемоОбменВРаспределеннойИнформационнойБазеРегистрацияУдаления</EventSubscription>
 			<EventSubscription>_ДемоОбменСБиблиотекойСтандартныхПодсистем225Регистрация</EventSubscription>
 			<EventSubscription>_ДемоОбменСБиблиотекойСтандартныхПодсистем225РегистрацияДокумента</EventSubscription>
@@ -1427,7 +1412,6 @@
 			<EventSubscription>_ДемоПроверитьДатуЗапретаИзмененияПередЗаписьюДокумента</EventSubscription>
 			<EventSubscription>_ДемоПроверитьДатуЗапретаИзмененияПередЗаписьюНабораЗаписей</EventSubscription>
 			<EventSubscription>_ДемоПроверитьДатуЗапретаИзмененияПередУдалением</EventSubscription>
-			<EventSubscription>_ДемоПроверитьКодСправочникаПоОрганизации</EventSubscription>
 			<EventSubscription>_ДемоПроверитьНаличиеЗаметокПоПредмету</EventSubscription>
 			<EventSubscription>_ДемоПроверитьНомерБизнесПроцессаПоДате</EventSubscription>
 			<EventSubscription>_ДемоПроверитьНомерДокументаПоДатеИОрганизации</EventSubscription>
@@ -1551,10 +1535,10 @@
 			<ScheduledJob>ЧтениеНовостейСлужбыПоддержки</ScheduledJob>
 			<SettingsStorage>ХранилищеВариантовОтчетов</SettingsStorage>
 			<FunctionalOption>МСЕдиницыВеличинОбозначения</FunctionalOption>
-			<FunctionalOption>МСИспользоватьПриставкиРусские</FunctionalOption>
-			<FunctionalOption>МСИспользоватьПриставкиМеждународные</FunctionalOption>
-			<FunctionalOption>МСИспользоватьПриставкиРусскиеISO_80000_1</FunctionalOption>
-			<FunctionalOption>МСИспользоватьПриставкиМеждународныеISO_80000_1</FunctionalOption>
+			<FunctionalOption>МСЕдиницыВеличинИспользоватьОбозначенияРус</FunctionalOption>
+			<FunctionalOption>МСЕдиницыВеличинИспользоватьОбозначенияМн</FunctionalOption>
+			<FunctionalOption>МСЕдиницыВеличинИспользоватьОбозначенияРусISO_80000_1</FunctionalOption>
+			<FunctionalOption>МСЕдиницыВеличинИспользоватьОбозначенияМнISO_80000_1</FunctionalOption>
 			<FunctionalOption>_ДемоИспользоватьАнкетированиеБСП</FunctionalOption>
 			<FunctionalOption>_ДемоИспользоватьБизнесПроцессыИЗадачиБСП</FunctionalOption>
 			<FunctionalOption>_ДемоИспользоватьВерсионированиеОбъектовБСП</FunctionalOption>
@@ -1703,10 +1687,8 @@
 			<CommonCommand>_ДемоДополнительныеОтчетыРабочийСтол</CommonCommand>
 			<CommonCommand>_ДемоДосьеКонтрагента</CommonCommand>
 			<CommonCommand>_ДемоДосьеНовогоКонтрагента</CommonCommand>
-			<CommonCommand>_ДемоЖурналПроводокБухгалтерскогоУчета</CommonCommand>
 			<CommonCommand>_ДемоМестаИспользованияЭлемента</CommonCommand>
 			<CommonCommand>_ДемоНапомнитьЗа5Минут</CommonCommand>
-			<CommonCommand>_ДемоОсновныеНачисленияСотрудников</CommonCommand>
 			<CommonCommand>_ДемоОстаткиТоваровВМестахХранения</CommonCommand>
 			<CommonCommand>_ДемоОценкаПроизводительности</CommonCommand>
 			<CommonCommand>_ДемоПанельОтчетовАнкетирование</CommonCommand>
@@ -1721,7 +1703,6 @@
 			<CommonCommand>_ДемоСоздатьЗадачуБезБизнесПроцесса</CommonCommand>
 			<CommonCommand>_ДемоСтандартыРазработки</CommonCommand>
 			<CommonCommand>_ДемоСтраницаПродуктаНаСайте1С</CommonCommand>
-			<CommonCommand>_ДемоФактическиеНачисленияСотрудника</CommonCommand>
 			<CommonCommand>АвтономнаяРабота</CommonCommand>
 			<CommonCommand>АвтономнаяРаботаВМоделиСервиса</CommonCommand>
 			<CommonCommand>ВыгрузитьДанныеВЛокальнуюВерсию</CommonCommand>
@@ -1795,10 +1776,10 @@
 			<CommandGroup>ПоискИЗаменаДублей</CommandGroup>
 			<CommandGroup>ГрупповоеИзменениеРеквизитов</CommandGroup>
 			<Constant>МСЕдиницыВеличинОбозначения</Constant>
-			<Constant>МСИспользоватьПриставкиРусские</Constant>
-			<Constant>МСИспользоватьПриставкиМеждународные</Constant>
-			<Constant>МСИспользоватьПриставкиРусскиеISO_80000_1</Constant>
-			<Constant>МСИспользоватьПриставкиМеждународныеISO_80000_1</Constant>
+			<Constant>МСЕдиницыВеличинИспользоватьОбозначенияРус</Constant>
+			<Constant>МСЕдиницыВеличинИспользоватьОбозначенияМн</Constant>
+			<Constant>МСЕдиницыВеличинИспользоватьОбозначенияРусISO_80000_1</Constant>
+			<Constant>МСЕдиницыВеличинИспользоватьОбозначенияМнISO_80000_1</Constant>
 			<Constant>_ДемоИмяКонфигурацииВОбменеСБиблиотекойСтандартныхПодсистем</Constant>
 			<Constant>_ДемоИспользоватьКонтактныеЛицаПартнеров</Constant>
 			<Constant>_ДемоИспользоватьНесколькоОрганизаций</Constant>
@@ -2083,8 +2064,6 @@
 			<Catalog>_ДемоГруппыДоступаНоменклатуры</Catalog>
 			<Catalog>_ДемоГруппыДоступаПартнеров</Catalog>
 			<Catalog>_ДемоДоговорыКонтрагентов</Catalog>
-			<Catalog>_ДемоКассы</Catalog>
-			<Catalog>_ДемоКассыККМ</Catalog>
 			<Catalog>_ДемоКонтактныеЛицаПартнеров</Catalog>
 			<Catalog>_ДемоКонтрагенты</Catalog>
 			<Catalog>_ДемоМестаХранения</Catalog>
@@ -2093,8 +2072,6 @@
 			<Catalog>_ДемоОрганизации</Catalog>
 			<Catalog>_ДемоПартнеры</Catalog>
 			<Catalog>_ДемоПодразделения</Catalog>
-			<Catalog>_ДемоПроекты</Catalog>
-			<Catalog>_ДемоПроектыПрисоединенныеФайлы</Catalog>
 			<Catalog>_ДемоСтавкиНДС</Catalog>
 			<Catalog>_ДемоСчетНаОплатуПокупателюПрисоединенныеФайлы</Catalog>
 			<Catalog>_ДемоФизическиеЛица</Catalog>
@@ -2163,13 +2140,10 @@
 			<Catalog>ЭлектронноеПисьмоВходящееПрисоединенныеФайлы</Catalog>
 			<Catalog>ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы</Catalog>
 			<Document>_ДемоЗаказПокупателя</Document>
-			<Document>_ДемоНачислениеЗарплаты</Document>
 			<Document>_ДемоОприходованиеТоваров</Document>
 			<Document>_ДемоПеремещениеТоваров</Document>
 			<Document>_ДемоПоступлениеТоваров</Document>
-			<Document>_ДемоРасходныйКассовыйОрдер</Document>
 			<Document>_ДемоРеализацияТоваров</Document>
-			<Document>_ДемоСписаниеБезналичныхДенежныхСредств</Document>
 			<Document>_ДемоСписаниеТоваров</Document>
 			<Document>_ДемоСчетНаОплатуПокупателю</Document>
 			<Document>_ДемоСчетФактураПолученный</Document>
@@ -2261,7 +2235,6 @@
 			<Enum>ТипыФайловДляВстроенногоРедактора</Enum>
 			<Enum>ТипыХраненияФайлов</Enum>
 			<Enum>УдалитьВидыКалендарей</Enum>
-			<Enum>УдалитьКлючевыеОперации</Enum>
 			<Enum>УровниПроизводительности</Enum>
 			<Enum>ФорматыСканированногоИзображения</Enum>
 			<Enum>ФорматыСохраненияОтчетов</Enum>
@@ -2271,7 +2244,6 @@
 			<Enum>ЦветностиИзображения</Enum>
 			<Report>_ДемоДинамикаИзмененийФайлов</Report>
 			<Report>_ДемоКнигаПокупок</Report>
-			<Report>_ДемоОборотноСальдоваяВедомость</Report>
 			<Report>_ДемоОстаткиТоваровВМестахХранения</Report>
 			<Report>_ДемоОтчетПоСчетамНаОплатуГлобальный</Report>
 			<Report>_ДемоОтчетПоСчетамНаОплатуКонтекстный</Report>
@@ -2326,8 +2298,6 @@
 			<DataProcessor>_ДемоПечатьСчетовНаОплатуПокупателю</DataProcessor>
 			<DataProcessor>_ДемоПолучениеФайловИзИнтернета</DataProcessor>
 			<DataProcessor>_ДемоПроверкаВходящихСообщений</DataProcessor>
-			<DataProcessor>_ДемоСозданиеДублей</DataProcessor>
-			<DataProcessor>_ДемоСозданиеПомеченныхНаУдаление</DataProcessor>
 			<DataProcessor>_ДемоУправлениеОтложеннымОбновлением</DataProcessor>
 			<DataProcessor>_ДемоУправлениеПолнотекстовымПоиском</DataProcessor>
 			<DataProcessor>_ДемоШаблонПомощника</DataProcessor>
@@ -2589,16 +2559,11 @@
 			<InformationRegister>ХранимыеФайлыВерсий</InformationRegister>
 			<AccumulationRegister>_ДемоОборотыПоСчетамНаОплату</AccumulationRegister>
 			<AccumulationRegister>_ДемоОстаткиТоваровВМестахХранения</AccumulationRegister>
-			<ChartOfCharacteristicTypes>_ДемоВидыСубконто</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ВопросыДляАнкетирования</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ДополнительныеРеквизитыИСведения</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ОбъектыАдресацииЗадач</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>РазделыДатЗапретаИзменения</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>УдалитьВидыДоступа</ChartOfCharacteristicTypes>
-			<ChartOfAccounts>_ДемоОсновной</ChartOfAccounts>
-			<AccountingRegister>_ДемоОсновной</AccountingRegister>
-			<ChartOfCalculationTypes>_ДемоОсновныеНачисления</ChartOfCalculationTypes>
-			<CalculationRegister>_ДемоОсновныеНачисления</CalculationRegister>
 			<BusinessProcess>_ДемоЗаданиеСРолевойАдресацией</BusinessProcess>
 			<BusinessProcess>Задание</BusinessProcess>
 			<Task>ЗадачаИсполнителя</Task>

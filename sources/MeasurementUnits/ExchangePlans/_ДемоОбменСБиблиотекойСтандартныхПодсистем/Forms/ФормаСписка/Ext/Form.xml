@@ -147,7 +147,6 @@
 					<ExtendedTooltip name="ГруппаСпособПодключенияExtendedTooltip" id="26"/>
 					<ChildItems>
 						<LabelField name="ВидТранспортаСообщенийОбменаПоУмолчанию" id="16">
-							<DataPath/>
 							<ShowInHeader>false</ShowInHeader>
 							<ContextMenu name="ВидТранспортаСообщенийОбменаПоУмолчаниюКонтекстноеМеню" id="17"/>
 							<ExtendedTooltip name="ВидТранспортаСообщенийОбменаПоУмолчаниюExtendedTooltip" id="27"/>

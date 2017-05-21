@@ -161,10 +161,6 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
-		<Metadata>Catalog._ДемоПроектыПрисоединенныеФайлы</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
 		<Metadata>InformationRegister.ПредопределенныеВариантыОтчетовВерсийРасширений</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -445,19 +441,7 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
-		<Metadata>Catalog._ДемоКассы</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>Document._ДемоНачислениеЗарплаты</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
 		<Metadata>InformationRegister.ЗапросыРазрешенийНаИспользованиеВнешнихРесурсов</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>Document._ДемоСписаниеБезналичныхДенежныхСредств</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -565,10 +549,6 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
-		<Metadata>CalculationRegister._ДемоОсновныеНачисления.Recalculation.ПерерасчетОсновныхНачислений</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
 		<Metadata>InformationRegister.УдалитьОчередьИзвлеченияТекста</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -633,10 +613,6 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
-		<Metadata>Catalog._ДемоПроекты</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
 		<Metadata>Catalog.ДополнительныеОтчетыИОбработки</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -677,10 +653,6 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
-		<Metadata>ChartOfCalculationTypes._ДемоОсновныеНачисления</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
 		<Metadata>InformationRegister.РучныеИзмененияГрафиковРаботы</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -690,14 +662,6 @@
 	</Item>
 	<Item>
 		<Metadata>Catalog.ГруппыПользователей</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>AccountingRegister._ДемоОсновной</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>CalculationRegister._ДемоОсновныеНачисления</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -841,19 +805,11 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
-		<Metadata>Document._ДемоРасходныйКассовыйОрдер</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
 		<Metadata>InformationRegister.ЗапросыРазрешенийНаИспользованиеВнешнихРесурсовВМоделиСервиса</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
 		<Metadata>InformationRegister.ОчередьИнсталляцииПоставляемыхДополнительныхОтчетовИОбработокВОбластиДанных</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>Catalog._ДемоКассыККМ</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -890,10 +846,6 @@
 	</Item>
 	<Item>
 		<Metadata>InformationRegister.УдалитьГруппыЗначенийДоступа</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>ChartOfAccounts._ДемоОсновной</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>

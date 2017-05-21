@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
 	<CommandsVisibility>
-		<Command name="ChartOfCharacteristicTypes._ДемоВидыСубконто.StandardCommand.OpenList">
+		<Command name="0:b850d595-0fab-4f29-9eb2-334fe98c8adf">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
@@ -19,13 +19,13 @@
 		<Command name="Catalog._ДемоНоменклатура.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="ChartOfCharacteristicTypes._ДемоВидыСубконто.StandardCommand.OpenList">
+		<Command name="0:b850d595-0fab-4f29-9eb2-334fe98c8adf">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="ChartOfCalculationTypes._ДемоОсновныеНачисления.StandardCommand.OpenList">
+		<Command name="0:a1c76fb2-6237-41a1-8b2f-66d8c1ed2fd9">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="ChartOfAccounts._ДемоОсновной.StandardCommand.OpenList">
+		<Command name="0:d52cf615-a846-44fb-9b13-61084d0a3c77">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
 	</CommandsOrder>

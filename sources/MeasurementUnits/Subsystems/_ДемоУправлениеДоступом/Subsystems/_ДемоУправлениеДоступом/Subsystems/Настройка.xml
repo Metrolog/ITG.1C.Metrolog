@@ -34,8 +34,6 @@
 				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption._ДемоОграничиватьДоступПоНоменклатуре</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption._ДемоОграничиватьДоступПоПартнерам</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant._ДемоОграничиватьДоступПоПартнерам</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog._ДемоКассыККМ</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog._ДемоКассы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum._ДемоХозяйственныеОперации</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog._ДемоВидыНоменклатуры</xr:Item>

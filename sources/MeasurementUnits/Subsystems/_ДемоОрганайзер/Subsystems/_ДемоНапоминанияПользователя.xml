@@ -16,7 +16,7 @@
 			<Picture/>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption._ДемоИспользоватьНапоминанияПользователяБСП</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture._ДемоРазделОрганайзер48</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.РазделОрганайзер48</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand._ДемоНапомнитьЗа5Минут</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog._ДемоКонтрагенты</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Заметки</xr:Item>

@@ -29,14 +29,6 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
-		<Metadata>AccountingRegister._ДемоОсновной</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>ChartOfCharacteristicTypes._ДемоВидыСубконто</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
 		<Metadata>Catalog._ДемоОрганизации</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -46,10 +38,6 @@
 	</Item>
 	<Item>
 		<Metadata>Document._ДемоРеализацияТоваров</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>ChartOfAccounts._ДемоОсновной</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>

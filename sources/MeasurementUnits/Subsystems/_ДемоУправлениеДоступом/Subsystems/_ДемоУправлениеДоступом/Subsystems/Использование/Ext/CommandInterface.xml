@@ -56,12 +56,12 @@
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="Catalog._ДемоКассы.StandardCommand.OpenList">
+		<Command name="0:6bc2c3f8-6027-411e-97c5-6f1b7e4cea61">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="Catalog._ДемоКассыККМ.StandardCommand.OpenList">
+		<Command name="0:c7d8ee39-01e4-44b6-8aef-afc2c6aa1a14">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
@@ -212,10 +212,10 @@
 		<Command name="Document._ДемоПеремещениеТоваров.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="Document._ДемоНачислениеЗарплаты.StandardCommand.OpenList">
+		<Command name="0:6bc726e3-2f94-498d-9584-c1a54fda5b27">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="Document._ДемоРасходныйКассовыйОрдер.StandardCommand.OpenList">
+		<Command name="0:c136e638-f8b3-4942-a8de-2bd90e899d95">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
 		<Command name="AccumulationRegister._ДемоОстаткиТоваровВМестахХранения.StandardCommand.OpenList">
@@ -230,7 +230,7 @@
 		<Command name="Catalog.Файлы.Command.Файлы">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="Catalog._ДемоПроекты.StandardCommand.OpenList">
+		<Command name="0:91f93a17-db95-4b52-bad0-d1dba7dfec9a">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
 		<Command name="Catalog._ДемоБанковскиеСчета.StandardCommand.OpenList">
@@ -272,10 +272,10 @@
 		<Command name="BusinessProcess._ДемоЗаданиеСРолевойАдресацией.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="Catalog._ДемоКассы.StandardCommand.OpenList">
+		<Command name="0:6bc2c3f8-6027-411e-97c5-6f1b7e4cea61">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="Catalog._ДемоКассыККМ.StandardCommand.OpenList">
+		<Command name="0:c7d8ee39-01e4-44b6-8aef-afc2c6aa1a14">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
 		<Command name="Catalog._ДемоКонтактныеЛицаПартнеров.StandardCommand.OpenList">

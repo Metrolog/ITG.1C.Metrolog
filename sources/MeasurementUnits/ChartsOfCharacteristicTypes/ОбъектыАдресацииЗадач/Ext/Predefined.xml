@@ -7,7 +7,6 @@
 		<Type>
 			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef._ДемоПодразделения</v8:Type>
 			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef._ДемоОрганизации</v8:Type>
-			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef._ДемоПроекты</v8:Type>
 		</Type>
 		<IsFolder>false</IsFolder>
 	</Item>
@@ -26,15 +25,6 @@
 		<Description>Демо: Подразделение</Description>
 		<Type>
 			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef._ДемоПодразделения</v8:Type>
-		</Type>
-		<IsFolder>false</IsFolder>
-	</Item>
-	<Item id="45828a85-3a9c-46b2-9e1a-1bdda7e51eb7">
-		<Name>_ДемоПроект</Name>
-		<Code/>
-		<Description>Демо: Проект</Description>
-		<Type>
-			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef._ДемоПроекты</v8:Type>
 		</Type>
 		<IsFolder>false</IsFolder>
 	</Item>

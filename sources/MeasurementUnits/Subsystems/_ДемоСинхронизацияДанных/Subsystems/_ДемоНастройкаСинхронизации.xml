@@ -15,8 +15,6 @@
 			<Explanation/>
 			<Picture/>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">Subsystem._ДемоСинхронизацияДанных</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Subsystem.СтандартныеПодсистемы.Subsystem.ОбменДанными</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand._ДемоСинхронизацияДанныхСБиблиотекойСтандартныхПодсистем</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand._ДемоРаспределеннаяИнформационнаяБаза</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommandGroup._ДемоНастроитьСинхронизациюДанных</xr:Item>

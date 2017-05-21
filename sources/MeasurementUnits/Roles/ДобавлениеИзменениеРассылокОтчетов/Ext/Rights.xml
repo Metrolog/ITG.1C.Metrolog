@@ -15,7 +15,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Configuration.БиблиотекаСтандартныхПодсистемДемо</name>
+		<name>Configuration.МетрологическаяСлужба</name>
 		<right>
 			<name>Output</name>
 			<value>true</value>

@@ -11,15 +11,15 @@
 			</Synonym>
 			<Comment/>
 			<IncludeHelpInContents>true</IncludeHelpInContents>
-			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<IncludeInCommandInterface>false</IncludeInCommandInterface>
 			<Explanation/>
 			<Picture>
-				<xr:Ref>CommonPicture._ДемоРазделОрганайзер</xr:Ref>
+				<xr:Ref>CommonPicture.РазделОрганайзер</xr:Ref>
 				<xr:LoadTransparent>false</xr:LoadTransparent>
 			</Picture>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand._ДемоПанельОтчетовОрганайзер</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture._ДемоРазделОрганайзер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.РазделОрганайзер</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.Подсистема_ДемоОрганайзер</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.РассылкиОтчетов</xr:Item>
 			</Content>

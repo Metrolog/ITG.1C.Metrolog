@@ -13,7 +13,6 @@
 			<Source>
 				<v8:Type>cfg:CatalogManager._ДемоСчетНаОплатуПокупателюПрисоединенныеФайлы</v8:Type>
 				<v8:Type>cfg:CatalogManager._ДемоНоменклатураПрисоединенныеФайлы</v8:Type>
-				<v8:Type>cfg:CatalogManager._ДемоПроектыПрисоединенныеФайлы</v8:Type>
 			</Source>
 			<Event>FormGetProcessing</Event>
 			<Handler>CommonModule.ПрисоединенныеФайлыКлиентСервер.ПереопределитьПолучаемуюФормуПрисоединенногоФайла</Handler>

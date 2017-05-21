@@ -21,7 +21,6 @@
 				<v8:Type>cfg:CatalogRef.ЭлектронноеПисьмоВходящееПрисоединенныеФайлы</v8:Type>
 				<v8:Type>cfg:CatalogRef.ЗапланированноеВзаимодействиеПрисоединенныеФайлы</v8:Type>
 				<v8:Type>cfg:CatalogRef._ДемоНоменклатураПрисоединенныеФайлы</v8:Type>
-				<v8:Type>cfg:CatalogRef._ДемоПроектыПрисоединенныеФайлы</v8:Type>
 				<v8:Type>cfg:CatalogRef.СообщениеSMSПрисоединенныеФайлы</v8:Type>
 				<v8:Type>cfg:CatalogRef._ДемоСчетНаОплатуПокупателюПрисоединенныеФайлы</v8:Type>
 				<v8:Type>cfg:CatalogRef.ВстречаПрисоединенныеФайлы</v8:Type>

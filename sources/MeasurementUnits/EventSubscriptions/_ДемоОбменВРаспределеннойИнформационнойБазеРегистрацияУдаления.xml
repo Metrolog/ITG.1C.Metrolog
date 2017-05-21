@@ -19,7 +19,6 @@
 				<v8:Type>cfg:ChartOfCharacteristicTypesObject.ВопросыДляАнкетирования</v8:Type>
 				<v8:Type>cfg:CatalogObject.ШаблоныАнкет</v8:Type>
 				<v8:Type>cfg:CatalogObject.ГруппыИсполнителейЗадач</v8:Type>
-				<v8:Type>cfg:DocumentObject._ДемоНачислениеЗарплаты</v8:Type>
 				<v8:Type>cfg:CatalogObject._ДемоГруппыДоступаНоменклатуры</v8:Type>
 				<v8:Type>cfg:DocumentObject._ДемоСчетНаОплатуПокупателю</v8:Type>
 				<v8:Type>cfg:ChartOfCharacteristicTypesObject.ОбъектыАдресацииЗадач</v8:Type>
@@ -38,9 +37,7 @@
 				<v8:Type>cfg:CatalogObject._ДемоГруппыДоступаПартнеров</v8:Type>
 				<v8:Type>cfg:CatalogObject._ДемоФизическиеЛица</v8:Type>
 				<v8:Type>cfg:CatalogObject._ДемоОрганизации</v8:Type>
-				<v8:Type>cfg:ChartOfCharacteristicTypesObject._ДемоВидыСубконто</v8:Type>
 				<v8:Type>cfg:DocumentObject.ЭлектронноеПисьмоВходящее</v8:Type>
-				<v8:Type>cfg:DocumentObject._ДемоРасходныйКассовыйОрдер</v8:Type>
 				<v8:Type>cfg:DocumentObject._ДемоПеремещениеТоваров</v8:Type>
 				<v8:Type>cfg:CatalogObject._ДемоПартнеры</v8:Type>
 				<v8:Type>cfg:DocumentObject._ДемоСписаниеТоваров</v8:Type>
@@ -55,17 +52,13 @@
 				<v8:Type>cfg:CatalogObject._ДемоДоговорыКонтрагентов</v8:Type>
 				<v8:Type>cfg:ChartOfCharacteristicTypesObject.ДополнительныеРеквизитыИСведения</v8:Type>
 				<v8:Type>cfg:CatalogObject.ДополнительныеОтчетыИОбработки</v8:Type>
-				<v8:Type>cfg:ChartOfAccountsObject._ДемоОсновной</v8:Type>
 				<v8:Type>cfg:BusinessProcessObject._ДемоЗаданиеСРолевойАдресацией</v8:Type>
-				<v8:Type>cfg:ChartOfCalculationTypesObject._ДемоОсновныеНачисления</v8:Type>
 				<v8:Type>cfg:DocumentObject.ЗапланированноеВзаимодействие</v8:Type>
 				<v8:Type>cfg:CatalogObject.СертификатыКлючейЭлектроннойПодписиИШифрования</v8:Type>
 				<v8:Type>cfg:DocumentObject._ДемоОприходованиеТоваров</v8:Type>
 				<v8:Type>cfg:CatalogObject.ПредопределенныеВариантыОтчетов</v8:Type>
 				<v8:Type>cfg:CatalogObject.ВидыКонтактнойИнформации</v8:Type>
-				<v8:Type>cfg:CatalogObject._ДемоКассыККМ</v8:Type>
 				<v8:Type>cfg:DocumentObject.Анкета</v8:Type>
-				<v8:Type>cfg:CatalogObject._ДемоПроекты</v8:Type>
 				<v8:Type>cfg:CatalogObject.Календари</v8:Type>
 				<v8:Type>cfg:CatalogObject.ВнешниеПользователи</v8:Type>
 				<v8:Type>cfg:CatalogObject.ЗначенияСвойствОбъектов</v8:Type>
@@ -73,7 +66,6 @@
 				<v8:Type>cfg:CatalogObject.НаборыДополнительныхРеквизитовИСведений</v8:Type>
 				<v8:Type>cfg:CatalogObject.ПроизводственныеКалендари</v8:Type>
 				<v8:Type>cfg:DocumentObject.СообщениеSMS</v8:Type>
-				<v8:Type>cfg:CatalogObject._ДемоКассы</v8:Type>
 				<v8:Type>cfg:CatalogObject._ДемоМестаХранения</v8:Type>
 				<v8:Type>cfg:CatalogObject.ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы</v8:Type>
 				<v8:Type>cfg:CatalogObject.ВариантыОтветовАнкет</v8:Type>

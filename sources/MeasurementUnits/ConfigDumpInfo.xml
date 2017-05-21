@@ -10450,7 +10450,7 @@
 		<Metadata name="Subsystem._ДемоНачальнаяСтраница" id="b9208f9d-41ed-40a4-9c92-4d3aa80135d0" configVersion="23fcf63ae761d147a5038445754a874a00000000"/>
 		<Metadata name="Subsystem._ДемоНачальнаяСтраница.CommandInterface" id="b9208f9d-41ed-40a4-9c92-4d3aa80135d0.1" configVersion="59e5563284ed154ca6d6bcba7c9c696800000000"/>
 		<Metadata name="Subsystem._ДемоНепоставляемыеОбъекты" id="53f36dcb-9b68-4365-9335-54fdd33793d9" configVersion="46ae239b9fbd4c468c94d04b5b8f6f6d00000000"/>
-		<Metadata name="Subsystem._ДемоНормативноСправочнаяИнформация" id="809bbe68-2413-4776-a70f-9006fc9ae01f" configVersion="840a56a67e49aa47aac48aac7981305400000000"/>
+		<Metadata name="Subsystem._ДемоНормативноСправочнаяИнформация" id="809bbe68-2413-4776-a70f-9006fc9ae01f" configVersion="19a330a3d7b63e47b9c435db34fb0c8b00000000"/>
 		<Metadata name="Subsystem._ДемоНормативноСправочнаяИнформация.CommandInterface" id="809bbe68-2413-4776-a70f-9006fc9ae01f.1" configVersion="7f6d489fd3043a468fee3c4fb50a461d00000000"/>
 		<Metadata name="Subsystem._ДемоНормативноСправочнаяИнформация.Subsystem._ДемоАдресныйКлассификатор" id="0ebe9706-f5d4-4a5c-9c00-af8c03af0c5b" configVersion="6b57e29fbcc2ec4bb645d36da815911700000000"/>
 		<Metadata name="Subsystem._ДемоНормативноСправочнаяИнформация.Subsystem._ДемоАдресныйКлассификатор.CommandInterface" id="0ebe9706-f5d4-4a5c-9c00-af8c03af0c5b.1" configVersion="842b15dadb622c4baad42604e600b15d00000000"/>
@@ -10566,8 +10566,10 @@
 		<Metadata name="Subsystem.ИнтернетПоддержкаПользователей.Subsystem.ПолучениеОбновленийПрограммы" id="59a3c290-b497-4926-95a4-c1f81ebf8ae9" configVersion="48db456c4bf6374097b18c9b10e0840c00000000"/>
 		<Metadata name="Subsystem.МетрологическаяСлужба" id="0fafa9e4-bed7-4b56-a620-bdf577fd1e8d" configVersion="77bee53f3861e143b83cba7c535a18c000000000"/>
 		<Metadata name="Subsystem.МетрологическаяСлужба.Subsystem.ЕдиницыВеличин" id="84293ecf-872c-4a8b-868c-e2aa65cf5346" configVersion="9e1588d60d3af54491a927670310b86c00000000"/>
-		<Metadata name="Subsystem.НормативноСправочнаяИнформация" id="326dd5e6-5c2b-42b1-a9d2-f4ce7b3e4ecd" configVersion="d68f5fd4085cbb4282fefa6b41df31ab00000000"/>
+		<Metadata name="Subsystem.НормативноСправочнаяИнформация" id="326dd5e6-5c2b-42b1-a9d2-f4ce7b3e4ecd" configVersion="0b835d13ae58f6418b894e2d3df5746a00000000"/>
 		<Metadata name="Subsystem.НормативноСправочнаяИнформация.CommandInterface" id="326dd5e6-5c2b-42b1-a9d2-f4ce7b3e4ecd.1" configVersion="52d0857672906c4b8ed84463f7623bfe00000000"/>
+		<Metadata name="Subsystem.НормативноСправочнаяИнформация.Subsystem.ЕдиницыВеличин" id="4c5e4fa4-9eff-4dec-882d-1b34e06e9126" configVersion="fdad85a43b58f84eb1c5886f0b7f2ed700000000"/>
+		<Metadata name="Subsystem.НормативноСправочнаяИнформация.Subsystem.ЕдиницыВеличин.CommandInterface" id="4c5e4fa4-9eff-4dec-882d-1b34e06e9126.1" configVersion="485261af7001ee468e9c6e8c4426554300000000"/>
 		<Metadata name="Subsystem.ПодключаемыеОтчетыИОбработки" id="7795348b-2f52-47f7-bf00-e11e5e795a43" configVersion="cb409d1411411441a453bba62a3955ad00000000"/>
 		<Metadata name="Subsystem.СтандартныеПодсистемы" id="0421b67e-ed26-491d-ab98-ec59002ed4ce" configVersion="1bf16c67d45c3448b2a22053716f82f100000000"/>
 		<Metadata name="Subsystem.СтандартныеПодсистемы.Subsystem.АдресныйКлассификатор" id="bb47ced2-31f9-4870-8633-20b986e53ccc" configVersion="fa0c77148bdeae408f55ab5a7485a37a00000000"/>

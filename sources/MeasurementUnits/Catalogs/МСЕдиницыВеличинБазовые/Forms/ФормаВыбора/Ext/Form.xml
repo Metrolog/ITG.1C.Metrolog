@@ -84,7 +84,7 @@
 					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="18"/>
 				</LabelField>
 				<LabelField name="Обозначение" id="22">
-					<DataPath>Список.Обозначение</DataPath>
+					<DataPath>~Список.Обозначение</DataPath>
 					<ContextMenu name="ОбозначениеКонтекстноеМеню" id="23"/>
 					<ExtendedTooltip name="ОбозначениеРасширеннаяПодсказка" id="24"/>
 				</LabelField>

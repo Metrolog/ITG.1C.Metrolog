@@ -52,7 +52,7 @@
 			</ChildItems>
 		</UsualGroup>
 		<InputField name="Обозначение" id="10">
-			<DataPath>Объект.Обозначение</DataPath>
+			<DataPath>1/0:efd981d4-954c-46a8-8d36-55cb2339d2e6</DataPath>
 			<EditMode>EnterOnInput</EditMode>
 			<ContextMenu name="ОбозначениеКонтекстноеМеню" id="11"/>
 			<ExtendedTooltip name="ОбозначениеРасширеннаяПодсказка" id="12"/>

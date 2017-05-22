@@ -13,8 +13,8 @@
 			<Location>Constant.МСЕдиницыВеличинИспользоватьОбозначенияМн</Location>
 			<PrivilegedGetMode>true</PrivilegedGetMode>
 			<Content>
-				<xr:Object>Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных.Attribute.НаименованиеМн</xr:Object>
-				<xr:Object>Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных.Attribute.ОбозначениеМн</xr:Object>
+				<xr:Object>CommonAttribute.НаименованиеМн</xr:Object>
+				<xr:Object>CommonAttribute.ОбозначениеМн</xr:Object>
 			</Content>
 		</Properties>
 	</FunctionalOption>

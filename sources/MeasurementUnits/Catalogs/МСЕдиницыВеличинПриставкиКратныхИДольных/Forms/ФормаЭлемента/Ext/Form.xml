@@ -8,73 +8,92 @@
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
-		<UsualGroup name="ГруппаНаименованиеИКод" id="16">
+		<UsualGroup name="ГруппаКодИСтепень" id="64">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Группа наименование и код</v8:content>
+					<v8:content>Группа код и степень</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Группа наименование и код</v8:content>
+					<v8:content>Группа код и степень</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="ГруппаНаименованиеИКодРасширеннаяПодсказка" id="17"/>
+			<ExtendedTooltip name="ГруппаКодИСтепеньРасширеннаяПодсказка" id="65"/>
 			<ChildItems>
-				<InputField name="Наименование" id="10">
-					<DataPath>Объект.Description</DataPath>
-					<ContextMenu name="НаименованиеКонтекстноеМеню" id="11"/>
-					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="12"/>
-				</InputField>
-				<InputField name="Код" id="13">
-					<DataPath>Объект.Code</DataPath>
+				<UsualGroup name="ГруппаПорядок" id="22">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа порядок</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа порядок</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаПорядокРасширеннаяПодсказка" id="23"/>
+					<ChildItems>
+						<InputField name="Основание" id="24">
+							<DataPath>Объект.Основание</DataPath>
+							<ContextMenu name="ОснованиеКонтекстноеМеню" id="25"/>
+							<ExtendedTooltip name="ОснованиеРасширеннаяПодсказка" id="26"/>
+						</InputField>
+						<InputField name="Порядок" id="1">
+							<DataPath>Объект.Порядок</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<SpinButton>true</SpinButton>
+							<EditFormat>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ЧЦ=2; ЧДЦ=</v8:content>
+								</v8:item>
+							</EditFormat>
+							<ContextMenu name="ПорядокКонтекстноеМеню" id="2"/>
+							<ExtendedTooltip name="ПорядокРасширеннаяПодсказка" id="3"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаНаименованиеИКод" id="16">
 					<UserVisible>
 						<xr:Common>false</xr:Common>
 					</UserVisible>
-					<ContextMenu name="КодКонтекстноеМеню" id="14"/>
-					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="15"/>
-				</InputField>
-			</ChildItems>
-		</UsualGroup>
-		<UsualGroup name="ГруппаПорядок" id="22">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Группа порядок</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Группа порядок</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Representation>None</Representation>
-			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="ГруппаПорядокРасширеннаяПодсказка" id="23"/>
-			<ChildItems>
-				<InputField name="Основание" id="24">
-					<DataPath>Объект.Основание</DataPath>
-					<ContextMenu name="ОснованиеКонтекстноеМеню" id="25"/>
-					<ExtendedTooltip name="ОснованиеРасширеннаяПодсказка" id="26"/>
-				</InputField>
-				<InputField name="Порядок" id="1">
-					<DataPath>Объект.Порядок</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<SpinButton>true</SpinButton>
-					<EditFormat>
+					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>ЧЦ=2; ЧДЦ=</v8:content>
+							<v8:content>Группа наименование и код</v8:content>
 						</v8:item>
-					</EditFormat>
-					<ContextMenu name="ПорядокКонтекстноеМеню" id="2"/>
-					<ExtendedTooltip name="ПорядокРасширеннаяПодсказка" id="3"/>
-				</InputField>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа наименование и код</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаНаименованиеИКодРасширеннаяПодсказка" id="17"/>
+					<ChildItems>
+						<InputField name="Наименование" id="10">
+							<DataPath>Объект.Description</DataPath>
+							<ContextMenu name="НаименованиеКонтекстноеМеню" id="11"/>
+							<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="12"/>
+						</InputField>
+						<InputField name="Код" id="13">
+							<DataPath>Объект.Code</DataPath>
+							<ContextMenu name="КодКонтекстноеМеню" id="14"/>
+							<ExtendedTooltip name="КодРасширеннаяПодсказка" id="15"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="ГруппаПостановлениеПравительства" id="20">
@@ -112,6 +131,12 @@
 					<ChildItems>
 						<InputField name="НаименованиеРус" id="27">
 							<DataPath>Объект.НаименованиеРус</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Приставка</v8:content>
+								</v8:item>
+							</Title>
 							<ContextMenu name="НаименованиеРусКонтекстноеМеню" id="28"/>
 							<ExtendedTooltip name="НаименованиеРусРасширеннаяПодсказка" id="29"/>
 						</InputField>
@@ -140,7 +165,7 @@
 					<ExtendedTooltip name="ГруппаПостановлениеПравительстваМеждународныеОбозначенияРасширеннаяПодсказка" id="33"/>
 					<ChildItems>
 						<InputField name="НаименованиеМн" id="34">
-							<DataPath>Объект.НаименованиеМн</DataPath>
+							<DataPath>Объект.ОбозначениеМн</DataPath>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -272,6 +297,9 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.Description</Field>
+			</UseAlways>
 		</Attribute>
 	</Attributes>
 	<CommandInterface>

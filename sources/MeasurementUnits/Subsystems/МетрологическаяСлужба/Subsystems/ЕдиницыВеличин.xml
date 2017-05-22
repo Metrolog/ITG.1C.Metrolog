@@ -33,6 +33,14 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.МСЕдиницыВеличинОбозначения</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.МСЕдиницыВеличинОбозначения</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.МСЕдиницыВеличинОбозначения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonAttribute.НаименованиеРус</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonAttribute.ОбозначениеРус</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonAttribute.НаименованиеМн</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonAttribute.ОбозначениеМн</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonAttribute.НаименованиеРусISO_80000_1</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonAttribute.ОбозначениеРусISO_80000_1</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonAttribute.НаименованиеМнISO_80000_1</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonAttribute.ОбозначениеМнISO_80000_1</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

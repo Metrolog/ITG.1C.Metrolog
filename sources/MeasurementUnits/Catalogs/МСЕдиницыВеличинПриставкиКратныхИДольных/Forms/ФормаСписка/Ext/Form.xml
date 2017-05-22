@@ -85,9 +85,6 @@
 				</LabelField>
 				<LabelField name="Ссылка" id="34">
 					<DataPath>Список.Ref</DataPath>
-					<UserVisible>
-						<xr:Common>false</xr:Common>
-					</UserVisible>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>

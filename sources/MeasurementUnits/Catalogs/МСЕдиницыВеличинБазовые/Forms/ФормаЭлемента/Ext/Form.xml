@@ -8,37 +8,23 @@
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
-		<UsualGroup name="ГруппаНаименованиеИКод" id="13">
+		<UsualGroup name="ГруппаКод" id="13">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Группа наименование и код</v8:content>
+					<v8:content>Группа код</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Группа наименование и код</v8:content>
+					<v8:content>Группа код</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="ГруппаНаименованиеИКодРасширеннаяПодсказка" id="14"/>
+			<ExtendedTooltip name="ГруппаКодРасширеннаяПодсказка" id="14"/>
 			<ChildItems>
-				<InputField name="Наименование" id="4">
-					<DataPath>1/-3</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
-					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
-					<Events>
-						<Event name="OnChange">НаименованиеПриИзменении</Event>
-					</Events>
-				</InputField>
-				<Button name="Склонения" id="15">
-					<Type>Hyperlink</Type>
-					<CommandName>Form.Command.Склонения</CommandName>
-					<ExtendedTooltip name="СклоненияРасширеннаяПодсказка" id="16"/>
-				</Button>
 				<InputField name="Код" id="1">
 					<DataPath>1/-2</DataPath>
 					<UserVisible>
@@ -51,12 +37,6 @@
 				</InputField>
 			</ChildItems>
 		</UsualGroup>
-		<InputField name="Обозначение" id="10">
-			<DataPath>1/0:efd981d4-954c-46a8-8d36-55cb2339d2e6</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ContextMenu name="ОбозначениеКонтекстноеМеню" id="11"/>
-			<ExtendedTooltip name="ОбозначениеРасширеннаяПодсказка" id="12"/>
-		</InputField>
 		<UsualGroup name="ГруппаНаименованияИОбозначения" id="29">
 			<Title>
 				<v8:item>
@@ -119,6 +99,11 @@
 									<ContextMenu name="НаименованиеРусКонтекстноеМеню" id="36"/>
 									<ExtendedTooltip name="НаименованиеРусРасширеннаяПодсказка" id="37"/>
 								</InputField>
+								<Button name="СклоненияРус" id="15">
+									<Type>Hyperlink</Type>
+									<CommandName>Form.Command.СклоненияРус</CommandName>
+									<ExtendedTooltip name="СклоненияРусРасширеннаяПодсказка" id="16"/>
+								</Button>
 								<InputField name="ОбозначениеРус" id="38">
 									<DataPath>Объект.ОбозначениеРус</DataPath>
 									<EditMode>EnterOnInput</EditMode>
@@ -213,6 +198,11 @@
 									<ContextMenu name="НаименованиеРусISO_80000_1КонтекстноеМеню" id="54"/>
 									<ExtendedTooltip name="НаименованиеРусISO_80000_1РасширеннаяПодсказка" id="55"/>
 								</InputField>
+								<Button name="СклоненияРусISO_80000_1" id="69">
+									<Type>Hyperlink</Type>
+									<CommandName>Form.Command.СклоненияРусISO_80000_1</CommandName>
+									<ExtendedTooltip name="СклоненияРусISO_80000_1РасширеннаяПодсказка" id="70"/>
+								</Button>
 								<InputField name="ОбозначениеРусISO_80000_1" id="56">
 									<DataPath>Объект.ОбозначениеРусISO_80000_1</DataPath>
 									<Title>
@@ -287,6 +277,55 @@
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаПравилаФормированияНаименованияРасширеннаяПодсказка" id="28"/>
 			<ChildItems>
+				<InputField name="Основание" id="71">
+					<DataPath>Объект.Основание</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Приставки</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Применяемые кратные и дольные приставки: десятичные или бинарные</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Width>14</Width>
+					<MaxWidth>2</MaxWidth>
+					<ListChoiceMode>true</ListChoiceMode>
+					<ChoiceList>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>десятичные</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xs:decimal">10</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>бинарные</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xs:decimal">2</Value>
+							</xr:Value>
+						</xr:Item>
+					</ChoiceList>
+					<DropListWidth>10</DropListWidth>
+					<ContextMenu name="ОснованиеКонтекстноеМеню" id="72"/>
+					<ExtendedTooltip name="ОснованиеРасширеннаяПодсказка" id="73"/>
+				</InputField>
 				<InputField name="ПредлогЗнаменателяНаименованияСоставнойЕдиницыВеличины" id="21">
 					<DataPath>Объект.ПредлогЗнаменателяНаименованияСоставнойЕдиницыВеличины</DataPath>
 					<DropListButton>true</DropListButton>
@@ -332,23 +371,48 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.ПредлогЗнаменателяНаименованияСоставнойЕдиницыВеличины</Field>
+				<Field>Объект.Основание</Field>
+				<Field>Объект.ОбозначениеРусISO_80000_1</Field>
+				<Field>Объект.ОбозначениеРус</Field>
+				<Field>Объект.ОбозначениеМнISO_80000_1</Field>
+				<Field>Объект.ОбозначениеМн</Field>
+				<Field>Объект.НаименованиеРусISO_80000_1</Field>
+				<Field>Объект.НаименованиеРус</Field>
+				<Field>Объект.НаименованиеМнISO_80000_1</Field>
+				<Field>Объект.НаименованиеМн</Field>
+				<Field>Объект.ИспользоватьНаименованиеСтепениКакПрилагательное</Field>
+				<Field>Объект.PredefinedDataName</Field>
+				<Field>Объект.Predefined</Field>
+				<Field>Объект.DeletionMark</Field>
+			</UseAlways>
 		</Attribute>
 	</Attributes>
 	<Commands>
-		<Command name="Склонения" id="1">
+		<Command name="СклоненияРус" id="1">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Склонения</v8:content>
 				</v8:item>
 			</Title>
-			<ToolTip>
+			<Action>Склонения</Action>
+			<FunctionalOptions>
+				<Item>FunctionalOption.МСЕдиницыВеличинИспользоватьОбозначенияРус</Item>
+			</FunctionalOptions>
+		</Command>
+		<Command name="СклоненияРусISO_80000_1" id="3">
+			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Склонения</v8:content>
 				</v8:item>
-			</ToolTip>
+			</Title>
 			<Action>Склонения</Action>
+			<FunctionalOptions>
+				<Item>FunctionalOption.МСЕдиницыВеличинИспользоватьОбозначенияРусISO_80000_1</Item>
+			</FunctionalOptions>
 		</Command>
 	</Commands>
 	<CommandInterface>

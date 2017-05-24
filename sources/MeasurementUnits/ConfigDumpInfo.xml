@@ -1130,10 +1130,11 @@
 		<Metadata name="Catalog.МСЕдиницыВеличин.Form.ФормаЭлемента.Form" id="51287544-5e26-4551-9357-efae92a109ae.0" configVersion="e059a1e03cac614084a4cc94e86d5b5500000000"/>
 		<Metadata name="Catalog.МСЕдиницыВеличин.ManagerModule" id="04b87f49-0605-4b07-8df8-47d39e7a6355.3" configVersion="dfe00999313ce24c8b96345251b7ec5800000000"/>
 		<Metadata name="Catalog.МСЕдиницыВеличин.ObjectModule" id="04b87f49-0605-4b07-8df8-47d39e7a6355.0" configVersion="0ed6cf868b578a4abccc3f68dfb5d64500000000"/>
-		<Metadata name="Catalog.МСЕдиницыВеличинБазовые" id="d8e53224-9189-458b-bd89-bbf71cc8985a" configVersion="a1ef8e7d8b149d4d9333249f84c6bb8100000000">
+		<Metadata name="Catalog.МСЕдиницыВеличинБазовые" id="d8e53224-9189-458b-bd89-bbf71cc8985a" configVersion="7725809e4baf14438e69a521457b045500000000">
 			<Metadata name="Catalog.МСЕдиницыВеличинБазовые.Attribute.ОбозначениеМнISO_80000_1" id="4e5f3927-ce22-45a7-b989-b58ae076f621"/>
 			<Metadata name="Catalog.МСЕдиницыВеличинБазовые.Attribute.ОбозначениеРусISO_80000_1" id="5f3cf6c0-d5b8-4468-9098-8dc115ec3e39"/>
 			<Metadata name="Catalog.МСЕдиницыВеличинБазовые.Attribute.ОбозначениеМн" id="63c85470-3c54-4d20-ba0a-3f54bb3ed9b0"/>
+			<Metadata name="Catalog.МСЕдиницыВеличинБазовые.Attribute.Основание" id="6cedc576-4b94-4009-8c47-ef0047b7ddfa"/>
 			<Metadata name="Catalog.МСЕдиницыВеличинБазовые.Attribute.ОбозначениеРус" id="737b216f-070a-4508-8f3b-6f0c45fff1b9"/>
 			<Metadata name="Catalog.МСЕдиницыВеличинБазовые.Attribute.ИспользоватьНаименованиеСтепениКакПрилагательное" id="74b13764-2399-4d94-9da7-18ce330ad716"/>
 			<Metadata name="Catalog.МСЕдиницыВеличинБазовые.Attribute.НаименованиеРус" id="95974f46-1417-49fb-b7ca-b39eb8d20461"/>
@@ -1146,12 +1147,12 @@
 		<Metadata name="Catalog.МСЕдиницыВеличинБазовые.Form.ФормаВыбора.Form" id="25424874-deb1-4e33-83b4-3dca5f9ce665.0" configVersion="178f2b79bb59e544ba4535f37061c63e00000000"/>
 		<Metadata name="Catalog.МСЕдиницыВеличинБазовые.Form.ФормаСписка" id="34138530-9ed9-4b5e-9011-6f460a15751c" configVersion="b627ad2ad9daf74283d9defa2a6053b500000000"/>
 		<Metadata name="Catalog.МСЕдиницыВеличинБазовые.Form.ФормаСписка.Form" id="34138530-9ed9-4b5e-9011-6f460a15751c.0" configVersion="6551fb9d1a1d8b409e04c49919d6180900000000"/>
-		<Metadata name="Catalog.МСЕдиницыВеличинБазовые.Form.ФормаЭлемента" id="14dfd4d5-d350-4c8d-8623-559cc7d9aed8" configVersion="cc63d94bca568a469220aa9146e3bb6d00000000"/>
-		<Metadata name="Catalog.МСЕдиницыВеличинБазовые.Form.ФормаЭлемента.Form" id="14dfd4d5-d350-4c8d-8623-559cc7d9aed8.0" configVersion="84ba49725ac7e04b9181363f52c444a500000000"/>
+		<Metadata name="Catalog.МСЕдиницыВеличинБазовые.Form.ФормаЭлемента" id="14dfd4d5-d350-4c8d-8623-559cc7d9aed8" configVersion="ad9390b0d842b84cac2dd93497b6663500000000"/>
+		<Metadata name="Catalog.МСЕдиницыВеличинБазовые.Form.ФормаЭлемента.Form" id="14dfd4d5-d350-4c8d-8623-559cc7d9aed8.0" configVersion="f9df5028c7e50d46b2b6bbf43a52eb8e00000000"/>
 		<Metadata name="Catalog.МСЕдиницыВеличинБазовые.ManagerModule" id="d8e53224-9189-458b-bd89-bbf71cc8985a.3" configVersion="254abac21cd4b74e9f3c7983cd3428f600000000"/>
 		<Metadata name="Catalog.МСЕдиницыВеличинБазовые.ObjectModule" id="d8e53224-9189-458b-bd89-bbf71cc8985a.0" configVersion="7bddfe1a068d21488ff3e89f3c6384fd00000000"/>
 		<Metadata name="Catalog.МСЕдиницыВеличинБазовые.Predefined" id="d8e53224-9189-458b-bd89-bbf71cc8985a.1c" configVersion="46ceb6c352430143b01ab8e77a5cd29a00000000"/>
-		<Metadata name="Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных" id="147cc042-7d87-439d-9495-d9800752ac59" configVersion="a8c729ad1a01d74ab96783998630637d00000000">
+		<Metadata name="Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных" id="147cc042-7d87-439d-9495-d9800752ac59" configVersion="b110cf6d6242764ca5ba8aec4adc5d5b00000000">
 			<Metadata name="Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных.Attribute.Порядок" id="03319281-4aaa-4bc4-b113-fd92d2394f5e"/>
 			<Metadata name="Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных.Attribute.НаименованиеРусISO_80000_1" id="0b3b5ab3-74be-4a81-a5cd-faf0f123f7e5"/>
 			<Metadata name="Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных.Attribute.ОбозначениеМнISO_80000_1" id="0f5558cf-0521-4770-a85c-8cd9240a8f6c"/>
@@ -1167,10 +1168,10 @@
 		<Metadata name="Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных.Form.ФормаВыбора.Form" id="84c458a3-703b-4281-a422-ba76ca4d625b.0" configVersion="24d3394498a9864290e19b5ca5b9c4df00000000"/>
 		<Metadata name="Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных.Form.ФормаСписка" id="6c152c16-3c73-4aa7-9d67-663bea87659a" configVersion="c6253db4ee623f429a64bde37cf4c2d800000000"/>
 		<Metadata name="Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных.Form.ФормаСписка.Form" id="6c152c16-3c73-4aa7-9d67-663bea87659a.0" configVersion="23706198f8ff50469ce542e62861574000000000"/>
-		<Metadata name="Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных.Form.ФормаЭлемента" id="36d3a665-d1f3-410e-bff9-1c63e847281e" configVersion="c98946c663996644b7c7c7a87f25543200000000"/>
-		<Metadata name="Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных.Form.ФормаЭлемента.Form" id="36d3a665-d1f3-410e-bff9-1c63e847281e.0" configVersion="2b8118d9f1f7a0418d01f9250e0aded400000000"/>
+		<Metadata name="Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных.Form.ФормаЭлемента" id="36d3a665-d1f3-410e-bff9-1c63e847281e" configVersion="883e1218b4a2aa4d864e012d87a436e100000000"/>
+		<Metadata name="Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных.Form.ФормаЭлемента.Form" id="36d3a665-d1f3-410e-bff9-1c63e847281e.0" configVersion="c6a99c0515a73f49a2b90058a7cf4e4300000000"/>
 		<Metadata name="Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных.Help" id="147cc042-7d87-439d-9495-d9800752ac59.1" configVersion="bc4083eb90deda4bad6100ba29a38de500000000"/>
-		<Metadata name="Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных.ManagerModule" id="147cc042-7d87-439d-9495-d9800752ac59.3" configVersion="abbeb899194c45429c18e63ecb4207f000000000"/>
+		<Metadata name="Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных.ManagerModule" id="147cc042-7d87-439d-9495-d9800752ac59.3" configVersion="7340cd6a193fd74296053a5e5966545800000000"/>
 		<Metadata name="Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных.ObjectModule" id="147cc042-7d87-439d-9495-d9800752ac59.0" configVersion="bb1351077cfeb04d942705a606599ac300000000"/>
 		<Metadata name="Catalog.НаборыДополнительныхРеквизитовИСведений" id="0a136ad9-22ad-4ba7-a31a-40a193b49d26" configVersion="8af06f4d957e1a4fafa4c9f863131c9800000000">
 			<Metadata name="Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения.Attribute.Свойство" id="00949768-5833-4fe2-8752-b009d1bceef8"/>

@@ -13,8 +13,10 @@
 			<Location>Constant.МСЕдиницыВеличинИспользоватьОбозначенияРус</Location>
 			<PrivilegedGetMode>true</PrivilegedGetMode>
 			<Content>
-				<xr:Object>CommonAttribute.НаименованиеРус</xr:Object>
-				<xr:Object>CommonAttribute.ОбозначениеРус</xr:Object>
+				<xr:Object>Catalog.МСЕдиницыВеличинБазовые.Attribute.НаименованиеРус</xr:Object>
+				<xr:Object>Catalog.МСЕдиницыВеличинБазовые.Attribute.ОбозначениеРус</xr:Object>
+				<xr:Object>Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных.Attribute.НаименованиеРус</xr:Object>
+				<xr:Object>Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных.Attribute.ОбозначениеРус</xr:Object>
 			</Content>
 		</Properties>
 	</FunctionalOption>

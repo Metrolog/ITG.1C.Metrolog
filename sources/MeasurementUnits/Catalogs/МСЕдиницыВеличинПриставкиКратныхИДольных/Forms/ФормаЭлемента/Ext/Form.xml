@@ -178,7 +178,7 @@
 							<ExtendedTooltip name="ГруппаПостановлениеПравительстваМеждународныеОбозначенияРасширеннаяПодсказка" id="33"/>
 							<ChildItems>
 								<InputField name="НаименованиеМн" id="34">
-									<DataPath>Объект.ОбозначениеМн</DataPath>
+									<DataPath>Объект.НаименованиеМн</DataPath>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>

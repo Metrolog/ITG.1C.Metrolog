@@ -13,8 +13,10 @@
 			<Location>Constant.МСЕдиницыВеличинИспользоватьОбозначенияРусISO_80000_1</Location>
 			<PrivilegedGetMode>true</PrivilegedGetMode>
 			<Content>
-				<xr:Object>CommonAttribute.НаименованиеРусISO_80000_1</xr:Object>
-				<xr:Object>CommonAttribute.ОбозначениеРусISO_80000_1</xr:Object>
+				<xr:Object>Catalog.МСЕдиницыВеличинБазовые.Attribute.НаименованиеРусISO_80000_1</xr:Object>
+				<xr:Object>Catalog.МСЕдиницыВеличинБазовые.Attribute.ОбозначениеРусISO_80000_1</xr:Object>
+				<xr:Object>Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных.Attribute.НаименованиеРусISO_80000_1</xr:Object>
+				<xr:Object>Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных.Attribute.ОбозначениеРусISO_80000_1</xr:Object>
 			</Content>
 		</Properties>
 	</FunctionalOption>

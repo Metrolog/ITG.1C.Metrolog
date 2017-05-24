@@ -49,7 +49,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</xr:Item>
 			</DefaultRoles>
 			<Vendor>ФБУ "Тест-С.-Петербург"</Vendor>
-			<Version>0.1.0.33</Version>
+			<Version>0.1.0.34</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>true</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>true</UseManagedFormInOrdinaryApplication>
@@ -1300,14 +1300,6 @@
 			<CommonModule>ЭлектроннаяПодписьСлужебныйКлиент</CommonModule>
 			<CommonModule>ЭлектроннаяПодписьСлужебныйКлиентСервер</CommonModule>
 			<CommonModule>ЭлектроннаяПодписьСлужебныйПовтИсп</CommonModule>
-			<CommonAttribute>НаименованиеРус</CommonAttribute>
-			<CommonAttribute>ОбозначениеРус</CommonAttribute>
-			<CommonAttribute>НаименованиеМн</CommonAttribute>
-			<CommonAttribute>ОбозначениеМн</CommonAttribute>
-			<CommonAttribute>НаименованиеРусISO_80000_1</CommonAttribute>
-			<CommonAttribute>ОбозначениеРусISO_80000_1</CommonAttribute>
-			<CommonAttribute>НаименованиеМнISO_80000_1</CommonAttribute>
-			<CommonAttribute>ОбозначениеМнISO_80000_1</CommonAttribute>
 			<CommonAttribute>ОбластьДанныхВспомогательныеДанные</CommonAttribute>
 			<CommonAttribute>ОбластьДанныхОсновныеДанные</CommonAttribute>
 			<ExchangePlan>_ДемоАвтономнаяРабота</ExchangePlan>

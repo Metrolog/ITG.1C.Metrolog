@@ -33,14 +33,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.МСЕдиницыВеличинОбозначения</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.МСЕдиницыВеличинОбозначения</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.МСЕдиницыВеличинОбозначения</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">f09c8da6-7fe6-4c91-b3af-2ffe5379ebec</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">116b8c32-406d-499e-957b-3ae18d777da5</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">994205be-7a60-4ac5-a6ad-103ddf0fbc2e</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">aea3bcca-cc6f-44bc-8448-cf9fc5fac200</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">2b880d55-61fa-4a2b-afb6-c6146f121027</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">2f9115e7-f2f3-4255-9e03-954aa3440606</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">ebcdc764-3c1a-4311-90ff-be433125496c</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">065f92fb-1b85-4592-8d0a-8ab7e9247f06</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.МСЕдиницыВеличинПередЗаписьюУдалитьЛишниеПробелыВНаименованииИОбозначении</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

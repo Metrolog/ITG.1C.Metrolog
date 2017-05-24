@@ -77,14 +77,6 @@
 					<ContextMenu name="СтандартнаяКартинкаКонтекстноеМеню" id="113"/>
 					<ExtendedTooltip name="СтандартнаяКартинкаРасширеннаяПодсказка" id="114"/>
 				</PictureField>
-				<LabelField name="Код" id="19">
-					<DataPath>Список.Code</DataPath>
-					<UserVisible>
-						<xr:Common>false</xr:Common>
-					</UserVisible>
-					<ContextMenu name="КодКонтекстноеМеню" id="20"/>
-					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="21"/>
-				</LabelField>
 				<LabelField name="Ссылка" id="31">
 					<DataPath>Список.Ref</DataPath>
 					<Title>
@@ -178,7 +170,6 @@
 				<Field>Список.Основание</Field>
 				<Field>Список.Ref</Field>
 				<Field>Список.DefaultPicture</Field>
-				<Field>Список.Code</Field>
 				<Field>~Список.ПриставкаМеждународнаяISO_80000_1</Field>
 				<Field>~Список.ПриставкаМеждународная</Field>
 				<Field>~Список.ПриставкаISO_80000_1</Field>
@@ -187,6 +178,7 @@
 				<Field>~Список.ОбозначениеМеждународное</Field>
 				<Field>~Список.ОбозначениеISO_80000_1</Field>
 				<Field>~Список.Обозначение</Field>
+				<Field>~Список.Code</Field>
 			</UseAlways>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>false</ManualQuery>

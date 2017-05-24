@@ -62,33 +62,6 @@
 						</InputField>
 					</ChildItems>
 				</UsualGroup>
-				<UsualGroup name="ГруппаКод" id="16">
-					<UserVisible>
-						<xr:Common>false</xr:Common>
-					</UserVisible>
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Группа код</v8:content>
-						</v8:item>
-					</Title>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Группа код</v8:content>
-						</v8:item>
-					</ToolTip>
-					<Representation>None</Representation>
-					<ShowTitle>false</ShowTitle>
-					<ExtendedTooltip name="ГруппаКодРасширеннаяПодсказка" id="17"/>
-					<ChildItems>
-						<InputField name="Код" id="13">
-							<DataPath>Объект.Code</DataPath>
-							<ContextMenu name="КодКонтекстноеМеню" id="14"/>
-							<ExtendedTooltip name="КодРасширеннаяПодсказка" id="15"/>
-						</InputField>
-					</ChildItems>
-				</UsualGroup>
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="ГруппаНаименованияИОбозначения" id="66">

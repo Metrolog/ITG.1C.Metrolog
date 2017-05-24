@@ -82,11 +82,6 @@
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаНаименованиеИКодРасширеннаяПодсказка" id="17"/>
 					<ChildItems>
-						<InputField name="Наименование" id="10">
-							<DataPath>Объект.Description</DataPath>
-							<ContextMenu name="НаименованиеКонтекстноеМеню" id="11"/>
-							<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="12"/>
-						</InputField>
 						<InputField name="Код" id="13">
 							<DataPath>Объект.Code</DataPath>
 							<ContextMenu name="КодКонтекстноеМеню" id="14"/>
@@ -298,7 +293,7 @@
 			<MainAttribute>true</MainAttribute>
 			<SavedData>true</SavedData>
 			<UseAlways>
-				<Field>Объект.Description</Field>
+				<Field>1/-3</Field>
 			</UseAlways>
 		</Attribute>
 	</Attributes>

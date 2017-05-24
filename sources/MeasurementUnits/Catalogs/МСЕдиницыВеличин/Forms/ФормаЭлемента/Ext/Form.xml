@@ -109,7 +109,7 @@
 					<ExtendedTooltip name="ВыражениеПриставкаРасширеннаяПодсказка" id="25"/>
 				</InputField>
 				<LabelField name="ВыражениеПриставкаНаименование" id="41">
-					<DataPath>Объект.Выражение.Приставка.Description</DataPath>
+					<DataPath>1/0:7aca41b3-f6fc-469e-adf7-04e0ee770270/0:6623f99f-f4ad-4ad0-8417-5db00414d98d/-3</DataPath>
 					<UserVisible>
 						<xr:Common>false</xr:Common>
 					</UserVisible>

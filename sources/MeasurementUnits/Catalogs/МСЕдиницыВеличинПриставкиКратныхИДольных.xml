@@ -40,9 +40,9 @@
 			<UseStandardCommands>true</UseStandardCommands>
 			<Owners/>
 			<SubordinationUse>ToItems</SubordinationUse>
-			<CodeLength>5</CodeLength>
+			<CodeLength>10</CodeLength>
 			<DescriptionLength>0</DescriptionLength>
-			<CodeType>Number</CodeType>
+			<CodeType>String</CodeType>
 			<CodeAllowedLength>Variable</CodeAllowedLength>
 			<CodeSeries>WholeCatalog</CodeSeries>
 			<CheckUnique>true</CheckUnique>

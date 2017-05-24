@@ -70,7 +70,7 @@
 			</SearchControlAddition>
 			<ChildItems>
 				<LabelField name="Код" id="19">
-					<DataPath>Список.Code</DataPath>
+					<DataPath>~Список.Code</DataPath>
 					<UserVisible>
 						<xr:Common>false</xr:Common>
 					</UserVisible>

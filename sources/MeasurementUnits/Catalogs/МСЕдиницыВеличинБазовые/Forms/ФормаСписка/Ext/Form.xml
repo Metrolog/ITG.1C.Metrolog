@@ -126,24 +126,45 @@
 				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="15"/>
 			</SearchControlAddition>
 			<ChildItems>
-				<LabelField name="Код" id="19">
-					<DataPath>Список.Code</DataPath>
-					<UserVisible>
-						<xr:Common>false</xr:Common>
-					</UserVisible>
-					<ContextMenu name="КодКонтекстноеМеню" id="20"/>
-					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="21"/>
+				<LabelField name="НаименованиеРус" id="64">
+					<DataPath>Список.НаименованиеРус</DataPath>
+					<ContextMenu name="НаименованиеРусКонтекстноеМеню" id="65"/>
+					<ExtendedTooltip name="НаименованиеРусРасширеннаяПодсказка" id="66"/>
 				</LabelField>
-				<LabelField name="Наименование" id="16">
-					<DataPath>~Список.Description</DataPath>
-					<DefaultItem>true</DefaultItem>
-					<ContextMenu name="НаименованиеКонтекстноеМеню" id="17"/>
-					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="18"/>
+				<LabelField name="ОбозначениеРус" id="67">
+					<DataPath>Список.ОбозначениеРус</DataPath>
+					<ContextMenu name="ОбозначениеРусКонтекстноеМеню" id="68"/>
+					<ExtendedTooltip name="ОбозначениеРусРасширеннаяПодсказка" id="69"/>
 				</LabelField>
-				<LabelField name="Обозначение" id="25">
-					<DataPath>~Список.Обозначение</DataPath>
-					<ContextMenu name="ОбозначениеКонтекстноеМеню" id="26"/>
-					<ExtendedTooltip name="ОбозначениеРасширеннаяПодсказка" id="27"/>
+				<LabelField name="НаименованиеМн" id="70">
+					<DataPath>Список.НаименованиеМн</DataPath>
+					<ContextMenu name="НаименованиеМнКонтекстноеМеню" id="71"/>
+					<ExtendedTooltip name="НаименованиеМнРасширеннаяПодсказка" id="72"/>
+				</LabelField>
+				<LabelField name="ОбозначениеМн" id="73">
+					<DataPath>Список.ОбозначениеМн</DataPath>
+					<ContextMenu name="ОбозначениеМнКонтекстноеМеню" id="74"/>
+					<ExtendedTooltip name="ОбозначениеМнРасширеннаяПодсказка" id="75"/>
+				</LabelField>
+				<LabelField name="НаименованиеРусISO_80000_1" id="76">
+					<DataPath>Список.НаименованиеРусISO_80000_1</DataPath>
+					<ContextMenu name="НаименованиеРусISO_80000_1КонтекстноеМеню" id="77"/>
+					<ExtendedTooltip name="НаименованиеРусISO_80000_1РасширеннаяПодсказка" id="78"/>
+				</LabelField>
+				<LabelField name="ОбозначениеРусISO_80000_1" id="79">
+					<DataPath>Список.ОбозначениеРусISO_80000_1</DataPath>
+					<ContextMenu name="ОбозначениеРусISO_80000_1КонтекстноеМеню" id="80"/>
+					<ExtendedTooltip name="ОбозначениеРусISO_80000_1РасширеннаяПодсказка" id="81"/>
+				</LabelField>
+				<LabelField name="НаименованиеМнISO_80000_1" id="82">
+					<DataPath>Список.НаименованиеМнISO_80000_1</DataPath>
+					<ContextMenu name="НаименованиеМнISO_80000_1КонтекстноеМеню" id="83"/>
+					<ExtendedTooltip name="НаименованиеМнISO_80000_1РасширеннаяПодсказка" id="84"/>
+				</LabelField>
+				<LabelField name="ОбозначениеМнISO_80000_1" id="85">
+					<DataPath>Список.ОбозначениеМнISO_80000_1</DataPath>
+					<ContextMenu name="ОбозначениеМнISO_80000_1КонтекстноеМеню" id="86"/>
+					<ExtendedTooltip name="ОбозначениеМнISO_80000_1РасширеннаяПодсказка" id="87"/>
 				</LabelField>
 				<LabelField name="ПредлогЗнаменателяНаименованияСоставнойЕдиницыВеличины" id="55">
 					<DataPath>Список.ПредлогЗнаменателяНаименованияСоставнойЕдиницыВеличины</DataPath>

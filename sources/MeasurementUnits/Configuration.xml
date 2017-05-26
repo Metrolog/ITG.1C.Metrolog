@@ -1380,6 +1380,7 @@
 			<WebService>RemoteAdministrationOfExchange_2_1_6_1</WebService>
 			<WebService>RemoteControl</WebService>
 			<EventSubscription>МСЕдиницыВеличинПередЗаписьюУдалитьЛишниеПробелыВНаименованииИОбозначении</EventSubscription>
+			<EventSubscription>МСЕдиницыВеличинПередЗаписьюЗаполнитьОтключенныеНаименованияИОбозначения</EventSubscription>
 			<EventSubscription>_ДемоАвтономнаяРаботаРегистрация</EventSubscription>
 			<EventSubscription>_ДемоАвтономнаяРаботаРегистрацияДокумента</EventSubscription>
 			<EventSubscription>_ДемоАвтономнаяРаботаРегистрацияКонстанты</EventSubscription>

@@ -17,6 +17,8 @@
 				<xr:Object>Catalog.МСЕдиницыВеличинБазовые.Attribute.ОбозначениеРус</xr:Object>
 				<xr:Object>Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных.Attribute.НаименованиеРус</xr:Object>
 				<xr:Object>Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных.Attribute.ОбозначениеРус</xr:Object>
+				<xr:Object>Catalog.МСЕдиницыВеличинБазовые.Attribute.ПробелПередОбозначениемРус</xr:Object>
+				<xr:Object>Catalog.МСЕдиницыВеличинБазовые.Attribute.ПредлогДляЗнаменателяРус</xr:Object>
 			</Content>
 		</Properties>
 	</FunctionalOption>

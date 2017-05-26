@@ -17,6 +17,8 @@
 				<xr:Object>Catalog.МСЕдиницыВеличинБазовые.Attribute.ОбозначениеРусISO_80000_1</xr:Object>
 				<xr:Object>Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных.Attribute.НаименованиеРусISO_80000_1</xr:Object>
 				<xr:Object>Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных.Attribute.ОбозначениеРусISO_80000_1</xr:Object>
+				<xr:Object>Catalog.МСЕдиницыВеличинБазовые.Attribute.ПробелПередОбозначениемРусISO_80000_1</xr:Object>
+				<xr:Object>Catalog.МСЕдиницыВеличинБазовые.Attribute.ПредлогДляЗнаменателяРусISO_80000_1</xr:Object>
 			</Content>
 		</Properties>
 	</FunctionalOption>

@@ -17,6 +17,8 @@
 				<xr:Object>Catalog.МСЕдиницыВеличинБазовые.Attribute.ОбозначениеМнISO_80000_1</xr:Object>
 				<xr:Object>Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных.Attribute.НаименованиеМнISO_80000_1</xr:Object>
 				<xr:Object>Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных.Attribute.ОбозначениеМнISO_80000_1</xr:Object>
+				<xr:Object>Catalog.МСЕдиницыВеличинБазовые.Attribute.ПробелПередОбозначениемМнISO_80000_1</xr:Object>
+				<xr:Object>Catalog.МСЕдиницыВеличинБазовые.Attribute.ПредлогДляЗнаменателяМнISO_80000_1</xr:Object>
 			</Content>
 		</Properties>
 	</FunctionalOption>

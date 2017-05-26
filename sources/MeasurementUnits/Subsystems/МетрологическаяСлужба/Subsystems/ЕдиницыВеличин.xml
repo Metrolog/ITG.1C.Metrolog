@@ -35,6 +35,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.МСЕдиницыВеличинОбозначения</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.МСЕдиницыВеличинПередЗаписьюУдалитьЛишниеПробелыВНаименованииИОбозначении</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.МСЕдиницыВеличинПередЗаписьюЗаполнитьОтключенныеНаименованияИОбозначения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.МСЕдиницыВеличинВиды</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

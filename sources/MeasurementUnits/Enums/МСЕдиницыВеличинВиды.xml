@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Enum uuid="b86fed2a-f415-40fa-8434-0ab238dad77c">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.МСЕдиницыВеличинВиды" category="Ref">
+				<xr:TypeId>645fb337-04f0-4dbf-918d-4c40f482130f</xr:TypeId>
+				<xr:ValueId>4b696c0f-373c-4c5f-b87e-cd6ec3af8e8c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.МСЕдиницыВеличинВиды" category="Manager">
+				<xr:TypeId>7d236b02-6626-4875-b0e1-184b1d24c3d2</xr:TypeId>
+				<xr:ValueId>f6d89336-60f8-4202-8920-14fc095e0807</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.МСЕдиницыВеличинВиды" category="List">
+				<xr:TypeId>8020127b-ce07-486b-a738-3a264ec5b36d</xr:TypeId>
+				<xr:ValueId>8ef843e3-3438-4140-adb8-2604b1155859</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>МСЕдиницыВеличинВиды</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Виды единиц величин</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>QuickChoice</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="ccb35f34-97b4-4a5a-9b94-817c69ff60a2">
+				<Properties>
+					<Name>Основная</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Основная</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="837e3a13-90a5-4f04-96fe-4cd2c8db5f78">
+				<Properties>
+					<Name>Когерентная</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Когерентная</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="82d6dbdf-57ee-4538-b796-e7dd94c400db">
+				<Properties>
+					<Name>Относительная</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Относительная</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="aba78750-dd8e-4112-b459-7eeca0b81c9b">
+				<Properties>
+					<Name>Производная</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Производная</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="48842ba2-8275-4220-a398-03385885762f">
+				<Properties>
+					<Name>Внесистемная</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Внесистемная</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

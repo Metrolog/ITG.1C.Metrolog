@@ -2164,6 +2164,7 @@
 			<DocumentJournal>Взаимодействия</DocumentJournal>
 			<DocumentJournal>СогласияНаОбработкуПерсональныхДанных</DocumentJournal>
 			<Enum>МСЕдиницыВеличинОбозначения</Enum>
+			<Enum>МСЕдиницыВеличинВиды</Enum>
 			<Enum>_ДемоВидКонтрагента</Enum>
 			<Enum>_ДемоВидыПлатежейВБюджет</Enum>
 			<Enum>_ДемоПолФизическогоЛица</Enum>

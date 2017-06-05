@@ -49,7 +49,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</xr:Item>
 			</DefaultRoles>
 			<Vendor>ФБУ "Тест-С.-Петербург"</Vendor>
-			<Version>0.1.0.34</Version>
+			<Version>0.1.0.36</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>true</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>true</UseManagedFormInOrdinaryApplication>
@@ -1379,8 +1379,8 @@
 			<WebService>RemoteAdministrationOfExchange_2_0_1_6</WebService>
 			<WebService>RemoteAdministrationOfExchange_2_1_6_1</WebService>
 			<WebService>RemoteControl</WebService>
+			<EventSubscription>МСЕдиницыВеличинПриЗаписиВариантаОбозначений</EventSubscription>
 			<EventSubscription>МСЕдиницыВеличинПередЗаписьюУдалитьЛишниеПробелыВНаименованииИОбозначении</EventSubscription>
-			<EventSubscription>МСЕдиницыВеличинПередЗаписьюЗаполнитьОтключенныеНаименованияИОбозначения</EventSubscription>
 			<EventSubscription>_ДемоАвтономнаяРаботаРегистрация</EventSubscription>
 			<EventSubscription>_ДемоАвтономнаяРаботаРегистрацияДокумента</EventSubscription>
 			<EventSubscription>_ДемоАвтономнаяРаботаРегистрацияКонстанты</EventSubscription>
@@ -1536,11 +1536,14 @@
 			<ScheduledJob>ЭкспортОценкиПроизводительности</ScheduledJob>
 			<ScheduledJob>ЧтениеНовостейСлужбыПоддержки</ScheduledJob>
 			<SettingsStorage>ХранилищеВариантовОтчетов</SettingsStorage>
+			<FunctionalOption>МСЕдиницыВеличинОбозначенияПриставок</FunctionalOption>
+			<FunctionalOption>МСЕдиницыВеличинИспользоватьОбозначенияПриставокРус</FunctionalOption>
+			<FunctionalOption>МСЕдиницыВеличинИспользоватьОбозначенияПриставокМн</FunctionalOption>
+			<FunctionalOption>МСЕдиницыВеличинИспользоватьОбозначенияПриставокРусISO_80000_1</FunctionalOption>
+			<FunctionalOption>МСЕдиницыВеличинИспользоватьОбозначенияПриставокМнISO_80000_1</FunctionalOption>
 			<FunctionalOption>МСЕдиницыВеличинОбозначения</FunctionalOption>
 			<FunctionalOption>МСЕдиницыВеличинИспользоватьОбозначенияРус</FunctionalOption>
 			<FunctionalOption>МСЕдиницыВеличинИспользоватьОбозначенияМн</FunctionalOption>
-			<FunctionalOption>МСЕдиницыВеличинИспользоватьОбозначенияРусISO_80000_1</FunctionalOption>
-			<FunctionalOption>МСЕдиницыВеличинИспользоватьОбозначенияМнISO_80000_1</FunctionalOption>
 			<FunctionalOption>_ДемоИспользоватьАнкетированиеБСП</FunctionalOption>
 			<FunctionalOption>_ДемоИспользоватьБизнесПроцессыИЗадачиБСП</FunctionalOption>
 			<FunctionalOption>_ДемоИспользоватьВерсионированиеОбъектовБСП</FunctionalOption>
@@ -1677,6 +1680,7 @@
 			<DefinedType>Респондент</DefinedType>
 			<DefinedType>СубъектПерсональныхДанных</DefinedType>
 			<DefinedType>ФизическоеЛицо</DefinedType>
+			<CommonCommand>МСЕдиницыВеличинОбщиеНастройки</CommonCommand>
 			<CommonCommand>ИзменитьВыделенные</CommonCommand>
 			<CommonCommand>ЗаменитьИУдалить</CommonCommand>
 			<CommonCommand>ОбъединитьВыделенные</CommonCommand>
@@ -1767,7 +1771,6 @@
 			<CommonCommand>УдалитьНастройкуСинхронизации</CommonCommand>
 			<CommonCommand>УстановитьРасширениеРаботыСФайлами</CommonCommand>
 			<CommonCommand>ФайлыВТоме</CommonCommand>
-			<CommandGroup>_ДемоНастроитьСинхронизациюДанных</CommandGroup>
 			<CommandGroup>Взаимодействия</CommandGroup>
 			<CommandGroup>Информация</CommandGroup>
 			<CommandGroup>Органайзер</CommandGroup>
@@ -1777,11 +1780,14 @@
 			<CommandGroup>ПоказатьМестаИспользования</CommandGroup>
 			<CommandGroup>ПоискИЗаменаДублей</CommandGroup>
 			<CommandGroup>ГрупповоеИзменениеРеквизитов</CommandGroup>
+			<Constant>МСЕдиницыВеличинОбозначенияПриставок</Constant>
+			<Constant>МСЕдиницыВеличинИспользоватьОбозначенияПриставокРус</Constant>
+			<Constant>МСЕдиницыВеличинИспользоватьОбозначенияПриставокМн</Constant>
+			<Constant>МСЕдиницыВеличинИспользоватьОбозначенияПриставокРусISO_80000_1</Constant>
+			<Constant>МСЕдиницыВеличинИспользоватьОбозначенияПриставокМнISO_80000_1</Constant>
 			<Constant>МСЕдиницыВеличинОбозначения</Constant>
 			<Constant>МСЕдиницыВеличинИспользоватьОбозначенияРус</Constant>
 			<Constant>МСЕдиницыВеличинИспользоватьОбозначенияМн</Constant>
-			<Constant>МСЕдиницыВеличинИспользоватьОбозначенияРусISO_80000_1</Constant>
-			<Constant>МСЕдиницыВеличинИспользоватьОбозначенияМнISO_80000_1</Constant>
 			<Constant>_ДемоИмяКонфигурацииВОбменеСБиблиотекойСтандартныхПодсистем</Constant>
 			<Constant>_ДемоИспользоватьКонтактныеЛицаПартнеров</Constant>
 			<Constant>_ДемоИспользоватьНесколькоОрганизаций</Constant>
@@ -1951,6 +1957,7 @@
 			<Constant>ХранитьФайлыВТомахНаДиске</Constant>
 			<Constant>ЧасовойПоясОбластиДанных</Constant>
 			<Constant>ЭтоАвтономноеРабочееМесто</Constant>
+			<CommonForm>МСЕдиницыВеличинОбщиеНастройки</CommonForm>
 			<CommonForm>_ДемоМоиНастройки</CommonForm>
 			<CommonForm>_ДемоПоддержкаПользователей</CommonForm>
 			<CommonForm>_ДемоФормаВыбораДополнительныхУсловий</CommonForm>
@@ -2163,6 +2170,7 @@
 			<DocumentJournal>_ДемоСкладскиеДокументы</DocumentJournal>
 			<DocumentJournal>Взаимодействия</DocumentJournal>
 			<DocumentJournal>СогласияНаОбработкуПерсональныхДанных</DocumentJournal>
+			<Enum>МСЕдиницыВеличинОбозначенияПриставок</Enum>
 			<Enum>МСЕдиницыВеличинОбозначения</Enum>
 			<Enum>МСЕдиницыВеличинВиды</Enum>
 			<Enum>_ДемоВидКонтрагента</Enum>

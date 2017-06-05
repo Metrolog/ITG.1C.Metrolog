@@ -100,9 +100,6 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<UseAlways>
-				<Field>НаборКонстант.РежимИспользованияИнформационнойБазы.Ref</Field>
-				<Field>НаборКонстант.ПровайдерSMS.Ref</Field>
-				<Field>НаборКонстант.МСЕдиницыВеличинОбозначения.Ref</Field>
 			</UseAlways>
 		</Attribute>
 	</Attributes>

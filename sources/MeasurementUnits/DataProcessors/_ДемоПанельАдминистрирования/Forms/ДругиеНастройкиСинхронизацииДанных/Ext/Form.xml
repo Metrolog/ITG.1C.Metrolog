@@ -66,6 +66,12 @@
 				<v8:Type>cfg:ConstantsSet</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
+			<UseAlways>
+				<Field>НаборКонстант.РежимИспользованияИнформационнойБазы.Ref</Field>
+				<Field>НаборКонстант.ПровайдерSMS.Ref</Field>
+				<Field>НаборКонстант.МСЕдиницыВеличинОбозначенияПриставок.Ref</Field>
+				<Field>НаборКонстант.МСЕдиницыВеличинОбозначения.Ref</Field>
+			</UseAlways>
 		</Attribute>
 	</Attributes>
 </Form>

@@ -138,96 +138,12 @@
 			<ChildItemsWidth>Equal</ChildItemsWidth>
 			<ExtendedTooltip name="ГруппаОбозначенияЕдиницВеличинРасширеннаяПодсказка" id="2062"/>
 			<ChildItems>
-				<InputField name="МСЕдиницыВеличинОбозначения" id="2084">
-					<DataPath>НаборКонстант.МСЕдиницыВеличинОбозначения</DataPath>
-					<ContextMenu name="МСЕдиницыВеличинОбозначенияКонтекстноеМеню" id="2085"/>
-					<ExtendedTooltip name="МСЕдиницыВеличинОбозначенияРасширеннаяПодсказка" id="2086"/>
-					<Events>
-						<Event name="OnChange">МСЕдиницыВеличинОбозначенияПриИзменении</Event>
-					</Events>
-				</InputField>
-				<UsualGroup name="ГруппаИспользуемыеОбозначения" id="2101">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Доступные обозначения единиц величин</v8:content>
-						</v8:item>
-					</Title>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Группа используемые обозначения</v8:content>
-						</v8:item>
-					</ToolTip>
-					<Representation>None</Representation>
-					<ExtendedTooltip name="ГруппаИспользуемыеОбозначенияРасширеннаяПодсказка" id="2102"/>
-					<ChildItems>
-						<UsualGroup name="ГруппаРусские" id="2099">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Группа русские</v8:content>
-								</v8:item>
-							</Title>
-							<Group>Vertical</Group>
-							<Representation>None</Representation>
-							<ShowTitle>false</ShowTitle>
-							<ExtendedTooltip name="ГруппаРусскиеРасширеннаяПодсказка" id="2100"/>
-							<ChildItems>
-								<CheckBoxField name="МСЕдиницыВеличинИспользоватьОбозначенияРус" id="2087">
-									<DataPath>НаборКонстант.МСЕдиницыВеличинИспользоватьОбозначенияРус</DataPath>
-									<CheckBoxType>Auto</CheckBoxType>
-									<ContextMenu name="МСЕдиницыВеличинИспользоватьОбозначенияРусКонтекстноеМеню" id="2088"/>
-									<ExtendedTooltip name="МСЕдиницыВеличинИспользоватьОбозначенияРусРасширеннаяПодсказка" id="2089"/>
-									<Events>
-										<Event name="OnChange">МСЕдиницыВеличинОбозначенияПриИзменении</Event>
-									</Events>
-								</CheckBoxField>
-								<CheckBoxField name="МСЕдиницыВеличинИспользоватьОбозначенияРусISO_80000_1" id="2093">
-									<DataPath>НаборКонстант.МСЕдиницыВеличинИспользоватьОбозначенияРусISO_80000_1</DataPath>
-									<CheckBoxType>Auto</CheckBoxType>
-									<ContextMenu name="МСЕдиницыВеличинИспользоватьОбозначенияРусISO_80000_1КонтекстноеМеню" id="2094"/>
-									<ExtendedTooltip name="МСЕдиницыВеличинИспользоватьОбозначенияРусISO_80000_1РасширеннаяПодсказка" id="2095"/>
-									<Events>
-										<Event name="OnChange">МСЕдиницыВеличинОбозначенияПриИзменении</Event>
-									</Events>
-								</CheckBoxField>
-							</ChildItems>
-						</UsualGroup>
-						<UsualGroup name="ГруппаМеждународные" id="2103">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Группа международные</v8:content>
-								</v8:item>
-							</Title>
-							<Group>Vertical</Group>
-							<Representation>None</Representation>
-							<ShowTitle>false</ShowTitle>
-							<ExtendedTooltip name="ГруппаМеждународныеРасширеннаяПодсказка" id="2104"/>
-							<ChildItems>
-								<CheckBoxField name="МСЕдиницыВеличинИспользоватьОбозначенияМн" id="2090">
-									<DataPath>НаборКонстант.МСЕдиницыВеличинИспользоватьОбозначенияМн</DataPath>
-									<CheckBoxType>Auto</CheckBoxType>
-									<ContextMenu name="МСЕдиницыВеличинИспользоватьОбозначенияМнКонтекстноеМеню" id="2091"/>
-									<ExtendedTooltip name="МСЕдиницыВеличинИспользоватьОбозначенияМнРасширеннаяПодсказка" id="2092"/>
-									<Events>
-										<Event name="OnChange">МСЕдиницыВеличинОбозначенияПриИзменении</Event>
-									</Events>
-								</CheckBoxField>
-								<CheckBoxField name="МСЕдиницыВеличинИспользоватьОбозначенияМнISO_80000_1" id="2096">
-									<DataPath>НаборКонстант.МСЕдиницыВеличинИспользоватьОбозначенияМнISO_80000_1</DataPath>
-									<CheckBoxType>Auto</CheckBoxType>
-									<ContextMenu name="МСЕдиницыВеличинИспользоватьОбозначенияМнISO_80000_1КонтекстноеМеню" id="2097"/>
-									<ExtendedTooltip name="МСЕдиницыВеличинИспользоватьОбозначенияМнISO_80000_1РасширеннаяПодсказка" id="2098"/>
-									<Events>
-										<Event name="OnChange">МСЕдиницыВеличинОбозначенияПриИзменении</Event>
-									</Events>
-								</CheckBoxField>
-							</ChildItems>
-						</UsualGroup>
-					</ChildItems>
-				</UsualGroup>
+				<Button name="ОбщаяКомандаМСЕдиницыВеличинОбщиеНастройки" id="2105">
+					<Type>Hyperlink</Type>
+					<CommandName>CommonCommand.МСЕдиницыВеличинОбщиеНастройки</CommandName>
+					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+					<ExtendedTooltip name="ОбщаяКомандаМСЕдиницыВеличинОбщиеНастройкиРасширеннаяПодсказка" id="2106"/>
+				</Button>
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="ГруппаОткрытьВидыКонтактнойИнформации" id="1642">
@@ -1062,8 +978,6 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<UseAlways>
-				<Field>НаборКонстант.РежимИспользованияИнформационнойБазы.Ref</Field>
-				<Field>НаборКонстант.ПровайдерSMS.Ref</Field>
 				<Field>НаборКонстант.МСЕдиницыВеличинОбозначения</Field>
 				<Field>НаборКонстант.ИспользоватьРазделениеПоОбластямДанных</Field>
 			</UseAlways>

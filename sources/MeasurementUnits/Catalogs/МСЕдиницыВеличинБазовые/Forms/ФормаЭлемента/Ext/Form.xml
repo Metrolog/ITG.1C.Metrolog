@@ -55,207 +55,84 @@
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаНаименованияИОбозначенияРасширеннаяПодсказка" id="30"/>
 			<ChildItems>
-				<UsualGroup name="ГруппаПостановлениеПравительства" id="31">
+				<UsualGroup name="ГруппаПостановлениеПравительстваРусскиеОбозначения" id="33">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Постановление Правительства РФ от 31.10.2009 №879</v8:content>
+							<v8:content>русские</v8:content>
 						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Обозначения по Постановлению Правительства РФ от 31.10.2009 №879</v8:content>
+							<v8:content>Национальные обозначения</v8:content>
 						</v8:item>
 					</ToolTip>
-					<Group>Vertical</Group>
-					<Representation>NormalSeparation</Representation>
-					<ExtendedTooltip name="ГруппаПостановлениеПравительстваРасширеннаяПодсказка" id="32"/>
+					<Representation>None</Representation>
+					<ExtendedTooltip name="ГруппаПостановлениеПравительстваРусскиеОбозначенияРасширеннаяПодсказка" id="34"/>
 					<ChildItems>
-						<UsualGroup name="ГруппаПостановлениеПравительстваРусскиеОбозначения" id="33">
+						<InputField name="НаименованиеРус" id="35">
+							<DataPath>Объект.НаименованиеРус</DataPath>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>русские</v8:content>
+									<v8:content>Наименование</v8:content>
 								</v8:item>
 							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Национальные обозначения</v8:content>
-								</v8:item>
-							</ToolTip>
-							<Representation>None</Representation>
-							<ExtendedTooltip name="ГруппаПостановлениеПравительстваРусскиеОбозначенияРасширеннаяПодсказка" id="34"/>
-							<ChildItems>
-								<InputField name="НаименованиеРус" id="35">
-									<DataPath>Объект.НаименованиеРус</DataPath>
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Наименование</v8:content>
-										</v8:item>
-									</Title>
-									<ContextMenu name="НаименованиеРусКонтекстноеМеню" id="36"/>
-									<ExtendedTooltip name="НаименованиеРусРасширеннаяПодсказка" id="37"/>
-								</InputField>
-								<Button name="СклоненияРус" id="15">
-									<Type>Hyperlink</Type>
-									<CommandName>Form.Command.СклоненияРус</CommandName>
-									<ExtendedTooltip name="СклоненияРусРасширеннаяПодсказка" id="16"/>
-								</Button>
-								<InputField name="ОбозначениеРус" id="38">
-									<DataPath>Объект.ОбозначениеРус</DataPath>
-									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="ОбозначениеРусКонтекстноеМеню" id="39"/>
-									<ExtendedTooltip name="ОбозначениеРусРасширеннаяПодсказка" id="40"/>
-								</InputField>
-							</ChildItems>
-						</UsualGroup>
-						<UsualGroup name="ГруппаПостановлениеПравительстваМеждународныеОбозначения" id="41">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>международные</v8:content>
-								</v8:item>
-							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Международные обозначения</v8:content>
-								</v8:item>
-							</ToolTip>
-							<Representation>None</Representation>
-							<ExtendedTooltip name="ГруппаПостановлениеПравительстваМеждународныеОбозначенияРасширеннаяПодсказка" id="42"/>
-							<ChildItems>
-								<InputField name="НаименованиеМн" id="43">
-									<DataPath>Объект.НаименованиеМн</DataPath>
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Наименование</v8:content>
-										</v8:item>
-									</Title>
-									<ContextMenu name="НаименованиеМнКонтекстноеМеню" id="44"/>
-									<ExtendedTooltip name="НаименованиеМнРасширеннаяПодсказка" id="45"/>
-								</InputField>
-								<InputField name="ОбозначениеМн" id="46">
-									<DataPath>Объект.ОбозначениеМн</DataPath>
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Обозначение</v8:content>
-										</v8:item>
-									</Title>
-									<ContextMenu name="ОбозначениеМнКонтекстноеМеню" id="47"/>
-									<ExtendedTooltip name="ОбозначениеМнРасширеннаяПодсказка" id="48"/>
-								</InputField>
-							</ChildItems>
-						</UsualGroup>
+							<ContextMenu name="НаименованиеРусКонтекстноеМеню" id="36"/>
+							<ExtendedTooltip name="НаименованиеРусРасширеннаяПодсказка" id="37"/>
+						</InputField>
+						<Button name="СклоненияРус" id="15">
+							<Type>Hyperlink</Type>
+							<CommandName>Form.Command.СклоненияРус</CommandName>
+							<ExtendedTooltip name="СклоненияРусРасширеннаяПодсказка" id="16"/>
+						</Button>
+						<InputField name="ОбозначениеРус" id="38">
+							<DataPath>Объект.ОбозначениеРус</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ОбозначениеРусКонтекстноеМеню" id="39"/>
+							<ExtendedTooltip name="ОбозначениеРусРасширеннаяПодсказка" id="40"/>
+						</InputField>
 					</ChildItems>
 				</UsualGroup>
-				<UsualGroup name="ГруппаISO_80000_1" id="49">
+				<UsualGroup name="ГруппаМеждународныеОбозначения" id="41">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>ISO 80000-1:2009</v8:content>
+							<v8:content>международные</v8:content>
 						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Обозначения по ISO 80000-1:2009</v8:content>
+							<v8:content>Международные обозначения</v8:content>
 						</v8:item>
 					</ToolTip>
-					<Group>Vertical</Group>
-					<Representation>NormalSeparation</Representation>
-					<ExtendedTooltip name="ГруппаISO_80000_1РасширеннаяПодсказка" id="50"/>
+					<Representation>None</Representation>
+					<ExtendedTooltip name="ГруппаМеждународныеОбозначенияРасширеннаяПодсказка" id="42"/>
 					<ChildItems>
-						<UsualGroup name="ГруппаISO_80000_1РусскиеОбозначения" id="51">
+						<InputField name="НаименованиеМн" id="43">
+							<DataPath>Объект.НаименованиеМн</DataPath>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>русские</v8:content>
+									<v8:content>Наименование</v8:content>
 								</v8:item>
 							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Национальные обозначения</v8:content>
-								</v8:item>
-							</ToolTip>
-							<Representation>None</Representation>
-							<ExtendedTooltip name="ГруппаISO_80000_1РусскиеОбозначенияРасширеннаяПодсказка" id="52"/>
-							<ChildItems>
-								<InputField name="НаименованиеРусISO_80000_1" id="53">
-									<DataPath>Объект.НаименованиеРусISO_80000_1</DataPath>
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Наименование</v8:content>
-										</v8:item>
-									</Title>
-									<ContextMenu name="НаименованиеРусISO_80000_1КонтекстноеМеню" id="54"/>
-									<ExtendedTooltip name="НаименованиеРусISO_80000_1РасширеннаяПодсказка" id="55"/>
-								</InputField>
-								<Button name="СклоненияРусISO_80000_1" id="69">
-									<Type>Hyperlink</Type>
-									<CommandName>Form.Command.СклоненияРусISO_80000_1</CommandName>
-									<ExtendedTooltip name="СклоненияРусISO_80000_1РасширеннаяПодсказка" id="70"/>
-								</Button>
-								<InputField name="ОбозначениеРусISO_80000_1" id="56">
-									<DataPath>Объект.ОбозначениеРусISO_80000_1</DataPath>
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Обозначение</v8:content>
-										</v8:item>
-									</Title>
-									<ContextMenu name="ОбозначениеРусISO_80000_1КонтекстноеМеню" id="57"/>
-									<ExtendedTooltip name="ОбозначениеРусISO_80000_1РасширеннаяПодсказка" id="58"/>
-								</InputField>
-							</ChildItems>
-						</UsualGroup>
-						<UsualGroup name="ГруппаISO_80000_1МеждународныеОбозначения" id="59">
+							<ContextMenu name="НаименованиеМнКонтекстноеМеню" id="44"/>
+							<ExtendedTooltip name="НаименованиеМнРасширеннаяПодсказка" id="45"/>
+						</InputField>
+						<InputField name="ОбозначениеМн" id="46">
+							<DataPath>Объект.ОбозначениеМн</DataPath>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>международные</v8:content>
+									<v8:content>Обозначение</v8:content>
 								</v8:item>
 							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Международные обозначения</v8:content>
-								</v8:item>
-							</ToolTip>
-							<Representation>None</Representation>
-							<ExtendedTooltip name="ГруппаISO_80000_1МеждународныеОбозначенияРасширеннаяПодсказка" id="60"/>
-							<ChildItems>
-								<InputField name="НаименованиеМнISO_80000_1" id="61">
-									<DataPath>Объект.НаименованиеМнISO_80000_1</DataPath>
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Наименование</v8:content>
-										</v8:item>
-									</Title>
-									<ContextMenu name="НаименованиеМнISO_80000_1КонтекстноеМеню" id="62"/>
-									<ExtendedTooltip name="НаименованиеМнISO_80000_1РасширеннаяПодсказка" id="63"/>
-								</InputField>
-								<InputField name="ОбозначениеМнISO_80000_1" id="64">
-									<DataPath>Объект.ОбозначениеМнISO_80000_1</DataPath>
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Обозначение</v8:content>
-										</v8:item>
-									</Title>
-									<ContextMenu name="ОбозначениеМнISO_80000_1КонтекстноеМеню" id="65"/>
-									<ExtendedTooltip name="ОбозначениеМнISO_80000_1РасширеннаяПодсказка" id="66"/>
-								</InputField>
-							</ChildItems>
-						</UsualGroup>
+							<ContextMenu name="ОбозначениеМнКонтекстноеМеню" id="47"/>
+							<ExtendedTooltip name="ОбозначениеМнРасширеннаяПодсказка" id="48"/>
+						</InputField>
 					</ChildItems>
 				</UsualGroup>
 			</ChildItems>
@@ -374,18 +251,18 @@
 			<UseAlways>
 				<Field>Объект.ПредлогЗнаменателяНаименованияСоставнойЕдиницыВеличины</Field>
 				<Field>Объект.Основание</Field>
-				<Field>Объект.ОбозначениеРусISO_80000_1</Field>
 				<Field>Объект.ОбозначениеРус</Field>
-				<Field>Объект.ОбозначениеМнISO_80000_1</Field>
 				<Field>Объект.ОбозначениеМн</Field>
-				<Field>Объект.НаименованиеРусISO_80000_1</Field>
 				<Field>Объект.НаименованиеРус</Field>
-				<Field>Объект.НаименованиеМнISO_80000_1</Field>
 				<Field>Объект.НаименованиеМн</Field>
 				<Field>Объект.ИспользоватьНаименованиеСтепениКакПрилагательное</Field>
 				<Field>Объект.PredefinedDataName</Field>
 				<Field>Объект.Predefined</Field>
 				<Field>Объект.DeletionMark</Field>
+				<Field>1/0:cc735677-d1f9-4542-9a3d-c3b9cbcfbdee</Field>
+				<Field>1/0:a72e9dca-92ba-4c72-b7d4-505a59fb02b8</Field>
+				<Field>1/0:5f3cf6c0-d5b8-4468-9098-8dc115ec3e39</Field>
+				<Field>1/0:4e5f3927-ce22-45a7-b989-b58ae076f621</Field>
 			</UseAlways>
 		</Attribute>
 	</Attributes>
@@ -399,7 +276,7 @@
 			</Title>
 			<Action>Склонения</Action>
 			<FunctionalOptions>
-				<Item>FunctionalOption.МСЕдиницыВеличинИспользоватьОбозначенияРус</Item>
+				<Item>FunctionalOption.МСЕдиницыВеличинИспользоватьОбозначенияПриставокРус</Item>
 			</FunctionalOptions>
 		</Command>
 		<Command name="СклоненияРусISO_80000_1" id="3">
@@ -411,7 +288,7 @@
 			</Title>
 			<Action>Склонения</Action>
 			<FunctionalOptions>
-				<Item>FunctionalOption.МСЕдиницыВеличинИспользоватьОбозначенияРусISO_80000_1</Item>
+				<Item>FunctionalOption.МСЕдиницыВеличинИспользоватьОбозначенияПриставокРусISO_80000_1</Item>
 			</FunctionalOptions>
 		</Command>
 	</Commands>

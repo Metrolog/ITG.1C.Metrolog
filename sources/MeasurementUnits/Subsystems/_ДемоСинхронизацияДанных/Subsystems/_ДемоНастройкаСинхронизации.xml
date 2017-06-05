@@ -17,7 +17,7 @@
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand._ДемоСинхронизацияДанныхСБиблиотекойСтандартныхПодсистем</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand._ДемоРаспределеннаяИнформационнаяБаза</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommandGroup._ДемоНастроитьСинхронизациюДанных</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">de2e6c39-0f45-424c-bed6-b009e8bd88ce</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СценарииОбменовДанными</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog._ДемоОрганизации</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister._ДемоОтветственныеЛица</xr:Item>

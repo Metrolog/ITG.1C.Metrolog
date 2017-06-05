@@ -24,7 +24,7 @@
 				<v8:Type>cfg:EnumRef.МСЕдиницыВеличинОбозначения</v8:Type>
 			</Type>
 			<UseStandardCommands>true</UseStandardCommands>
-			<DefaultForm/>
+			<DefaultForm>CommonForm.МСЕдиницыВеличинОбщиеНастройки</DefaultForm>
 			<ExtendedPresentation/>
 			<Explanation/>
 			<PasswordMode>false</PasswordMode>

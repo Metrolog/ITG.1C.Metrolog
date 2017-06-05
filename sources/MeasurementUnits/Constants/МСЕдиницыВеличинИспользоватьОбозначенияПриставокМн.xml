@@ -1,22 +1,22 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
-	<Constant uuid="ead39124-34b4-40a5-bb99-62c68b68cd47">
+	<Constant uuid="ad37181d-54aa-480d-bcaa-1a0534449611">
 		<InternalInfo>
-			<xr:GeneratedType name="ConstantManager.МСЕдиницыВеличинИспользоватьОбозначенияРус" category="Manager">
-				<xr:TypeId>59bb9b54-b1d7-4851-a4a6-0e111a2e6280</xr:TypeId>
-				<xr:ValueId>a48d3bb1-3233-404c-a821-529e2633b6b5</xr:ValueId>
+			<xr:GeneratedType name="ConstantManager.МСЕдиницыВеличинИспользоватьОбозначенияПриставокМн" category="Manager">
+				<xr:TypeId>72392308-f71b-476a-951b-a6a91e8c1d16</xr:TypeId>
+				<xr:ValueId>e6fe3642-e177-4f39-af63-712d89d80f4b</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="ConstantValueManager.МСЕдиницыВеличинИспользоватьОбозначенияРус" category="ValueManager">
-				<xr:TypeId>7a3193ec-d061-4b15-a1a4-b48144cb3bb3</xr:TypeId>
-				<xr:ValueId>23fad41f-4452-412c-9fcc-5b0502c3fa93</xr:ValueId>
+			<xr:GeneratedType name="ConstantValueManager.МСЕдиницыВеличинИспользоватьОбозначенияПриставокМн" category="ValueManager">
+				<xr:TypeId>e4593376-d36b-4e41-8e71-c2f7be4fce4a</xr:TypeId>
+				<xr:ValueId>12a15eb0-2ff6-453d-a585-722316e444d7</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>МСЕдиницыВеличинИспользоватьОбозначенияРус</Name>
+			<Name>МСЕдиницыВеличинИспользоватьОбозначенияПриставокМн</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Кириллические</v8:content>
+					<v8:content>Международные</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -33,7 +33,7 @@
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Использовать кириллические (русские) наименования и обозначения единиц величин</v8:content>
+					<v8:content>Использовать международные наименования и обозначения приставок кратных и дольных единиц величин по Постановлению Правительства РФ от 31.10.2009 №879</v8:content>
 				</v8:item>
 			</ToolTip>
 			<MarkNegatives>false</MarkNegatives>

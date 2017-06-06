@@ -168,7 +168,18 @@
 			<UseAlways>
 				<Field>Список.Порядок</Field>
 				<Field>Список.Основание</Field>
+				<Field>Список.ОбозначениеРусISO_80000_1</Field>
+				<Field>Список.ОбозначениеРус</Field>
+				<Field>Список.ОбозначениеМнISO_80000_1</Field>
+				<Field>Список.ОбозначениеМн</Field>
+				<Field>Список.НаименованиеРусISO_80000_1</Field>
+				<Field>Список.НаименованиеРус</Field>
+				<Field>Список.НаименованиеМнISO_80000_1</Field>
+				<Field>Список.НаименованиеМн</Field>
 				<Field>Список.Ref</Field>
+				<Field>Список.PredefinedDataName</Field>
+				<Field>Список.Predefined</Field>
+				<Field>Список.DeletionMark</Field>
 				<Field>Список.DefaultPicture</Field>
 				<Field>~Список.ПриставкаМеждународнаяISO_80000_1</Field>
 				<Field>~Список.ПриставкаМеждународная</Field>
@@ -186,6 +197,25 @@
 				<MainTable>Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных</MainTable>
 				<ListSettings>
 					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ПометкаУдаления</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+							<dcsset:presentation xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Не показывать удалённые</v8:content>
+								</v8:item>
+							</dcsset:presentation>
+							<dcsset:viewMode>Normal</dcsset:viewMode>
+							<dcsset:userSettingID>ea9e2aee-8f6e-4afc-b865-2a591b379564</dcsset:userSettingID>
+							<dcsset:userSettingPresentation xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Не показывать удалённые</v8:content>
+								</v8:item>
+							</dcsset:userSettingPresentation>
+						</dcsset:item>
 						<dcsset:viewMode>Normal</dcsset:viewMode>
 						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
 					</dcsset:filter>

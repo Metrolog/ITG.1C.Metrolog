@@ -85,7 +85,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.МСЕдиницыВеличин</name>
+		<name>Catalog.УдалитьМСЕдиницыВеличин</name>
 		<right>
 			<name>InteractiveDeletePredefinedData</name>
 			<value>false</value>

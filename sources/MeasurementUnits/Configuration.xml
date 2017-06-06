@@ -2065,7 +2065,7 @@
 			<CommonForm>ФормаОтчета</CommonForm>
 			<CommonForm>ФормаПоиска</CommonForm>
 			<CommonForm>ЭлектроннаяПодпись</CommonForm>
-			<Catalog>МСЕдиницыВеличин</Catalog>
+			<Catalog>УдалитьМСЕдиницыВеличин</Catalog>
 			<Catalog>МСЕдиницыВеличинБазовые</Catalog>
 			<Catalog>МСЕдиницыВеличинПриставкиКратныхИДольных</Catalog>
 			<Catalog>_ДемоБанковскиеСчета</Catalog>

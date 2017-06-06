@@ -22,7 +22,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.МСЕдиницыВеличин</name>
+		<name>Catalog.УдалитьМСЕдиницыВеличин</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>

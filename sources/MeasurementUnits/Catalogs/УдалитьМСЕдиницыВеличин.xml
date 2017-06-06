@@ -2,29 +2,29 @@
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
 	<Catalog uuid="04b87f49-0605-4b07-8df8-47d39e7a6355">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.МСЕдиницыВеличин" category="Object">
+			<xr:GeneratedType name="CatalogObject.УдалитьМСЕдиницыВеличин" category="Object">
 				<xr:TypeId>20fa4aea-01c6-4f0b-ae93-1f727ffd3bba</xr:TypeId>
 				<xr:ValueId>505b8bc7-fcf5-4d02-86e7-c7bc40bf2c8e</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.МСЕдиницыВеличин" category="Ref">
+			<xr:GeneratedType name="CatalogRef.УдалитьМСЕдиницыВеличин" category="Ref">
 				<xr:TypeId>be2d3333-f7f5-42b2-957a-0e57b331aedd</xr:TypeId>
 				<xr:ValueId>5101ea5e-a632-4d62-9315-7c2603434d09</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.МСЕдиницыВеличин" category="Selection">
+			<xr:GeneratedType name="CatalogSelection.УдалитьМСЕдиницыВеличин" category="Selection">
 				<xr:TypeId>25dcd6ba-d0e0-4a71-a33f-4dfb22807d62</xr:TypeId>
 				<xr:ValueId>f5128d5a-c16d-4bcc-8735-65bb294e1ca5</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.МСЕдиницыВеличин" category="List">
+			<xr:GeneratedType name="CatalogList.УдалитьМСЕдиницыВеличин" category="List">
 				<xr:TypeId>92cd440c-b976-40c6-9c2c-867089acdb44</xr:TypeId>
 				<xr:ValueId>1bab0328-470d-4f4b-bc4e-2050b95ff2c5</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.МСЕдиницыВеличин" category="Manager">
+			<xr:GeneratedType name="CatalogManager.УдалитьМСЕдиницыВеличин" category="Manager">
 				<xr:TypeId>7cfcaec4-6c83-4fd4-acd0-49f4123a5de0</xr:TypeId>
 				<xr:ValueId>06905bb5-0b61-478d-8b0a-631b551fd763</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>МСЕдиницыВеличин</Name>
+			<Name>УдалитьМСЕдиницыВеличин</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -281,15 +281,15 @@
 			<QuickChoice>true</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>Catalog.МСЕдиницыВеличин.StandardAttribute.Code</xr:Field>
-				<xr:Field>Catalog.МСЕдиницыВеличин.StandardAttribute.Description</xr:Field>
+				<xr:Field>Catalog.УдалитьМСЕдиницыВеличин.StandardAttribute.Code</xr:Field>
+				<xr:Field>Catalog.УдалитьМСЕдиницыВеличин.StandardAttribute.Description</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
-			<DefaultObjectForm>Catalog.МСЕдиницыВеличин.Form.ФормаЭлемента</DefaultObjectForm>
+			<DefaultObjectForm>Catalog.УдалитьМСЕдиницыВеличин.Form.ФормаЭлемента</DefaultObjectForm>
 			<DefaultFolderForm/>
-			<DefaultListForm>Catalog.МСЕдиницыВеличин.Form.ФормаСписка</DefaultListForm>
+			<DefaultListForm>Catalog.УдалитьМСЕдиницыВеличин.Form.ФормаСписка</DefaultListForm>
 			<DefaultChoiceForm/>
 			<DefaultFolderChoiceForm/>
 			<AuxiliaryObjectForm/>
@@ -356,11 +356,11 @@
 			</Attribute>
 			<TabularSection uuid="7aca41b3-f6fc-469e-adf7-04e0ee770270">
 				<InternalInfo>
-					<xr:GeneratedType name="CatalogTabularSection.МСЕдиницыВеличин.Выражение" category="TabularSection">
+					<xr:GeneratedType name="CatalogTabularSection.УдалитьМСЕдиницыВеличин.Выражение" category="TabularSection">
 						<xr:TypeId>b9061d41-182d-4e20-bf74-35ef4509a444</xr:TypeId>
 						<xr:ValueId>16dec13d-06ff-459c-9825-27119a3f89ac</xr:ValueId>
 					</xr:GeneratedType>
-					<xr:GeneratedType name="CatalogTabularSectionRow.МСЕдиницыВеличин.Выражение" category="TabularSectionRow">
+					<xr:GeneratedType name="CatalogTabularSectionRow.УдалитьМСЕдиницыВеличин.Выражение" category="TabularSectionRow">
 						<xr:TypeId>c7b5b5f7-3b11-41b1-830a-4f7fea3a076d</xr:TypeId>
 						<xr:ValueId>78add4b8-d1c5-4fc2-85e2-0ec3c5c551e8</xr:ValueId>
 					</xr:GeneratedType>

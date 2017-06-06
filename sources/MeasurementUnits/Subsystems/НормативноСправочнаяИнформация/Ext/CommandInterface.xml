@@ -14,7 +14,7 @@
 		</Command>
 	</CommandsPlacement>
 	<CommandsOrder>
-		<Command name="Catalog.МСЕдиницыВеличин.StandardCommand.OpenList">
+		<Command name="Catalog.УдалитьМСЕдиницыВеличин.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
 		<Command name="Catalog.МСЕдиницыВеличинБазовые.StandardCommand.OpenList">

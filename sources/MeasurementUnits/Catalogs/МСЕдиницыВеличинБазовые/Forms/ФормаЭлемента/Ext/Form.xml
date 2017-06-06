@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
@@ -37,6 +36,52 @@
 				</InputField>
 			</ChildItems>
 		</UsualGroup>
+		<UsualGroup name="ГруппаПредикаты" id="83">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа предикаты</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа код</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаПредикатыРасширеннаяПодсказка" id="84"/>
+			<ChildItems>
+				<CheckBoxField name="ЭтоОсновнаяЕдиница" id="74">
+					<DataPath>Объект.ЭтоОсновнаяЕдиница</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ЭтоОсновнаяЕдиницаКонтекстноеМеню" id="75"/>
+					<ExtendedTooltip name="ЭтоОсновнаяЕдиницаРасширеннаяПодсказка" id="76"/>
+					<Events>
+						<Event name="OnChange">ПредикатыПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
+				<CheckBoxField name="ИмеетСпециальныеНаименованиеИОбозначение" id="80">
+					<DataPath>Объект.ИмеетСпециальныеНаименованиеИОбозначение</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ИмеетСпециальныеНаименованиеИОбозначениеКонтекстноеМеню" id="81"/>
+					<ExtendedTooltip name="ИмеетСпециальныеНаименованиеИОбозначениеРасширеннаяПодсказка" id="82"/>
+					<Events>
+						<Event name="OnChange">ПредикатыПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
+				<CheckBoxField name="ЭтоКогерентнаяЕдиница" id="77">
+					<DataPath>Объект.ЭтоКогерентнаяЕдиница</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ЭтоКогерентнаяЕдиницаКонтекстноеМеню" id="78"/>
+					<ExtendedTooltip name="ЭтоКогерентнаяЕдиницаРасширеннаяПодсказка" id="79"/>
+					<Events>
+						<Event name="OnChange">ПредикатыПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
+			</ChildItems>
+		</UsualGroup>
 		<UsualGroup name="ГруппаНаименованияИОбозначения" id="29">
 			<Title>
 				<v8:item>
@@ -50,12 +95,12 @@
 					<v8:content>Группа наименования и обозначения</v8:content>
 				</v8:item>
 			</ToolTip>
+			<ToolTipRepresentation>None</ToolTipRepresentation>
 			<Group>Vertical</Group>
-			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаНаименованияИОбозначенияРасширеннаяПодсказка" id="30"/>
 			<ChildItems>
-				<UsualGroup name="ГруппаПостановлениеПравительстваРусскиеОбозначения" id="33">
+				<UsualGroup name="ГруппаРусскиеОбозначения" id="33">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -69,7 +114,7 @@
 						</v8:item>
 					</ToolTip>
 					<Representation>None</Representation>
-					<ExtendedTooltip name="ГруппаПостановлениеПравительстваРусскиеОбозначенияРасширеннаяПодсказка" id="34"/>
+					<ExtendedTooltip name="ГруппаРусскиеОбозначенияРасширеннаяПодсказка" id="34"/>
 					<ChildItems>
 						<InputField name="НаименованиеРус" id="35">
 							<DataPath>Объект.НаименованиеРус</DataPath>
@@ -135,109 +180,80 @@
 						</InputField>
 					</ChildItems>
 				</UsualGroup>
-			</ChildItems>
-		</UsualGroup>
-		<UsualGroup name="ГруппаПравилаФормированияНаименования" id="27">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Группа правила формирования наименования</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Группа правила формирования наименования</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Representation>None</Representation>
-			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="ГруппаПравилаФормированияНаименованияРасширеннаяПодсказка" id="28"/>
-			<ChildItems>
-				<InputField name="Основание" id="71">
-					<DataPath>Объект.Основание</DataPath>
+				<UsualGroup name="ГруппаПравилаФормированияНаименования" id="27">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Приставки</v8:content>
+							<v8:content>Группа правила формирования наименования</v8:content>
 						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Применяемые кратные и дольные приставки: десятичные или бинарные</v8:content>
+							<v8:content>Группа правила формирования наименования</v8:content>
 						</v8:item>
 					</ToolTip>
-					<Width>14</Width>
-					<MaxWidth>2</MaxWidth>
-					<ListChoiceMode>true</ListChoiceMode>
-					<ChoiceList>
-						<xr:Item>
-							<xr:Presentation/>
-							<xr:CheckState>0</xr:CheckState>
-							<xr:Value xsi:type="FormChoiceListDesTimeValue">
-								<Presentation>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>десятичные</v8:content>
-									</v8:item>
-								</Presentation>
-								<Value xsi:type="xs:decimal">10</Value>
-							</xr:Value>
-						</xr:Item>
-						<xr:Item>
-							<xr:Presentation/>
-							<xr:CheckState>0</xr:CheckState>
-							<xr:Value xsi:type="FormChoiceListDesTimeValue">
-								<Presentation>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>бинарные</v8:content>
-									</v8:item>
-								</Presentation>
-								<Value xsi:type="xs:decimal">2</Value>
-							</xr:Value>
-						</xr:Item>
-					</ChoiceList>
-					<DropListWidth>10</DropListWidth>
-					<ContextMenu name="ОснованиеКонтекстноеМеню" id="72"/>
-					<ExtendedTooltip name="ОснованиеРасширеннаяПодсказка" id="73"/>
-				</InputField>
-				<InputField name="ПредлогЗнаменателяНаименованияСоставнойЕдиницыВеличины" id="21">
-					<DataPath>Объект.ПредлогЗнаменателяНаименованияСоставнойЕдиницыВеличины</DataPath>
-					<DropListButton>true</DropListButton>
-					<ChoiceButton>false</ChoiceButton>
-					<ClearButton>false</ClearButton>
-					<SpinButton>false</SpinButton>
-					<OpenButton>false</OpenButton>
-					<CreateButton>false</CreateButton>
-					<ChoiceList>
-						<xr:Item>
-							<xr:Presentation/>
-							<xr:CheckState>0</xr:CheckState>
-							<xr:Value xsi:type="FormChoiceListDesTimeValue">
-								<Presentation/>
-								<Value xsi:type="xs:string">на</Value>
-							</xr:Value>
-						</xr:Item>
-						<xr:Item>
-							<xr:Presentation/>
-							<xr:CheckState>0</xr:CheckState>
-							<xr:Value xsi:type="FormChoiceListDesTimeValue">
-								<Presentation/>
-								<Value xsi:type="xs:string">в</Value>
-							</xr:Value>
-						</xr:Item>
-					</ChoiceList>
-					<ContextMenu name="ПредлогЗнаменателяНаименованияСоставнойЕдиницыВеличиныКонтекстноеМеню" id="22"/>
-					<ExtendedTooltip name="ПредлогЗнаменателяНаименованияСоставнойЕдиницыВеличиныРасширеннаяПодсказка" id="23"/>
-				</InputField>
-				<CheckBoxField name="ИспользоватьНаименованиеСтепениКакПрилагательное" id="24">
-					<DataPath>Объект.ИспользоватьНаименованиеСтепениКакПрилагательное</DataPath>
-					<CheckBoxType>Auto</CheckBoxType>
-					<ContextMenu name="ИспользоватьНаименованиеСтепениКакПрилагательноеКонтекстноеМеню" id="25"/>
-					<ExtendedTooltip name="ИспользоватьНаименованиеСтепениКакПрилагательноеРасширеннаяПодсказка" id="26"/>
-				</CheckBoxField>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаПравилаФормированияНаименованияРасширеннаяПодсказка" id="28"/>
+					<ChildItems>
+						<InputField name="Основание" id="71">
+							<DataPath>Объект.Основание</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Приставки</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Применяемые кратные и дольные приставки: десятичные или бинарные</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Width>14</Width>
+							<MaxWidth>2</MaxWidth>
+							<ListChoiceMode>true</ListChoiceMode>
+							<ChoiceList>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>десятичные</v8:content>
+											</v8:item>
+										</Presentation>
+										<Value xsi:type="xs:decimal">10</Value>
+									</xr:Value>
+								</xr:Item>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>бинарные</v8:content>
+											</v8:item>
+										</Presentation>
+										<Value xsi:type="xs:decimal">2</Value>
+									</xr:Value>
+								</xr:Item>
+							</ChoiceList>
+							<DropListWidth>10</DropListWidth>
+							<ContextMenu name="ОснованиеКонтекстноеМеню" id="72"/>
+							<ExtendedTooltip name="ОснованиеРасширеннаяПодсказка" id="73"/>
+						</InputField>
+						<CheckBoxField name="ИспользоватьНаименованиеСтепениКакПрилагательное" id="24">
+							<DataPath>Объект.ИспользоватьНаименованиеСтепениКакПрилагательное</DataPath>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ИспользоватьНаименованиеСтепениКакПрилагательноеКонтекстноеМеню" id="25"/>
+							<ExtendedTooltip name="ИспользоватьНаименованиеСтепениКакПрилагательноеРасширеннаяПодсказка" id="26"/>
+						</CheckBoxField>
+					</ChildItems>
+				</UsualGroup>
 			</ChildItems>
 		</UsualGroup>
 	</ChildItems>
@@ -249,16 +265,6 @@
 			<MainAttribute>true</MainAttribute>
 			<SavedData>true</SavedData>
 			<UseAlways>
-				<Field>Объект.ПредлогЗнаменателяНаименованияСоставнойЕдиницыВеличины</Field>
-				<Field>Объект.Основание</Field>
-				<Field>Объект.ОбозначениеРус</Field>
-				<Field>Объект.ОбозначениеМн</Field>
-				<Field>Объект.НаименованиеРус</Field>
-				<Field>Объект.НаименованиеМн</Field>
-				<Field>Объект.ИспользоватьНаименованиеСтепениКакПрилагательное</Field>
-				<Field>Объект.PredefinedDataName</Field>
-				<Field>Объект.Predefined</Field>
-				<Field>Объект.DeletionMark</Field>
 				<Field>1/0:cc735677-d1f9-4542-9a3d-c3b9cbcfbdee</Field>
 				<Field>1/0:a72e9dca-92ba-4c72-b7d4-505a59fb02b8</Field>
 				<Field>1/0:5f3cf6c0-d5b8-4468-9098-8dc115ec3e39</Field>

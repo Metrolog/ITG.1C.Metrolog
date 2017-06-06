@@ -17,7 +17,7 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
-		<Metadata>Catalog.МСЕдиницыВеличин</Metadata>
+		<Metadata>Catalog.УдалитьМСЕдиницыВеличин</Metadata>
 		<AutoRecord>Allow</AutoRecord>
 	</Item>
 	<Item>

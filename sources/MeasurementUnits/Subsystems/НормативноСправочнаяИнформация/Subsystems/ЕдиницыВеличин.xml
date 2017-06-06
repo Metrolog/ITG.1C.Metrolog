@@ -20,7 +20,7 @@
 			</Explanation>
 			<Picture/>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.МСЕдиницыВеличин</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.УдалитьМСЕдиницыВеличин</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.МСЕдиницыВеличинБазовые</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.МСЕдиницыВеличинОбщиеНастройки</xr:Item>

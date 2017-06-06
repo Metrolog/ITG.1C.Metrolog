@@ -10598,7 +10598,7 @@
 		<Metadata name="Subsystem.ИнтернетПоддержкаПользователей.Subsystem.МониторИнтернетПоддержки" id="071fe4ea-e9a7-4eb3-931d-d1ac5096bf01" configVersion="6e8040a2d202e44982a6fd9ae9567ca700000000"/>
 		<Metadata name="Subsystem.ИнтернетПоддержкаПользователей.Subsystem.НастройкиПрограммы" id="4c94616d-4ab4-4886-b4d3-23ab29a5f76f" configVersion="89a56dbb054e224b87ad02b2e5946c0900000000"/>
 		<Metadata name="Subsystem.ИнтернетПоддержкаПользователей.Subsystem.ПолучениеОбновленийПрограммы" id="59a3c290-b497-4926-95a4-c1f81ebf8ae9" configVersion="332b74620f2a8d449875862a60c82d4300000000"/>
-		<Metadata name="Subsystem.МетрологическаяСлужба" id="0fafa9e4-bed7-4b56-a620-bdf577fd1e8d" configVersion="154719159eb1c54ab53b149a4b08761100000000"/>
+		<Metadata name="Subsystem.МетрологическаяСлужба" id="0fafa9e4-bed7-4b56-a620-bdf577fd1e8d" configVersion="5f6cf17fe8251443b36ca4fc1e517fba00000000"/>
 		<Metadata name="Subsystem.МетрологическаяСлужба.Subsystem.ЕдиницыВеличин" id="84293ecf-872c-4a8b-868c-e2aa65cf5346" configVersion="06650d3710180b4b84a77c00db2656ec00000000"/>
 		<Metadata name="Subsystem.НормативноСправочнаяИнформация" id="326dd5e6-5c2b-42b1-a9d2-f4ce7b3e4ecd" configVersion="5009bfde02cb424682c12e08118a368b00000000"/>
 		<Metadata name="Subsystem.НормативноСправочнаяИнформация.CommandInterface" id="326dd5e6-5c2b-42b1-a9d2-f4ce7b3e4ecd.1" configVersion="be2bce5e83d2794691f2e3047b9b9c9f00000000"/>

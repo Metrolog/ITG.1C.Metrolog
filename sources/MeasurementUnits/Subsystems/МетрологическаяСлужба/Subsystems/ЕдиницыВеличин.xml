@@ -34,7 +34,6 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.МСЕдиницыВеличинОбозначения</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.МСЕдиницыВеличинОбозначения</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.МСЕдиницыВеличинПередЗаписьюУдалитьЛишниеПробелыВНаименованииИОбозначении</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">c1f973e1-0621-4c1e-9f8b-e568d79870b6</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.МСЕдиницыВеличинВиды</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.МСЕдиницыВеличинОбозначенияПриставок</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.МСЕдиницыВеличинОбозначенияПриставок</xr:Item>
@@ -47,6 +46,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.МСЕдиницыВеличинИспользоватьОбозначенияРус</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.МСЕдиницыВеличинИспользоватьОбозначенияМн</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.МСЕдиницыВеличинПриЗаписиВариантаОбозначений</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.МСЕдиницыВеличинКлиентСерверПовтИсп</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

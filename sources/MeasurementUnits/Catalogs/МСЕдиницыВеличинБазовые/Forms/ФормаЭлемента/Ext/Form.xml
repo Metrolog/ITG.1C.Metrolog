@@ -450,6 +450,10 @@
 						<ContextMenu name="ВыражениеУправлениеПоискомКонтекстноеМеню" id="125"/>
 						<ExtendedTooltip name="ВыражениеУправлениеПоискомРасширеннаяПодсказка" id="126"/>
 					</SearchControlAddition>
+					<Events>
+						<Event name="OnStartEdit">ВыражениеПриНачалеРедактирования</Event>
+						<Event name="OnChange">ВыражениеПриИзменении</Event>
+					</Events>
 					<ChildItems>
 						<LabelField name="ВыражениеНомерСтроки" id="127">
 							<DataPath>Объект.Выражение.LineNumber</DataPath>

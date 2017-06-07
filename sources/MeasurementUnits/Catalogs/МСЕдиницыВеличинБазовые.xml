@@ -1212,7 +1212,7 @@
 								</v8:item>
 							</EditFormat>
 							<ToolTip/>
-							<MarkNegatives>true</MarkNegatives>
+							<MarkNegatives>false</MarkNegatives>
 							<Mask/>
 							<MultiLine>false</MultiLine>
 							<ExtendedEdit>false</ExtendedEdit>

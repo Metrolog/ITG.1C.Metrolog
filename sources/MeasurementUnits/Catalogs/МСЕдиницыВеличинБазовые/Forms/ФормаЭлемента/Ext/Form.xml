@@ -49,6 +49,7 @@
 					<v8:content>Группа код</v8:content>
 				</v8:item>
 			</ToolTip>
+			<HorizontalStretch>false</HorizontalStretch>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаПредикатыРасширеннаяПодсказка" id="84"/>
@@ -116,28 +117,97 @@
 					<Representation>None</Representation>
 					<ExtendedTooltip name="ГруппаРусскиеОбозначенияРасширеннаяПодсказка" id="34"/>
 					<ChildItems>
-						<InputField name="НаименованиеРус" id="35">
-							<DataPath>Объект.НаименованиеРус</DataPath>
+						<UsualGroup name="ГруппаРусскоеНаименованиеИЕгоПадежи" id="88">
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Наименование</v8:content>
+									<v8:content>Группа русское наименование и его падежи</v8:content>
 								</v8:item>
 							</Title>
-							<ContextMenu name="НаименованиеРусКонтекстноеМеню" id="36"/>
-							<ExtendedTooltip name="НаименованиеРусРасширеннаяПодсказка" id="37"/>
-						</InputField>
-						<Button name="СклоненияРус" id="15">
-							<Type>Hyperlink</Type>
-							<CommandName>Form.Command.СклоненияРус</CommandName>
-							<ExtendedTooltip name="СклоненияРусРасширеннаяПодсказка" id="16"/>
-						</Button>
-						<InputField name="ОбозначениеРус" id="38">
-							<DataPath>Объект.ОбозначениеРус</DataPath>
-							<EditMode>EnterOnInput</EditMode>
-							<ContextMenu name="ОбозначениеРусКонтекстноеМеню" id="39"/>
-							<ExtendedTooltip name="ОбозначениеРусРасширеннаяПодсказка" id="40"/>
-						</InputField>
+							<ToolTipRepresentation>None</ToolTipRepresentation>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаРусскоеНаименованиеИЕгоПадежиРасширеннаяПодсказка" id="89"/>
+							<ChildItems>
+								<InputField name="НаименованиеРус" id="35">
+									<DataPath>Объект.НаименованиеРус</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Наименование</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="НаименованиеРусКонтекстноеМеню" id="36"/>
+									<ExtendedTooltip name="НаименованиеРусРасширеннаяПодсказка" id="37"/>
+								</InputField>
+								<Button name="СклоненияРус" id="15">
+									<Type>Hyperlink</Type>
+									<CommandName>Form.Command.СклоненияРус</CommandName>
+									<ExtendedTooltip name="СклоненияРусРасширеннаяПодсказка" id="16"/>
+								</Button>
+								<InputField name="ПредлогДляЗнаменателяРус" id="85">
+									<DataPath>Объект.ПредлогДляЗнаменателяРус</DataPath>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ListChoiceMode>true</ListChoiceMode>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>на</v8:content>
+													</v8:item>
+												</Presentation>
+												<Value xsi:type="xs:string">на</Value>
+											</xr:Value>
+										</xr:Item>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>в</v8:content>
+													</v8:item>
+												</Presentation>
+												<Value xsi:type="xs:string">в</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ПредлогДляЗнаменателяРусКонтекстноеМеню" id="86"/>
+									<ExtendedTooltip name="ПредлогДляЗнаменателяРусРасширеннаяПодсказка" id="87"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаРусскоеОбозначение" id="90">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа русское обозначение</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTipRepresentation>None</ToolTipRepresentation>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаРусскоеОбозначениеРасширеннаяПодсказка" id="91"/>
+							<ChildItems>
+								<InputField name="ОбозначениеРус" id="38">
+									<DataPath>Объект.ОбозначениеРус</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ОбозначениеРусКонтекстноеМеню" id="39"/>
+									<ExtendedTooltip name="ОбозначениеРусРасширеннаяПодсказка" id="40"/>
+								</InputField>
+								<CheckBoxField name="ПробелПередОбозначениемРус" id="92">
+									<DataPath>Объект.ПробелПередОбозначениемРус</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ПробелПередОбозначениемРусКонтекстноеМеню" id="93"/>
+									<ExtendedTooltip name="ПробелПередОбозначениемРусРасширеннаяПодсказка" id="94"/>
+								</CheckBoxField>
+							</ChildItems>
+						</UsualGroup>
 					</ChildItems>
 				</UsualGroup>
 				<UsualGroup name="ГруппаМеждународныеОбозначения" id="41">
@@ -156,28 +226,84 @@
 					<Representation>None</Representation>
 					<ExtendedTooltip name="ГруппаМеждународныеОбозначенияРасширеннаяПодсказка" id="42"/>
 					<ChildItems>
-						<InputField name="НаименованиеМн" id="43">
-							<DataPath>Объект.НаименованиеМн</DataPath>
+						<UsualGroup name="ГруппаМеждународноеНаименованиеИЕгоПадежи" id="95">
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Наименование</v8:content>
+									<v8:content>Группа международное наименование и его падежи</v8:content>
 								</v8:item>
 							</Title>
-							<ContextMenu name="НаименованиеМнКонтекстноеМеню" id="44"/>
-							<ExtendedTooltip name="НаименованиеМнРасширеннаяПодсказка" id="45"/>
-						</InputField>
-						<InputField name="ОбозначениеМн" id="46">
-							<DataPath>Объект.ОбозначениеМн</DataPath>
+							<ToolTipRepresentation>None</ToolTipRepresentation>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаМеждународноеНаименованиеИЕгоПадежиРасширеннаяПодсказка" id="96"/>
+							<ChildItems>
+								<InputField name="НаименованиеМн" id="43">
+									<DataPath>Объект.НаименованиеМн</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Наименование</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="НаименованиеМнКонтекстноеМеню" id="44"/>
+									<ExtendedTooltip name="НаименованиеМнРасширеннаяПодсказка" id="45"/>
+								</InputField>
+								<InputField name="ПредлогДляЗнаменателяМн" id="101">
+									<DataPath>Объект.ПредлогДляЗнаменателяМн</DataPath>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ListChoiceMode>true</ListChoiceMode>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>per</v8:content>
+													</v8:item>
+												</Presentation>
+												<Value xsi:type="xs:string">per</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ПредлогДляЗнаменателяМнКонтекстноеМеню" id="102"/>
+									<ExtendedTooltip name="ПредлогДляЗнаменателяМнРасширеннаяПодсказка" id="103"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаМеждународноеОбозначение" id="97">
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Обозначение</v8:content>
+									<v8:content>Группа международное обозначение</v8:content>
 								</v8:item>
 							</Title>
-							<ContextMenu name="ОбозначениеМнКонтекстноеМеню" id="47"/>
-							<ExtendedTooltip name="ОбозначениеМнРасширеннаяПодсказка" id="48"/>
-						</InputField>
+							<ToolTipRepresentation>None</ToolTipRepresentation>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаМеждународноеОбозначениеРасширеннаяПодсказка" id="98"/>
+							<ChildItems>
+								<InputField name="ОбозначениеМн" id="46">
+									<DataPath>Объект.ОбозначениеМн</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Обозначение</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ОбозначениеМнКонтекстноеМеню" id="47"/>
+									<ExtendedTooltip name="ОбозначениеМнРасширеннаяПодсказка" id="48"/>
+								</InputField>
+								<CheckBoxField name="ПробелПередОбозначениемМн" id="104">
+									<DataPath>Объект.ПробелПередОбозначениемМн</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ПробелПередОбозначениемМнКонтекстноеМеню" id="105"/>
+									<ExtendedTooltip name="ПробелПередОбозначениемМнРасширеннаяПодсказка" id="106"/>
+								</CheckBoxField>
+							</ChildItems>
+						</UsualGroup>
 					</ChildItems>
 				</UsualGroup>
 				<UsualGroup name="ГруппаПравилаФормированияНаименования" id="27">
@@ -256,6 +382,102 @@
 				</UsualGroup>
 			</ChildItems>
 		</UsualGroup>
+		<UsualGroup name="ГруппаВыражение" id="107">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа выражение</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTipRepresentation>None</ToolTipRepresentation>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаВыражениеРасширеннаяПодсказка" id="108"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаКоэффициент" id="112">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа коэффициент</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTipRepresentation>None</ToolTipRepresentation>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаКоэффициентРасширеннаяПодсказка" id="113"/>
+					<ChildItems>
+						<InputField name="Коэффициент" id="109">
+							<DataPath>Объект.Коэффициент</DataPath>
+							<ContextMenu name="КоэффициентКонтекстноеМеню" id="110"/>
+							<ExtendedTooltip name="КоэффициентРасширеннаяПодсказка" id="111"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<Table name="Выражение" id="114">
+					<DefaultItem>true</DefaultItem>
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<DataPath>Объект.Выражение</DataPath>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="ВыражениеКонтекстноеМеню" id="115"/>
+					<AutoCommandBar name="ВыражениеКоманднаяПанель" id="116"/>
+					<ExtendedTooltip name="ВыражениеРасширеннаяПодсказка" id="117"/>
+					<SearchStringAddition name="ВыражениеСтрокаПоиска" id="118">
+						<AdditionSource>
+							<Item>Выражение</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ВыражениеСтрокаПоискаКонтекстноеМеню" id="119"/>
+						<ExtendedTooltip name="ВыражениеСтрокаПоискаРасширеннаяПодсказка" id="120"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="ВыражениеСостояниеПросмотра" id="121">
+						<AdditionSource>
+							<Item>Выражение</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ВыражениеСостояниеПросмотраКонтекстноеМеню" id="122"/>
+						<ExtendedTooltip name="ВыражениеСостояниеПросмотраРасширеннаяПодсказка" id="123"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="ВыражениеУправлениеПоиском" id="124">
+						<AdditionSource>
+							<Item>Выражение</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="ВыражениеУправлениеПоискомКонтекстноеМеню" id="125"/>
+						<ExtendedTooltip name="ВыражениеУправлениеПоискомРасширеннаяПодсказка" id="126"/>
+					</SearchControlAddition>
+					<ChildItems>
+						<LabelField name="ВыражениеНомерСтроки" id="127">
+							<DataPath>Объект.Выражение.LineNumber</DataPath>
+							<Visible>false</Visible>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ВыражениеНомерСтрокиКонтекстноеМеню" id="128"/>
+							<ExtendedTooltip name="ВыражениеНомерСтрокиРасширеннаяПодсказка" id="129"/>
+						</LabelField>
+						<InputField name="ВыражениеБазоваяЕдиница" id="133">
+							<DataPath>Объект.Выражение.БазоваяЕдиница</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ВыражениеБазоваяЕдиницаКонтекстноеМеню" id="134"/>
+							<ExtendedTooltip name="ВыражениеБазоваяЕдиницаРасширеннаяПодсказка" id="135"/>
+						</InputField>
+						<InputField name="ВыражениеПриставка" id="130">
+							<DataPath>Объект.Выражение.Приставка</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ВыражениеПриставкаКонтекстноеМеню" id="131"/>
+							<ExtendedTooltip name="ВыражениеПриставкаРасширеннаяПодсказка" id="132"/>
+						</InputField>
+						<InputField name="ВыражениеПоказательСтепени" id="136">
+							<DataPath>Объект.Выражение.ПоказательСтепени</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ВыражениеПоказательСтепениКонтекстноеМеню" id="137"/>
+							<ExtendedTooltip name="ВыражениеПоказательСтепениРасширеннаяПодсказка" id="138"/>
+						</InputField>
+					</ChildItems>
+				</Table>
+			</ChildItems>
+		</UsualGroup>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
@@ -282,19 +504,7 @@
 			</Title>
 			<Action>Склонения</Action>
 			<FunctionalOptions>
-				<Item>FunctionalOption.МСЕдиницыВеличинИспользоватьОбозначенияПриставокРус</Item>
-			</FunctionalOptions>
-		</Command>
-		<Command name="СклоненияРусISO_80000_1" id="3">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Склонения</v8:content>
-				</v8:item>
-			</Title>
-			<Action>Склонения</Action>
-			<FunctionalOptions>
-				<Item>FunctionalOption.МСЕдиницыВеличинИспользоватьОбозначенияПриставокРусISO_80000_1</Item>
+				<Item>FunctionalOption.МСЕдиницыВеличинИспользоватьОбозначенияРус</Item>
 			</FunctionalOptions>
 		</Command>
 	</Commands>

@@ -416,7 +416,9 @@
 				</UsualGroup>
 				<Table name="Выражение" id="114">
 					<DefaultItem>true</DefaultItem>
+					<HeightControlVariant>UseContentHeight</HeightControlVariant>
 					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<VerticalStretch>false</VerticalStretch>
 					<EnableStartDrag>true</EnableStartDrag>
 					<EnableDrag>true</EnableDrag>
 					<DataPath>Объект.Выражение</DataPath>
@@ -459,20 +461,6 @@
 						<InputField name="ВыражениеБазоваяЕдиница" id="133">
 							<DataPath>Объект.Выражение.БазоваяЕдиница</DataPath>
 							<EditMode>EnterOnInput</EditMode>
-							<ChoiceParameters>
-								<app:item name="Отбор.ИмеетСпециальныеНаименованиеИОбозначение">
-									<app:value xsi:type="FormChoiceListDesTimeValue">
-										<Presentation/>
-										<Value xsi:type="xs:boolean">true</Value>
-									</app:value>
-								</app:item>
-								<app:item name="Отбор.ПометкаУдаления">
-									<app:value xsi:type="FormChoiceListDesTimeValue">
-										<Presentation/>
-										<Value xsi:type="xs:boolean">false</Value>
-									</app:value>
-								</app:item>
-							</ChoiceParameters>
 							<ContextMenu name="ВыражениеБазоваяЕдиницаКонтекстноеМеню" id="134"/>
 							<ExtendedTooltip name="ВыражениеБазоваяЕдиницаРасширеннаяПодсказка" id="135"/>
 						</InputField>

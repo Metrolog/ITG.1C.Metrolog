@@ -3501,12 +3501,12 @@
 		<Metadata name="CommonModule.РаботаСФайламиСлужебныйКлиент.Module" id="efd89929-4db9-4c58-b3cb-a8d9a41a1df2.0" configVersion="78ba5af0fce3b54e8052197b59243bc700000000"/>
 		<Metadata name="CommonModule.РаботаСФайламиСлужебныйКлиентПовтИсп" id="deee8bde-381f-4094-8794-7a06248860dd" configVersion="a16398308403bc4794e3a669a134ee9b00000000"/>
 		<Metadata name="CommonModule.РаботаСФайламиСлужебныйКлиентПовтИсп.Module" id="deee8bde-381f-4094-8794-7a06248860dd.0" configVersion="742864d4553bbe41a0298fc25769508900000000"/>
-		<Metadata name="CommonModule.РаботаСоСтрокамиЮникодКлиентСервер" id="1a5bc967-539d-43ba-a5f3-22ed152fc176" configVersion="bb0d3f19157abf4db986f490166eff7300000000"/>
-		<Metadata name="CommonModule.РаботаСоСтрокамиЮникодКлиентСервер.Module" id="1a5bc967-539d-43ba-a5f3-22ed152fc176.0" configVersion="37e4061f18c9804ea9917e290a7a84d300000000"/>
+		<Metadata name="CommonModule.РаботаСоСтрокамиЮникодКлиентСервер" id="1a5bc967-539d-43ba-a5f3-22ed152fc176" configVersion="644fac968615834dbb471c4e80c5499c00000000"/>
+		<Metadata name="CommonModule.РаботаСоСтрокамиЮникодКлиентСервер.Module" id="1a5bc967-539d-43ba-a5f3-22ed152fc176.0" configVersion="c7a00b9495307a4f88126bb7715254c500000000"/>
 		<Metadata name="CommonModule.РаботаСоСтрокамиЮникодКлиентСерверПовтИсп1" id="7efe12a1-cc33-469c-a4f3-3a43ff9824e3" configVersion="3d7922223dc57d4b91d66bcb15567bdc00000000"/>
 		<Metadata name="CommonModule.РаботаСоСтрокамиЮникодКлиентСерверПовтИсп1.Module" id="7efe12a1-cc33-469c-a4f3-3a43ff9824e3.0" configVersion="f6a27daba239304f914f51263a6a94a600000000"/>
-		<Metadata name="CommonModule.РаботаСоСтрокамиЮникодСерверПовтИсп" id="76fdbef3-79e1-4dea-b86a-10422f78ba73" configVersion="5df859fc715dcd4ea5fd4894c084c4d900000000"/>
-		<Metadata name="CommonModule.РаботаСоСтрокамиЮникодСерверПовтИсп.Module" id="76fdbef3-79e1-4dea-b86a-10422f78ba73.0" configVersion="861f36d9b864bd43a328008f6a12406300000000"/>
+		<Metadata name="CommonModule.РаботаСоСтрокамиЮникодСерверПовтИсп" id="76fdbef3-79e1-4dea-b86a-10422f78ba73" configVersion="432044825c440a4e87e62169ebca5a7900000000"/>
+		<Metadata name="CommonModule.РаботаСоСтрокамиЮникодСерверПовтИсп.Module" id="76fdbef3-79e1-4dea-b86a-10422f78ba73.0" configVersion="9e9c6ef1c707fe42aa060e148439b26b00000000"/>
 		<Metadata name="CommonModule.РассылкаОтчетов" id="2757ee75-4b36-4901-bff1-044708754edb" configVersion="54c94622f4aef34288d70d6febf36a3d00000000"/>
 		<Metadata name="CommonModule.РассылкаОтчетов.Module" id="2757ee75-4b36-4901-bff1-044708754edb.0" configVersion="98057b89e7958f46be631f890404d83300000000"/>
 		<Metadata name="CommonModule.РассылкаОтчетовВызовСервера" id="0e6bab27-bf94-4732-8549-dbd9b8a5f4e9" configVersion="3238b75efa8aea47a4d4a42ee7b082b300000000"/>

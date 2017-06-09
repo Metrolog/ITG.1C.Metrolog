@@ -49,7 +49,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</xr:Item>
 			</DefaultRoles>
 			<Vendor>ФБУ "Тест-С.-Петербург"</Vendor>
-			<Version>0.1.0.37</Version>
+			<Version>0.1.0.38</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>true</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>true</UseManagedFormInOrdinaryApplication>
@@ -2177,7 +2177,6 @@
 			<DocumentJournal>СогласияНаОбработкуПерсональныхДанных</DocumentJournal>
 			<Enum>Языки</Enum>
 			<Enum>МСЕдиницыВеличинОбозначенияПриставок</Enum>
-			<Enum>МСЕдиницыВеличинОбозначения</Enum>
 			<Enum>МСЕдиницыВеличинВиды</Enum>
 			<Enum>_ДемоВидКонтрагента</Enum>
 			<Enum>_ДемоВидыПлатежейВБюджет</Enum>

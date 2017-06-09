@@ -21,7 +21,7 @@
 			</Synonym>
 			<Comment/>
 			<Type>
-				<v8:Type>cfg:EnumRef.МСЕдиницыВеличинОбозначения</v8:Type>
+				<v8:Type>cfg:CatalogRef.ВариантыОбозначенийЕдиницВеличин</v8:Type>
 			</Type>
 			<UseStandardCommands>true</UseStandardCommands>
 			<DefaultForm>CommonForm.МСЕдиницыВеличинОбщиеНастройки</DefaultForm>

@@ -51,11 +51,10 @@
 			<Characteristics/>
 			<PredefinedDataUpdate>Auto</PredefinedDataUpdate>
 			<EditType>InDialog</EditType>
-			<QuickChoice>false</QuickChoice>
-			<ChoiceMode>BothWays</ChoiceMode>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>QuickChoice</ChoiceMode>
 			<InputByString>
 				<xr:Field>Catalog.ВариантыОбозначенийЕдиницВеличин.StandardAttribute.Description</xr:Field>
-				<xr:Field>Catalog.ВариантыОбозначенийЕдиницВеличин.StandardAttribute.Code</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
@@ -105,7 +104,7 @@
 					<v8:content>Применяемые в программе варианты наименований и обозначений единиц величин, кратных и дольных приставок.</v8:content>
 				</v8:item>
 			</Explanation>
-			<CreateOnInput>Use</CreateOnInput>
+			<CreateOnInput>DontUse</CreateOnInput>
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 		</Properties>
 		<ChildObjects>

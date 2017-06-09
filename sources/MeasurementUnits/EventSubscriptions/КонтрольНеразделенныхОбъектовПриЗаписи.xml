@@ -76,6 +76,7 @@
 				<v8:Type>cfg:CatalogObject.ТомаХраненияФайлов</v8:Type>
 				<v8:Type>cfg:CatalogObject.ИдентификаторыОбъектовМетаданных</v8:Type>
 				<v8:Type>cfg:ConstantValueManager.РежимИспользованияИнформационнойБазы</v8:Type>
+				<v8:Type>cfg:CatalogObject.ВариантыОбозначенийЕдиницВеличин</v8:Type>
 				<v8:Type>cfg:ConstantValueManager.КоличествоЭлементовВТранзакцииЗагрузкиДанных</v8:Type>
 				<v8:Type>cfg:ConstantValueManager.ВыполнятьЗамерыПроизводительности</v8:Type>
 				<v8:Type>cfg:ConstantValueManager.ЗагрузитьСообщениеОбменаДанными</v8:Type>

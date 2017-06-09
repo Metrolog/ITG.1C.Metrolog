@@ -32,7 +32,7 @@
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Метрологическая служба</v8:content>
+					<v8:content>АИС "Метрологическая служба"</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -49,7 +49,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</xr:Item>
 			</DefaultRoles>
 			<Vendor>ФБУ "Тест-С.-Петербург"</Vendor>
-			<Version>0.1.0.36</Version>
+			<Version>0.1.0.37</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>true</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>true</UseManagedFormInOrdinaryApplication>
@@ -171,6 +171,7 @@
 			<Subsystem>ПодключаемыеОтчетыИОбработки</Subsystem>
 			<Subsystem>СтандартныеПодсистемы</Subsystem>
 			<Subsystem>ТехнологияСервиса</Subsystem>
+			<Subsystem>СтандартныеПодсистемыИТГ</Subsystem>
 			<Subsystem>МетрологическаяСлужба</Subsystem>
 			<StyleItem>ВидДняПроизводственногоКалендаряВоскресеньеЦвет</StyleItem>
 			<StyleItem>ВидДняПроизводственногоКалендаряНеУказанЦвет</StyleItem>
@@ -746,7 +747,11 @@
 			<CommonTemplate>СтруктураПодчиненности</CommonTemplate>
 			<FilterCriterion>СвязанныеДокументы</FilterCriterion>
 			<FilterCriterion>ФайлыВТоме</FilterCriterion>
+			<CommonModule>МССтандартныеПодсистемы</CommonModule>
 			<CommonModule>МСОбновлениеИнформационнойБазы</CommonModule>
+			<CommonModule>СтандартныеПодсистемыИТГ</CommonModule>
+			<CommonModule>СтандартныеПодсистемыКлиентСерверИТГ</CommonModule>
+			<CommonModule>ОбновлениеИнформационнойБазыИТГ</CommonModule>
 			<CommonModule>МСЕдиницыВеличин</CommonModule>
 			<CommonModule>МСЕдиницыВеличинСервер</CommonModule>
 			<CommonModule>МСЕдиницыВеличинКлиентСервер</CommonModule>
@@ -754,12 +759,12 @@
 			<CommonModule>МСЕдиницыВеличинОбновлениеИнформационнойБазы</CommonModule>
 			<CommonModule>РаботаСоСтрокамиЮникодКлиентСервер</CommonModule>
 			<CommonModule>РаботаСоСтрокамиЮникодСерверПовтИсп</CommonModule>
+			<CommonModule>РаботаСоСтрокамиЮникодКлиентСерверПовтИсп</CommonModule>
 			<CommonModule>_ДемоЗаметки</CommonModule>
 			<CommonModule>_ДемоМенеджерОбменаЧерезУниверсальныйФормат</CommonModule>
 			<CommonModule>_ДемоОбменДаннымиСобытия</CommonModule>
 			<CommonModule>_ДемоСвойства</CommonModule>
 			<CommonModule>_ДемоСообщенияШироковещательныйКанал</CommonModule>
-			<CommonModule>_ДемоСтандартныеПодсистемы</CommonModule>
 			<CommonModule>_ДемоСтандартныеПодсистемыВызовСервера</CommonModule>
 			<CommonModule>_ДемоСтандартныеПодсистемыКлиент</CommonModule>
 			<CommonModule>_ДемоСтандартныеПодсистемыСобытия</CommonModule>
@@ -1202,7 +1207,6 @@
 			<CommonModule>СообщенияУправленияДОИООбработчикСообщения_1_0_1_2</CommonModule>
 			<CommonModule>СообщенияУправленияДополнительнымиОтчетамиИОбработкамиИнтерфейс</CommonModule>
 			<CommonModule>СообщенияУправленияДополнительнымиОтчетамиИОбработкамиРеализация</CommonModule>
-			<CommonModule>РаботаСоСтрокамиЮникодКлиентСерверПовтИсп1</CommonModule>
 			<CommonModule>СообщенияУправленияПриложениямиИнтерфейс</CommonModule>
 			<CommonModule>СтандартныеПодсистемыВызовСервера</CommonModule>
 			<CommonModule>СтандартныеПодсистемыГлобальный</CommonModule>
@@ -2065,6 +2069,7 @@
 			<CommonForm>ФормаОтчета</CommonForm>
 			<CommonForm>ФормаПоиска</CommonForm>
 			<CommonForm>ЭлектроннаяПодпись</CommonForm>
+			<Catalog>ВариантыОбозначенийЕдиницВеличин</Catalog>
 			<Catalog>УдалитьМСЕдиницыВеличин</Catalog>
 			<Catalog>МСЕдиницыВеличинБазовые</Catalog>
 			<Catalog>МСЕдиницыВеличинПриставкиКратныхИДольных</Catalog>
@@ -2170,6 +2175,7 @@
 			<DocumentJournal>_ДемоСкладскиеДокументы</DocumentJournal>
 			<DocumentJournal>Взаимодействия</DocumentJournal>
 			<DocumentJournal>СогласияНаОбработкуПерсональныхДанных</DocumentJournal>
+			<Enum>Языки</Enum>
 			<Enum>МСЕдиницыВеличинОбозначенияПриставок</Enum>
 			<Enum>МСЕдиницыВеличинОбозначения</Enum>
 			<Enum>МСЕдиницыВеличинВиды</Enum>

@@ -16,7 +16,7 @@
 			<Picture/>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor._ДемоВыводСообщенийПользователю</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule._ДемоСтандартныеПодсистемы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.МССтандартныеПодсистемы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document._ДемоСписаниеТоваров</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister._ДемоГрафикиРаботы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor._ДемоВыборОбъектовМетаданных</xr:Item>

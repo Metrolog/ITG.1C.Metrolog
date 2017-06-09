@@ -39,6 +39,7 @@
 				<v8:Type>cfg:CatalogObject.ПолныеПутиКФормам</v8:Type>
 				<v8:Type>cfg:CatalogObject.ИнформационныеСсылкиДляФорм</v8:Type>
 				<v8:Type>cfg:ConstantValueManager.АдресСервисаНовостей</v8:Type>
+				<v8:Type>cfg:CatalogObject.ВариантыОбозначенийЕдиницВеличин</v8:Type>
 				<v8:Type>cfg:ConstantValueManager.АдресПрограммногоИнтерфейсаСлужбыПоддержки</v8:Type>
 			</Source>
 			<Event>OnWrite</Event>

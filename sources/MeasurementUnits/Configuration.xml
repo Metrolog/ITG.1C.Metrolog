@@ -758,7 +758,6 @@
 			<CommonModule>МСЕдиницыВеличинКлиентСерверПовтИсп</CommonModule>
 			<CommonModule>МСЕдиницыВеличинОбновлениеИнформационнойБазы</CommonModule>
 			<CommonModule>РаботаСоСтрокамиЮникодКлиентСервер</CommonModule>
-			<CommonModule>РаботаСоСтрокамиЮникодСерверПовтИсп</CommonModule>
 			<CommonModule>РаботаСоСтрокамиЮникодКлиентСерверПовтИсп</CommonModule>
 			<CommonModule>_ДемоЗаметки</CommonModule>
 			<CommonModule>_ДемоМенеджерОбменаЧерезУниверсальныйФормат</CommonModule>

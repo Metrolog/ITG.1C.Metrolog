@@ -40,7 +40,7 @@
 		<ChildObjects>
 			<EnumValue uuid="c6b3a22e-f073-4743-bb02-1709b8b1522f">
 				<Properties>
-					<Name>ru_RU</Name>
+					<Name>ru</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -52,7 +52,7 @@
 			</EnumValue>
 			<EnumValue uuid="09284295-a1a9-4409-8e8d-3d62275c9791">
 				<Properties>
-					<Name>en_US</Name>
+					<Name>en</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>

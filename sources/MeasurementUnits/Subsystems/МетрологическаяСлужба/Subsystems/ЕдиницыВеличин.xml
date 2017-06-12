@@ -30,7 +30,6 @@
 				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.МСЕдиницыВеличинИспользоватьОбозначенияПриставокРус</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.МСЕдиницыВеличинИспользоватьОбозначенияПриставокМн</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.МСЕдиницыВеличинИспользоватьОбозначенияПриставокМнISO_80000_1</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">6a6eec51-4f5b-45f0-b151-a99acbbfe7c0</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.МСЕдиницыВеличинОбозначения</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.МСЕдиницыВеличинОбозначения</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.МСЕдиницыВеличинПередЗаписьюУдалитьЛишниеПробелыВНаименованииИОбозначении</xr:Item>

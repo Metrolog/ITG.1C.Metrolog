@@ -137,7 +137,7 @@
 					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>true</FillFromFillingValue>
-					<FillValue xsi:type="xr:DesignTimeRef">Enum.Языки.EnumValue.ru_RU</FillValue>
+					<FillValue xsi:type="xr:DesignTimeRef">Enum.Языки.EnumValue.ru</FillValue>
 					<FillChecking>ShowError</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>

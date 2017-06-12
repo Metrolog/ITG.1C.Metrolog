@@ -3096,10 +3096,10 @@
 		<Metadata name="CommonModule.МСЕдиницыВеличинКлиентСервер.Module" id="5b379540-de95-4729-b2ed-b7a4f3fc8032.0" configVersion="754b270196b6064ea44ac333df280ff500000000"/>
 		<Metadata name="CommonModule.МСЕдиницыВеличинКлиентСерверПовтИсп" id="7cd54afb-3e5d-4772-b1b9-8bb46425ec89" configVersion="acbc11f259ade940bd9134dfc2745bcc00000000"/>
 		<Metadata name="CommonModule.МСЕдиницыВеличинКлиентСерверПовтИсп.Module" id="7cd54afb-3e5d-4772-b1b9-8bb46425ec89.0" configVersion="39d540809606bb4593f623c4f03a366000000000"/>
-		<Metadata name="CommonModule.МСЕдиницыВеличинОбновлениеИнформационнойБазы" id="eac15906-07dd-43d9-aa7d-ebae74d39566" configVersion="d9f55c963ebda54f8507c70d987f9ceb00000000"/>
-		<Metadata name="CommonModule.МСЕдиницыВеличинОбновлениеИнформационнойБазы.Module" id="eac15906-07dd-43d9-aa7d-ebae74d39566.0" configVersion="5d0c66b6ddf104458cee019671377ecb00000000"/>
-		<Metadata name="CommonModule.МСЕдиницыВеличинСервер" id="2ec5d9d0-270d-4198-9fe6-8c81bc8ee0b2" configVersion="02ed86363a94ae419d052f8b788de75300000000"/>
-		<Metadata name="CommonModule.МСЕдиницыВеличинСервер.Module" id="2ec5d9d0-270d-4198-9fe6-8c81bc8ee0b2.0" configVersion="4d12c9e7695db445a0ab69f917a379a200000000"/>
+		<Metadata name="CommonModule.МСЕдиницыВеличинОбновлениеИнформационнойБазы" id="eac15906-07dd-43d9-aa7d-ebae74d39566" configVersion="90fb5654634b4a4f8ae79accd50df7a300000000"/>
+		<Metadata name="CommonModule.МСЕдиницыВеличинОбновлениеИнформационнойБазы.Module" id="eac15906-07dd-43d9-aa7d-ebae74d39566.0" configVersion="30245a33f5beae45baae00313acaf15800000000"/>
+		<Metadata name="CommonModule.МСЕдиницыВеличинСервер" id="2ec5d9d0-270d-4198-9fe6-8c81bc8ee0b2" configVersion="af875a42d958624c883e9f05803b97d900000000"/>
+		<Metadata name="CommonModule.МСЕдиницыВеличинСервер.Module" id="2ec5d9d0-270d-4198-9fe6-8c81bc8ee0b2.0" configVersion="1a39983188f4e24fa385f7fbe430902300000000"/>
 		<Metadata name="CommonModule.МСОбновлениеИнформационнойБазы" id="1d55a7a1-eac4-43ef-81b5-7733f314c38f" configVersion="290f2b825cdf9b409481056d31411d8200000000"/>
 		<Metadata name="CommonModule.МСОбновлениеИнформационнойБазы.Module" id="1d55a7a1-eac4-43ef-81b5-7733f314c38f.0" configVersion="c4daf73360074a408b89d9ffb5f38f6a00000000"/>
 		<Metadata name="CommonModule.МССтандартныеПодсистемы" id="9e8574a1-01f2-44f6-8b42-58a260878ffc" configVersion="5533d70bc2dd614c919fa49bbe92d1f200000000"/>
@@ -3508,12 +3508,10 @@
 		<Metadata name="CommonModule.РаботаСФайламиСлужебныйКлиент.Module" id="efd89929-4db9-4c58-b3cb-a8d9a41a1df2.0" configVersion="7d0d18e22ed4b545a61793613d20130800000000"/>
 		<Metadata name="CommonModule.РаботаСФайламиСлужебныйКлиентПовтИсп" id="deee8bde-381f-4094-8794-7a06248860dd" configVersion="1c64c5332a4ebb479e2b9d35db05572100000000"/>
 		<Metadata name="CommonModule.РаботаСФайламиСлужебныйКлиентПовтИсп.Module" id="deee8bde-381f-4094-8794-7a06248860dd.0" configVersion="02bd2d40a21d334eae9c4bfe90608df800000000"/>
-		<Metadata name="CommonModule.РаботаСоСтрокамиЮникодКлиентСервер" id="1a5bc967-539d-43ba-a5f3-22ed152fc176" configVersion="796dcc054d0d2a4ba8f4c877a59bf53700000000"/>
-		<Metadata name="CommonModule.РаботаСоСтрокамиЮникодКлиентСервер.Module" id="1a5bc967-539d-43ba-a5f3-22ed152fc176.0" configVersion="e7333f1db6816f4abfaeaf8e7cba09a600000000"/>
-		<Metadata name="CommonModule.РаботаСоСтрокамиЮникодКлиентСерверПовтИсп" id="7efe12a1-cc33-469c-a4f3-3a43ff9824e3" configVersion="e8c6c66e4109ab44b0e59c049802b43b00000000"/>
-		<Metadata name="CommonModule.РаботаСоСтрокамиЮникодКлиентСерверПовтИсп.Module" id="7efe12a1-cc33-469c-a4f3-3a43ff9824e3.0" configVersion="ced741c8386e6248aef79ecf71798bc400000000"/>
-		<Metadata name="CommonModule.РаботаСоСтрокамиЮникодСерверПовтИсп" id="76fdbef3-79e1-4dea-b86a-10422f78ba73" configVersion="d1df9e96685d3e4fa29c3789e422af9e00000000"/>
-		<Metadata name="CommonModule.РаботаСоСтрокамиЮникодСерверПовтИсп.Module" id="76fdbef3-79e1-4dea-b86a-10422f78ba73.0" configVersion="8360e0b15b1fa344a610ca6d1ae0a44300000000"/>
+		<Metadata name="CommonModule.РаботаСоСтрокамиЮникодКлиентСервер" id="1a5bc967-539d-43ba-a5f3-22ed152fc176" configVersion="d7cff5069c56654eacba1ee6cad3427600000000"/>
+		<Metadata name="CommonModule.РаботаСоСтрокамиЮникодКлиентСервер.Module" id="1a5bc967-539d-43ba-a5f3-22ed152fc176.0" configVersion="f46294e8c1e36741ba1bbe520165a3aa00000000"/>
+		<Metadata name="CommonModule.РаботаСоСтрокамиЮникодКлиентСерверПовтИсп" id="7efe12a1-cc33-469c-a4f3-3a43ff9824e3" configVersion="9c209bdfe8dfda43bd0f459f863dda9300000000"/>
+		<Metadata name="CommonModule.РаботаСоСтрокамиЮникодКлиентСерверПовтИсп.Module" id="7efe12a1-cc33-469c-a4f3-3a43ff9824e3.0" configVersion="16a275a75aa7a1438ecad3300d9ed9c000000000"/>
 		<Metadata name="CommonModule.РассылкаОтчетов" id="2757ee75-4b36-4901-bff1-044708754edb" configVersion="de32d6270fd24a4fa849774686e4643e00000000"/>
 		<Metadata name="CommonModule.РассылкаОтчетов.Module" id="2757ee75-4b36-4901-bff1-044708754edb.0" configVersion="4cd80eef82d87c4ba4c96dedb89286a800000000"/>
 		<Metadata name="CommonModule.РассылкаОтчетовВызовСервера" id="0e6bab27-bf94-4732-8549-dbd9b8a5f4e9" configVersion="aa1a6b0305dbd74abb6774fd6091e4b400000000"/>
@@ -4600,7 +4598,7 @@
 		<Metadata name="CommonTemplate.СоответствиеТэговОбщимФормам.Template" id="c8d797cf-e72c-4d99-bd6f-f4a8b0ca7c8d.0" configVersion="62c015fb7235a34c9367b9a18aaad72300000000"/>
 		<Metadata name="CommonTemplate.СтруктураПодчиненности" id="7a62d031-c340-4b1e-90af-fff697a2e979" configVersion="79d2197a1241f1418432d8330d49615c00000000"/>
 		<Metadata name="CommonTemplate.СтруктураПодчиненности.Template" id="7a62d031-c340-4b1e-90af-fff697a2e979.0" configVersion="ee7efc021d39ae4882fa0babbbc7f19400000000"/>
-		<Metadata name="Configuration.МетрологическаяСлужба" id="23bf4dc1-1a94-4b3b-92c2-1b132871ab30" configVersion="5a0b8d45da64554192bf5b411feb0fd400000000"/>
+		<Metadata name="Configuration.МетрологическаяСлужба" id="23bf4dc1-1a94-4b3b-92c2-1b132871ab30" configVersion="8a016b502f7e1742a2f558096a80510f00000000"/>
 		<Metadata name="Configuration.МетрологическаяСлужба.ClientApplicationInterface" id="b8046913-9a03-48e9-97b4-b9971a833256.b" configVersion="5d6292656aa00740b1f6c13939f3fe8600000000"/>
 		<Metadata name="Configuration.МетрологическаяСлужба.CommandInterface" id="b8046913-9a03-48e9-97b4-b9971a833256.a" configVersion="b56260b7893ec74d89f7cf4f9013de0f00000000"/>
 		<Metadata name="Configuration.МетрологическаяСлужба.ExternalConnectionModule" id="b8046913-9a03-48e9-97b4-b9971a833256.5" configVersion="48fbd8df63704543857071ae02b1429700000000"/>
@@ -7658,9 +7656,9 @@
 			<Metadata name="Enum.ЦветностиИзображения.EnumValue.Монохромное" id="92ead3b5-8c55-4e4d-bd47-009e025b22f8"/>
 			<Metadata name="Enum.ЦветностиИзображения.EnumValue.Цветное" id="9bb58c7c-d87d-435b-adf6-09c8f75d47b2"/>
 		</Metadata>
-		<Metadata name="Enum.Языки" id="dad23df1-d2da-40e5-80bc-0d94e39ec76f" configVersion="72a164afb8984f4580d8168b79b2dd5100000000">
-			<Metadata name="Enum.Языки.EnumValue.en_US" id="09284295-a1a9-4409-8e8d-3d62275c9791"/>
-			<Metadata name="Enum.Языки.EnumValue.ru_RU" id="c6b3a22e-f073-4743-bb02-1709b8b1522f"/>
+		<Metadata name="Enum.Языки" id="dad23df1-d2da-40e5-80bc-0d94e39ec76f" configVersion="59d1998ecf1fde458750bc721b41e6e500000000">
+			<Metadata name="Enum.Языки.EnumValue.en" id="09284295-a1a9-4409-8e8d-3d62275c9791"/>
+			<Metadata name="Enum.Языки.EnumValue.ru" id="c6b3a22e-f073-4743-bb02-1709b8b1522f"/>
 		</Metadata>
 		<Metadata name="EventSubscription._ДемоАвтономнаяРаботаРегистрация" id="348d8120-4ffd-44fa-8d83-edce2a5ab1f8" configVersion="ac37ff9dc5f88844955bb08c7a39300000000000"/>
 		<Metadata name="EventSubscription._ДемоАвтономнаяРаботаРегистрацияДокумента" id="10fac193-edbf-4bb1-bef3-ceb953b2dc5f" configVersion="836deeab6b4eb3448579a8f65d70533100000000"/>
@@ -10613,8 +10611,8 @@
 		<Metadata name="Subsystem.ИнтернетПоддержкаПользователей.Subsystem.МониторИнтернетПоддержки" id="071fe4ea-e9a7-4eb3-931d-d1ac5096bf01" configVersion="af1c129d5ca7f84f94cde5118644f6f400000000"/>
 		<Metadata name="Subsystem.ИнтернетПоддержкаПользователей.Subsystem.НастройкиПрограммы" id="4c94616d-4ab4-4886-b4d3-23ab29a5f76f" configVersion="f3fd07b252e9dd4689c8ef6734aa67d100000000"/>
 		<Metadata name="Subsystem.ИнтернетПоддержкаПользователей.Subsystem.ПолучениеОбновленийПрограммы" id="59a3c290-b497-4926-95a4-c1f81ebf8ae9" configVersion="2b61e436dd7f88488f05b52ab6d5df7e00000000"/>
-		<Metadata name="Subsystem.МетрологическаяСлужба" id="0fafa9e4-bed7-4b56-a620-bdf577fd1e8d" configVersion="b1ceed79649a564b81aba30c87d809c300000000"/>
-		<Metadata name="Subsystem.МетрологическаяСлужба.Subsystem.ЕдиницыВеличин" id="84293ecf-872c-4a8b-868c-e2aa65cf5346" configVersion="42247c9dc6435641ad5d7e17435d0b3000000000"/>
+		<Metadata name="Subsystem.МетрологическаяСлужба" id="0fafa9e4-bed7-4b56-a620-bdf577fd1e8d" configVersion="9f1d9a73c1a2e342b7111c39c9644d6100000000"/>
+		<Metadata name="Subsystem.МетрологическаяСлужба.Subsystem.ЕдиницыВеличин" id="84293ecf-872c-4a8b-868c-e2aa65cf5346" configVersion="3dd1c6433f93ea4b96040b9bde3ee52000000000"/>
 		<Metadata name="Subsystem.НормативноСправочнаяИнформация" id="326dd5e6-5c2b-42b1-a9d2-f4ce7b3e4ecd" configVersion="26c7c2214fd52b499ccecf267635d7f300000000"/>
 		<Metadata name="Subsystem.НормативноСправочнаяИнформация.CommandInterface" id="326dd5e6-5c2b-42b1-a9d2-f4ce7b3e4ecd.1" configVersion="f55ec2fd1586844b82ba56c506b5898a00000000"/>
 		<Metadata name="Subsystem.НормативноСправочнаяИнформация.Subsystem.ЕдиницыВеличин" id="4c5e4fa4-9eff-4dec-882d-1b34e06e9126" configVersion="6b192f1665c6e7498b286f2924b9b72f00000000"/>
@@ -10722,7 +10720,7 @@
 		<Metadata name="Subsystem.СтандартныеПодсистемы.Subsystem.ЦентрМониторинга" id="ad73f3a3-1dad-4920-af41-bda2b947a2f7" configVersion="472cb061ae23424bb40aeb14b0d311e300000000"/>
 		<Metadata name="Subsystem.СтандартныеПодсистемы.Subsystem.ШаблоныСообщений" id="98b67b5a-3550-4a64-9e07-07fcc9154c73" configVersion="d5716e1edd53bc49bc93fd3537654ee500000000"/>
 		<Metadata name="Subsystem.СтандартныеПодсистемы.Subsystem.ЭлектроннаяПодпись" id="ad7c6165-2e44-4808-a77a-526882cf5dea" configVersion="77aa61bcc0e67444b7ae8663ff5fb14e00000000"/>
-		<Metadata name="Subsystem.СтандартныеПодсистемыИТГ" id="79c26c9f-bbd0-479b-a3bd-4106efd60ab5" configVersion="35bf70e389b0dd4cb482f136e459e82400000000"/>
+		<Metadata name="Subsystem.СтандартныеПодсистемыИТГ" id="79c26c9f-bbd0-479b-a3bd-4106efd60ab5" configVersion="866115d372a8f14783c7a9d9c327e17e00000000"/>
 		<Metadata name="Subsystem.ТехнологияСервиса" id="8c5faa39-61de-4737-b0ae-5b97c00a6691" configVersion="5cfe0b4ee56838409e9a8ca3981943e000000000"/>
 		<Metadata name="Subsystem.ТехнологияСервиса.Subsystem.БазоваяФункциональность" id="4c4c901f-dd7b-4abe-bbfe-595df2d79e22" configVersion="fd22b02e76e0994ea0f4822278e872b100000000"/>
 		<Metadata name="Subsystem.ТехнологияСервиса.Subsystem.ВыгрузкаЗагрузкаДанных" id="4bd401b9-7e40-4847-85df-ab45fba08d40" configVersion="ddd332766352b444b0d35f061646f15d00000000"/>

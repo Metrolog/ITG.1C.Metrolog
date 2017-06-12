@@ -16,7 +16,6 @@
 			<Picture/>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РаботаСоСтрокамиЮникодКлиентСервер</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РаботаСоСтрокамиЮникодСерверПовтИсп</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбновлениеИнформационнойБазыИТГ</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.Языки</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РаботаСоСтрокамиЮникодКлиентСерверПовтИсп</xr:Item>

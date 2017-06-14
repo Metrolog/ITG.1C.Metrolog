@@ -31,9 +31,6 @@
 		<Command name="Catalog.МСЕдиницыВеличинБазовые.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="Catalog.УдалитьМСЕдиницыВеличин.StandardCommand.OpenList">
-			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
-		</Command>
 		<Command name="Catalog.ВариантыОбозначенийЕдиницВеличин.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
 		</Command>

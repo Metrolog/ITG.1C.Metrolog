@@ -17,10 +17,6 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
-		<Metadata>Catalog.УдалитьМСЕдиницыВеличин</Metadata>
-		<AutoRecord>Allow</AutoRecord>
-	</Item>
-	<Item>
 		<Metadata>InformationRegister.ПоставляемыеДанныеТребующиеОбработки</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>

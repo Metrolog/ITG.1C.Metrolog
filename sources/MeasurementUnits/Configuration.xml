@@ -2069,7 +2069,6 @@
 			<CommonForm>ФормаПоиска</CommonForm>
 			<CommonForm>ЭлектроннаяПодпись</CommonForm>
 			<Catalog>ВариантыОбозначенийЕдиницВеличин</Catalog>
-			<Catalog>УдалитьМСЕдиницыВеличин</Catalog>
 			<Catalog>МСЕдиницыВеличинБазовые</Catalog>
 			<Catalog>МСЕдиницыВеличинПриставкиКратныхИДольных</Catalog>
 			<Catalog>_ДемоБанковскиеСчета</Catalog>

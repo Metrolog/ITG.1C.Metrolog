@@ -146,23 +146,6 @@
 					<ContextMenu name="ОбозначениеМнКонтекстноеМеню" id="74"/>
 					<ExtendedTooltip name="ОбозначениеМнРасширеннаяПодсказка" id="75"/>
 				</LabelField>
-				<LabelField name="ПредлогЗнаменателяНаименованияСоставнойЕдиницыВеличины" id="55">
-					<DataPath>~Список.ПредлогЗнаменателяНаименованияСоставнойЕдиницыВеличины</DataPath>
-					<UserVisible>
-						<xr:Common>false</xr:Common>
-					</UserVisible>
-					<ContextMenu name="ПредлогЗнаменателяНаименованияСоставнойЕдиницыВеличиныКонтекстноеМеню" id="56"/>
-					<ExtendedTooltip name="ПредлогЗнаменателяНаименованияСоставнойЕдиницыВеличиныРасширеннаяПодсказка" id="57"/>
-				</LabelField>
-				<CheckBoxField name="ИспользоватьНаименованиеСтепениКакПрилагательное" id="52">
-					<DataPath>Список.ИспользоватьНаименованиеСтепениКакПрилагательное</DataPath>
-					<UserVisible>
-						<xr:Common>false</xr:Common>
-					</UserVisible>
-					<CheckBoxType>Auto</CheckBoxType>
-					<ContextMenu name="ИспользоватьНаименованиеСтепениКакПрилагательноеКонтекстноеМеню" id="53"/>
-					<ExtendedTooltip name="ИспользоватьНаименованиеСтепениКакПрилагательноеРасширеннаяПодсказка" id="54"/>
-				</CheckBoxField>
 			</ChildItems>
 		</Table>
 	</ChildItems>

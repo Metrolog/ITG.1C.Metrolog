@@ -323,8 +323,61 @@
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаПравилаФормированияНаименованияРасширеннаяПодсказка" id="28"/>
 					<ChildItems>
-						<InputField name="Основание" id="71">
-							<DataPath>Объект.Основание</DataPath>
+						<CheckBoxField name="ИспользоватьНаименованиеСтепениКакПрилагательное" id="24">
+							<DataPath>Объект.ИспользоватьНаименованиеСтепениКакПрилагательное</DataPath>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ИспользоватьНаименованиеСтепениКакПрилагательноеКонтекстноеМеню" id="25"/>
+							<ExtendedTooltip name="ИспользоватьНаименованиеСтепениКакПрилагательноеРасширеннаяПодсказка" id="26"/>
+						</CheckBoxField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаПриставки" id="145">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Приставки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Допустимые к использованию с единицей величины приставки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаПриставкиРасширеннаяПодсказка" id="146"/>
+			<ChildItems>
+				<CheckBoxField name="ДопустимоПрименениеПриставок" id="156">
+					<DataPath>Объект.ДопустимоПрименениеПриставок</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ДопустимоПрименениеПриставокКонтекстноеМеню" id="157"/>
+					<ExtendedTooltip name="ДопустимоПрименениеПриставокРасширеннаяПодсказка" id="158"/>
+					<Events>
+						<Event name="OnChange">ДопустимоПрименениеПриставокПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
+				<UsualGroup name="ГруппаПриставкиПриИспользовании" id="159">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа приставки при использовании</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа приставки при использовании</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаПриставкиПриИспользованииРасширеннаяПодсказка" id="160"/>
+					<ChildItems>
+						<InputField name="Основание" id="147">
+							<DataPath>Объект.ОснованиеСтепениПриставки</DataPath>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -369,17 +422,101 @@
 								</xr:Item>
 							</ChoiceList>
 							<DropListWidth>10</DropListWidth>
-							<ContextMenu name="ОснованиеКонтекстноеМеню" id="72"/>
-							<ExtendedTooltip name="ОснованиеРасширеннаяПодсказка" id="73"/>
+							<ContextMenu name="ОснованиеКонтекстноеМеню" id="148"/>
+							<ExtendedTooltip name="ОснованиеРасширеннаяПодсказка" id="149"/>
 						</InputField>
-						<CheckBoxField name="ИспользоватьНаименованиеСтепениКакПрилагательное" id="24">
-							<DataPath>Объект.ИспользоватьНаименованиеСтепениКакПрилагательное</DataPath>
-							<CheckBoxType>Auto</CheckBoxType>
-							<ContextMenu name="ИспользоватьНаименованиеСтепениКакПрилагательноеКонтекстноеМеню" id="25"/>
-							<ExtendedTooltip name="ИспользоватьНаименованиеСтепениКакПрилагательноеРасширеннаяПодсказка" id="26"/>
-						</CheckBoxField>
+						<UsualGroup name="ГруппаМинимальныеИМаксимальныеПриставки" id="161">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа минимальные и максимальные приставки</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа минимальные и максимальные приставки</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаМинимальныеИМаксимальныеПриставкиРасширеннаяПодсказка" id="162"/>
+							<ChildItems>
+								<InputField name="МинимальныйПоказательСтепениПриставки" id="150">
+									<DataPath>Объект.МинимальныйПоказательСтепениПриставки</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>от</v8:content>
+										</v8:item>
+									</Title>
+									<ChoiceParameterLinks>
+										<xr:Link>
+											<xr:Name>Отбор.Основание</xr:Name>
+											<xr:DataPath xsi:type="xs:string">Объект.ОснованиеСтепениПриставки</xr:DataPath>
+											<xr:ValueChange>Clear</xr:ValueChange>
+										</xr:Link>
+									</ChoiceParameterLinks>
+									<ChoiceParameters>
+										<app:item name="Отбор.ПометкаУдаления">
+											<app:value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xs:boolean">false</Value>
+											</app:value>
+										</app:item>
+									</ChoiceParameters>
+									<ContextMenu name="МинимальныйПоказательСтепениПриставкиКонтекстноеМеню" id="151"/>
+									<ExtendedTooltip name="МинимальныйПоказательСтепениПриставкиРасширеннаяПодсказка" id="152"/>
+								</InputField>
+								<InputField name="МаксимальныйПоказательСтепениПриставки" id="153">
+									<DataPath>Объект.МаксимальныйПоказательСтепениПриставки</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>до</v8:content>
+										</v8:item>
+									</Title>
+									<ChoiceParameterLinks>
+										<xr:Link>
+											<xr:Name>Отбор.Основание</xr:Name>
+											<xr:DataPath xsi:type="xs:string">Объект.ОснованиеСтепениПриставки</xr:DataPath>
+											<xr:ValueChange>Clear</xr:ValueChange>
+										</xr:Link>
+									</ChoiceParameterLinks>
+									<ChoiceParameters>
+										<app:item name="Отбор.ПометкаУдаления">
+											<app:value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xs:boolean">false</Value>
+											</app:value>
+										</app:item>
+									</ChoiceParameters>
+									<ContextMenu name="МаксимальныйПоказательСтепениПриставкиКонтекстноеМеню" id="154"/>
+									<ExtendedTooltip name="МаксимальныйПоказательСтепениПриставкиРасширеннаяПодсказка" id="155"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
 					</ChildItems>
 				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаКоэффициент" id="112">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа коэффициент</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTipRepresentation>None</ToolTipRepresentation>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаКоэффициентРасширеннаяПодсказка" id="113"/>
+			<ChildItems>
+				<InputField name="Коэффициент" id="109">
+					<DataPath>Объект.Коэффициент</DataPath>
+					<ContextMenu name="КоэффициентКонтекстноеМеню" id="110"/>
+					<ExtendedTooltip name="КоэффициентРасширеннаяПодсказка" id="111"/>
+				</InputField>
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="ГруппаВыражение" id="107">
@@ -395,25 +532,6 @@
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаВыражениеРасширеннаяПодсказка" id="108"/>
 			<ChildItems>
-				<UsualGroup name="ГруппаКоэффициент" id="112">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Группа коэффициент</v8:content>
-						</v8:item>
-					</Title>
-					<ToolTipRepresentation>None</ToolTipRepresentation>
-					<Representation>None</Representation>
-					<ShowTitle>false</ShowTitle>
-					<ExtendedTooltip name="ГруппаКоэффициентРасширеннаяПодсказка" id="113"/>
-					<ChildItems>
-						<InputField name="Коэффициент" id="109">
-							<DataPath>Объект.Коэффициент</DataPath>
-							<ContextMenu name="КоэффициентКонтекстноеМеню" id="110"/>
-							<ExtendedTooltip name="КоэффициентРасширеннаяПодсказка" id="111"/>
-						</InputField>
-					</ChildItems>
-				</UsualGroup>
 				<Table name="Выражение" id="114">
 					<DefaultItem>true</DefaultItem>
 					<HeightControlVariant>UseContentHeight</HeightControlVariant>

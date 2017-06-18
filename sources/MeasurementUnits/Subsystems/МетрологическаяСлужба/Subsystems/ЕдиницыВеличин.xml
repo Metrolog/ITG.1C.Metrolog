@@ -20,7 +20,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.МСЕдиницыВеличинКлиентСервер</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.МСЕдиницыВеличинОбновлениеИнформационнойБазы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">04b87f49-0605-4b07-8df8-47d39e7a6355</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.МСЕдиницыВеличинБазовые</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ЕдиницыВеличин</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.МСЕдиницыВеличинИспользоватьОбозначенияПриставокРусISO_80000_1</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.МСЕдиницыВеличинИспользоватьОбозначенияПриставокРусISO_80000_1</xr:Item>

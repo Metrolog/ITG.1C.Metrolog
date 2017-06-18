@@ -11,7 +11,7 @@
 			</Synonym>
 			<Comment/>
 			<Source>
-				<v8:Type>cfg:CatalogObject.МСЕдиницыВеличинБазовые</v8:Type>
+				<v8:Type>cfg:CatalogObject.ЕдиницыВеличин</v8:Type>
 				<v8:Type>cfg:CatalogObject.МСЕдиницыВеличинПриставкиКратныхИДольных</v8:Type>
 			</Source>
 			<Event>BeforeWrite</Event>

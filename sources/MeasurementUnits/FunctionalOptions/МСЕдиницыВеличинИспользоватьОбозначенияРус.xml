@@ -13,10 +13,10 @@
 			<Location>Constant.МСЕдиницыВеличинИспользоватьОбозначенияРус</Location>
 			<PrivilegedGetMode>true</PrivilegedGetMode>
 			<Content>
-				<xr:Object>Catalog.МСЕдиницыВеличинБазовые.Attribute.НаименованиеРус</xr:Object>
-				<xr:Object>Catalog.МСЕдиницыВеличинБазовые.Attribute.ОбозначениеРус</xr:Object>
-				<xr:Object>Catalog.МСЕдиницыВеличинБазовые.Attribute.ПробелПередОбозначениемРус</xr:Object>
-				<xr:Object>Catalog.МСЕдиницыВеличинБазовые.Attribute.ПредлогДляЗнаменателяРус</xr:Object>
+				<xr:Object>Catalog.ЕдиницыВеличин.Attribute.НаименованиеРус</xr:Object>
+				<xr:Object>Catalog.ЕдиницыВеличин.Attribute.ОбозначениеРус</xr:Object>
+				<xr:Object>Catalog.ЕдиницыВеличин.Attribute.ПробелПередОбозначениемРус</xr:Object>
+				<xr:Object>Catalog.ЕдиницыВеличин.Attribute.ПредлогДляЗнаменателяРус</xr:Object>
 			</Content>
 		</Properties>
 	</FunctionalOption>

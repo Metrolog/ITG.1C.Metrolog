@@ -19,7 +19,7 @@
 			<Type>
 				<v8:Type>cfg:CatalogRef._ДемоФизическиеЛица</v8:Type>
 				<v8:Type>cfg:CatalogRef._ДемоНоменклатура</v8:Type>
-				<v8:Type>cfg:CatalogRef.МСЕдиницыВеличинБазовые</v8:Type>
+				<v8:Type>cfg:CatalogRef.ЕдиницыВеличин</v8:Type>
 			</Type>
 		</Properties>
 	</DefinedType>

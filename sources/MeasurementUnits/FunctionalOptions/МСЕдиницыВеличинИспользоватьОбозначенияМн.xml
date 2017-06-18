@@ -13,10 +13,10 @@
 			<Location>Constant.МСЕдиницыВеличинИспользоватьОбозначенияМн</Location>
 			<PrivilegedGetMode>true</PrivilegedGetMode>
 			<Content>
-				<xr:Object>Catalog.МСЕдиницыВеличинБазовые.Attribute.НаименованиеМн</xr:Object>
-				<xr:Object>Catalog.МСЕдиницыВеличинБазовые.Attribute.ОбозначениеМн</xr:Object>
-				<xr:Object>Catalog.МСЕдиницыВеличинБазовые.Attribute.ПробелПередОбозначениемМн</xr:Object>
-				<xr:Object>Catalog.МСЕдиницыВеличинБазовые.Attribute.ПредлогДляЗнаменателяМн</xr:Object>
+				<xr:Object>Catalog.ЕдиницыВеличин.Attribute.НаименованиеМн</xr:Object>
+				<xr:Object>Catalog.ЕдиницыВеличин.Attribute.ОбозначениеМн</xr:Object>
+				<xr:Object>Catalog.ЕдиницыВеличин.Attribute.ПробелПередОбозначениемМн</xr:Object>
+				<xr:Object>Catalog.ЕдиницыВеличин.Attribute.ПредлогДляЗнаменателяМн</xr:Object>
 			</Content>
 		</Properties>
 	</FunctionalOption>

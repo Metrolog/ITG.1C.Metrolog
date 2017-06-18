@@ -2,33 +2,33 @@
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
 	<Catalog uuid="d8e53224-9189-458b-bd89-bbf71cc8985a">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.МСЕдиницыВеличинБазовые" category="Object">
+			<xr:GeneratedType name="CatalogObject.ЕдиницыВеличин" category="Object">
 				<xr:TypeId>0ed8d770-6397-4db3-87d9-373ab0f457a9</xr:TypeId>
 				<xr:ValueId>994f1c80-5579-47a9-8923-2c619eaf42d1</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.МСЕдиницыВеличинБазовые" category="Ref">
+			<xr:GeneratedType name="CatalogRef.ЕдиницыВеличин" category="Ref">
 				<xr:TypeId>b035b116-d159-4e25-93fd-51ad7459fd09</xr:TypeId>
 				<xr:ValueId>a04dafb4-d67e-43f3-9e6d-46e68b1ca858</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.МСЕдиницыВеличинБазовые" category="Selection">
+			<xr:GeneratedType name="CatalogSelection.ЕдиницыВеличин" category="Selection">
 				<xr:TypeId>0876191b-41aa-4f15-80ae-d2e5f3bde247</xr:TypeId>
 				<xr:ValueId>a8246e11-b5ef-4820-aa53-786644a89435</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.МСЕдиницыВеличинБазовые" category="List">
+			<xr:GeneratedType name="CatalogList.ЕдиницыВеличин" category="List">
 				<xr:TypeId>de96d073-f387-4f8d-8561-89a284d9afaf</xr:TypeId>
 				<xr:ValueId>36142c95-8dec-4ef9-bc95-c89e59e23497</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.МСЕдиницыВеличинБазовые" category="Manager">
+			<xr:GeneratedType name="CatalogManager.ЕдиницыВеличин" category="Manager">
 				<xr:TypeId>8567ace8-0fc7-45fa-846f-d98cdae55c02</xr:TypeId>
 				<xr:ValueId>86f77eab-ef22-41b5-b16a-0d828ddbebb1</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>МСЕдиницыВеличинБазовые</Name>
+			<Name>ЕдиницыВеличин</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Базовые единицы величин</v8:content>
+					<v8:content>Единицы величин</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment>Основные и производные единицы величин, имеющие специальное наименование</Comment>
@@ -281,15 +281,15 @@
 			<QuickChoice>true</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>Catalog.МСЕдиницыВеличинБазовые.Attribute.НаименованиеРус</xr:Field>
-				<xr:Field>Catalog.МСЕдиницыВеличинБазовые.Attribute.НаименованиеМн</xr:Field>
+				<xr:Field>Catalog.ЕдиницыВеличин.Attribute.НаименованиеРус</xr:Field>
+				<xr:Field>Catalog.ЕдиницыВеличин.Attribute.НаименованиеМн</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Background</ChoiceDataGetModeOnInputByString>
-			<DefaultObjectForm>Catalog.МСЕдиницыВеличинБазовые.Form.ФормаЭлемента</DefaultObjectForm>
+			<DefaultObjectForm>Catalog.ЕдиницыВеличин.Form.ФормаЭлемента</DefaultObjectForm>
 			<DefaultFolderForm/>
-			<DefaultListForm>Catalog.МСЕдиницыВеличинБазовые.Form.ФормаСписка</DefaultListForm>
+			<DefaultListForm>Catalog.ЕдиницыВеличин.Form.ФормаСписка</DefaultListForm>
 			<DefaultChoiceForm/>
 			<DefaultFolderChoiceForm/>
 			<AuxiliaryObjectForm/>
@@ -317,19 +317,19 @@
 			<ListPresentation>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Базовые единицы величин</v8:content>
+					<v8:content>Единицы величин</v8:content>
 				</v8:item>
 			</ListPresentation>
 			<ExtendedListPresentation>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Базовые единицы величин</v8:content>
+					<v8:content>Единицы величин</v8:content>
 				</v8:item>
 			</ExtendedListPresentation>
 			<Explanation>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Основные и производные единицы величин, имеющие специальное наименование</v8:content>
+					<v8:content>Основные и производные единицы величин</v8:content>
 				</v8:item>
 			</Explanation>
 			<CreateOnInput>Use</CreateOnInput>
@@ -1054,11 +1054,11 @@
 			</Attribute>
 			<TabularSection uuid="714be7d6-849f-4ce7-bbdb-69c5a56f90ea">
 				<InternalInfo>
-					<xr:GeneratedType name="CatalogTabularSection.МСЕдиницыВеличинБазовые.Выражение" category="TabularSection">
+					<xr:GeneratedType name="CatalogTabularSection.ЕдиницыВеличин.Выражение" category="TabularSection">
 						<xr:TypeId>78b536ea-9342-4565-b5f8-56ba2449ff79</xr:TypeId>
 						<xr:ValueId>8f85adee-5259-473c-8dbb-c81c69973a23</xr:ValueId>
 					</xr:GeneratedType>
-					<xr:GeneratedType name="CatalogTabularSectionRow.МСЕдиницыВеличинБазовые.Выражение" category="TabularSectionRow">
+					<xr:GeneratedType name="CatalogTabularSectionRow.ЕдиницыВеличин.Выражение" category="TabularSectionRow">
 						<xr:TypeId>38d4c10e-62ff-4700-bd6a-28c31bd2ec9d</xr:TypeId>
 						<xr:ValueId>25c00906-5413-4392-846e-5d783c6ba940</xr:ValueId>
 					</xr:GeneratedType>
@@ -1151,7 +1151,7 @@
 							</Synonym>
 							<Comment/>
 							<Type>
-								<v8:Type>cfg:CatalogRef.МСЕдиницыВеличинБазовые</v8:Type>
+								<v8:Type>cfg:CatalogRef.ЕдиницыВеличин</v8:Type>
 							</Type>
 							<PasswordMode>false</PasswordMode>
 							<Format/>

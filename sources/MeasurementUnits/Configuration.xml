@@ -2069,7 +2069,7 @@
 			<CommonForm>ФормаПоиска</CommonForm>
 			<CommonForm>ЭлектроннаяПодпись</CommonForm>
 			<Catalog>ВариантыОбозначенийЕдиницВеличин</Catalog>
-			<Catalog>МСЕдиницыВеличинБазовые</Catalog>
+			<Catalog>ЕдиницыВеличин</Catalog>
 			<Catalog>МСЕдиницыВеличинПриставкиКратныхИДольных</Catalog>
 			<Catalog>_ДемоБанковскиеСчета</Catalog>
 			<Catalog>_ДемоВидыНоменклатуры</Catalog>

@@ -28,7 +28,7 @@
 		</Command>
 	</CommandsPlacement>
 	<CommandsOrder>
-		<Command name="Catalog.МСЕдиницыВеличинБазовые.StandardCommand.OpenList">
+		<Command name="Catalog.ЕдиницыВеличин.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
 		<Command name="Catalog.ВариантыОбозначенийЕдиницВеличин.StandardCommand.OpenList">

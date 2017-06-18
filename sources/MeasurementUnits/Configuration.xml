@@ -752,11 +752,11 @@
 			<CommonModule>СтандартныеПодсистемыИТГ</CommonModule>
 			<CommonModule>СтандартныеПодсистемыКлиентСерверИТГ</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыИТГ</CommonModule>
-			<CommonModule>МСЕдиницыВеличин</CommonModule>
-			<CommonModule>МСЕдиницыВеличинСервер</CommonModule>
-			<CommonModule>МСЕдиницыВеличинКлиентСервер</CommonModule>
-			<CommonModule>МСЕдиницыВеличинКлиентСерверПовтИсп</CommonModule>
-			<CommonModule>МСЕдиницыВеличинОбновлениеИнформационнойБазы</CommonModule>
+			<CommonModule>ЕдиницыВеличин</CommonModule>
+			<CommonModule>ЕдиницыВеличинСервер</CommonModule>
+			<CommonModule>ЕдиницыВеличинКлиентСервер</CommonModule>
+			<CommonModule>ЕдиницыВеличинКлиентСерверПовтИсп</CommonModule>
+			<CommonModule>ЕдиницыВеличинОбновлениеИнформационнойБазы</CommonModule>
 			<CommonModule>РаботаСоСтрокамиЮникодКлиентСервер</CommonModule>
 			<CommonModule>РаботаСоСтрокамиЮникодКлиентСерверПовтИсп</CommonModule>
 			<CommonModule>_ДемоЗаметки</CommonModule>
@@ -1382,8 +1382,8 @@
 			<WebService>RemoteAdministrationOfExchange_2_0_1_6</WebService>
 			<WebService>RemoteAdministrationOfExchange_2_1_6_1</WebService>
 			<WebService>RemoteControl</WebService>
-			<EventSubscription>МСЕдиницыВеличинПриЗаписиВариантаОбозначений</EventSubscription>
-			<EventSubscription>МСЕдиницыВеличинПередЗаписьюУдалитьЛишниеПробелыВНаименованииИОбозначении</EventSubscription>
+			<EventSubscription>ПриЗаписиВариантаОбозначенийЕдиницВеличин</EventSubscription>
+			<EventSubscription>ПередЗаписьюУдалитьЛишниеПробелыВНаименованииИОбозначенииЕдиницВеличин</EventSubscription>
 			<EventSubscription>_ДемоАвтономнаяРаботаРегистрация</EventSubscription>
 			<EventSubscription>_ДемоАвтономнаяРаботаРегистрацияДокумента</EventSubscription>
 			<EventSubscription>_ДемоАвтономнаяРаботаРегистрацияКонстанты</EventSubscription>
@@ -1539,12 +1539,12 @@
 			<ScheduledJob>ЭкспортОценкиПроизводительности</ScheduledJob>
 			<ScheduledJob>ЧтениеНовостейСлужбыПоддержки</ScheduledJob>
 			<SettingsStorage>ХранилищеВариантовОтчетов</SettingsStorage>
-			<FunctionalOption>МСЕдиницыВеличинОбозначенияПриставок</FunctionalOption>
+			<FunctionalOption>ОбозначенияПриставокЕдиницВеличин</FunctionalOption>
 			<FunctionalOption>МСЕдиницыВеличинИспользоватьОбозначенияПриставокРус</FunctionalOption>
 			<FunctionalOption>МСЕдиницыВеличинИспользоватьОбозначенияПриставокМн</FunctionalOption>
 			<FunctionalOption>МСЕдиницыВеличинИспользоватьОбозначенияПриставокРусISO_80000_1</FunctionalOption>
 			<FunctionalOption>МСЕдиницыВеличинИспользоватьОбозначенияПриставокМнISO_80000_1</FunctionalOption>
-			<FunctionalOption>МСЕдиницыВеличинОбозначения</FunctionalOption>
+			<FunctionalOption>ОбозначенияЕдиницВеличин</FunctionalOption>
 			<FunctionalOption>МСЕдиницыВеличинИспользоватьОбозначенияРус</FunctionalOption>
 			<FunctionalOption>МСЕдиницыВеличинИспользоватьОбозначенияМн</FunctionalOption>
 			<FunctionalOption>_ДемоИспользоватьАнкетированиеБСП</FunctionalOption>
@@ -1683,7 +1683,7 @@
 			<DefinedType>Респондент</DefinedType>
 			<DefinedType>СубъектПерсональныхДанных</DefinedType>
 			<DefinedType>ФизическоеЛицо</DefinedType>
-			<CommonCommand>МСЕдиницыВеличинОбщиеНастройки</CommonCommand>
+			<CommonCommand>ОбщиеНастройкиЕдиницВеличин</CommonCommand>
 			<CommonCommand>ИзменитьВыделенные</CommonCommand>
 			<CommonCommand>ЗаменитьИУдалить</CommonCommand>
 			<CommonCommand>ОбъединитьВыделенные</CommonCommand>
@@ -1783,12 +1783,12 @@
 			<CommandGroup>ПоказатьМестаИспользования</CommandGroup>
 			<CommandGroup>ПоискИЗаменаДублей</CommandGroup>
 			<CommandGroup>ГрупповоеИзменениеРеквизитов</CommandGroup>
-			<Constant>МСЕдиницыВеличинОбозначенияПриставок</Constant>
+			<Constant>ОбозначенияПриставокЕдиницВеличин</Constant>
 			<Constant>МСЕдиницыВеличинИспользоватьОбозначенияПриставокРус</Constant>
 			<Constant>МСЕдиницыВеличинИспользоватьОбозначенияПриставокМн</Constant>
 			<Constant>МСЕдиницыВеличинИспользоватьОбозначенияПриставокРусISO_80000_1</Constant>
 			<Constant>МСЕдиницыВеличинИспользоватьОбозначенияПриставокМнISO_80000_1</Constant>
-			<Constant>МСЕдиницыВеличинОбозначения</Constant>
+			<Constant>ОбозначенияЕдиницВеличин</Constant>
 			<Constant>МСЕдиницыВеличинИспользоватьОбозначенияРус</Constant>
 			<Constant>МСЕдиницыВеличинИспользоватьОбозначенияМн</Constant>
 			<Constant>_ДемоИмяКонфигурацииВОбменеСБиблиотекойСтандартныхПодсистем</Constant>
@@ -1960,7 +1960,7 @@
 			<Constant>ХранитьФайлыВТомахНаДиске</Constant>
 			<Constant>ЧасовойПоясОбластиДанных</Constant>
 			<Constant>ЭтоАвтономноеРабочееМесто</Constant>
-			<CommonForm>МСЕдиницыВеличинОбщиеНастройки</CommonForm>
+			<CommonForm>ОбщиеНастройкиЕдиницВеличин</CommonForm>
 			<CommonForm>_ДемоМоиНастройки</CommonForm>
 			<CommonForm>_ДемоПоддержкаПользователей</CommonForm>
 			<CommonForm>_ДемоФормаВыбораДополнительныхУсловий</CommonForm>
@@ -2174,7 +2174,7 @@
 			<DocumentJournal>Взаимодействия</DocumentJournal>
 			<DocumentJournal>СогласияНаОбработкуПерсональныхДанных</DocumentJournal>
 			<Enum>Языки</Enum>
-			<Enum>МСЕдиницыВеличинОбозначенияПриставок</Enum>
+			<Enum>ОбозначенияПриставокЕдиницВеличин</Enum>
 			<Enum>_ДемоВидКонтрагента</Enum>
 			<Enum>_ДемоВидыПлатежейВБюджет</Enum>
 			<Enum>_ДемоПолФизическогоЛица</Enum>

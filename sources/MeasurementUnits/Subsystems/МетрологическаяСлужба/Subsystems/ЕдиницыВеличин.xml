@@ -15,10 +15,10 @@
 			<Explanation/>
 			<Picture/>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.МСЕдиницыВеличин</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.МСЕдиницыВеличинСервер</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.МСЕдиницыВеличинКлиентСервер</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.МСЕдиницыВеличинОбновлениеИнформационнойБазы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЕдиницыВеличин</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЕдиницыВеличинСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЕдиницыВеличинКлиентСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЕдиницыВеличинОбновлениеИнформационнойБазы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">04b87f49-0605-4b07-8df8-47d39e7a6355</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ЕдиницыВеличин</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ПриставкиЕдиницыВеличин</xr:Item>
@@ -30,22 +30,22 @@
 				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.МСЕдиницыВеличинИспользоватьОбозначенияПриставокРус</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.МСЕдиницыВеличинИспользоватьОбозначенияПриставокМн</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.МСЕдиницыВеличинИспользоватьОбозначенияПриставокМнISO_80000_1</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Constant.МСЕдиницыВеличинОбозначения</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.МСЕдиницыВеличинОбозначения</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.МСЕдиницыВеличинПередЗаписьюУдалитьЛишниеПробелыВНаименованииИОбозначении</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ОбозначенияЕдиницВеличин</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.ОбозначенияЕдиницВеличин</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ПередЗаписьюУдалитьЛишниеПробелыВНаименованииИОбозначенииЕдиницВеличин</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">b86fed2a-f415-40fa-8434-0ab238dad77c</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Enum.МСЕдиницыВеличинОбозначенияПриставок</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Constant.МСЕдиницыВеличинОбозначенияПриставок</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.МСЕдиницыВеличинОбозначенияПриставок</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.МСЕдиницыВеличинОбщиеНастройки</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.МСЕдиницыВеличинОбщиеНастройки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ОбозначенияПриставокЕдиницВеличин</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ОбозначенияПриставокЕдиницВеличин</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.ОбозначенияПриставокЕдиницВеличин</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.ОбщиеНастройкиЕдиницВеличин</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.ОбщиеНастройкиЕдиницВеличин</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеЕдиницВеличинБазовых</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.МСЕдиницыВеличинИспользоватьОбозначенияРус</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.МСЕдиницыВеличинИспользоватьОбозначенияМн</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.МСЕдиницыВеличинИспользоватьОбозначенияРус</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.МСЕдиницыВеличинИспользоватьОбозначенияМн</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.МСЕдиницыВеличинПриЗаписиВариантаОбозначений</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.МСЕдиницыВеличинКлиентСерверПовтИсп</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ПриЗаписиВариантаОбозначенийЕдиницВеличин</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЕдиницыВеличинКлиентСерверПовтИсп</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ВариантыОбозначенийЕдиницВеличин</xr:Item>
 			</Content>
 		</Properties>

@@ -11,7 +11,7 @@
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="CommonCommand.МСЕдиницыВеличинОбщиеНастройки">
+		<Command name="CommonCommand.ОбщиеНастройкиЕдиницВеличин">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>

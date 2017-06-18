@@ -46,7 +46,7 @@
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="CommonCommand.МСЕдиницыВеличинОбщиеНастройки">
+		<Command name="CommonCommand.ОбщиеНастройкиЕдиницВеличин">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
@@ -494,7 +494,7 @@
 			<CommandGroup>NavigationPanelImportant</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
-		<Command name="CommonCommand.МСЕдиницыВеличинОбщиеНастройки">
+		<Command name="CommonCommand.ОбщиеНастройкиЕдиницВеличин">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
@@ -571,7 +571,7 @@
 		<Command name="Catalog.РассылкиОтчетов.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelImportant</CommandGroup>
 		</Command>
-		<Command name="CommonCommand.МСЕдиницыВеличинОбщиеНастройки">
+		<Command name="CommonCommand.ОбщиеНастройкиЕдиницВеличин">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
 		<Command name="DataProcessor.ПанельАдминистрированияБСП.Command.ПоддержкаИОбслуживание">

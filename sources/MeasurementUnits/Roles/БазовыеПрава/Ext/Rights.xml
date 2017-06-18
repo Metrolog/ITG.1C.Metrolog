@@ -268,7 +268,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Constant.МСЕдиницыВеличинОбозначенияПриставок</name>
+		<name>Constant.ОбозначенияПриставокЕдиницВеличин</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -1457,7 +1457,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Constant.МСЕдиницыВеличинОбозначения</name>
+		<name>Constant.ОбозначенияЕдиницВеличин</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>

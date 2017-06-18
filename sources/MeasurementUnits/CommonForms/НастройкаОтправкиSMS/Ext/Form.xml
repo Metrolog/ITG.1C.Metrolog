@@ -111,7 +111,8 @@
 			<MainAttribute>true</MainAttribute>
 			<SavedData>true</SavedData>
 			<UseAlways>
-				<Field>НаборКонстант.ПровайдерSMS.Ref</Field>
+				<Field>НаборКонстант.РежимИспользованияИнформационнойБазы.Ref</Field>
+				<Field>НаборКонстант.ОбозначенияПриставокЕдиницВеличин.Ref</Field>
 			</UseAlways>
 		</Attribute>
 		<Attribute name="ЛогинДляОтправкиSMS" id="2">

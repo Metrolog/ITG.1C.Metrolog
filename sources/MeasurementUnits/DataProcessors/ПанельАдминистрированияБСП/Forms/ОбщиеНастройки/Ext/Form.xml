@@ -140,7 +140,7 @@
 			<ChildItems>
 				<Button name="ОбщаяКомандаМСЕдиницыВеличинОбщиеНастройки" id="2105">
 					<Type>Hyperlink</Type>
-					<CommandName>CommonCommand.МСЕдиницыВеличинОбщиеНастройки</CommandName>
+					<CommandName>CommonCommand.ОбщиеНастройкиЕдиницВеличин</CommandName>
 					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 					<ExtendedTooltip name="ОбщаяКомандаМСЕдиницыВеличинОбщиеНастройкиРасширеннаяПодсказка" id="2106"/>
 				</Button>
@@ -978,7 +978,7 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<UseAlways>
-				<Field>НаборКонстант.МСЕдиницыВеличинОбозначения</Field>
+				<Field>НаборКонстант.ОбозначенияЕдиницВеличин</Field>
 				<Field>НаборКонстант.ИспользоватьРазделениеПоОбластямДанных</Field>
 			</UseAlways>
 		</Attribute>

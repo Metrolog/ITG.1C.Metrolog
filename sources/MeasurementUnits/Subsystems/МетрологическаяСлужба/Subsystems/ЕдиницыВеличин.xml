@@ -33,7 +33,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.МСЕдиницыВеличинОбозначения</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.МСЕдиницыВеличинОбозначения</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.МСЕдиницыВеличинПередЗаписьюУдалитьЛишниеПробелыВНаименованииИОбозначении</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Enum.МСЕдиницыВеличинВиды</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">b86fed2a-f415-40fa-8434-0ab238dad77c</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.МСЕдиницыВеличинОбозначенияПриставок</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.МСЕдиницыВеличинОбозначенияПриставок</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.МСЕдиницыВеличинОбозначенияПриставок</xr:Item>

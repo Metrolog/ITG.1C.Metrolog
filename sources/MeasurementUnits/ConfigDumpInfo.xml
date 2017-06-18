@@ -893,13 +893,12 @@
 		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Help" id="92707138-5004-4378-8477-f909166d319d.1" configVersion="6e79e32fa3c33245af479855dd2a0ca900000000"/>
 		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.ManagerModule" id="92707138-5004-4378-8477-f909166d319d.3" configVersion="2494c15877cc6747b4eed0f9a828a5d700000000"/>
 		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.ObjectModule" id="92707138-5004-4378-8477-f909166d319d.0" configVersion="cd7783a214e7a443b092d85406ce971b00000000"/>
-		<Metadata name="Catalog.ЕдиницыВеличин" id="d8e53224-9189-458b-bd89-bbf71cc8985a" configVersion="cd2184996a046e4d81a7c1545d08342a00000000">
+		<Metadata name="Catalog.ЕдиницыВеличин" id="d8e53224-9189-458b-bd89-bbf71cc8985a" configVersion="e78bfbc8d97c784aac3a8ff462f1cae400000000">
 			<Metadata name="Catalog.ЕдиницыВеличин.Attribute.ЭтоОсновнаяЕдиница" id="0f999f3c-37d4-42ba-9644-f3a9043499df"/>
 			<Metadata name="Catalog.ЕдиницыВеличин.Attribute.ИмеетСпециальныеНаименованиеИОбозначение" id="28385baf-df5a-439b-9a71-2167f1f3dd95"/>
 			<Metadata name="Catalog.ЕдиницыВеличин.Attribute.ЭтоКогерентнаяЕдиница" id="3a2d073f-35f4-45f4-81f4-f82e74841187"/>
 			<Metadata name="Catalog.ЕдиницыВеличин.Attribute.Коэффициент" id="528d56a6-005c-492e-8090-f29d55ad6450"/>
 			<Metadata name="Catalog.ЕдиницыВеличин.Attribute.ОбозначениеМн" id="63c85470-3c54-4d20-ba0a-3f54bb3ed9b0"/>
-			<Metadata name="Catalog.ЕдиницыВеличин.Attribute.Вид" id="6b1589e4-fa26-4b40-85b9-84f084f9bf88"/>
 			<Metadata name="Catalog.ЕдиницыВеличин.Attribute.Основание" id="6cedc576-4b94-4009-8c47-ef0047b7ddfa"/>
 			<Metadata name="Catalog.ЕдиницыВеличин.TabularSection.Выражение" id="714be7d6-849f-4ce7-bbdb-69c5a56f90ea"/>
 			<Metadata name="Catalog.ЕдиницыВеличин.Attribute.ОбозначениеРус" id="737b216f-070a-4508-8f3b-6f0c45fff1b9"/>
@@ -4585,7 +4584,7 @@
 		<Metadata name="CommonTemplate.СоответствиеТэговОбщимФормам.Template" id="c8d797cf-e72c-4d99-bd6f-f4a8b0ca7c8d.0" configVersion="c26833447aa2614ca95a16484a86f2b600000000"/>
 		<Metadata name="CommonTemplate.СтруктураПодчиненности" id="7a62d031-c340-4b1e-90af-fff697a2e979" configVersion="093e178d3d78bd40aa4485add74b57a600000000"/>
 		<Metadata name="CommonTemplate.СтруктураПодчиненности.Template" id="7a62d031-c340-4b1e-90af-fff697a2e979.0" configVersion="6274ab707ba6a947b9bd5dc10300eb2800000000"/>
-		<Metadata name="Configuration.МетрологическаяСлужба" id="23bf4dc1-1a94-4b3b-92c2-1b132871ab30" configVersion="0e362433bc6eec46ad0b57435f4f130d00000000"/>
+		<Metadata name="Configuration.МетрологическаяСлужба" id="23bf4dc1-1a94-4b3b-92c2-1b132871ab30" configVersion="eb3beeb3ea67994bb46b3d6e2e3f72a000000000"/>
 		<Metadata name="Configuration.МетрологическаяСлужба.ClientApplicationInterface" id="b8046913-9a03-48e9-97b4-b9971a833256.b" configVersion="d9aa50b9fd04de4eb433e1d6cef60e1300000000"/>
 		<Metadata name="Configuration.МетрологическаяСлужба.CommandInterface" id="b8046913-9a03-48e9-97b4-b9971a833256.a" configVersion="7f7462918a828a4285c3a38eeb5e2d8700000000"/>
 		<Metadata name="Configuration.МетрологическаяСлужба.ExternalConnectionModule" id="b8046913-9a03-48e9-97b4-b9971a833256.5" configVersion="a060977f2e59004a94689c201201bfdc00000000"/>
@@ -7255,13 +7254,6 @@
 		<Metadata name="Enum.ИсточникиПравилДляОбменаДанными" id="e754ad5c-cf3c-4198-af81-128475924cb0" configVersion="794bb1e64e07bd4ba3e1ad91063b248b00000000">
 			<Metadata name="Enum.ИсточникиПравилДляОбменаДанными.EnumValue.Файл" id="dc31edb1-273e-4b1a-8e69-32393479ff36"/>
 			<Metadata name="Enum.ИсточникиПравилДляОбменаДанными.EnumValue.МакетКонфигурации" id="ed65d504-b210-4014-85ec-275ad633ef04"/>
-		</Metadata>
-		<Metadata name="Enum.МСЕдиницыВеличинВиды" id="b86fed2a-f415-40fa-8434-0ab238dad77c" configVersion="ad7e48d1a0dc754387eba4b7b7676b7400000000">
-			<Metadata name="Enum.МСЕдиницыВеличинВиды.EnumValue.Внесистемная" id="48842ba2-8275-4220-a398-03385885762f"/>
-			<Metadata name="Enum.МСЕдиницыВеличинВиды.EnumValue.Относительная" id="82d6dbdf-57ee-4538-b796-e7dd94c400db"/>
-			<Metadata name="Enum.МСЕдиницыВеличинВиды.EnumValue.Когерентная" id="837e3a13-90a5-4f04-96fe-4cd2c8db5f78"/>
-			<Metadata name="Enum.МСЕдиницыВеличинВиды.EnumValue.Производная" id="aba78750-dd8e-4112-b459-7eeca0b81c9b"/>
-			<Metadata name="Enum.МСЕдиницыВеличинВиды.EnumValue.Основная" id="ccb35f34-97b4-4a5a-9b94-817c69ff60a2"/>
 		</Metadata>
 		<Metadata name="Enum.МСЕдиницыВеличинОбозначенияПриставок" id="03c17fc6-8b67-4213-8831-d12f22b6534e" configVersion="9c031b5df0b27b499258bbcf7f31929d00000000">
 			<Metadata name="Enum.МСЕдиницыВеличинОбозначенияПриставок.EnumValue.ПоПостановлениюПравительстваРФ879" id="58b3f695-ab97-4982-920a-ef5d667755f8"/>

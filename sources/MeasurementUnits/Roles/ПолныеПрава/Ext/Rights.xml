@@ -558,7 +558,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных</name>
+		<name>Catalog.ПриставкиЕдиницыВеличин</name>
 		<right>
 			<name>Insert</name>
 			<value>false</value>

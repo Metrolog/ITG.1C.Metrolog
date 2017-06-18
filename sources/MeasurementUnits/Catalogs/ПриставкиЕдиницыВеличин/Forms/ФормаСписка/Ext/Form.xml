@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
-	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<ChildItems>
 		<UsualGroup name="СписокКомпоновщикНастроекПользовательскиеНастройки" id="1">
@@ -20,7 +19,6 @@
 			<CommandBarLocation>None</CommandBarLocation>
 			<DefaultItem>true</DefaultItem>
 			<ChangeRowOrder>false</ChangeRowOrder>
-			<ChoiceMode>true</ChoiceMode>
 			<UseAlternationRowColor>true</UseAlternationRowColor>
 			<InitialTreeView>ExpandTopLevel</InitialTreeView>
 			<DataPath>Список</DataPath>
@@ -69,15 +67,15 @@
 				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="15"/>
 			</SearchControlAddition>
 			<ChildItems>
-				<PictureField name="СтандартнаяКартинка" id="112">
+				<PictureField name="СтандартнаяКартинка" id="115">
 					<DataPath>Список.DefaultPicture</DataPath>
 					<UserVisible>
 						<xr:Common>false</xr:Common>
 					</UserVisible>
-					<ContextMenu name="СтандартнаяКартинкаКонтекстноеМеню" id="113"/>
-					<ExtendedTooltip name="СтандартнаяКартинкаРасширеннаяПодсказка" id="114"/>
+					<ContextMenu name="СтандартнаяКартинкаКонтекстноеМеню" id="116"/>
+					<ExtendedTooltip name="СтандартнаяКартинкаРасширеннаяПодсказка" id="117"/>
 				</PictureField>
-				<LabelField name="Ссылка" id="31">
+				<LabelField name="Ссылка" id="34">
 					<DataPath>Список.Ref</DataPath>
 					<Title>
 						<v8:item>
@@ -85,76 +83,58 @@
 							<v8:content>Представление</v8:content>
 						</v8:item>
 					</Title>
-					<ContextMenu name="СсылкаКонтекстноеМеню" id="32"/>
-					<ExtendedTooltip name="СсылкаРасширеннаяПодсказка" id="33"/>
+					<ContextMenu name="СсылкаКонтекстноеМеню" id="35"/>
+					<ExtendedTooltip name="СсылкаРасширеннаяПодсказка" id="36"/>
 				</LabelField>
-				<LabelField name="Основание" id="37">
+				<LabelField name="Основание" id="40">
 					<DataPath>Список.Основание</DataPath>
-					<UserVisible>
-						<xr:Common>false</xr:Common>
-					</UserVisible>
-					<ContextMenu name="ОснованиеКонтекстноеМеню" id="38"/>
-					<ExtendedTooltip name="ОснованиеРасширеннаяПодсказка" id="39"/>
+					<ContextMenu name="ОснованиеКонтекстноеМеню" id="41"/>
+					<ExtendedTooltip name="ОснованиеРасширеннаяПодсказка" id="42"/>
 				</LabelField>
-				<LabelField name="Порядок" id="22">
+				<InputField name="Порядок" id="28">
 					<DataPath>Список.Порядок</DataPath>
-					<UserVisible>
-						<xr:Common>false</xr:Common>
-					</UserVisible>
-					<ContextMenu name="ПорядокКонтекстноеМеню" id="23"/>
-					<ExtendedTooltip name="ПорядокРасширеннаяПодсказка" id="24"/>
-				</LabelField>
-				<LabelField name="НаименованиеРус" id="127">
+					<ContextMenu name="ПорядокКонтекстноеМеню" id="29"/>
+					<ExtendedTooltip name="ПорядокРасширеннаяПодсказка" id="30"/>
+				</InputField>
+				<LabelField name="НаименованиеРус" id="130">
 					<DataPath>Список.НаименованиеРус</DataPath>
-					<UserVisible>
-						<xr:Common>false</xr:Common>
-					</UserVisible>
-					<ContextMenu name="НаименованиеРусКонтекстноеМеню" id="128"/>
-					<ExtendedTooltip name="НаименованиеРусРасширеннаяПодсказка" id="129"/>
+					<ContextMenu name="НаименованиеРусКонтекстноеМеню" id="131"/>
+					<ExtendedTooltip name="НаименованиеРусРасширеннаяПодсказка" id="132"/>
 				</LabelField>
-				<LabelField name="ОбозначениеРус" id="130">
+				<LabelField name="ОбозначениеРус" id="133">
 					<DataPath>Список.ОбозначениеРус</DataPath>
-					<ContextMenu name="ОбозначениеРусКонтекстноеМеню" id="131"/>
-					<ExtendedTooltip name="ОбозначениеРусРасширеннаяПодсказка" id="132"/>
+					<ContextMenu name="ОбозначениеРусКонтекстноеМеню" id="134"/>
+					<ExtendedTooltip name="ОбозначениеРусРасширеннаяПодсказка" id="135"/>
 				</LabelField>
-				<LabelField name="НаименованиеМн" id="133">
+				<LabelField name="НаименованиеМн" id="136">
 					<DataPath>Список.НаименованиеМн</DataPath>
-					<UserVisible>
-						<xr:Common>false</xr:Common>
-					</UserVisible>
-					<ContextMenu name="НаименованиеМнКонтекстноеМеню" id="134"/>
-					<ExtendedTooltip name="НаименованиеМнРасширеннаяПодсказка" id="135"/>
+					<ContextMenu name="НаименованиеМнКонтекстноеМеню" id="137"/>
+					<ExtendedTooltip name="НаименованиеМнРасширеннаяПодсказка" id="138"/>
 				</LabelField>
-				<LabelField name="ОбозначениеМн" id="136">
+				<LabelField name="ОбозначениеМн" id="139">
 					<DataPath>Список.ОбозначениеМн</DataPath>
-					<ContextMenu name="ОбозначениеМнКонтекстноеМеню" id="137"/>
-					<ExtendedTooltip name="ОбозначениеМнРасширеннаяПодсказка" id="138"/>
+					<ContextMenu name="ОбозначениеМнКонтекстноеМеню" id="140"/>
+					<ExtendedTooltip name="ОбозначениеМнРасширеннаяПодсказка" id="141"/>
 				</LabelField>
-				<LabelField name="НаименованиеРусISO_80000_1" id="139">
+				<LabelField name="НаименованиеРусISO_80000_1" id="142">
 					<DataPath>Список.НаименованиеРусISO_80000_1</DataPath>
-					<UserVisible>
-						<xr:Common>false</xr:Common>
-					</UserVisible>
-					<ContextMenu name="НаименованиеРусISO_80000_1КонтекстноеМеню" id="140"/>
-					<ExtendedTooltip name="НаименованиеРусISO_80000_1РасширеннаяПодсказка" id="141"/>
+					<ContextMenu name="НаименованиеРусISO_80000_1КонтекстноеМеню" id="143"/>
+					<ExtendedTooltip name="НаименованиеРусISO_80000_1РасширеннаяПодсказка" id="144"/>
 				</LabelField>
-				<LabelField name="ОбозначениеРусISO_80000_1" id="142">
+				<LabelField name="ОбозначениеРусISO_80000_1" id="145">
 					<DataPath>Список.ОбозначениеРусISO_80000_1</DataPath>
-					<ContextMenu name="ОбозначениеРусISO_80000_1КонтекстноеМеню" id="143"/>
-					<ExtendedTooltip name="ОбозначениеРусISO_80000_1РасширеннаяПодсказка" id="144"/>
+					<ContextMenu name="ОбозначениеРусISO_80000_1КонтекстноеМеню" id="146"/>
+					<ExtendedTooltip name="ОбозначениеРусISO_80000_1РасширеннаяПодсказка" id="147"/>
 				</LabelField>
-				<LabelField name="НаименованиеМнISO_80000_1" id="145">
+				<LabelField name="НаименованиеМнISO_80000_1" id="148">
 					<DataPath>Список.НаименованиеМнISO_80000_1</DataPath>
-					<UserVisible>
-						<xr:Common>false</xr:Common>
-					</UserVisible>
-					<ContextMenu name="НаименованиеМнISO_80000_1КонтекстноеМеню" id="146"/>
-					<ExtendedTooltip name="НаименованиеМнISO_80000_1РасширеннаяПодсказка" id="147"/>
+					<ContextMenu name="НаименованиеМнISO_80000_1КонтекстноеМеню" id="149"/>
+					<ExtendedTooltip name="НаименованиеМнISO_80000_1РасширеннаяПодсказка" id="150"/>
 				</LabelField>
-				<LabelField name="ОбозначениеМнISO_80000_1" id="148">
+				<LabelField name="ОбозначениеМнISO_80000_1" id="151">
 					<DataPath>Список.ОбозначениеМнISO_80000_1</DataPath>
-					<ContextMenu name="ОбозначениеМнISO_80000_1КонтекстноеМеню" id="149"/>
-					<ExtendedTooltip name="ОбозначениеМнISO_80000_1РасширеннаяПодсказка" id="150"/>
+					<ContextMenu name="ОбозначениеМнISO_80000_1КонтекстноеМеню" id="152"/>
+					<ExtendedTooltip name="ОбозначениеМнISO_80000_1РасширеннаяПодсказка" id="153"/>
 				</LabelField>
 			</ChildItems>
 		</Table>
@@ -194,28 +174,9 @@
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>false</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>
-				<MainTable>Catalog.МСЕдиницыВеличинПриставкиКратныхИДольных</MainTable>
+				<MainTable>Catalog.ПриставкиЕдиницыВеличин</MainTable>
 				<ListSettings>
 					<dcsset:filter>
-						<dcsset:item xsi:type="dcsset:FilterItemComparison">
-							<dcsset:left xsi:type="dcscor:Field">ПометкаУдаления</dcsset:left>
-							<dcsset:comparisonType>Equal</dcsset:comparisonType>
-							<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
-							<dcsset:presentation xsi:type="v8:LocalStringType">
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Не показывать удалённые</v8:content>
-								</v8:item>
-							</dcsset:presentation>
-							<dcsset:viewMode>Normal</dcsset:viewMode>
-							<dcsset:userSettingID>ea9e2aee-8f6e-4afc-b865-2a591b379564</dcsset:userSettingID>
-							<dcsset:userSettingPresentation xsi:type="v8:LocalStringType">
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Не показывать удалённые</v8:content>
-								</v8:item>
-							</dcsset:userSettingPresentation>
-						</dcsset:item>
 						<dcsset:viewMode>Normal</dcsset:viewMode>
 						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
 					</dcsset:filter>
@@ -229,7 +190,7 @@
 							<dcsset:orderType>Asc</dcsset:orderType>
 						</dcsset:item>
 						<dcsset:viewMode>Normal</dcsset:viewMode>
-						<dcsset:userSettingID>a0135cf4-e3b1-4fe1-a395-91a331899d87</dcsset:userSettingID>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
 					</dcsset:order>
 					<dcsset:conditionalAppearance>
 						<dcsset:viewMode>Normal</dcsset:viewMode>

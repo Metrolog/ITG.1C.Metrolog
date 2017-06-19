@@ -893,7 +893,7 @@
 		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.Help" id="92707138-5004-4378-8477-f909166d319d.1" configVersion="6e79e32fa3c33245af479855dd2a0ca900000000"/>
 		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.ManagerModule" id="92707138-5004-4378-8477-f909166d319d.3" configVersion="2494c15877cc6747b4eed0f9a828a5d700000000"/>
 		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.ObjectModule" id="92707138-5004-4378-8477-f909166d319d.0" configVersion="cd7783a214e7a443b092d85406ce971b00000000"/>
-		<Metadata name="Catalog.ЕдиницыВеличин" id="d8e53224-9189-458b-bd89-bbf71cc8985a" configVersion="0349dd297a6d7943af270551f626f64f00000000">
+		<Metadata name="Catalog.ЕдиницыВеличин" id="d8e53224-9189-458b-bd89-bbf71cc8985a" configVersion="3d285e89d38e514aada3997f124b0ba600000000">
 			<Metadata name="Catalog.ЕдиницыВеличин.Attribute.ЭтоОсновнаяЕдиница" id="0f999f3c-37d4-42ba-9644-f3a9043499df"/>
 			<Metadata name="Catalog.ЕдиницыВеличин.Attribute.ИмеетСпециальныеНаименованиеИОбозначение" id="28385baf-df5a-439b-9a71-2167f1f3dd95"/>
 			<Metadata name="Catalog.ЕдиницыВеличин.Attribute.ЭтоКогерентнаяЕдиница" id="3a2d073f-35f4-45f4-81f4-f82e74841187"/>
@@ -920,8 +920,8 @@
 		<Metadata name="Catalog.ЕдиницыВеличин.Form.ФормаВыбора.Form" id="25424874-deb1-4e33-83b4-3dca5f9ce665.0" configVersion="6da7733f3c493347896d376873dbf6de00000000"/>
 		<Metadata name="Catalog.ЕдиницыВеличин.Form.ФормаСписка" id="34138530-9ed9-4b5e-9011-6f460a15751c" configVersion="4d1e6e7e36f7e545bbf09da2cb395dbb00000000"/>
 		<Metadata name="Catalog.ЕдиницыВеличин.Form.ФормаСписка.Form" id="34138530-9ed9-4b5e-9011-6f460a15751c.0" configVersion="a2f4d33689f36d4e974089c73157788a00000000"/>
-		<Metadata name="Catalog.ЕдиницыВеличин.Form.ФормаЭлемента" id="14dfd4d5-d350-4c8d-8623-559cc7d9aed8" configVersion="e221aaf257c5c54a93fcff2c38c523cf00000000"/>
-		<Metadata name="Catalog.ЕдиницыВеличин.Form.ФормаЭлемента.Form" id="14dfd4d5-d350-4c8d-8623-559cc7d9aed8.0" configVersion="e113cf3ee3a1364eae399d05f360f67700000000"/>
+		<Metadata name="Catalog.ЕдиницыВеличин.Form.ФормаЭлемента" id="14dfd4d5-d350-4c8d-8623-559cc7d9aed8" configVersion="9141733a70603f449acf2d9feadb175000000000"/>
+		<Metadata name="Catalog.ЕдиницыВеличин.Form.ФормаЭлемента.Form" id="14dfd4d5-d350-4c8d-8623-559cc7d9aed8.0" configVersion="1e925a5c8a11ca4e948b3f9f52832d0800000000"/>
 		<Metadata name="Catalog.ЕдиницыВеличин.ManagerModule" id="d8e53224-9189-458b-bd89-bbf71cc8985a.3" configVersion="ca93f2206bc5504d9a7a9b5bae600d5300000000"/>
 		<Metadata name="Catalog.ЕдиницыВеличин.ObjectModule" id="d8e53224-9189-458b-bd89-bbf71cc8985a.0" configVersion="86e334534a25554dbc9ee5c4068655a800000000"/>
 		<Metadata name="Catalog.ЕдиницыВеличин.Predefined" id="d8e53224-9189-458b-bd89-bbf71cc8985a.1c" configVersion="212b8a3b44052549a255cceee363f63b00000000"/>
@@ -10034,8 +10034,8 @@
 		<Metadata name="Role.Администрирование.Rights" id="101a4eb3-cdda-47af-8c69-615a6920347a.0" configVersion="a6a24733bed8f54f86f39aea8e2e367000000000"/>
 		<Metadata name="Role.БазовыеПрава" id="b5069d62-567f-4d9a-8d07-2c5d07a0ff78" configVersion="055d1699cb2f38499d0f60f3acbccf6700000000"/>
 		<Metadata name="Role.БазовыеПрава.Rights" id="b5069d62-567f-4d9a-8d07-2c5d07a0ff78.0" configVersion="900e78fd3da7884b96ab76c78aa0486e00000000"/>
-		<Metadata name="Role.БазовыеПраваБТС" id="fe799556-f955-46e1-aa3b-9cc0be607fe5" configVersion="9107974cd7b51240903046ee7ce618be00000000"/>
-		<Metadata name="Role.БазовыеПраваБТС.Rights" id="fe799556-f955-46e1-aa3b-9cc0be607fe5.0" configVersion="5d008f23af5b2f4fbea172ff87ac230f00000000"/>
+		<Metadata name="Role.БазовыеПраваБТС" id="fe799556-f955-46e1-aa3b-9cc0be607fe5" configVersion="bfcfd08837e7e6478744cc65495e8f4700000000"/>
+		<Metadata name="Role.БазовыеПраваБТС.Rights" id="fe799556-f955-46e1-aa3b-9cc0be607fe5.0" configVersion="f1e33437a7f3aa4bb0893d00a0e3d8ff00000000"/>
 		<Metadata name="Role.БазовыеПраваВнешнегоПользователя" id="e9d95895-8708-4035-89ad-72573b870491" configVersion="5cc73c09c74eac449c9e6c6393ef4a2700000000"/>
 		<Metadata name="Role.БазовыеПраваВнешнегоПользователя.Rights" id="e9d95895-8708-4035-89ad-72573b870491.0" configVersion="02c66076bc9a48488c920bdd5af93e0300000000"/>
 		<Metadata name="Role.БазовыеПраваИПП" id="0e840c60-e7f1-40b3-8744-71445aac51fd" configVersion="843e37a090c23d428179760c956ebe7b00000000"/>
@@ -10064,8 +10064,8 @@
 		<Metadata name="Role.ДобавлениеИзменениеДополнительныхОтчетовИОбработок.Rights" id="4a008342-f72f-4ca1-bad1-64b59b509911.0" configVersion="d84bbc5916a88844a61357aec6dd458900000000"/>
 		<Metadata name="Role.ДобавлениеИзменениеДополнительныхРеквизитовИСведений" id="4436b2cf-2d71-401f-99fd-012ff0c91fbd" configVersion="3d78a90658745e40b6e797a6127789a500000000"/>
 		<Metadata name="Role.ДобавлениеИзменениеДополнительныхРеквизитовИСведений.Rights" id="4436b2cf-2d71-401f-99fd-012ff0c91fbd.0" configVersion="ab6290f05d75d94ebae4134f945e6d0400000000"/>
-		<Metadata name="Role.ДобавлениеИзменениеЕдиницВеличинБазовых" id="0532349b-6408-4041-95d8-d1ca22956d2e" configVersion="21b052aed2afc947ac0c0de2541a522d00000000"/>
-		<Metadata name="Role.ДобавлениеИзменениеЕдиницВеличинБазовых.Rights" id="0532349b-6408-4041-95d8-d1ca22956d2e.0" configVersion="c601639c386de84cbcd5488f6ee03e8f00000000"/>
+		<Metadata name="Role.ДобавлениеИзменениеЕдиницВеличин" id="0532349b-6408-4041-95d8-d1ca22956d2e" configVersion="13c3fbc420efdd418c967c98958dcabf00000000"/>
+		<Metadata name="Role.ДобавлениеИзменениеЕдиницВеличин.Rights" id="0532349b-6408-4041-95d8-d1ca22956d2e.0" configVersion="8acbc3df8a961a4a85e58852ae1345d500000000"/>
 		<Metadata name="Role.ДобавлениеИзменениеЗаданий" id="cefa1723-a4d4-44c4-bd57-ffa713f9306c" configVersion="b6d2c32fdae2964c95556acd9c3f24c400000000"/>
 		<Metadata name="Role.ДобавлениеИзменениеЗаданий.Rights" id="cefa1723-a4d4-44c4-bd57-ffa713f9306c.0" configVersion="037989b85365ce41bc01fa5a6afd61d300000000"/>
 		<Metadata name="Role.ДобавлениеИзменениеЗаметок" id="5d75aae8-9d9c-4a47-b8c0-2ce56431fe53" configVersion="5c863e3506a7cd4cbd00273cf812272a00000000"/>
@@ -10160,8 +10160,8 @@
 		<Metadata name="Role.Подсистема_ДемоСинхронизацияДанных.Rights" id="57ca7b50-5994-43a8-afd9-d2a8b5e0ecec.0" configVersion="3e002bd07528f443a8a69a628585fdfd00000000"/>
 		<Metadata name="Role.Подсистема_ДемоУправлениеДоступом" id="78e766e5-62d2-4ac4-88c3-5e932a25ae09" configVersion="aa7702b43c4dd1429d86ddd8a6323bb400000000"/>
 		<Metadata name="Role.Подсистема_ДемоУправлениеДоступом.Rights" id="78e766e5-62d2-4ac4-88c3-5e932a25ae09.0" configVersion="a72e080d45da98469112460f0441fab500000000"/>
-		<Metadata name="Role.ПолныеПрава" id="fdb012c9-583a-42af-95da-070e75a58078" configVersion="ce47599573f1fa4bb94e524b81857d1600000000"/>
-		<Metadata name="Role.ПолныеПрава.Rights" id="fdb012c9-583a-42af-95da-070e75a58078.0" configVersion="0c4c0baf764066418c4109c42ef1027800000000"/>
+		<Metadata name="Role.ПолныеПрава" id="fdb012c9-583a-42af-95da-070e75a58078" configVersion="bf065d6bb1a0a646bb0460df67b6049100000000"/>
+		<Metadata name="Role.ПолныеПрава.Rights" id="fdb012c9-583a-42af-95da-070e75a58078.0" configVersion="f7c54fe24dfea946a925c80a5d19246d00000000"/>
 		<Metadata name="Role.ПросмотрЖурналаРегистрации" id="7d069b11-cddd-463d-97be-3cbeaaf0954c" configVersion="61640b6a123b9949bb9363db5a55588e00000000"/>
 		<Metadata name="Role.ПросмотрЖурналаРегистрации.Rights" id="7d069b11-cddd-463d-97be-3cbeaaf0954c.0" configVersion="77dc66e0f316e84fa9b4755eea91dc6600000000"/>
 		<Metadata name="Role.ПросмотрИнформацииОДоступныхОбновленияхПрограммы" id="967a6fe8-4429-424f-aa09-dd39aca6790a" configVersion="b5387f437386fe4fad66842984cb039b00000000"/>

@@ -103,6 +103,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.ЕдиницыВеличин</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.ТипыИнформацииИнформационногоЦентра</name>
 		<right>
 			<name>Read</name>

@@ -39,7 +39,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.ОбозначенияПриставокЕдиницВеличин</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.ОбщиеНастройкиЕдиницВеличин</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.ОбщиеНастройкиЕдиницВеличин</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеЕдиницВеличинБазовых</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеЕдиницВеличин</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.МСЕдиницыВеличинИспользоватьОбозначенияРус</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.МСЕдиницыВеличинИспользоватьОбозначенияМн</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.МСЕдиницыВеличинИспользоватьОбозначенияРус</xr:Item>

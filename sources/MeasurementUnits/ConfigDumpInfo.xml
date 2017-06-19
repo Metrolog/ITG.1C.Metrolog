@@ -920,8 +920,8 @@
 		<Metadata name="Catalog.ЕдиницыВеличин.Form.ФормаВыбора.Form" id="25424874-deb1-4e33-83b4-3dca5f9ce665.0" configVersion="6da7733f3c493347896d376873dbf6de00000000"/>
 		<Metadata name="Catalog.ЕдиницыВеличин.Form.ФормаСписка" id="34138530-9ed9-4b5e-9011-6f460a15751c" configVersion="4d1e6e7e36f7e545bbf09da2cb395dbb00000000"/>
 		<Metadata name="Catalog.ЕдиницыВеличин.Form.ФормаСписка.Form" id="34138530-9ed9-4b5e-9011-6f460a15751c.0" configVersion="a2f4d33689f36d4e974089c73157788a00000000"/>
-		<Metadata name="Catalog.ЕдиницыВеличин.Form.ФормаЭлемента" id="14dfd4d5-d350-4c8d-8623-559cc7d9aed8" configVersion="9141733a70603f449acf2d9feadb175000000000"/>
-		<Metadata name="Catalog.ЕдиницыВеличин.Form.ФормаЭлемента.Form" id="14dfd4d5-d350-4c8d-8623-559cc7d9aed8.0" configVersion="1e925a5c8a11ca4e948b3f9f52832d0800000000"/>
+		<Metadata name="Catalog.ЕдиницыВеличин.Form.ФормаЭлемента" id="14dfd4d5-d350-4c8d-8623-559cc7d9aed8" configVersion="a1b273edcc881d49b8249e28115f476c00000000"/>
+		<Metadata name="Catalog.ЕдиницыВеличин.Form.ФормаЭлемента.Form" id="14dfd4d5-d350-4c8d-8623-559cc7d9aed8.0" configVersion="193396c62d99564ab4ca7c30ed89c46600000000"/>
 		<Metadata name="Catalog.ЕдиницыВеличин.ManagerModule" id="d8e53224-9189-458b-bd89-bbf71cc8985a.3" configVersion="ca93f2206bc5504d9a7a9b5bae600d5300000000"/>
 		<Metadata name="Catalog.ЕдиницыВеличин.ObjectModule" id="d8e53224-9189-458b-bd89-bbf71cc8985a.0" configVersion="86e334534a25554dbc9ee5c4068655a800000000"/>
 		<Metadata name="Catalog.ЕдиницыВеличин.Predefined" id="d8e53224-9189-458b-bd89-bbf71cc8985a.1c" configVersion="212b8a3b44052549a255cceee363f63b00000000"/>
@@ -1429,7 +1429,7 @@
 		</Metadata>
 		<Metadata name="Catalog.ПредопределенныеВариантыОтчетовРасширений.ManagerModule" id="3c0a9c45-8e57-43fa-8ae3-26b15571f2cd.3" configVersion="4d0c657d72246945a4d8e1a1980ae94700000000"/>
 		<Metadata name="Catalog.ПредопределенныеВариантыОтчетовРасширений.ObjectModule" id="3c0a9c45-8e57-43fa-8ae3-26b15571f2cd.0" configVersion="a2cb66bf30b3654e86f93bdb983c352500000000"/>
-		<Metadata name="Catalog.ПриставкиЕдиницыВеличин" id="147cc042-7d87-439d-9495-d9800752ac59" configVersion="f54ff471b5ff5041bbb9761e42c09b7c00000000">
+		<Metadata name="Catalog.ПриставкиЕдиницыВеличин" id="147cc042-7d87-439d-9495-d9800752ac59" configVersion="79dc63e119ab52479683b7ed4c09835a00000000">
 			<Metadata name="Catalog.ПриставкиЕдиницыВеличин.Attribute.Порядок" id="03319281-4aaa-4bc4-b113-fd92d2394f5e"/>
 			<Metadata name="Catalog.ПриставкиЕдиницыВеличин.Attribute.НаименованиеРусISO_80000_1" id="0b3b5ab3-74be-4a81-a5cd-faf0f123f7e5"/>
 			<Metadata name="Catalog.ПриставкиЕдиницыВеличин.Attribute.ОбозначениеМнISO_80000_1" id="0f5558cf-0521-4770-a85c-8cd9240a8f6c"/>
@@ -1448,7 +1448,7 @@
 		<Metadata name="Catalog.ПриставкиЕдиницыВеличин.Form.ФормаЭлемента" id="36d3a665-d1f3-410e-bff9-1c63e847281e" configVersion="687b13f478b35f47a896f268cc9deade00000000"/>
 		<Metadata name="Catalog.ПриставкиЕдиницыВеличин.Form.ФормаЭлемента.Form" id="36d3a665-d1f3-410e-bff9-1c63e847281e.0" configVersion="c64c6a230466f44f9ac6e2dabaf3f03d00000000"/>
 		<Metadata name="Catalog.ПриставкиЕдиницыВеличин.Help" id="147cc042-7d87-439d-9495-d9800752ac59.1" configVersion="459a56d52b171548b33e72c19aa49af600000000"/>
-		<Metadata name="Catalog.ПриставкиЕдиницыВеличин.ManagerModule" id="147cc042-7d87-439d-9495-d9800752ac59.3" configVersion="758bff51ae8db6459d7869184b4f0f7900000000"/>
+		<Metadata name="Catalog.ПриставкиЕдиницыВеличин.ManagerModule" id="147cc042-7d87-439d-9495-d9800752ac59.3" configVersion="13e24023f2410c46ad90195727b8efa900000000"/>
 		<Metadata name="Catalog.ПриставкиЕдиницыВеличин.ObjectModule" id="147cc042-7d87-439d-9495-d9800752ac59.0" configVersion="eceabd1d7872d541bbe65d8d3e98393500000000"/>
 		<Metadata name="Catalog.ПрограммыЭлектроннойПодписиИШифрования" id="aa29e1be-4e99-4136-8dc1-0124908979ad" configVersion="478775eaf104f44eacb778f5433ada8b00000000">
 			<Metadata name="Catalog.ПрограммыЭлектроннойПодписиИШифрования.Attribute.ИмяПрограммы" id="0d76799d-7fc7-446b-88fb-dca839de00a5"/>

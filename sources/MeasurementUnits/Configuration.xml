@@ -750,6 +750,7 @@
 			<CommonModule>МССтандартныеПодсистемы</CommonModule>
 			<CommonModule>МСОбновлениеИнформационнойБазы</CommonModule>
 			<CommonModule>СтандартныеПодсистемыИТГ</CommonModule>
+			<CommonModule>СтандартныеПодсистемыКлиентИТГ</CommonModule>
 			<CommonModule>СтандартныеПодсистемыКлиентСерверИТГ</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыИТГ</CommonModule>
 			<CommonModule>ЕдиницыВеличин</CommonModule>

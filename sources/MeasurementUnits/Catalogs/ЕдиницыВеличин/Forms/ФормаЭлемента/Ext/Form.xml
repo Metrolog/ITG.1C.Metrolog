@@ -607,6 +607,20 @@
 						<InputField name="ВыражениеБазоваяЕдиница" id="133">
 							<DataPath>Объект.Выражение.БазоваяЕдиница</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<ChoiceParameters>
+								<app:item name="Отбор.ПометкаУдаления">
+									<app:value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation/>
+										<Value xsi:type="xs:boolean">false</Value>
+									</app:value>
+								</app:item>
+								<app:item name="Отбор.ИмеетСпециальныеНаименованиеИОбозначение">
+									<app:value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation/>
+										<Value xsi:type="xs:boolean">true</Value>
+									</app:value>
+								</app:item>
+							</ChoiceParameters>
 							<ContextMenu name="ВыражениеБазоваяЕдиницаКонтекстноеМеню" id="134"/>
 							<ExtendedTooltip name="ВыражениеБазоваяЕдиницаРасширеннаяПодсказка" id="135"/>
 							<Events>
@@ -617,6 +631,14 @@
 						<InputField name="ВыражениеПриставка" id="130">
 							<DataPath>Объект.Выражение.Приставка</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<ChoiceParameters>
+								<app:item name="Отбор.ПометкаУдаления">
+									<app:value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation/>
+										<Value xsi:type="xs:boolean">false</Value>
+									</app:value>
+								</app:item>
+							</ChoiceParameters>
 							<ContextMenu name="ВыражениеПриставкаКонтекстноеМеню" id="131"/>
 							<ExtendedTooltip name="ВыражениеПриставкаРасширеннаяПодсказка" id="132"/>
 							<Events>

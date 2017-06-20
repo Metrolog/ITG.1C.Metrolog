@@ -476,6 +476,7 @@
 									<ExtendedTooltip name="МинимальныйПоказательСтепениПриставкиРасширеннаяПодсказка" id="152"/>
 									<Events>
 										<Event name="OnChange">МинимальныйПоказательСтепениПриставкиПриИзменении</Event>
+										<Event name="AutoComplete">МинимальныйПоказательСтепениПриставкиАвтоПодбор</Event>
 										<Event name="StartChoice">МинимальныйПоказательСтепениПриставкиНачалоВыбора</Event>
 									</Events>
 								</InputField>
@@ -513,6 +514,7 @@
 									<ExtendedTooltip name="МаксимальныйПоказательСтепениПриставкиРасширеннаяПодсказка" id="155"/>
 									<Events>
 										<Event name="OnChange">МаксимальныйПоказательСтепениПриставкиПриИзменении</Event>
+										<Event name="AutoComplete">МаксимальныйПоказательСтепениПриставкиАвтоПодбор</Event>
 										<Event name="StartChoice">МаксимальныйПоказательСтепениПриставкиНачалоВыбора</Event>
 									</Events>
 								</InputField>

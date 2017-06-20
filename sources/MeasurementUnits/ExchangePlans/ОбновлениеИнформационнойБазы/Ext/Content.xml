@@ -93,7 +93,7 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
-		<Metadata>Catalog.ПриставкиЕдиницыВеличин</Metadata>
+		<Metadata>Catalog.ПриставкиЕдиницВеличин</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>

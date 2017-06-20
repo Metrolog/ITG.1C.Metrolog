@@ -174,7 +174,7 @@
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>false</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>
-				<MainTable>Catalog.ПриставкиЕдиницыВеличин</MainTable>
+				<MainTable>Catalog.ПриставкиЕдиницВеличин</MainTable>
 				<ListSettings>
 					<dcsset:filter>
 						<dcsset:viewMode>Normal</dcsset:viewMode>

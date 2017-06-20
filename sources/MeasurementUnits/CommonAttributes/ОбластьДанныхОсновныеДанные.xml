@@ -151,7 +151,7 @@
 					<xr:ConditionalSeparation/>
 				</xr:Item>
 				<xr:Item>
-					<xr:Metadata>Catalog.ПриставкиЕдиницыВеличин</xr:Metadata>
+					<xr:Metadata>Catalog.ПриставкиЕдиницВеличин</xr:Metadata>
 					<xr:Use>DontUse</xr:Use>
 					<xr:ConditionalSeparation/>
 				</xr:Item>

@@ -2,29 +2,29 @@
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
 	<Catalog uuid="147cc042-7d87-439d-9495-d9800752ac59">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.ПриставкиЕдиницыВеличин" category="Object">
+			<xr:GeneratedType name="CatalogObject.ПриставкиЕдиницВеличин" category="Object">
 				<xr:TypeId>1d6cd668-ed90-49f7-b993-7046f37c2178</xr:TypeId>
 				<xr:ValueId>12aad6a5-d487-428d-a522-4d4e55556f33</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.ПриставкиЕдиницыВеличин" category="Ref">
+			<xr:GeneratedType name="CatalogRef.ПриставкиЕдиницВеличин" category="Ref">
 				<xr:TypeId>6cb1f2cf-5edd-4862-a764-9629414bf08e</xr:TypeId>
 				<xr:ValueId>888cdb12-40e0-48e7-9ed1-21c98bbe7660</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.ПриставкиЕдиницыВеличин" category="Selection">
+			<xr:GeneratedType name="CatalogSelection.ПриставкиЕдиницВеличин" category="Selection">
 				<xr:TypeId>8ea875dd-56c4-4788-aedb-ad103ffae4a8</xr:TypeId>
 				<xr:ValueId>86ad25dd-62e5-4b32-b900-e8640b284d3e</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.ПриставкиЕдиницыВеличин" category="List">
+			<xr:GeneratedType name="CatalogList.ПриставкиЕдиницВеличин" category="List">
 				<xr:TypeId>36e73a27-35ac-49f7-9e40-d0314e37982f</xr:TypeId>
 				<xr:ValueId>db16c80c-1678-4644-a335-41a5f8649e14</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.ПриставкиЕдиницыВеличин" category="Manager">
+			<xr:GeneratedType name="CatalogManager.ПриставкиЕдиницВеличин" category="Manager">
 				<xr:TypeId>71a14dd0-f76e-4a5f-8a6a-0d4bee71cd65</xr:TypeId>
 				<xr:ValueId>4555a087-e61b-491b-a881-77e505d9aa22</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ПриставкиЕдиницыВеличин</Name>
+			<Name>ПриставкиЕдиницВеличин</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -281,18 +281,18 @@
 			<QuickChoice>true</QuickChoice>
 			<ChoiceMode>QuickChoice</ChoiceMode>
 			<InputByString>
-				<xr:Field>Catalog.ПриставкиЕдиницыВеличин.Attribute.НаименованиеРус</xr:Field>
-				<xr:Field>Catalog.ПриставкиЕдиницыВеличин.Attribute.НаименованиеМн</xr:Field>
-				<xr:Field>Catalog.ПриставкиЕдиницыВеличин.Attribute.НаименованиеРусISO_80000_1</xr:Field>
-				<xr:Field>Catalog.ПриставкиЕдиницыВеличин.Attribute.НаименованиеМнISO_80000_1</xr:Field>
+				<xr:Field>Catalog.ПриставкиЕдиницВеличин.Attribute.НаименованиеРус</xr:Field>
+				<xr:Field>Catalog.ПриставкиЕдиницВеличин.Attribute.НаименованиеМн</xr:Field>
+				<xr:Field>Catalog.ПриставкиЕдиницВеличин.Attribute.НаименованиеРусISO_80000_1</xr:Field>
+				<xr:Field>Catalog.ПриставкиЕдиницВеличин.Attribute.НаименованиеМнISO_80000_1</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
-			<DefaultObjectForm>Catalog.ПриставкиЕдиницыВеличин.Form.ФормаЭлемента</DefaultObjectForm>
+			<DefaultObjectForm>Catalog.ПриставкиЕдиницВеличин.Form.ФормаЭлемента</DefaultObjectForm>
 			<DefaultFolderForm/>
-			<DefaultListForm>Catalog.ПриставкиЕдиницыВеличин.Form.ФормаСписка</DefaultListForm>
-			<DefaultChoiceForm>Catalog.ПриставкиЕдиницыВеличин.Form.ФормаВыбора</DefaultChoiceForm>
+			<DefaultListForm>Catalog.ПриставкиЕдиницВеличин.Form.ФормаСписка</DefaultListForm>
+			<DefaultChoiceForm>Catalog.ПриставкиЕдиницВеличин.Form.ФормаВыбора</DefaultChoiceForm>
 			<DefaultFolderChoiceForm/>
 			<AuxiliaryObjectForm/>
 			<AuxiliaryFolderForm/>

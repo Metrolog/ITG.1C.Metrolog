@@ -4,7 +4,7 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
-		<name>Catalog.ПриставкиЕдиницыВеличин</name>
+		<name>Catalog.ПриставкиЕдиницВеличин</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>

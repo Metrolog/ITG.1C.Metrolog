@@ -13,8 +13,8 @@
 			<Location>Constant.МСЕдиницыВеличинИспользоватьОбозначенияПриставокМн</Location>
 			<PrivilegedGetMode>true</PrivilegedGetMode>
 			<Content>
-				<xr:Object>Catalog.ПриставкиЕдиницыВеличин.Attribute.НаименованиеМн</xr:Object>
-				<xr:Object>Catalog.ПриставкиЕдиницыВеличин.Attribute.ОбозначениеМн</xr:Object>
+				<xr:Object>Catalog.ПриставкиЕдиницВеличин.Attribute.НаименованиеМн</xr:Object>
+				<xr:Object>Catalog.ПриставкиЕдиницВеличин.Attribute.ОбозначениеМн</xr:Object>
 			</Content>
 		</Properties>
 	</FunctionalOption>

@@ -22,7 +22,7 @@
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">04b87f49-0605-4b07-8df8-47d39e7a6355</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ЕдиницыВеличин</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ПриставкиЕдиницыВеличин</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ПриставкиЕдиницВеличин</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.ОбщиеНастройкиЕдиницВеличин</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ВариантыОбозначенийЕдиницВеличин</xr:Item>
 			</Content>

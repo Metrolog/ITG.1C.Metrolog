@@ -2070,7 +2070,7 @@
 			<CommonForm>ЭлектроннаяПодпись</CommonForm>
 			<Catalog>ВариантыОбозначенийЕдиницВеличин</Catalog>
 			<Catalog>ЕдиницыВеличин</Catalog>
-			<Catalog>ПриставкиЕдиницыВеличин</Catalog>
+			<Catalog>ПриставкиЕдиницВеличин</Catalog>
 			<Catalog>_ДемоБанковскиеСчета</Catalog>
 			<Catalog>_ДемоВидыНоменклатуры</Catalog>
 			<Catalog>_ДемоГруппыДоступаНоменклатуры</Catalog>

@@ -312,7 +312,7 @@
 	<Attributes>
 		<Attribute name="Объект" id="1">
 			<Type>
-				<v8:Type>cfg:CatalogObject.ПриставкиЕдиницыВеличин</v8:Type>
+				<v8:Type>cfg:CatalogObject.ПриставкиЕдиницВеличин</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<SavedData>true</SavedData>

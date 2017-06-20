@@ -13,8 +13,8 @@
 			<Location>Constant.МСЕдиницыВеличинИспользоватьОбозначенияПриставокМнISO_80000_1</Location>
 			<PrivilegedGetMode>true</PrivilegedGetMode>
 			<Content>
-				<xr:Object>Catalog.ПриставкиЕдиницыВеличин.Attribute.НаименованиеМнISO_80000_1</xr:Object>
-				<xr:Object>Catalog.ПриставкиЕдиницыВеличин.Attribute.ОбозначениеМнISO_80000_1</xr:Object>
+				<xr:Object>Catalog.ПриставкиЕдиницВеличин.Attribute.НаименованиеМнISO_80000_1</xr:Object>
+				<xr:Object>Catalog.ПриставкиЕдиницВеличин.Attribute.ОбозначениеМнISO_80000_1</xr:Object>
 			</Content>
 		</Properties>
 	</FunctionalOption>

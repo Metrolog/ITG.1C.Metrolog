@@ -16,7 +16,7 @@
 				<v8:Type>cfg:ConstantValueManager.СинхронизироватьДанныеСПриложениемВИнтернетеПриНачалеРаботыПрограммы</v8:Type>
 				<v8:Type>cfg:ConstantValueManager.АдресСервисаЦентраИдей</v8:Type>
 				<v8:Type>cfg:ConstantValueManager.ИспользованиеКаталогаДополнительныхОтчетовИОбработокВМоделиСервиса</v8:Type>
-				<v8:Type>cfg:CatalogObject.ПриставкиЕдиницыВеличин</v8:Type>
+				<v8:Type>cfg:CatalogObject.ПриставкиЕдиницВеличин</v8:Type>
 				<v8:Type>cfg:ConstantValueManager.ВнешнийАдресУправляющегоПриложения</v8:Type>
 				<v8:Type>cfg:ConstantValueManager.УдалитьПарольПользователяПрограммногоИнтерфейсаСлужбыПоддержки</v8:Type>
 				<v8:Type>cfg:CatalogObject.ПоставляемыеДополнительныеОтчетыИОбработки</v8:Type>

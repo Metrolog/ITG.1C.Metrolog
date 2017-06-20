@@ -1155,7 +1155,7 @@
 							</Synonym>
 							<Comment/>
 							<Type>
-								<v8:Type>cfg:CatalogRef.ПриставкиЕдиницыВеличин</v8:Type>
+								<v8:Type>cfg:CatalogRef.ПриставкиЕдиницВеличин</v8:Type>
 							</Type>
 							<PasswordMode>false</PasswordMode>
 							<Format/>

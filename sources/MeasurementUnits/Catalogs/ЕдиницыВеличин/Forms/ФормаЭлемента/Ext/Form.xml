@@ -609,6 +609,10 @@
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="ВыражениеБазоваяЕдиницаКонтекстноеМеню" id="134"/>
 							<ExtendedTooltip name="ВыражениеБазоваяЕдиницаРасширеннаяПодсказка" id="135"/>
+							<Events>
+								<Event name="AutoComplete">ВыражениеБазоваяЕдиницаАвтоПодбор</Event>
+								<Event name="StartChoice">ВыражениеБазоваяЕдиницаНачалоВыбора</Event>
+							</Events>
 						</InputField>
 						<InputField name="ВыражениеПриставка" id="130">
 							<DataPath>Объект.Выражение.Приставка</DataPath>

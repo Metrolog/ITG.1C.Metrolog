@@ -19,7 +19,6 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЕдиницыВеличинСервер</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЕдиницыВеличинКлиентСервер</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЕдиницыВеличинОбновлениеИнформационнойБазы</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">04b87f49-0605-4b07-8df8-47d39e7a6355</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ЕдиницыВеличин</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ПриставкиЕдиницВеличин</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.МСЕдиницыВеличинИспользоватьОбозначенияПриставокРусISO_80000_1</xr:Item>
@@ -33,7 +32,6 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ОбозначенияЕдиницВеличин</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.ОбозначенияЕдиницВеличин</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ПередЗаписьюУдалитьЛишниеПробелыВНаименованииИОбозначенииЕдиницВеличин</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">b86fed2a-f415-40fa-8434-0ab238dad77c</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.ОбозначенияПриставокЕдиницВеличин</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ОбозначенияПриставокЕдиницВеличин</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.ОбозначенияПриставокЕдиницВеличин</xr:Item>
@@ -47,6 +45,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ПриЗаписиВариантаОбозначенийЕдиницВеличин</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЕдиницыВеличинКлиентСерверПовтИсп</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ВариантыОбозначенийЕдиницВеличин</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЕдиницыВеличинВызовСервера</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

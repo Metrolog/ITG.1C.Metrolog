@@ -754,6 +754,7 @@
 			<CommonModule>СтандартныеПодсистемыКлиентСерверИТГ</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыИТГ</CommonModule>
 			<CommonModule>ЕдиницыВеличин</CommonModule>
+			<CommonModule>ЕдиницыВеличинВызовСервера</CommonModule>
 			<CommonModule>ЕдиницыВеличинСервер</CommonModule>
 			<CommonModule>ЕдиницыВеличинКлиентСервер</CommonModule>
 			<CommonModule>ЕдиницыВеличинКлиентСерверПовтИсп</CommonModule>

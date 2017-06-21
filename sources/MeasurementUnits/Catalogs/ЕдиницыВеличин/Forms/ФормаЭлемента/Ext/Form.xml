@@ -74,6 +74,7 @@
 				</CheckBoxField>
 				<CheckBoxField name="ЭтоКогерентнаяЕдиница" id="77">
 					<DataPath>Объект.ЭтоКогерентнаяЕдиница</DataPath>
+					<ReadOnly>true</ReadOnly>
 					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ЭтоКогерентнаяЕдиницаКонтекстноеМеню" id="78"/>
 					<ExtendedTooltip name="ЭтоКогерентнаяЕдиницаРасширеннаяПодсказка" id="79"/>

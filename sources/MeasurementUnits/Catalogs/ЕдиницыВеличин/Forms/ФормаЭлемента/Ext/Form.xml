@@ -548,13 +548,12 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Группа выражение</v8:content>
+					<v8:content>Выражение единицы величины</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTipRepresentation>None</ToolTipRepresentation>
 			<Group>Vertical</Group>
-			<Representation>None</Representation>
-			<ShowTitle>false</ShowTitle>
+			<Representation>NormalSeparation</Representation>
 			<ExtendedTooltip name="ГруппаВыражениеРасширеннаяПодсказка" id="108"/>
 			<ChildItems>
 				<Table name="Выражение" id="114">

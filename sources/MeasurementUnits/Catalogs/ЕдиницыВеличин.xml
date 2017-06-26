@@ -1092,6 +1092,84 @@
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="073b5ee7-8cd6-4d61-bf70-55f075782f1f">
+				<Properties>
+					<Name>Приставка</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Приставка</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Копия реквизита из табличной части Выражение. Заполняется копией значения из первой строки Выражения только в том случае, если выражение содержит тоьлко один и только один множитель. Используется для поиска кратных и дольных единиц величин.</Comment>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПриставкиЕдиницВеличин</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>Index</Indexing>
+					<FullTextSearch>DontUse</FullTextSearch>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="12bf2d5c-7e2a-4832-a19c-e94af47538f2">
+				<Properties>
+					<Name>БазоваяЕдиница</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Базовая единица</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Копия реквизита из табличной части Выражение. Заполняется копией значения из первой строки Выражения только в том случае, если выражение содержит тоьлко один и только один множитель. Используется для поиска кратных и дольных единиц величин.</Comment>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ЕдиницыВеличин</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>Index</Indexing>
+					<FullTextSearch>DontUse</FullTextSearch>
+				</Properties>
+			</Attribute>
 			<TabularSection uuid="714be7d6-849f-4ce7-bbdb-69c5a56f90ea">
 				<InternalInfo>
 					<xr:GeneratedType name="CatalogTabularSection.ЕдиницыВеличин.Выражение" category="TabularSection">

@@ -46,6 +46,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЕдиницыВеличинКлиентСерверПовтИсп</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ВариантыОбозначенийЕдиницВеличин</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЕдиницыВеличинВызовСервера</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">StyleItem.ТекстСОбозначениямиЕдиницВеличинШрифт</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

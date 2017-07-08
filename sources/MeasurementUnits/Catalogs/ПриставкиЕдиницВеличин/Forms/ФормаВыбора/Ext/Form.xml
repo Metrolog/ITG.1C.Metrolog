@@ -114,6 +114,7 @@
 				</LabelField>
 				<LabelField name="ОбозначениеРус" id="130">
 					<DataPath>Список.ОбозначениеРус</DataPath>
+					<Font ref="style:ТекстСОбозначениямиЕдиницВеличинШрифт" kind="StyleItem"/>
 					<ContextMenu name="ОбозначениеРусКонтекстноеМеню" id="131"/>
 					<ExtendedTooltip name="ОбозначениеРусРасширеннаяПодсказка" id="132"/>
 				</LabelField>
@@ -127,6 +128,7 @@
 				</LabelField>
 				<LabelField name="ОбозначениеМн" id="136">
 					<DataPath>Список.ОбозначениеМн</DataPath>
+					<Font ref="style:ТекстСОбозначениямиЕдиницВеличинШрифт" kind="StyleItem"/>
 					<ContextMenu name="ОбозначениеМнКонтекстноеМеню" id="137"/>
 					<ExtendedTooltip name="ОбозначениеМнРасширеннаяПодсказка" id="138"/>
 				</LabelField>
@@ -140,6 +142,7 @@
 				</LabelField>
 				<LabelField name="ОбозначениеРусISO_80000_1" id="142">
 					<DataPath>Список.ОбозначениеРусISO_80000_1</DataPath>
+					<Font ref="style:ТекстСОбозначениямиЕдиницВеличинШрифт" kind="StyleItem"/>
 					<ContextMenu name="ОбозначениеРусISO_80000_1КонтекстноеМеню" id="143"/>
 					<ExtendedTooltip name="ОбозначениеРусISO_80000_1РасширеннаяПодсказка" id="144"/>
 				</LabelField>
@@ -153,6 +156,7 @@
 				</LabelField>
 				<LabelField name="ОбозначениеМнISO_80000_1" id="148">
 					<DataPath>Список.ОбозначениеМнISO_80000_1</DataPath>
+					<Font ref="style:ТекстСОбозначениямиЕдиницВеличинШрифт" kind="StyleItem"/>
 					<ContextMenu name="ОбозначениеМнISO_80000_1КонтекстноеМеню" id="149"/>
 					<ExtendedTooltip name="ОбозначениеМнISO_80000_1РасширеннаяПодсказка" id="150"/>
 				</LabelField>
@@ -201,20 +205,10 @@
 							<dcsset:left xsi:type="dcscor:Field">ПометкаУдаления</dcsset:left>
 							<dcsset:comparisonType>Equal</dcsset:comparisonType>
 							<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
-							<dcsset:presentation xsi:type="v8:LocalStringType">
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Не показывать удалённые</v8:content>
-								</v8:item>
-							</dcsset:presentation>
+							<dcsset:presentation xsi:type="xs:string">Не показывать удалённые</dcsset:presentation>
 							<dcsset:viewMode>Normal</dcsset:viewMode>
 							<dcsset:userSettingID>ea9e2aee-8f6e-4afc-b865-2a591b379564</dcsset:userSettingID>
-							<dcsset:userSettingPresentation xsi:type="v8:LocalStringType">
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Не показывать удалённые</v8:content>
-								</v8:item>
-							</dcsset:userSettingPresentation>
+							<dcsset:userSettingPresentation xsi:type="xs:string">Не показывать удалённые</dcsset:userSettingPresentation>
 						</dcsset:item>
 						<dcsset:viewMode>Normal</dcsset:viewMode>
 						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>

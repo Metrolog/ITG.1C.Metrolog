@@ -103,6 +103,7 @@
 				</LabelField>
 				<LabelField name="ОбозначениеРус" id="133">
 					<DataPath>Список.ОбозначениеРус</DataPath>
+					<Font ref="style:ТекстСОбозначениямиЕдиницВеличинШрифт" kind="StyleItem"/>
 					<ContextMenu name="ОбозначениеРусКонтекстноеМеню" id="134"/>
 					<ExtendedTooltip name="ОбозначениеРусРасширеннаяПодсказка" id="135"/>
 				</LabelField>
@@ -113,6 +114,7 @@
 				</LabelField>
 				<LabelField name="ОбозначениеМн" id="139">
 					<DataPath>Список.ОбозначениеМн</DataPath>
+					<Font ref="style:ТекстСОбозначениямиЕдиницВеличинШрифт" kind="StyleItem"/>
 					<ContextMenu name="ОбозначениеМнКонтекстноеМеню" id="140"/>
 					<ExtendedTooltip name="ОбозначениеМнРасширеннаяПодсказка" id="141"/>
 				</LabelField>
@@ -123,6 +125,7 @@
 				</LabelField>
 				<LabelField name="ОбозначениеРусISO_80000_1" id="145">
 					<DataPath>Список.ОбозначениеРусISO_80000_1</DataPath>
+					<Font ref="style:ТекстСОбозначениямиЕдиницВеличинШрифт" kind="StyleItem"/>
 					<ContextMenu name="ОбозначениеРусISO_80000_1КонтекстноеМеню" id="146"/>
 					<ExtendedTooltip name="ОбозначениеРусISO_80000_1РасширеннаяПодсказка" id="147"/>
 				</LabelField>
@@ -133,6 +136,7 @@
 				</LabelField>
 				<LabelField name="ОбозначениеМнISO_80000_1" id="151">
 					<DataPath>Список.ОбозначениеМнISO_80000_1</DataPath>
+					<Font ref="style:ТекстСОбозначениямиЕдиницВеличинШрифт" kind="StyleItem"/>
 					<ContextMenu name="ОбозначениеМнISO_80000_1КонтекстноеМеню" id="152"/>
 					<ExtendedTooltip name="ОбозначениеМнISO_80000_1РасширеннаяПодсказка" id="153"/>
 				</LabelField>

@@ -133,6 +133,7 @@
 				</LabelField>
 				<LabelField name="ОбозначениеРус" id="67">
 					<DataPath>Список.ОбозначениеРус</DataPath>
+					<Font ref="style:ТекстСОбозначениямиЕдиницВеличинШрифт" kind="StyleItem"/>
 					<ContextMenu name="ОбозначениеРусКонтекстноеМеню" id="68"/>
 					<ExtendedTooltip name="ОбозначениеРусРасширеннаяПодсказка" id="69"/>
 				</LabelField>
@@ -143,6 +144,7 @@
 				</LabelField>
 				<LabelField name="ОбозначениеМн" id="73">
 					<DataPath>Список.ОбозначениеМн</DataPath>
+					<Font ref="style:ТекстСОбозначениямиЕдиницВеличинШрифт" kind="StyleItem"/>
 					<ContextMenu name="ОбозначениеМнКонтекстноеМеню" id="74"/>
 					<ExtendedTooltip name="ОбозначениеМнРасширеннаяПодсказка" id="75"/>
 				</LabelField>

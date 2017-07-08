@@ -198,6 +198,7 @@
 								<InputField name="ОбозначениеРус" id="38">
 									<DataPath>Объект.ОбозначениеРус</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<Font ref="style:ТекстСОбозначениямиЕдиницВеличинШрифт" kind="StyleItem"/>
 									<ContextMenu name="ОбозначениеРусКонтекстноеМеню" id="39"/>
 									<ExtendedTooltip name="ОбозначениеРусРасширеннаяПодсказка" id="40"/>
 								</InputField>
@@ -294,6 +295,7 @@
 											<v8:content>Обозначение</v8:content>
 										</v8:item>
 									</Title>
+									<Font ref="style:ТекстСОбозначениямиЕдиницВеличинШрифт" kind="StyleItem"/>
 									<ContextMenu name="ОбозначениеМнКонтекстноеМеню" id="47"/>
 									<ExtendedTooltip name="ОбозначениеМнРасширеннаяПодсказка" id="48"/>
 								</InputField>

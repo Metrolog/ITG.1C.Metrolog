@@ -173,6 +173,7 @@
 			<Subsystem>ТехнологияСервиса</Subsystem>
 			<Subsystem>СтандартныеПодсистемыИТГ</Subsystem>
 			<Subsystem>МетрологическаяСлужба</Subsystem>
+			<StyleItem>ТекстСОбозначениямиЕдиницВеличинШрифт</StyleItem>
 			<StyleItem>ВидДняПроизводственногоКалендаряВоскресеньеЦвет</StyleItem>
 			<StyleItem>ВидДняПроизводственногоКалендаряНеУказанЦвет</StyleItem>
 			<StyleItem>ВидДняПроизводственногоКалендаряПраздникЦвет</StyleItem>

@@ -1,0 +1,131 @@
+﻿<xs:schema xmlns:tns="GoldParser" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="GoldParser" attributeFormDefault="unqualified" elementFormDefault="qualified">
+	<xs:element name="Grammar" type="tns:Grammar"/>
+	<xs:complexType name="Action">
+		<xs:attribute name="id" type="xs:int" use="required"/>
+		<xs:attribute name="value" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="ActionList">
+		<xs:sequence>
+			<xs:element name="Action" type="tns:Action" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="CharSet">
+		<xs:sequence>
+			<xs:element name="Chars" type="tns:CharsType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="charCount" type="xs:int" use="required"/>
+		<xs:attribute name="index" type="xs:int" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="CharSetTable">
+		<xs:sequence>
+			<xs:element name="CharSet" type="tns:CharSet" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="count" type="xs:int" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="CharsType">
+		<xs:attribute name="unicodeIndex" type="xs:int" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="DFAEdgeType">
+		<xs:attribute name="charSetIndex" type="xs:int" use="required"/>
+		<xs:attribute name="target" type="xs:int" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="DFAStateType">
+		<xs:sequence>
+			<xs:element name="DFAEdge" type="tns:DFAEdgeType" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="acceptIndex" type="xs:int" use="required"/>
+		<xs:attribute name="edgeCount" type="xs:int" use="required"/>
+		<xs:attribute name="index" type="xs:int" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="DFATable">
+		<xs:sequence>
+			<xs:element name="DFAState" type="tns:DFAStateType" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="count" type="xs:int" use="required"/>
+		<xs:attribute name="initialState" type="xs:int" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="Grammar">
+		<xs:sequence>
+			<xs:element name="Actions" type="tns:ActionList"/>
+			<xs:element name="SymbolKinds" type="tns:SymbolKindLists"/>
+			<xs:element name="Parameters" type="tns:ParameterList"/>
+			<xs:element name="SymbolTable" type="tns:SymbolTable"/>
+			<xs:element name="RuleTable" type="tns:RuleTable"/>
+			<xs:element name="CharSetTable" type="tns:CharSetTable"/>
+			<xs:element name="DFATable" type="tns:DFATable"/>
+			<xs:element name="LALRTable" type="tns:LALRTable"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="IdValueType">
+		<xs:attribute name="name" type="xs:string" use="required"/>
+		<xs:attribute name="value" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="Kind">
+		<xs:attribute name="id" type="xs:int" use="required"/>
+		<xs:attribute name="value" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="LALRAction">
+		<xs:attribute name="action" type="xs:int" use="required"/>
+		<xs:attribute name="symbolIndex" type="xs:int" use="required"/>
+		<xs:attribute name="value" type="xs:int" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="LALRState">
+		<xs:sequence>
+			<xs:element name="LALRAction" type="tns:LALRAction" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="index" type="xs:int" use="required"/>
+		<xs:attribute name="actionCount" type="xs:int" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="LALRTable">
+		<xs:sequence>
+			<xs:element name="LALRState" type="tns:LALRState" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="count" type="xs:int" use="required"/>
+		<xs:attribute name="initialState" type="xs:int" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="OneSymbol">
+		<xs:attribute name="symbolIndex" type="xs:int" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="ParameterList">
+		<xs:sequence>
+			<xs:element name="Parameter" type="tns:IdValueType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Rule">
+		<xs:sequence>
+			<xs:element name="Symbol" type="tns:OneSymbol" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="name" type="xs:string" use="required"/>
+		<xs:attribute name="value" type="xs:string" use="required"/>
+		<xs:attribute name="index" type="xs:int" use="required"/>
+		<xs:attribute name="nonterminalIndex" type="xs:int" use="required"/>
+		<xs:attribute name="symbolCount" type="xs:int" use="required"/>
+		<xs:attribute name="description" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="RuleTable">
+		<xs:sequence>
+			<xs:element name="Rule" type="tns:Rule" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="SymbolKindLists">
+		<xs:sequence>
+			<xs:element name="Kind" type="tns:Kind" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="SymbolTable">
+		<xs:sequence>
+			<xs:element name="Symbol" type="tns:SymbolType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="count" type="xs:int" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="SymbolType">
+		<xs:complexContent>
+			<xs:extension base="tns:IdValueType">
+				<xs:attribute name="id" type="xs:int" use="required"/>
+				<xs:attribute name="kind" type="xs:int" use="required"/>
+				<xs:attribute name="index" type="xs:int" use="required"/>
+				<xs:attribute name="description" type="xs:string" use="required"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+</xs:schema>

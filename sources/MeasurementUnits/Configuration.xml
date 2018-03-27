@@ -1777,6 +1777,7 @@
 			<CommonCommand>УдалитьНастройкуСинхронизации</CommonCommand>
 			<CommonCommand>УстановитьРасширениеРаботыСФайлами</CommonCommand>
 			<CommonCommand>ФайлыВТоме</CommonCommand>
+			<CommonCommand>ТестоваяКоманда</CommonCommand>
 			<CommandGroup>Взаимодействия</CommandGroup>
 			<CommandGroup>Информация</CommandGroup>
 			<CommandGroup>Органайзер</CommandGroup>
@@ -2416,6 +2417,9 @@
 			<DataProcessor>УниверсальныйОбменДаннымиXML</DataProcessor>
 			<DataProcessor>УправлениеИтогамиИАгрегатами</DataProcessor>
 			<DataProcessor>УстановкаОбновлений</DataProcessor>
+			<DataProcessor>loadGrammar</DataProcessor>
+			<DataProcessor>parser</DataProcessor>
+			<DataProcessor>test</DataProcessor>
 			<InformationRegister>_ДемоГрафикиРаботы</InformationRegister>
 			<InformationRegister>_ДемоЗаведующиеМестамиХранения</InformationRegister>
 			<InformationRegister>_ДемоНаличиеЗаметокПоПредмету</InformationRegister>

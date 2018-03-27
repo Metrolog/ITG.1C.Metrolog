@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- see http://www.goldparser.org/doc/templates/index.htm -->
+<gp:Grammar xsi:schemaLocation="GoldParser sq12.xsd" xmlns:gp="GoldParser" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<gp:Actions>
+	<gp:Action id="1" value="Shift"/>
+	<gp:Action id="2" value="Reduce Rule"/>
+	<gp:Action id="3" value="Goto"/>
+	<gp:Action id="4" value="Accept"/>
+</gp:Actions>
+<gp:SymbolKinds>
+	<gp:Kind id="0" value="Normal Nonterminal" />
+	<gp:Kind id="1" value="Normal Terminal" />
+	<gp:Kind id="2" value="Whitespace Terminal" />
+	<gp:Kind id="3" value="End Character - End of File. This symbol is used to represent the end of the file or the end of the source input." />
+	<gp:Kind id="4" value="Start of a block quote" />
+	<gp:Kind id="5" value="End of a block quote" />
+	<gp:Kind id="6" value="Line Comment Terminal" />
+	<gp:Kind id="7" value="Error Terminal. If the parser encounters an error reading a token, this kind of symbol can used to differentiate it from other terminal types." />
+</gp:SymbolKinds>
+<gp:Parameters>
+	<gp:Parameter name="About" value="This is the grammar definition for the US/Canada phone system" />
+	<gp:Parameter name="Author" value="Devin Cook" />
+	<gp:Parameter name="CaseSensitive" value="" />
+	<gp:Parameter name="Name" value="Phone Number Example" />
+	<gp:Parameter name="StartSymbol" value="" />
+	<gp:Parameter name="Version" value="(Not Specified)" />
+        <gp:Parameter name="GeneratedBy" value="GOLD Parser Builder 5.2.0."/>
+        <gp:Parameter name="GeneratedDate" value="2018-03-24 02:11"/>
+</gp:Parameters>
+<gp:SymbolTable count="11">
+<gp:Symbol name = "EOF" value = "EOF" id = "0"  kind = "3" index= "0" description = "(EOF)"/>
+<gp:Symbol name = "Error" value = "Error" id = "1"  kind = "7" index= "1" description = "(Error)"/>
+<gp:Symbol name = "Whitespace" value = "Whitespace" id = "2"  kind = "2" index= "2" description = "Whitespace"/>
+<gp:Symbol name = "-" value = "Minus" id = "3"  kind = "1" index= "3" description = "'-'"/>
+<gp:Symbol name = "(" value = "LParen" id = "4"  kind = "1" index= "4" description = "'('"/>
+<gp:Symbol name = ")" value = "RParen" id = "5"  kind = "1" index= "5" description = "')'"/>
+<gp:Symbol name = "/" value = "Div" id = "6"  kind = "1" index= "6" description = "'/'"/>
+<gp:Symbol name = "Num3" value = "Num3" id = "7"  kind = "1" index= "7" description = "'Num3'"/>
+<gp:Symbol name = "Num4" value = "Num4" id = "8"  kind = "1" index= "8" description = "'Num4'"/>
+<gp:Symbol name = "Area Code" value = "AreaCode" id = "9"  kind = "0" index= "9" description = "&lt;Area Code&gt;"/>
+<gp:Symbol name = "Phone Number" value = "PhoneNumber" id = "10"  kind = "0" index= "10" description = "&lt;Phone Number&gt;"/>
+</gp:SymbolTable>
+<gp:RuleTable>
+<gp:Rule name="PhoneNumberNum3MinusNum4" value="0" index="0" nonterminalIndex="10" symbolCount="4" description="&lt;Phone Number&gt; ::= &lt;Area Code&gt; 'Num3' '-' 'Num4'" >
+	<gp:Symbol symbolIndex="9"/>
+	<gp:Symbol symbolIndex="7"/>
+	<gp:Symbol symbolIndex="3"/>
+	<gp:Symbol symbolIndex="8"/>
+</gp:Rule>
+<gp:Rule name="PhoneNumberNum3MinusNum42" value="1" index="1" nonterminalIndex="10" symbolCount="3" description="&lt;Phone Number&gt; ::= 'Num3' '-' 'Num4'" >
+	<gp:Symbol symbolIndex="7"/>
+	<gp:Symbol symbolIndex="3"/>
+	<gp:Symbol symbolIndex="8"/>
+</gp:Rule>
+<gp:Rule name="AreaCodeLParenNum3RParen" value="2" index="2" nonterminalIndex="9" symbolCount="3" description="&lt;Area Code&gt; ::= '(' 'Num3' ')'" >
+	<gp:Symbol symbolIndex="4"/>
+	<gp:Symbol symbolIndex="7"/>
+	<gp:Symbol symbolIndex="5"/>
+</gp:Rule>
+<gp:Rule name="AreaCodeNum3Minus" value="3" index="3" nonterminalIndex="9" symbolCount="2" description="&lt;Area Code&gt; ::= 'Num3' '-'" >
+	<gp:Symbol symbolIndex="7"/>
+	<gp:Symbol symbolIndex="3"/>
+</gp:Rule>
+<gp:Rule name="AreaCodeNum3Div" value="4" index="4" nonterminalIndex="9" symbolCount="2" description="&lt;Area Code&gt; ::= 'Num3' '/'" >
+	<gp:Symbol symbolIndex="7"/>
+	<gp:Symbol symbolIndex="6"/>
+</gp:Rule>
+</gp:RuleTable>
+<gp:CharSetTable count="6">
+<gp:CharSet charCount="27" index="0">
+<gp:Chars unicodeIndex="9" />
+<gp:Chars unicodeIndex="10" />
+<gp:Chars unicodeIndex="11" />
+<gp:Chars unicodeIndex="12" />
+<gp:Chars unicodeIndex="13" />
+<gp:Chars unicodeIndex="32" />
+<gp:Chars unicodeIndex="133" />
+<gp:Chars unicodeIndex="160" />
+<gp:Chars unicodeIndex="5760" />
+<gp:Chars unicodeIndex="6158" />
+<gp:Chars unicodeIndex="8192" />
+<gp:Chars unicodeIndex="8193" />
+<gp:Chars unicodeIndex="8194" />
+<gp:Chars unicodeIndex="8195" />
+<gp:Chars unicodeIndex="8196" />
+<gp:Chars unicodeIndex="8197" />
+<gp:Chars unicodeIndex="8198" />
+<gp:Chars unicodeIndex="8199" />
+<gp:Chars unicodeIndex="8200" />
+<gp:Chars unicodeIndex="8201" />
+<gp:Chars unicodeIndex="8202" />
+<gp:Chars unicodeIndex="8230" />
+<gp:Chars unicodeIndex="8232" />
+<gp:Chars unicodeIndex="8233" />
+<gp:Chars unicodeIndex="8239" />
+<gp:Chars unicodeIndex="8287" />
+<gp:Chars unicodeIndex="12288" />
+</gp:CharSet>
+<gp:CharSet charCount="1" index="1">
+<gp:Chars unicodeIndex="45" />
+</gp:CharSet>
+<gp:CharSet charCount="1" index="2">
+<gp:Chars unicodeIndex="40" />
+</gp:CharSet>
+<gp:CharSet charCount="1" index="3">
+<gp:Chars unicodeIndex="41" />
+</gp:CharSet>
+<gp:CharSet charCount="1" index="4">
+<gp:Chars unicodeIndex="47" />
+</gp:CharSet>
+<gp:CharSet charCount="10" index="5">
+<gp:Chars unicodeIndex="48" />
+<gp:Chars unicodeIndex="49" />
+<gp:Chars unicodeIndex="50" />
+<gp:Chars unicodeIndex="51" />
+<gp:Chars unicodeIndex="52" />
+<gp:Chars unicodeIndex="53" />
+<gp:Chars unicodeIndex="54" />
+<gp:Chars unicodeIndex="55" />
+<gp:Chars unicodeIndex="56" />
+<gp:Chars unicodeIndex="57" />
+</gp:CharSet>
+</gp:CharSetTable>
+
+
+<gp:DFATable count="10" initialState="0">
+<gp:DFAState acceptIndex="-1" edgeCount="6" index="0">
+<gp:DFAEdge charSetIndex="0" target="1" />
+<gp:DFAEdge charSetIndex="1" target="2" />
+<gp:DFAEdge charSetIndex="2" target="3" />
+<gp:DFAEdge charSetIndex="3" target="4" />
+<gp:DFAEdge charSetIndex="4" target="5" />
+<gp:DFAEdge charSetIndex="5" target="6" />
+</gp:DFAState>
+<gp:DFAState acceptIndex="2" edgeCount="1" index="1">
+<gp:DFAEdge charSetIndex="0" target="1" />
+</gp:DFAState>
+<gp:DFAState acceptIndex="3" edgeCount="0" index="2">
+</gp:DFAState>
+<gp:DFAState acceptIndex="4" edgeCount="0" index="3">
+</gp:DFAState>
+<gp:DFAState acceptIndex="5" edgeCount="0" index="4">
+</gp:DFAState>
+<gp:DFAState acceptIndex="6" edgeCount="0" index="5">
+</gp:DFAState>
+<gp:DFAState acceptIndex="-1" edgeCount="1" index="6">
+<gp:DFAEdge charSetIndex="5" target="7" />
+</gp:DFAState>
+<gp:DFAState acceptIndex="-1" edgeCount="1" index="7">
+<gp:DFAEdge charSetIndex="5" target="8" />
+</gp:DFAState>
+<gp:DFAState acceptIndex="7" edgeCount="1" index="8">
+<gp:DFAEdge charSetIndex="5" target="9" />
+</gp:DFAState>
+<gp:DFAState acceptIndex="8" edgeCount="0" index="9">
+</gp:DFAState>
+</gp:DFATable>
+
+<gp:LALRTable  count="13" initialState="0">
+<gp:LALRState index="0" actionCount="4">
+<gp:LALRAction action="1" symbolIndex="4" value="1"/>
+<gp:LALRAction action="1" symbolIndex="7" value="2"/>
+<gp:LALRAction action="3" symbolIndex="9" value="3"/>
+<gp:LALRAction action="3" symbolIndex="10" value="4"/>
+</gp:LALRState>
+<gp:LALRState index="1" actionCount="1">
+<gp:LALRAction action="1" symbolIndex="7" value="5"/>
+</gp:LALRState>
+<gp:LALRState index="2" actionCount="2">
+<gp:LALRAction action="1" symbolIndex="3" value="6"/>
+<gp:LALRAction action="1" symbolIndex="6" value="7"/>
+</gp:LALRState>
+<gp:LALRState index="3" actionCount="1">
+<gp:LALRAction action="1" symbolIndex="7" value="8"/>
+</gp:LALRState>
+<gp:LALRState index="4" actionCount="1">
+<gp:LALRAction action="4" symbolIndex="0" value="0"/>
+</gp:LALRState>
+<gp:LALRState index="5" actionCount="1">
+<gp:LALRAction action="1" symbolIndex="5" value="9"/>
+</gp:LALRState>
+<gp:LALRState index="6" actionCount="2">
+<gp:LALRAction action="1" symbolIndex="8" value="10"/>
+<gp:LALRAction action="2" symbolIndex="7" value="3"/>
+</gp:LALRState>
+<gp:LALRState index="7" actionCount="1">
+<gp:LALRAction action="2" symbolIndex="7" value="4"/>
+</gp:LALRState>
+<gp:LALRState index="8" actionCount="1">
+<gp:LALRAction action="1" symbolIndex="3" value="11"/>
+</gp:LALRState>
+<gp:LALRState index="9" actionCount="1">
+<gp:LALRAction action="2" symbolIndex="7" value="2"/>
+</gp:LALRState>
+<gp:LALRState index="10" actionCount="1">
+<gp:LALRAction action="2" symbolIndex="0" value="1"/>
+</gp:LALRState>
+<gp:LALRState index="11" actionCount="1">
+<gp:LALRAction action="1" symbolIndex="8" value="12"/>
+</gp:LALRState>
+<gp:LALRState index="12" actionCount="1">
+<gp:LALRAction action="2" symbolIndex="0" value="0"/>
+</gp:LALRState>
+</gp:LALRTable>
+
+</gp:Grammar>

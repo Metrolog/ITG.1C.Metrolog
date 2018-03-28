@@ -1,12 +1,13 @@
 #* text=auto
 
-#*.md        merge=text               eol=lf
 *.md         merge=text   diff=text   -eol
 *.mk         merge=text   diff=text   -eol
 Makefile     merge=text   diff=text   -eol
 
 *.bsl        merge=text   diff=text   eol=lf
 *.xml        merge=text   diff=text   eol=lf
+
+*.grm        merge=text   diff=text   eol=lf
 
 *.jpg        binary
 *.png        binary

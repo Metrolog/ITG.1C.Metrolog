@@ -35,11 +35,11 @@ UnitSymbolsMultiplicationOperator = {UnitSymbolsMultiplicationOperatorChars}
 
 <UnitSpecialSymbolWithPower> ::= <UnitSpecialSymbol> <PowerWithPrefix>
 
-<UnitSpecialSymbol> ::= UnitSymbol
+<UnitSpecialSymbol> ::= CyrillicUnitSymbol
                      | AngularUnitSymbol
                      | <CelsiusDegree>
 
-UnitSymbol = {Cyrillic}+
+CyrillicUnitSymbol = {Cyrillic}+
            
 {AngularDegree} = [°]
 {AngularMinute} = [′]

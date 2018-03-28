@@ -1,0 +1,50 @@
+﻿! -----------------------------------------------------------------------
+! Грамматика обозначений единиц величин
+! © Бетке С.С. sergey.s.betke@yandex.ru
+! -----------------------------------------------------------------------
+
+"Name"    = 'Грамматика обозначений единиц СИ'
+"Version" = '0.1.0.0'
+"Author"  = 'Sergei S. Betke'
+"About"   = 'Грамматика предназначена для разбора обозначений производных единиц с выделением кратных и дробных приставок.'
+| 'Обозначения по Постановлению Правительства РФ от 31.10.2009 №879.'
+
+"Case Sensitive" = 'True'
+"Character Mapping" = 'Unicode'
+"Auto Whitespace" = 'True'
+
+"Start Symbol" = <UnitSymbolOneWord>
+
+!<UnitSymbolOneWord> ::= <Prefix> <UnitSymbolAllowingPrefixes>
+<UnitSymbolOneWord> ::= <Prefix> <UnitSymbolAllowingPrefixes>
+                     | <UnitSymbolAllowingPrefixes>
+                     | <UnitSymbolDisallowingPrefixes>
+
+!<UnitSymbolAllowingPrefixes> ::= <metr> | <gram> | <newton>
+UnitSymbolOneWord = {Cyrillic}+
+<UnitSymbolAllowingPrefixes> ::= UnitSymbolOneWord
+
+<UnitSymbolDisallowingPrefixes> ::= <AngularDegree> | <AngularMinute> | <AngularSecond>
+                                 | <CelsiusDegree>
+
+<metr>   ::= 'м'
+<gram>   ::= 'г'
+<newton> ::= 'Н'
+
+<AngularDegree> ::= '°'
+<AngularMinute> ::= '′'
+<AngularSecond> ::= '″'
+
+CelsiusDegree = {&2103} ! ℃
+<CelsiusDegree> ::= CelsiusDegree | '°C'
+
+
+<Prefix> ::=
+          | <milli>
+          | <micro>
+!          | <mega>
+             
+<milli> ::= 'м'
+<micro> ::= 'мк' | 'µ'
+!<mega>  ::= 'М'
+

@@ -13,6 +13,81 @@
 "Character Mapping" = 'Unicode'
 "Auto Whitespace" = 'True'
 
+"Start Symbol" = <UnitSymbol>
+
+<UnitSymbol> ::= <UnitSymbolNumerator>
+              | <UnitSymbolNumerator> UnitSymbolsFractionOperator <UnitSymbolDenominator>
+
+{UnitSymbolsFractionOperatorChars} = ['/'] + {&2044} ! ⁄
+
+UnitSymbolsFractionOperator = {UnitSymbolsFractionOperatorChars}
+ 
+<UnitSymbolNumerator> ::= <UnitSpecialSymbolsWithPower>
+
+<UnitSymbolDenominator> ::= <UnitSpecialSymbolsWithPower>
+
+<UnitSpecialSymbolsWithPower> ::= <UnitSpecialSymbolWithPower> UnitSymbolsMultiplicationOperator <UnitSpecialSymbolsWithPower>
+                               | <UnitSpecialSymbolWithPower>
+
+{UnitSymbolsMultiplicationOperatorChars} = ['*'] + {&22C5} ! ⋅
+
+UnitSymbolsMultiplicationOperator = {UnitSymbolsMultiplicationOperatorChars}
+
+<UnitSpecialSymbolWithPower> ::= <UnitSpecialSymbol> <PowerWithPrefix>
+
+<UnitSpecialSymbol> ::= UnitSymbol
+                     | AngularUnitSymbol
+                     | <CelsiusDegree>
+
+UnitSymbol = {Cyrillic}+
+           
+{AngularDegree} = [°]
+{AngularMinute} = [′]
+{AngularSecond} = [″]
+{AngularUnitSymbol} = {AngularDegree} + {AngularMinute} + {AngularSecond}
+
+AngularUnitSymbol = {AngularUnitSymbol}
+
+{CelsiusDegree} = {&2103} ! ℃
+CelsiusDegree = {CelsiusDegree}
+
+<CelsiusDegree> ::= CelsiusDegree 
+                 | '°C'
+
+           
+<PowerWithPrefix> ::= 
+         | PowerPrefix <Power>
+         | <Power>
+         | <PowerSuperscript>
+
+<Power> ::= Sign Power
+         | Power
+
+Sign = [+-]
+     
+Power = {Digit}+
+      
+PowerPrefix = [^]
+
+<PowerSuperscript> ::= SignSuperscript PowerSuperscript
+         | PowerSuperscript
+
+{SignSuperscriptChars} = {&207B} + {&207A} ! ⁻⁺
+                       
+SignSuperscript = {SignSuperscriptChars}
+     
+{DigitSuperscript} = {&2070} + {&00B9} + {&00B2..&00B3} + {&2074..&2079}
+
+PowerSuperscript = {DigitSuperscript}+
+      
+
+
+
+
+! {Whitespace} = {Space} + {NBSP}
+             
+!*
+
 "Start Symbol" = <UnitSymbolOneWord>
 
 !<UnitSymbolOneWord> ::= <Prefix> <UnitSymbolAllowingPrefixes>
@@ -48,3 +123,4 @@ CelsiusDegree = {&2103} ! ℃
 <micro> ::= 'мк' | 'µ'
 !<mega>  ::= 'М'
 
+*!

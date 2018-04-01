@@ -9,31 +9,31 @@
 "About"   = 'Грамматика предназначена для разбора обозначений производных единиц с выделением кратных и дробных приставок.'
 | 'Обозначения по Постановлению Правительства РФ от 31.10.2009 №879.'
 
-"Case Sensitive" = 'True'
+"Case Sensitive"    = 'True'
 "Character Mapping" = 'Unicode'
-"Auto Whitespace" = 'True'
+"Auto Whitespace"   = 'True'
 
-"Start Symbol" = <UnitSymbol>
+"Start Symbol"      = <UnitSymbol>
 
 <UnitSymbol> ::= <UnitSymbolNumerator>
-              | <UnitSymbolNumerator> UnitSymbolsFractionOperator <UnitSymbolDenominator>
+              | <UnitSymbolNumerator> FractionOperator <UnitSymbolDenominator>
 
-{UnitSymbolsFractionOperatorChars} = ['/'] + {&2044} ! ⁄
+{FractionOperatorChars} = ['/'] + {&2044} ! ⁄
 
-UnitSymbolsFractionOperator = {UnitSymbolsFractionOperatorChars}
+FractionOperator = {FractionOperatorChars}
  
 <UnitSymbolNumerator> ::= <UnitSpecialSymbolsWithPower>
 
 <UnitSymbolDenominator> ::= <UnitSpecialSymbolsWithPower>
 
 <UnitSpecialSymbolsWithPower> ::= <UnitSpecialSymbolWithPower> <MultiplicationOperator> <UnitSpecialSymbolsWithPower>
-                               | <UnitSpecialSymbolWithPower>
+                               |  <UnitSpecialSymbolWithPower>
 
 {MultiplicationOperator} = ['*'] + {&22C5} ! ⋅
 MultiplicationOperator = {MultiplicationOperator}
 <MultiplicationOperator> ::= MultiplicationOperator
 
-<UnitSpecialSymbolWithPower> ::= <UnitSpecialSymbol> <PowerWithPrefix>
+<UnitSpecialSymbolWithPower> ::= <UnitSpecialSymbol><PowerWithPrefix>
 
 <UnitSpecialSymbol> ::= <CyrillicUnitSpecialSymbol>
                      | AngularDegreeSymbol | AngularMinuteSymbol | AngularSecondSymbol
@@ -70,68 +70,48 @@ AngstromSign = {AngstromSign}
 {CelsiusDegree} = {&2103} ! ℃
 CelsiusDegree = {CelsiusDegree}
 
-<CelsiusDegree> ::= CelsiusDegree 
-                 | '°C'
+<CelsiusDegree> ::= CelsiusDegree | '°C'
 
+<PowerWithPrefix> ::= PowerOperator <Power> | <Power> | <PowerSuperscript> | <>
 
-<PowerWithPrefix> ::= 
-         | PowerPrefix <Power>
-         | <Power>
-         | <PowerSuperscript>
-
-<Power> ::= Power
+<Power> ::= Number
 
 {Sign} = [+-]
-Power = {Sign}?{Digit}+
-PowerPrefix = [^]
+Number = {Sign}?{Digit}+
+PowerOperator = [^]
 
-<PowerSuperscript> ::= PowerSuperscript
+<PowerSuperscript> ::= NumberSuperscript
 
 {SignSuperscriptChars} = {&207B} + {&207A} ! ⁻⁺
 {DigitSuperscript} = {&2070} + {&00B9} + {&00B2..&00B3} + {&2074..&2079}
-PowerSuperscript = {SignSuperscriptChars}?{DigitSuperscript}+
-      
+NumberSuperscript = {SignSuperscriptChars}?{DigitSuperscript}+
 
-
-
-
-! {Whitespace} = {Space} + {NBSP}
-             
 !*
 
-"Start Symbol" = <UnitSymbolOneWord>
+<UnitSymbolPrefix> ::= yotta | zetta | exa   | peta  | tera | giga | mega  | kilo | hecto | deca
+                    |  deci  | centi | milli | micro | nano | pico | femto | atto | zepto | yocto
 
-!<UnitSymbolOneWord> ::= <Prefix> <UnitSymbolAllowingPrefixes>
-<UnitSymbolOneWord> ::= <Prefix> <UnitSymbolAllowingPrefixes>
-                     | <UnitSymbolAllowingPrefixes>
-                     | <UnitSymbolDisallowingPrefixes>
+yotta = 'И'
+zetta = 'З'
+exa   = 'Э'
+peta  = 'П'
+tera  = 'Т'
+giga  = 'Г'
+mega  = 'М'
+kilo  = 'к'
+hecto = 'г'
+deca  = 'да'
 
-!<UnitSymbolAllowingPrefixes> ::= <metr> | <gram> | <newton>
-UnitSymbolOneWord = {Cyrillic}+
-<UnitSymbolAllowingPrefixes> ::= UnitSymbolOneWord
-
-<UnitSymbolDisallowingPrefixes> ::= <AngularDegree> | <AngularMinute> | <AngularSecond>
-                                 | <CelsiusDegree>
-
-<metr>   ::= 'м'
-<gram>   ::= 'г'
-<newton> ::= 'Н'
-
-<AngularDegree> ::= '°'
-<AngularMinute> ::= '′'
-<AngularSecond> ::= '″'
-
-CelsiusDegree = {&2103} ! ℃
-<CelsiusDegree> ::= CelsiusDegree | '°C'
-
-
-<Prefix> ::=
-          | <milli>
-          | <micro>
-!          | <mega>
-             
-<milli> ::= 'м'
-<micro> ::= 'мк' | 'µ'
-!<mega>  ::= 'М'
+deci  = 'д'
+centi = 'с'
+milli = 'м'
+micro = 'мк'
+nano  = 'н'
+pico  = 'п'
+femto = 'ф'
+atto  = 'а'
+zepto = 'з'
+yocto = 'и'
 
 *!
+

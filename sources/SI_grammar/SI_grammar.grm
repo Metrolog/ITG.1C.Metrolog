@@ -26,27 +26,46 @@ UnitSymbolsFractionOperator = {UnitSymbolsFractionOperatorChars}
 
 <UnitSymbolDenominator> ::= <UnitSpecialSymbolsWithPower>
 
-<UnitSpecialSymbolsWithPower> ::= <UnitSpecialSymbolWithPower> UnitSymbolsMultiplicationOperator <UnitSpecialSymbolsWithPower>
+<UnitSpecialSymbolsWithPower> ::= <UnitSpecialSymbolWithPower> <MultiplicationOperator> <UnitSpecialSymbolsWithPower>
                                | <UnitSpecialSymbolWithPower>
 
-{UnitSymbolsMultiplicationOperatorChars} = ['*'] + {&22C5} ! ⋅
-
-UnitSymbolsMultiplicationOperator = {UnitSymbolsMultiplicationOperatorChars}
+{MultiplicationOperator} = ['*'] + {&22C5} ! ⋅
+MultiplicationOperator = {MultiplicationOperator}
+<MultiplicationOperator> ::= MultiplicationOperator
 
 <UnitSpecialSymbolWithPower> ::= <UnitSpecialSymbol> <PowerWithPrefix>
 
-<UnitSpecialSymbol> ::= CyrillicUnitSymbol
-                     | AngularUnitSymbol
+<UnitSpecialSymbol> ::= <CyrillicUnitSpecialSymbol>
+                     | AngularDegreeSymbol | AngularMinuteSymbol | AngularSecondSymbol
+                     | PercentSign | PerMilleSign
+                     | AngstromSign
                      | <CelsiusDegree>
 
-CyrillicUnitSymbol = {Cyrillic}+
-           
-{AngularDegree} = [°]
-{AngularMinute} = [′]
-{AngularSecond} = [″]
-{AngularUnitSymbol} = {AngularDegree} + {AngularMinute} + {AngularSecond}
+{Dot} = [.]
 
-AngularUnitSymbol = {AngularUnitSymbol}
+<CyrillicUnitSpecialSymbol> ::= CyrillicUnitSymbol
+                             | CyrillicUnitSymbol CyrillicShorthand
+                             | CyrillicUnitSymbol CyrillicShorthand CyrillicShorthand
+                             | CyrillicShorthand CyrillicShorthand
+                             | CyrillicShorthand CyrillicShorthand CyrillicShorthand
+
+CyrillicUnitSymbol = {Cyrillic}+
+CyrillicShorthand = {Cyrillic}+{Dot}
+
+{AngularDegree} = [°]
+AngularDegreeSymbol = {AngularDegree}
+{AngularMinute} = [′]
+AngularMinuteSymbol = {AngularMinute}
+{AngularSecond} = [″]
+AngularSecondSymbol = {AngularSecond}
+
+{PercentSign} = [%]
+PercentSign = {PercentSign}
+{PerMilleSign} = {&8240} ! ‰
+PerMilleSign = {PerMilleSign}
+
+{AngstromSign} = {&212B} + {&00C5} !Å Å
+AngstromSign = {AngstromSign}
 
 {CelsiusDegree} = {&2103} ! ℃
 CelsiusDegree = {CelsiusDegree}
@@ -54,31 +73,23 @@ CelsiusDegree = {CelsiusDegree}
 <CelsiusDegree> ::= CelsiusDegree 
                  | '°C'
 
-           
+
 <PowerWithPrefix> ::= 
          | PowerPrefix <Power>
          | <Power>
          | <PowerSuperscript>
 
-<Power> ::= Sign Power
-         | Power
+<Power> ::= Power
 
-Sign = [+-]
-     
-Power = {Digit}+
-      
+{Sign} = [+-]
+Power = {Sign}?{Digit}+
 PowerPrefix = [^]
 
-<PowerSuperscript> ::= SignSuperscript PowerSuperscript
-         | PowerSuperscript
+<PowerSuperscript> ::= PowerSuperscript
 
 {SignSuperscriptChars} = {&207B} + {&207A} ! ⁻⁺
-                       
-SignSuperscript = {SignSuperscriptChars}
-     
 {DigitSuperscript} = {&2070} + {&00B9} + {&00B2..&00B3} + {&2074..&2079}
-
-PowerSuperscript = {DigitSuperscript}+
+PowerSuperscript = {SignSuperscriptChars}?{DigitSuperscript}+
       
 
 

@@ -18,6 +18,11 @@ indent_size = 2
 indent_style = space
 indent_size = 2
 
+[*.bsl]
+indent_style = space
+indent_size = 4
+charset = utf-8
+
 [{LICENSE,NOTICE}]
 indent_style = space
 indent_size = 2

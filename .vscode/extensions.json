@@ -10,6 +10,7 @@
 		"Gruntfuggly.todo-tree",
 		"redhat.vscode-yaml",
 		"DavidAnson.vscode-markdownlint",
-		"bierner.markdown-preview-github-styles"
+		"bierner.markdown-preview-github-styles",
+		"xdrivendevelopment.language-1c-bsl"
 	]
 }

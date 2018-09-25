@@ -10082,8 +10082,8 @@
 		<Metadata name="Role.ДобавлениеИзменениеДополнительныхОтчетовИОбработок.Rights" id="4a008342-f72f-4ca1-bad1-64b59b509911.0" configVersion="ff6b174a0a6dcd4484a8bb3a737340eb00000000"/>
 		<Metadata name="Role.ДобавлениеИзменениеДополнительныхРеквизитовИСведений" id="4436b2cf-2d71-401f-99fd-012ff0c91fbd" configVersion="c9f2b368c31bb74eb7ff31f25eb5830200000000"/>
 		<Metadata name="Role.ДобавлениеИзменениеДополнительныхРеквизитовИСведений.Rights" id="4436b2cf-2d71-401f-99fd-012ff0c91fbd.0" configVersion="36eee3e2213a6d41886f4dc543eae20e00000000"/>
-		<Metadata name="Role.ДобавлениеИзменениеЕдиницВеличин" id="0532349b-6408-4041-95d8-d1ca22956d2e" configVersion="13e26ba544e0454b9ee2c18a157d342900000000"/>
-		<Metadata name="Role.ДобавлениеИзменениеЕдиницВеличин.Rights" id="0532349b-6408-4041-95d8-d1ca22956d2e.0" configVersion="4004d4347edab445b69cfe9e370a263900000000"/>
+		<Metadata name="Role.ДобавлениеИзменениеЕдиницВеличин" id="0532349b-6408-4041-95d8-d1ca22956d2e" configVersion="c54f60e8f5227c4b82b0e7ed3104841900000000"/>
+		<Metadata name="Role.ДобавлениеИзменениеЕдиницВеличин.Rights" id="0532349b-6408-4041-95d8-d1ca22956d2e.0" configVersion="82cc6abf1ee4944cbef432ab0a1401c800000000"/>
 		<Metadata name="Role.ДобавлениеИзменениеЗаданий" id="cefa1723-a4d4-44c4-bd57-ffa713f9306c" configVersion="e38ae5e0b396fd46bd893bf0e1ab148100000000"/>
 		<Metadata name="Role.ДобавлениеИзменениеЗаданий.Rights" id="cefa1723-a4d4-44c4-bd57-ffa713f9306c.0" configVersion="4749ce64268d03408243d72a98044ccd00000000"/>
 		<Metadata name="Role.ДобавлениеИзменениеЗаметок" id="5d75aae8-9d9c-4a47-b8c0-2ce56431fe53" configVersion="812909e3ebc4cf4493bb18aaea5ce78200000000"/>

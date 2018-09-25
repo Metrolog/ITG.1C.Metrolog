@@ -9,9 +9,9 @@
 "About"   = 'Грамматика предназначена для разбора обозначений производных единиц с выделением кратных и дробных приставок.'
 | 'Обозначения по Постановлению Правительства РФ от 31.10.2009 №879.'
 
-"Case Sensitive"    = 'True'
+"Case Sensitive"    = True
 "Character Mapping" = 'Unicode'
-"Auto Whitespace"   = 'True'
+"Auto Whitespace"   = True
 
 "Start Symbol"      = <UnitSymbol>
 
@@ -43,13 +43,20 @@ MultiplicationOperator = {MultiplicationOperator}
 
 {Dot} = [.]
 
-<CyrillicUnitSpecialSymbol> ::= CyrillicUnitSymbol
-                             | CyrillicUnitSymbol CyrillicShorthand
-                             | CyrillicUnitSymbol CyrillicShorthand CyrillicShorthand
-                             | CyrillicShorthand CyrillicShorthand
-                             | CyrillicShorthand CyrillicShorthand CyrillicShorthand
+<CyrillicUnitSpecialSymbol> ::= <CyrillicUnitSymbol>
+                             | <CyrillicUnitSymbol> <CyrillicShorthand>
+                             | <CyrillicUnitSymbol> <CyrillicShorthand> <CyrillicShorthand>
+                             | <CyrillicShorthand> <CyrillicShorthand>
+                             | <CyrillicShorthand> <CyrillicShorthand> <CyrillicShorthand>
+
+<CyrillicUnitSymbol> ::= <CyrillicUnitSymbolPrefix><CyrillicBasicUnitSymbol>
+
+<CyrillicBasicUnitSymbol> ::= CyrillicUnitSymbol
 
 CyrillicUnitSymbol = {Cyrillic}+
+                   
+<CyrillicShorthand> ::= CyrillicShorthand
+
 CyrillicShorthand = {Cyrillic}+{Dot}
 
 {AngularDegree} = [°]
@@ -86,10 +93,9 @@ PowerOperator = [^]
 {DigitSuperscript} = {&2070} + {&00B9} + {&00B2..&00B3} + {&2074..&2079}
 NumberSuperscript = {SignSuperscriptChars}?{DigitSuperscript}+
 
-!*
-
-<UnitSymbolPrefix> ::= yotta | zetta | exa   | peta  | tera | giga | mega  | kilo | hecto | deca
-                    |  deci  | centi | milli | micro | nano | pico | femto | atto | zepto | yocto
+<CyrillicUnitSymbolPrefix> ::= <>
+                    | yotta | zetta | exa   | peta  | tera | giga | mega  | kilo | hecto | deca
+                    | deci  | centi | milli | micro | nano | pico | femto | atto | zepto | yocto
 
 yotta = 'И'
 zetta = 'З'
@@ -112,6 +118,4 @@ femto = 'ф'
 atto  = 'а'
 zepto = 'з'
 yocto = 'и'
-
-*!
 

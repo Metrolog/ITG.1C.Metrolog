@@ -276,7 +276,7 @@
 				</xr:StandardAttribute>
 			</StandardAttributes>
 			<Characteristics/>
-			<PredefinedDataUpdate>Auto</PredefinedDataUpdate>
+			<PredefinedDataUpdate>AutoUpdate</PredefinedDataUpdate>
 			<EditType>InDialog</EditType>
 			<QuickChoice>true</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
@@ -300,7 +300,7 @@
 			<IncludeHelpInContents>true</IncludeHelpInContents>
 			<BasedOn/>
 			<DataLockFields/>
-			<DataLockControlMode>Managed</DataLockControlMode>
+			<DataLockControlMode>Automatic</DataLockControlMode>
 			<FullTextSearch>DontUse</FullTextSearch>
 			<ObjectPresentation>
 				<v8:item>

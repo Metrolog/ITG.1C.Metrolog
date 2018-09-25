@@ -49,7 +49,7 @@
 			<Autonumbering>false</Autonumbering>
 			<DefaultPresentation>AsDescription</DefaultPresentation>
 			<Characteristics/>
-			<PredefinedDataUpdate>Auto</PredefinedDataUpdate>
+			<PredefinedDataUpdate>AutoUpdate</PredefinedDataUpdate>
 			<EditType>InDialog</EditType>
 			<QuickChoice>true</QuickChoice>
 			<ChoiceMode>QuickChoice</ChoiceMode>

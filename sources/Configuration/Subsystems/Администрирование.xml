@@ -113,7 +113,6 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.НастройкаКомандПечати</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.ПредупрежденияПриСинхронизацииДанных</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.ОбщиеНастройкиЕдиницВеличин</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.ТестоваяКоманда</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

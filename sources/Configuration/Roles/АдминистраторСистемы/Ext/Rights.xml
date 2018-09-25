@@ -4767,6 +4767,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Subsystem.Тестирование</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.ПакетыДляОтправки</name>
 		<right>
 			<name>Read</name>

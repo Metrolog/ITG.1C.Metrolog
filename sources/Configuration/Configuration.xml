@@ -49,7 +49,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</xr:Item>
 			</DefaultRoles>
 			<Vendor>ФБУ "Тест-С.-Петербург"</Vendor>
-			<Version>0.1.0.40</Version>
+			<Version>0.2.0.41</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>true</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>true</UseManagedFormInOrdinaryApplication>
@@ -154,6 +154,7 @@
 			<Language>Русский</Language>
 			<Subsystem>НормативноСправочнаяИнформация</Subsystem>
 			<Subsystem>Администрирование</Subsystem>
+			<Subsystem>Тестирование</Subsystem>
 			<Subsystem>_ДемоАнкетирование</Subsystem>
 			<Subsystem>_ДемоБизнесПроцессыИЗадачи</Subsystem>
 			<Subsystem>_ДемоИнструментыРазработчика</Subsystem>
@@ -748,20 +749,6 @@
 			<CommonTemplate>СтруктураПодчиненности</CommonTemplate>
 			<FilterCriterion>СвязанныеДокументы</FilterCriterion>
 			<FilterCriterion>ФайлыВТоме</FilterCriterion>
-			<CommonModule>МССтандартныеПодсистемы</CommonModule>
-			<CommonModule>МСОбновлениеИнформационнойБазы</CommonModule>
-			<CommonModule>СтандартныеПодсистемыИТГ</CommonModule>
-			<CommonModule>СтандартныеПодсистемыКлиентИТГ</CommonModule>
-			<CommonModule>СтандартныеПодсистемыКлиентСерверИТГ</CommonModule>
-			<CommonModule>ОбновлениеИнформационнойБазыИТГ</CommonModule>
-			<CommonModule>ЕдиницыВеличин</CommonModule>
-			<CommonModule>ЕдиницыВеличинВызовСервера</CommonModule>
-			<CommonModule>ЕдиницыВеличинСервер</CommonModule>
-			<CommonModule>ЕдиницыВеличинКлиентСервер</CommonModule>
-			<CommonModule>ЕдиницыВеличинКлиентСерверПовтИсп</CommonModule>
-			<CommonModule>ЕдиницыВеличинОбновлениеИнформационнойБазы</CommonModule>
-			<CommonModule>РаботаСоСтрокамиЮникодКлиентСервер</CommonModule>
-			<CommonModule>РаботаСоСтрокамиЮникодКлиентСерверПовтИсп</CommonModule>
 			<CommonModule>_ДемоЗаметки</CommonModule>
 			<CommonModule>_ДемоМенеджерОбменаЧерезУниверсальныйФормат</CommonModule>
 			<CommonModule>_ДемоОбменДаннымиСобытия</CommonModule>
@@ -873,6 +860,12 @@
 			<CommonModule>ДополнительныеОтчетыИОбработкиПовтИсп</CommonModule>
 			<CommonModule>ДополнительныеОтчетыИОбработкиРегламентныеЗадания</CommonModule>
 			<CommonModule>ДополнительныеОтчетыИОбработкиРегламентныеЗаданияВМоделиСервиса</CommonModule>
+			<CommonModule>ЕдиницыВеличин</CommonModule>
+			<CommonModule>ЕдиницыВеличинВызовСервера</CommonModule>
+			<CommonModule>ЕдиницыВеличинКлиентСервер</CommonModule>
+			<CommonModule>ЕдиницыВеличинКлиентСерверПовтИсп</CommonModule>
+			<CommonModule>ЕдиницыВеличинОбновлениеИнформационнойБазы</CommonModule>
+			<CommonModule>ЕдиницыВеличинСервер</CommonModule>
 			<CommonModule>ЖурналРегистрации</CommonModule>
 			<CommonModule>ЖурналРегистрацииВызовСервера</CommonModule>
 			<CommonModule>ЖурналРегистрацииКлиент</CommonModule>
@@ -933,6 +926,8 @@
 			<CommonModule>МониторИнтернетПоддержкиКлиент</CommonModule>
 			<CommonModule>МониторИнтернетПоддержкиКлиентСервер</CommonModule>
 			<CommonModule>МониторИнтернетПоддержкиПереопределяемый</CommonModule>
+			<CommonModule>МСОбновлениеИнформационнойБазы</CommonModule>
+			<CommonModule>МССтандартныеПодсистемы</CommonModule>
 			<CommonModule>НапоминанияПользователяВызовСервера</CommonModule>
 			<CommonModule>НапоминанияПользователяГлобальный</CommonModule>
 			<CommonModule>НапоминанияПользователяКлиент</CommonModule>
@@ -978,6 +973,7 @@
 			<CommonModule>ОбновлениеИнформационнойБазыБТС</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыВызовСервера</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыГлобальный</CommonModule>
+			<CommonModule>ОбновлениеИнформационнойБазыИТГ</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыКлиент</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыКлиентПереопределяемый</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыПереопределяемый</CommonModule>
@@ -1113,6 +1109,8 @@
 			<CommonModule>РаботаСКурсамиВалютКлиент</CommonModule>
 			<CommonModule>РаботаСКурсамиВалютКлиентСервер</CommonModule>
 			<CommonModule>РаботаСКурсамиВалютПереопределяемый</CommonModule>
+			<CommonModule>РаботаСоСтрокамиЮникодКлиентСервер</CommonModule>
+			<CommonModule>РаботаСоСтрокамиЮникодКлиентСерверПовтИсп</CommonModule>
 			<CommonModule>РаботаСПочтовымиСообщениями</CommonModule>
 			<CommonModule>РаботаСПочтовымиСообщениямиВызовСервера</CommonModule>
 			<CommonModule>РаботаСПочтовымиСообщениямиКлиент</CommonModule>
@@ -1212,9 +1210,12 @@
 			<CommonModule>СообщенияУправленияПриложениямиИнтерфейс</CommonModule>
 			<CommonModule>СтандартныеПодсистемыВызовСервера</CommonModule>
 			<CommonModule>СтандартныеПодсистемыГлобальный</CommonModule>
+			<CommonModule>СтандартныеПодсистемыИТГ</CommonModule>
 			<CommonModule>СтандартныеПодсистемыКлиент</CommonModule>
+			<CommonModule>СтандартныеПодсистемыКлиентИТГ</CommonModule>
 			<CommonModule>СтандартныеПодсистемыКлиентПовтИсп</CommonModule>
 			<CommonModule>СтандартныеПодсистемыКлиентСервер</CommonModule>
+			<CommonModule>СтандартныеПодсистемыКлиентСерверИТГ</CommonModule>
 			<CommonModule>СтандартныеПодсистемыПовтИсп</CommonModule>
 			<CommonModule>СтандартныеПодсистемыСервер</CommonModule>
 			<CommonModule>СтроковыеФункцииКлиентСервер</CommonModule>
@@ -1289,6 +1290,12 @@
 			<CommonModule>ЦентрМониторингаВызовСервераПовтИсп</CommonModule>
 			<CommonModule>ЦентрМониторингаПереопределяемый</CommonModule>
 			<CommonModule>ЦентрМониторингаСлужебный</CommonModule>
+			<CommonModule>Числа</CommonModule>
+			<CommonModule>ЧислаВызовСервера</CommonModule>
+			<CommonModule>ЧислаКлиентСервер</CommonModule>
+			<CommonModule>ЧислаКлиентСерверПовтИсп</CommonModule>
+			<CommonModule>ЧислаОбновлениеИнформационнойБазы</CommonModule>
+			<CommonModule>ЧислаСервер</CommonModule>
 			<CommonModule>ШаблоныСообщений</CommonModule>
 			<CommonModule>ШаблоныСообщенийКлиент</CommonModule>
 			<CommonModule>ШаблоныСообщенийПереопределяемый</CommonModule>
@@ -1778,6 +1785,7 @@
 			<CommonCommand>УстановитьРасширениеРаботыСФайлами</CommonCommand>
 			<CommonCommand>ФайлыВТоме</CommonCommand>
 			<CommonCommand>ТестоваяКоманда</CommonCommand>
+			<CommonCommand>ТестоваяКоманда2</CommonCommand>
 			<CommandGroup>Взаимодействия</CommandGroup>
 			<CommandGroup>Информация</CommandGroup>
 			<CommandGroup>Органайзер</CommandGroup>
@@ -2072,6 +2080,7 @@
 			<CommonForm>ФормаОтчета</CommonForm>
 			<CommonForm>ФормаПоиска</CommonForm>
 			<CommonForm>ЭлектроннаяПодпись</CommonForm>
+			<CommonForm>Число</CommonForm>
 			<Catalog>ВариантыОбозначенийЕдиницВеличин</Catalog>
 			<Catalog>ЕдиницыВеличин</Catalog>
 			<Catalog>ПриставкиЕдиницВеличин</Catalog>

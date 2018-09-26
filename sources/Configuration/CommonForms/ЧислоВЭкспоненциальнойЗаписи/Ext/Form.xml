@@ -18,7 +18,7 @@
 			<Button name="ФормаОК" id="9">
 				<Type>CommandBarButton</Type>
 				<DefaultButton>true</DefaultButton>
-				<CommandName>Form.StandardCommand.OK</CommandName>
+				<CommandName>Form.Command.КомандаОК</CommandName>
 				<ExtendedTooltip name="ФормаОКРасширеннаяПодсказка" id="10"/>
 			</Button>
 			<Button name="ФормаОтмена" id="11">
@@ -31,6 +31,7 @@
 	<Events>
 		<Event name="OnOpen">ПриИзменении</Event>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+		<Event name="OnClose">ПриЗакрытии</Event>
 	</Events>
 	<ChildItems>
 		<UsualGroup name="ГруппаПредставлениеИЧисло" id="15">
@@ -170,4 +171,35 @@
 			</Type>
 		</Attribute>
 	</Attributes>
+	<Commands>
+		<Command name="КомандаОК" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ОК</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команда ОК</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>КомандаОК</Action>
+		</Command>
+	</Commands>
+	<Parameters>
+		<Parameter name="Заголовок">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Parameter>
+		<Parameter name="Данные">
+			<Type/>
+		</Parameter>
+	</Parameters>
 </Form>

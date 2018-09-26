@@ -1,29 +1,28 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
-	<Subsystem uuid="c94ddfbb-ebd5-4c3f-9408-edc04da77c4e">
+	<DefinedType uuid="72c746ff-860f-44da-a88d-aa063b0b6729">
+		<InternalInfo>
+			<xr:GeneratedType name="DefinedType.ЧислоВЭкспоненциальнойЗаписи" category="DefinedType">
+				<xr:TypeId>a8fcf46c-a0af-4685-81f6-d89de819c792</xr:TypeId>
+				<xr:ValueId>3d8196b3-7112-474a-aaf6-28651fa1f870</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
 		<Properties>
-			<Name>Числа</Name>
+			<Name>ЧислоВЭкспоненциальнойЗаписи</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Числа</v8:content>
+					<v8:content>Число в экспоненциальной записи</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<IncludeHelpInContents>false</IncludeHelpInContents>
-			<IncludeInCommandInterface>false</IncludeInCommandInterface>
-			<Explanation/>
-			<Picture/>
-			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЧислаОбновлениеИнформационнойБазы</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЧислаКлиентСерверПовтИсп</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЧислаСервер</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЧислаВызовСервера</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.Числа</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЧислаКлиентСервер</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.ЧислоВЭкспоненциальнойЗаписи</xr:Item>
-			</Content>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>32</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
 		</Properties>
-		<ChildObjects/>
-	</Subsystem>
+	</DefinedType>
 </MetaDataObject>

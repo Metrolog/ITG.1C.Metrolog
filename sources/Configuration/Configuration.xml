@@ -1645,9 +1645,6 @@
 			<FunctionalOptionsParameter>ДополнительныеОтчетыИОбработкиОбъектНазначения</FunctionalOptionsParameter>
 			<FunctionalOptionsParameter>ДополнительныеОтчетыИОбработкиТипФормы</FunctionalOptionsParameter>
 			<FunctionalOptionsParameter>ТипВерсионируемогоОбъекта</FunctionalOptionsParameter>
-			<DefinedType>ОбъектПоискаМестИспользования</DefinedType>
-			<DefinedType>ОбъектПоискаИЗаменыДублей</DefinedType>
-			<DefinedType>ОбъектГрупповогоИзмененияРеквизитов</DefinedType>
 			<DefinedType>АдресатЗапретаИзменения</DefinedType>
 			<DefinedType>БезопасныйРежим</DefinedType>
 			<DefinedType>БизнесПроцесс</DefinedType>
@@ -1673,6 +1670,9 @@
 			<DefinedType>КонтрагентОбъект</DefinedType>
 			<DefinedType>МестоХраненияФункциональныхОпций</DefinedType>
 			<DefinedType>ОбъектАдресации</DefinedType>
+			<DefinedType>ОбъектГрупповогоИзмененияРеквизитов</DefinedType>
+			<DefinedType>ОбъектПоискаИЗаменыДублей</DefinedType>
+			<DefinedType>ОбъектПоискаМестИспользования</DefinedType>
 			<DefinedType>ОбъектСДополнительнымиКомандами</DefinedType>
 			<DefinedType>ОбъектСклонения</DefinedType>
 			<DefinedType>ОбъектСНастраиваемымПорядком</DefinedType>
@@ -1693,6 +1693,7 @@
 			<DefinedType>Респондент</DefinedType>
 			<DefinedType>СубъектПерсональныхДанных</DefinedType>
 			<DefinedType>ФизическоеЛицо</DefinedType>
+			<DefinedType>ЧислоВЭкспоненциальнойЗаписи</DefinedType>
 			<CommonCommand>ОбщиеНастройкиЕдиницВеличин</CommonCommand>
 			<CommonCommand>ИзменитьВыделенные</CommonCommand>
 			<CommonCommand>ЗаменитьИУдалить</CommonCommand>
@@ -2080,7 +2081,7 @@
 			<CommonForm>ФормаОтчета</CommonForm>
 			<CommonForm>ФормаПоиска</CommonForm>
 			<CommonForm>ЭлектроннаяПодпись</CommonForm>
-			<CommonForm>Число</CommonForm>
+			<CommonForm>ЧислоВЭкспоненциальнойЗаписи</CommonForm>
 			<Catalog>_ДемоБанковскиеСчета</Catalog>
 			<Catalog>_ДемоВидыНоменклатуры</Catalog>
 			<Catalog>_ДемоГруппыДоступаНоменклатуры</Catalog>

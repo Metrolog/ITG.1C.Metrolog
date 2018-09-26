@@ -185,20 +185,10 @@
 							<dcsset:left xsi:type="dcscor:Field">ПометкаУдаления</dcsset:left>
 							<dcsset:comparisonType>Equal</dcsset:comparisonType>
 							<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
-							<dcsset:presentation xsi:type="v8:LocalStringType">
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Не показывать помеченные на удаление</v8:content>
-								</v8:item>
-							</dcsset:presentation>
+							<dcsset:presentation xsi:type="xs:string">Не показывать помеченные на удаление</dcsset:presentation>
 							<dcsset:viewMode>Normal</dcsset:viewMode>
 							<dcsset:userSettingID>81db683d-df43-4cb0-8a1d-d183e116ae26</dcsset:userSettingID>
-							<dcsset:userSettingPresentation xsi:type="v8:LocalStringType">
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Не показывать помеченные на удаление</v8:content>
-								</v8:item>
-							</dcsset:userSettingPresentation>
+							<dcsset:userSettingPresentation xsi:type="xs:string">Не показывать помеченные на удаление</dcsset:userSettingPresentation>
 						</dcsset:item>
 						<dcsset:viewMode>Normal</dcsset:viewMode>
 						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>

@@ -33,7 +33,7 @@
 			<ExtendedTooltip name="Реквизит1ТипаЧислоРасширеннаяПодсказка" id="9"/>
 			<Events>
 				<Event name="StartChoice">Реквизит1ТипаЧислоНачалоВыбора</Event>
-				<Event name="Opening">Реквизит1ТипаЧислоОткрытие</Event>
+				<Event name="Opening">ПриОткрытииСтруктурированногоЗначения</Event>
 			</Events>
 		</InputField>
 		<InputField name="Реквизит1ТипаЧислоДанные" id="10">

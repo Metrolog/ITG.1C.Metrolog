@@ -7,12 +7,14 @@
 	<CommandSet>
 		<ExcludedCommand>No</ExcludedCommand>
 		<ExcludedCommand>SaveValues</ExcludedCommand>
+		<ExcludedCommand>Close</ExcludedCommand>
 		<ExcludedCommand>Abort</ExcludedCommand>
 		<ExcludedCommand>Retry</ExcludedCommand>
 		<ExcludedCommand>Yes</ExcludedCommand>
 		<ExcludedCommand>RestoreValues</ExcludedCommand>
 		<ExcludedCommand>Ignore</ExcludedCommand>
 	</CommandSet>
+	<ShowCloseButton>false</ShowCloseButton>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
 			<Button name="ФормаОК" id="9">

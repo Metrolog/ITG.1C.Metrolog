@@ -1831,8 +1831,8 @@
 			<Metadata name="Catalog.ТестовыйСправочник.Attribute.Реквизит1ТипаЧислоДанные" id="c9d37fb4-4e3b-4c36-bee0-9acd1e89655c"/>
 			<Metadata name="Catalog.ТестовыйСправочник.Attribute.Реквизит1ТипаЧисло" id="ef56b3e2-f252-4ce0-980b-6bd3b3ece171"/>
 		</Metadata>
-		<Metadata name="Catalog.ТестовыйСправочник.Form.ФормаЭлемента" id="b7284b71-5d60-4a54-a7f1-b3c08688e3c4" configVersion="3f80719f6eb8704fbb1abbfe29abdea300000000"/>
-		<Metadata name="Catalog.ТестовыйСправочник.Form.ФормаЭлемента.Form" id="b7284b71-5d60-4a54-a7f1-b3c08688e3c4.0" configVersion="5b0e432de13c904d9ee4fda7fd1d782f00000000"/>
+		<Metadata name="Catalog.ТестовыйСправочник.Form.ФормаЭлемента" id="b7284b71-5d60-4a54-a7f1-b3c08688e3c4" configVersion="b0befbd9e9f40c40b8dd629668d5ee8500000000"/>
+		<Metadata name="Catalog.ТестовыйСправочник.Form.ФормаЭлемента.Form" id="b7284b71-5d60-4a54-a7f1-b3c08688e3c4.0" configVersion="7309f8866025044eac1dc785047e46a800000000"/>
 		<Metadata name="Catalog.ТипыИнформацииИнформационногоЦентра" id="e6ae5164-fe3b-48fd-8180-f31941e35238" configVersion="71eff591f66a8b4b9189a6593dc5426300000000"/>
 		<Metadata name="Catalog.ТомаХраненияФайлов" id="d912e472-9553-4b96-8b16-7aaff6c14239" configVersion="f0bce1b09671a64894e33388080caa7c00000000">
 			<Metadata name="Catalog.ТомаХраненияФайлов.Attribute.МаксимальныйРазмер" id="8f5af22e-3e73-4a4f-b91e-eccd0f5084fd"/>
@@ -2757,8 +2757,8 @@
 		<Metadata name="CommonForm.ФормаПоиска" id="61789ea5-aad2-4b3b-a1c7-3ff7409379eb" configVersion="16fe16a39ef0434cbda419543e74618700000000"/>
 		<Metadata name="CommonForm.ФормаПоиска.Form" id="61789ea5-aad2-4b3b-a1c7-3ff7409379eb.0" configVersion="1dd93997619e4d49a3d95283228f4b0c00000000"/>
 		<Metadata name="CommonForm.ФормаПоиска.Help" id="61789ea5-aad2-4b3b-a1c7-3ff7409379eb.1" configVersion="8069092b6d464547be1e3fe18f17ddc900000000"/>
-		<Metadata name="CommonForm.ЧислоВЭкспоненциальнойЗаписи" id="85007412-2882-4443-86be-74b8708aa1ee" configVersion="092bf5b3906372479690d0819d50c9e900000000"/>
-		<Metadata name="CommonForm.ЧислоВЭкспоненциальнойЗаписи.Form" id="85007412-2882-4443-86be-74b8708aa1ee.0" configVersion="b497d3834359e54a9a0bcb55bd81766100000000"/>
+		<Metadata name="CommonForm.ЧислоВЭкспоненциальнойЗаписи" id="85007412-2882-4443-86be-74b8708aa1ee" configVersion="c6289dee6d85b945b4c48b59b3197a7700000000"/>
+		<Metadata name="CommonForm.ЧислоВЭкспоненциальнойЗаписи.Form" id="85007412-2882-4443-86be-74b8708aa1ee.0" configVersion="bf05f341d78f574ea6bb639fcd03906a00000000"/>
 		<Metadata name="CommonForm.ЭлектроннаяПодпись" id="2cd04d4c-2619-40c9-adf4-7bb281f045b6" configVersion="f5b72bac6d27fd4a868814756a0657d300000000"/>
 		<Metadata name="CommonForm.ЭлектроннаяПодпись.Form" id="2cd04d4c-2619-40c9-adf4-7bb281f045b6.0" configVersion="cd2a578aabbd134495c29501ebe7232900000000"/>
 		<Metadata name="CommonForm.ЭлектроннаяПодпись.Help" id="2cd04d4c-2619-40c9-adf4-7bb281f045b6.1" configVersion="b0baee9bf8a7f847bfe8d6588bd7712900000000"/>

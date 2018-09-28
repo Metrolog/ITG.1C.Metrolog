@@ -1831,8 +1831,8 @@
 			<Metadata name="Catalog.ТестовыйСправочник.Attribute.Реквизит1ТипаЧислоДанные" id="c9d37fb4-4e3b-4c36-bee0-9acd1e89655c"/>
 			<Metadata name="Catalog.ТестовыйСправочник.Attribute.Реквизит1ТипаЧисло" id="ef56b3e2-f252-4ce0-980b-6bd3b3ece171"/>
 		</Metadata>
-		<Metadata name="Catalog.ТестовыйСправочник.Form.ФормаЭлемента" id="b7284b71-5d60-4a54-a7f1-b3c08688e3c4" configVersion="49a1161ac141214e9c75855e2406bf6000000000"/>
-		<Metadata name="Catalog.ТестовыйСправочник.Form.ФормаЭлемента.Form" id="b7284b71-5d60-4a54-a7f1-b3c08688e3c4.0" configVersion="d50028d6656176438007a69edd7dcf6200000000"/>
+		<Metadata name="Catalog.ТестовыйСправочник.Form.ФормаЭлемента" id="b7284b71-5d60-4a54-a7f1-b3c08688e3c4" configVersion="a87a777156cd5340bee9beee475f560600000000"/>
+		<Metadata name="Catalog.ТестовыйСправочник.Form.ФормаЭлемента.Form" id="b7284b71-5d60-4a54-a7f1-b3c08688e3c4.0" configVersion="6ea01a0dfbbf9146bf8596f0c648fa3900000000"/>
 		<Metadata name="Catalog.ТипыИнформацииИнформационногоЦентра" id="e6ae5164-fe3b-48fd-8180-f31941e35238" configVersion="71eff591f66a8b4b9189a6593dc5426300000000"/>
 		<Metadata name="Catalog.ТомаХраненияФайлов" id="d912e472-9553-4b96-8b16-7aaff6c14239" configVersion="f0bce1b09671a64894e33388080caa7c00000000">
 			<Metadata name="Catalog.ТомаХраненияФайлов.Attribute.МаксимальныйРазмер" id="8f5af22e-3e73-4a4f-b91e-eccd0f5084fd"/>

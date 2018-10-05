@@ -16,7 +16,7 @@
 			<Picture/>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РаботаСоСтрокамиЮникодКлиентСервер</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбновлениеИнформационнойБазыИТГ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.СтандартныеПодсистемыИТГОбновлениеИнформационнойБазыИТГ</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.Языки</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РаботаСоСтрокамиЮникодКлиентСерверПовтИсп</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.СтандартныеПодсистемыИТГ</xr:Item>
@@ -24,6 +24,9 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.СтандартныеПодсистемыКлиентИТГ</xr:Item>
 			</Content>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Subsystem>СтруктурированныеРеквизиты</Subsystem>
+			<Subsystem>Числа</Subsystem>
+		</ChildObjects>
 	</Subsystem>
 </MetaDataObject>

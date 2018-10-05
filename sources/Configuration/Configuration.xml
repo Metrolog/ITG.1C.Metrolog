@@ -49,7 +49,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</xr:Item>
 			</DefaultRoles>
 			<Vendor>ФБУ "Тест-С.-Петербург"</Vendor>
-			<Version>0.2.0.41</Version>
+			<Version>0.2.0.43</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>true</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>true</UseManagedFormInOrdinaryApplication>
@@ -973,7 +973,6 @@
 			<CommonModule>ОбновлениеИнформационнойБазыБТС</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыВызовСервера</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыГлобальный</CommonModule>
-			<CommonModule>ОбновлениеИнформационнойБазыИТГ</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыКлиент</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыКлиентПереопределяемый</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыПереопределяемый</CommonModule>
@@ -1211,6 +1210,7 @@
 			<CommonModule>СтандартныеПодсистемыВызовСервера</CommonModule>
 			<CommonModule>СтандартныеПодсистемыГлобальный</CommonModule>
 			<CommonModule>СтандартныеПодсистемыИТГ</CommonModule>
+			<CommonModule>СтандартныеПодсистемыИТГОбновлениеИнформационнойБазыИТГ</CommonModule>
 			<CommonModule>СтандартныеПодсистемыКлиент</CommonModule>
 			<CommonModule>СтандартныеПодсистемыКлиентИТГ</CommonModule>
 			<CommonModule>СтандартныеПодсистемыКлиентПовтИсп</CommonModule>
@@ -1221,6 +1221,17 @@
 			<CommonModule>СтроковыеФункцииКлиентСервер</CommonModule>
 			<CommonModule>СтруктураПодчиненностиПереопределяемый</CommonModule>
 			<CommonModule>СтруктураПодчиненностиСлужебный</CommonModule>
+			<CommonModule>СтруктурированныеРеквизиты</CommonModule>
+			<CommonModule>СтруктурированныеРеквизиты1</CommonModule>
+			<CommonModule>СтруктурированныеРеквизитыВызовСервера</CommonModule>
+			<CommonModule>СтруктурированныеРеквизитыКлиент1</CommonModule>
+			<CommonModule>СтруктурированныеРеквизитыКлиентСервер</CommonModule>
+			<CommonModule>СтруктурированныеРеквизитыКлиентСерверПовтИсп</CommonModule>
+			<CommonModule>СтруктурированныеРеквизитыОбновлениеИнформационнойБазы</CommonModule>
+			<CommonModule>СтруктурированныеРеквизитыПереопределяемый</CommonModule>
+			<CommonModule>СтруктурированныеРеквизитыСервер</CommonModule>
+			<CommonModule>СтруктурированныеРеквизитыСлужебный</CommonModule>
+			<CommonModule>СтруктурированныеРеквизитыСлужебныйКлиент1</CommonModule>
 			<CommonModule>ТекущиеДелаПереопределяемый</CommonModule>
 			<CommonModule>ТекущиеДелаСервер</CommonModule>
 			<CommonModule>ТекущиеДелаСлужебный</CommonModule>
